@@ -1,0 +1,51 @@
+/* Tabs */
+"tab.feed" = "Inicio";
+"tab.saved" = "Guardado";
+"tab.settings" = "Ajustes";
+
+/* Feed */
+"feed.loading" = "Cargando sabiduría...";
+
+/* Card */
+"card.save" = "Guardar";
+"card.share" = "Compartir";
+"card.try_today" = "Prueba hoy";
+"card.share_via" = "vía Scroll Wisdom";
+
+/* Saved */
+"saved.title" = "Guardado";
+"saved.empty.title" = "Aún no has guardado nada";
+"saved.empty.subtitle" = "Toca dos veces cualquier tarjeta\npara guardarla aquí";
+"saved.search" = "Buscar por cita, autor, tema...";
+"saved.count %lld" = "%lld tarjetas";
+
+/* Settings */
+"settings.title" = "Ajustes";
+"settings.streak" = "Racha";
+"settings.read_today" = "Leídas hoy";
+"settings.saved" = "Guardadas";
+"settings.topics" = "Tus temas";
+"settings.about" = "Acerca de";
+"settings.version" = "Versión";
+"settings.premium.title" = "Scroll Wisdom Premium";
+"settings.premium.subtitle" = "Todos los temas, guardados ilimitados, sin anuncios";
+"settings.premium.price" = "$3.99/mes";
+
+/* Onboarding */
+"onboarding.title" = "Scroll Wisdom";
+"onboarding.subtitle" = "Desliza a través de siglos de sabiduría.\nCada tarjeta es una micro-lección, no solo una cita.";
+"onboarding.topics.title" = "¿Qué te inspira?";
+"onboarding.topics.subtitle" = "Elige los temas que te atraen";
+"onboarding.ready.title" = "Todo listo";
+"onboarding.ready.swipe" = "Desliza hacia arriba para más sabiduría";
+"onboarding.ready.save" = "Doble toque para guardar";
+"onboarding.ready.notification" = "Notificación diaria de sabiduría";
+"onboarding.continue" = "Continuar";
+"onboarding.start" = "Empezar";
+
+/* Topics */
+"topic.stoicism" = "Estoicismo";
+"topic.money" = "Dinero y éxito";
+"topic.relationships" = "Relaciones";
+"topic.leadership" = "Liderazgo";
+"topic.discipline" = "Disciplina";

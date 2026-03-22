@@ -1,0 +1,51 @@
+/* Tabs */
+"tab.feed" = "Feed";
+"tab.saved" = "Gespeichert";
+"tab.settings" = "Einstellungen";
+
+/* Feed */
+"feed.loading" = "Weisheit wird geladen...";
+
+/* Card */
+"card.save" = "Speichern";
+"card.share" = "Teilen";
+"card.try_today" = "Probier es heute";
+"card.share_via" = "über Scroll Wisdom";
+
+/* Saved */
+"saved.title" = "Gespeichert";
+"saved.empty.title" = "Noch nichts gespeichert";
+"saved.empty.subtitle" = "Tippe doppelt auf eine Karte im Feed,\num sie hier zu speichern";
+"saved.search" = "Suche nach Zitat, Autor, Thema...";
+"saved.count %lld" = "%lld Karten";
+
+/* Settings */
+"settings.title" = "Einstellungen";
+"settings.streak" = "Tage-Serie";
+"settings.read_today" = "Heute gelesen";
+"settings.saved" = "Gespeichert";
+"settings.topics" = "Deine Themen";
+"settings.about" = "Über";
+"settings.version" = "Version";
+"settings.premium.title" = "Scroll Wisdom Premium";
+"settings.premium.subtitle" = "Alle Themen, unbegrenzt speichern, keine Werbung";
+"settings.premium.price" = "3,99 $/Monat";
+
+/* Onboarding */
+"onboarding.title" = "Scroll Wisdom";
+"onboarding.subtitle" = "Scrolle durch Jahrhunderte der Weisheit.\nJede Karte ist eine Mikro-Lektion — nicht nur ein Zitat.";
+"onboarding.topics.title" = "Was inspiriert dich?";
+"onboarding.topics.subtitle" = "Wähle Themen, die dich ansprechen";
+"onboarding.ready.title" = "Alles bereit";
+"onboarding.ready.swipe" = "Nach oben wischen für neue Weisheit";
+"onboarding.ready.save" = "Doppeltippen zum Speichern";
+"onboarding.ready.notification" = "Tägliche Weisheits-Benachrichtigung";
+"onboarding.continue" = "Weiter";
+"onboarding.start" = "Los geht's";
+
+/* Topics */
+"topic.stoicism" = "Stoizismus";
+"topic.money" = "Geld & Erfolg";
+"topic.relationships" = "Beziehungen";
+"topic.leadership" = "Führung";
+"topic.discipline" = "Disziplin";

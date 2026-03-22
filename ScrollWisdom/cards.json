@@ -1,0 +1,110 @@
+[
+  {
+    "id": "001",
+    "quote": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book VI",
+    "story": "Aurelius wrote this in a military camp during a devastating plague. His army was dying, the empire crumbling — yet every evening he opened his journal. Not to complain, but to remind himself: the only thing he controlled was his own response.",
+    "action": "Write down 3 things bothering you right now. Next to each, ask: 'Can I control this?' Cross out what you can't.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "002",
+    "quote": "The obstacle is the way.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book V",
+    "story": "When a blocked road stopped his army's advance, Aurelius didn't rage or retreat. He ordered engineers to build a new road through the obstacle itself. The barrier became the path forward — literally and philosophically.",
+    "action": "Name one problem you've been avoiding. Ask: what skill or strength could I build by tackling it head-on?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "003",
+    "quote": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "Epictetus",
+    "source": "Discourses",
+    "story": "Epictetus was born a slave. He owned nothing — not even his own body. After gaining freedom, he chose to live with almost nothing: a mat, a lamp, a clay bowl. He taught that desire, not poverty, is the real prison.",
+    "action": "Check your recent purchases. Find 3 things you bought but never needed. Calculate the total — that's your 'desire tax' this month.",
+    "topic": "money"
+  },
+  {
+    "id": "004",
+    "quote": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "source": "Fragments",
+    "story": "A wealthy Roman senator visited Epictetus, boasting about political connections. Epictetus asked one question: 'Can you go one day without wine?' The senator couldn't answer. Power over others means nothing if you can't command your own habits.",
+    "action": "Pick your most mindless daily habit — scrolling, snacking, whatever. Skip it entirely tomorrow. Just one day. Notice how it feels.",
+    "topic": "discipline"
+  },
+  {
+    "id": "005",
+    "quote": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, Letter 13",
+    "story": "Seneca wrote this to a friend paralyzed by fear of an upcoming trial. The trial came and went without consequence. His point: your mind rehearses disasters that never happen, stealing peace from the present.",
+    "action": "Write down your biggest worry. Below it, list what actually happened the last 3 times you worried this much. See the pattern?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "006",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "source": "Traditional wisdom",
+    "story": "A farmer complained that his neighbor's orchard was abundant while his land was barren. 'When did he plant?' asked the sage. 'Twenty years ago.' 'And when will you?' The farmer planted that afternoon. He never saw a full orchard, but his children did.",
+    "action": "Name one thing you've been 'meaning to start' for months. Set a 10-minute timer and take the first tiny step right now.",
+    "topic": "money"
+  },
+  {
+    "id": "007",
+    "quote": "He who knows others is wise; he who knows himself is enlightened.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching, Chapter 33",
+    "story": "A brilliant general came to Lao Tzu, proud of reading every enemy perfectly. Lao Tzu asked: 'What triggers your anger? What do you fear at 3 AM? What lie do you tell yourself most?' The general had no answers.",
+    "action": "Set a 5-minute timer. Write without stopping: 'The thing I don't want to admit about myself is...' Don't edit. Don't judge.",
+    "topic": "relationships"
+  },
+  {
+    "id": "008",
+    "quote": "A leader is best when people barely know he exists. When his work is done, they say: we did it ourselves.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching, Chapter 17",
+    "story": "Emperor Taizong of Tang dynasty would sit in silence during council meetings, letting advisors debate freely. He only spoke to ask questions, never to command. His empire prospered for decades — and his ministers believed they were the architects.",
+    "action": "In your next meeting, ask 3 questions instead of making statements. Count how many ideas emerge that wouldn't have if you'd spoken first.",
+    "topic": "leadership"
+  },
+  {
+    "id": "009",
+    "quote": "The chains of habit are too light to be felt until they are too heavy to be broken.",
+    "author": "Samuel Johnson",
+    "source": "Attributed, 18th century",
+    "story": "Johnson battled depression, compulsive tics, and a crippling fear of death his entire life. Yet he wrote an entire dictionary single-handedly — because he understood that the same mechanism building destructive habits can build extraordinary ones.",
+    "action": "Track one habit for the next 7 days. Mark an X on paper each time. Don't try to change it yet — just observe. Awareness comes first.",
+    "topic": "discipline"
+  },
+  {
+    "id": "010",
+    "quote": "Between stimulus and response there is a space. In that space is our freedom and power to choose.",
+    "author": "Viktor Frankl",
+    "source": "Man's Search for Meaning",
+    "story": "Frankl discovered this in a Nazi concentration camp. Guards controlled everything external — food, warmth, life. But they couldn't control the space between what happened to him and how he chose to respond. That gap became his entire philosophy.",
+    "action": "Next time someone irritates you, pause for 3 breaths before responding. Three breaths. That's the space Frankl is talking about.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "011",
+    "quote": "Compound interest is the eighth wonder of the world. He who understands it, earns it. He who doesn't, pays it.",
+    "author": "Albert Einstein",
+    "source": "Attributed",
+    "story": "Whether Einstein said this is debated. But the math is real: $100/month at 8% becomes $150,000 in 30 years. The first decade feels pointless — $18K saved, $9K earned. But the last decade? Your money earns more than you ever put in.",
+    "action": "Open a calculator. Type your age. Subtract from 65. Multiply by 12. That's how many $100 deposits you have left. Start this month.",
+    "topic": "money"
+  },
+  {
+    "id": "012",
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "source": "Long Walk to Freedom",
+    "story": "Mandela spent 27 years in prison. When he walked free, he didn't walk out broken — he became president. Guards who tormented him? He invited them to his inauguration. His response to falling wasn't bitterness. It was becoming unbreakable.",
+    "action": "Think of your most recent failure. Write one specific lesson it taught you that you couldn't have learned any other way.",
+    "topic": "leadership"
+  }
+]

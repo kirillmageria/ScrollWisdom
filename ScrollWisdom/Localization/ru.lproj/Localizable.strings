@@ -1,0 +1,51 @@
+/* Tabs */
+"tab.feed" = "Лента";
+"tab.saved" = "Сохранённое";
+"tab.settings" = "Настройки";
+
+/* Feed */
+"feed.loading" = "Загружаем мудрость...";
+
+/* Card */
+"card.save" = "Сохранить";
+"card.share" = "Поделиться";
+"card.try_today" = "Попробуй сегодня";
+"card.share_via" = "через Scroll Wisdom";
+
+/* Saved */
+"saved.title" = "Сохранённое";
+"saved.empty.title" = "Пока ничего не сохранено";
+"saved.empty.subtitle" = "Дважды нажми на карточку в ленте,\nчтобы сохранить её";
+"saved.search" = "Поиск по цитате, автору, теме...";
+"saved.count %lld" = "%lld карточек";
+
+/* Settings */
+"settings.title" = "Настройки";
+"settings.streak" = "Дней подряд";
+"settings.read_today" = "Прочитано";
+"settings.saved" = "Сохранено";
+"settings.topics" = "Твои темы";
+"settings.about" = "О приложении";
+"settings.version" = "Версия";
+"settings.premium.title" = "Scroll Wisdom Premium";
+"settings.premium.subtitle" = "Все темы, безлимитные сохранения, без рекламы";
+"settings.premium.price" = "$3.99/мес";
+
+/* Onboarding */
+"onboarding.title" = "Scroll Wisdom";
+"onboarding.subtitle" = "Листай сквозь века мудрости.\nКаждая карточка — микро-урок, а не просто цитата.";
+"onboarding.topics.title" = "Что тебе близко?";
+"onboarding.topics.subtitle" = "Выбери темы, которые тебя вдохновляют";
+"onboarding.ready.title" = "Всё готово";
+"onboarding.ready.swipe" = "Свайп вверх — следующая мудрость";
+"onboarding.ready.save" = "Двойное нажатие — сохранить";
+"onboarding.ready.notification" = "Ежедневное уведомление";
+"onboarding.continue" = "Далее";
+"onboarding.start" = "Начать";
+
+/* Topics */
+"topic.stoicism" = "Стоицизм";
+"topic.money" = "Деньги и успех";
+"topic.relationships" = "Отношения";
+"topic.leadership" = "Лидерство";
+"topic.discipline" = "Дисциплина";

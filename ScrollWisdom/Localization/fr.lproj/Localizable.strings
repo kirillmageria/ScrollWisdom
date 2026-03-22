@@ -1,0 +1,51 @@
+/* Tabs */
+"tab.feed" = "Fil";
+"tab.saved" = "Sauvegardé";
+"tab.settings" = "Réglages";
+
+/* Feed */
+"feed.loading" = "Chargement de la sagesse...";
+
+/* Card */
+"card.save" = "Sauvegarder";
+"card.share" = "Partager";
+"card.try_today" = "Essaie aujourd'hui";
+"card.share_via" = "via Scroll Wisdom";
+
+/* Saved */
+"saved.title" = "Sauvegardé";
+"saved.empty.title" = "Rien de sauvegardé";
+"saved.empty.subtitle" = "Appuie deux fois sur une carte\npour la sauvegarder ici";
+"saved.search" = "Rechercher par citation, auteur, thème...";
+"saved.count %lld" = "%lld cartes";
+
+/* Settings */
+"settings.title" = "Réglages";
+"settings.streak" = "Jours d'affilée";
+"settings.read_today" = "Lues aujourd'hui";
+"settings.saved" = "Sauvegardées";
+"settings.topics" = "Tes thèmes";
+"settings.about" = "À propos";
+"settings.version" = "Version";
+"settings.premium.title" = "Scroll Wisdom Premium";
+"settings.premium.subtitle" = "Tous les thèmes, sauvegardes illimitées, sans pub";
+"settings.premium.price" = "3,99 $/mois";
+
+/* Onboarding */
+"onboarding.title" = "Scroll Wisdom";
+"onboarding.subtitle" = "Parcours des siècles de sagesse.\nChaque carte est une micro-leçon — pas qu'une citation.";
+"onboarding.topics.title" = "Qu'est-ce qui t'inspire ?";
+"onboarding.topics.subtitle" = "Choisis les thèmes qui te parlent";
+"onboarding.ready.title" = "C'est prêt";
+"onboarding.ready.swipe" = "Glisse vers le haut pour plus de sagesse";
+"onboarding.ready.save" = "Double appui pour sauvegarder";
+"onboarding.ready.notification" = "Notification quotidienne";
+"onboarding.continue" = "Continuer";
+"onboarding.start" = "Commencer";
+
+/* Topics */
+"topic.stoicism" = "Stoïcisme";
+"topic.money" = "Argent et succès";
+"topic.relationships" = "Relations";
+"topic.leadership" = "Leadership";
+"topic.discipline" = "Discipline";

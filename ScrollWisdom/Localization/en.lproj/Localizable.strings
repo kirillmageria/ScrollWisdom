@@ -1,0 +1,52 @@
+/* Tabs */
+"tab.feed" = "Feed";
+"tab.saved" = "Saved";
+"tab.settings" = "Settings";
+
+/* Feed */
+"feed.loading" = "Loading wisdom...";
+
+/* Card */
+"card.save" = "Save";
+"card.share" = "Share";
+"card.try_today" = "Try today";
+"card.share_via" = "via Scroll Wisdom";
+
+/* Saved */
+"saved.title" = "Saved";
+"saved.empty.title" = "No saved cards yet";
+"saved.empty.subtitle" = "Double-tap any card in the feed\nto save it here";
+"saved.search" = "Search by quote, author, topic...";
+"saved.count %lld" = "%lld cards";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.streak" = "Day streak";
+"settings.read_today" = "Read today";
+"settings.saved" = "Saved";
+"settings.topics" = "Your topics";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.premium.title" = "Scroll Wisdom Premium";
+"settings.premium.subtitle" = "Unlock all topics, unlimited saves, no ads";
+"settings.premium.price" = "$3.99/mo";
+
+/* Onboarding */
+"onboarding.title" = "Scroll Wisdom";
+"onboarding.subtitle" = "Swipe through centuries of wisdom.\nEvery card is a micro-lesson — not just a quote.";
+"onboarding.topics.title" = "What speaks to you?";
+"onboarding.topics.subtitle" = "Pick topics you're drawn to";
+"onboarding.ready.title" = "You're all set";
+"onboarding.ready.swipe" = "Swipe up for next wisdom";
+"onboarding.ready.save" = "Double-tap to save";
+"onboarding.ready.notification" = "Daily wisdom notification";
+"onboarding.continue" = "Continue";
+"onboarding.start" = "Start";
+
+/* Topics */
+"topic.stoicism" = "Stoicism";
+"topic.money" = "Money & Success";
+"topic.relationships" = "Relationships";
+"topic.leadership" = "Leadership";
+"topic.discipline" = "Discipline";
+
