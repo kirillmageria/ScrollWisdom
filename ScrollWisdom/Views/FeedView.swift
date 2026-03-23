@@ -59,9 +59,20 @@ struct FeedView: View {
     }
     
     private func appendMore() {
-        feedCards.append(contentsOf: manager.filteredCards)
+        let more = manager.filteredCards.map { card in
+            WisdomCard(
+                id: "\(card.id)_\(feedCards.count + Int.random(in: 1000...9999))",
+                quote: card.quote,
+                author: card.author,
+                source: card.source,
+                story: card.story,
+                action: card.action,
+                topic: card.topic
+            )
+        }
+        feedCards.append(contentsOf: more)
     }
-    
+
     private func shareCard(_ card: WisdomCard) {
         let shareVia = String(localized: "card.share_via")
         let text = "\u{201C}\(card.quote)\u{201D}\n— \(card.author)\n\n\(card.action)\n\n\(shareVia)"

@@ -49,7 +49,7 @@
     "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
     "author": "Chinese Proverb",
     "source": "Traditional wisdom",
-    "story": "A farmer complained that his neighbor's orchard was abundant while his land was barren. 'When did he plant?' asked the sage. 'Twenty years ago.' 'And when will you?' The farmer planted that afternoon. He never saw a full orchard, but his children did.",
+    "story": "A farmer complained that his neighbor's orchard was abundant while his land was barren. 'When did he plant?' asked the sage. 'Twenty years ago.' 'And when will you?' The farmer planted that afternoon.",
     "action": "Name one thing you've been 'meaning to start' for months. Set a 10-minute timer and take the first tiny step right now.",
     "topic": "money"
   },
@@ -67,7 +67,7 @@
     "quote": "A leader is best when people barely know he exists. When his work is done, they say: we did it ourselves.",
     "author": "Lao Tzu",
     "source": "Tao Te Ching, Chapter 17",
-    "story": "Emperor Taizong of Tang dynasty would sit in silence during council meetings, letting advisors debate freely. He only spoke to ask questions, never to command. His empire prospered for decades — and his ministers believed they were the architects.",
+    "story": "Emperor Taizong of Tang dynasty would sit in silence during council meetings, letting advisors debate freely. He only spoke to ask questions, never to command. His empire prospered for decades.",
     "action": "In your next meeting, ask 3 questions instead of making statements. Count how many ideas emerge that wouldn't have if you'd spoken first.",
     "topic": "leadership"
   },
@@ -85,7 +85,7 @@
     "quote": "Between stimulus and response there is a space. In that space is our freedom and power to choose.",
     "author": "Viktor Frankl",
     "source": "Man's Search for Meaning",
-    "story": "Frankl discovered this in a Nazi concentration camp. Guards controlled everything external — food, warmth, life. But they couldn't control the space between what happened to him and how he chose to respond. That gap became his entire philosophy.",
+    "story": "Frankl discovered this in a Nazi concentration camp. Guards controlled everything external — food, warmth, life. But they couldn't control the space between what happened to him and how he chose to respond.",
     "action": "Next time someone irritates you, pause for 3 breaths before responding. Three breaths. That's the space Frankl is talking about.",
     "topic": "stoicism"
   },
@@ -94,7 +94,7 @@
     "quote": "Compound interest is the eighth wonder of the world. He who understands it, earns it. He who doesn't, pays it.",
     "author": "Albert Einstein",
     "source": "Attributed",
-    "story": "Whether Einstein said this is debated. But the math is real: $100/month at 8% becomes $150,000 in 30 years. The first decade feels pointless — $18K saved, $9K earned. But the last decade? Your money earns more than you ever put in.",
+    "story": "Whether Einstein said this is debated. But the math is real: $100/month at 8% becomes $150,000 in 30 years. The first decade feels pointless. But the last decade? Your money earns more than you ever put in.",
     "action": "Open a calculator. Type your age. Subtract from 65. Multiply by 12. That's how many $100 deposits you have left. Start this month.",
     "topic": "money"
   },
@@ -103,8 +103,800 @@
     "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     "author": "Nelson Mandela",
     "source": "Long Walk to Freedom",
-    "story": "Mandela spent 27 years in prison. When he walked free, he didn't walk out broken — he became president. Guards who tormented him? He invited them to his inauguration. His response to falling wasn't bitterness. It was becoming unbreakable.",
+    "story": "Mandela spent 27 years in prison. When he walked free, he didn't walk out broken — he became president. Guards who tormented him? He invited them to his inauguration.",
     "action": "Think of your most recent failure. Write one specific lesson it taught you that you couldn't have learned any other way.",
     "topic": "leadership"
+  },
+  {
+    "id": "013",
+    "quote": "It is not that we have a short time to live, but that we waste a great deal of it.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "story": "Seneca calculated that a typical Roman nobleman spent decades on meaningless pursuits — flattering politicians, attending pointless banquets, worrying about gossip. Life felt short not because it was, but because so little of it was actually lived.",
+    "action": "Look at your screen time report. How many hours this week went to content you can't even remember? That's time you didn't live.",
+    "topic": "discipline"
+  },
+  {
+    "id": "014",
+    "quote": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "source": "Analects",
+    "story": "A student asked Confucius how to reform a corrupt government. Confucius said: start by being honest in your own household. The student wanted revolution. Confucius offered something harder — consistency in small things.",
+    "action": "Choose the smallest possible version of your biggest goal. Can you do it in 2 minutes? Do that every day this week.",
+    "topic": "discipline"
+  },
+  {
+    "id": "015",
+    "quote": "If you don't design your own life plan, chances are you'll fall into someone else's plan.",
+    "author": "Jim Rohn",
+    "source": "The Art of Exceptional Living",
+    "story": "Rohn was 25, broke, and embarrassed when a Girl Scout came to his door selling cookies. He wanted to buy but had no money. That moment of shame sparked a complete life redesign. Within 6 years, he was a millionaire.",
+    "action": "Write down what your ideal Tuesday looks like in 3 years. Every detail — when you wake, what you work on, where you eat. Now compare it to last Tuesday.",
+    "topic": "money"
+  },
+  {
+    "id": "016",
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "source": "Apology, via Plato",
+    "story": "At his trial, Socrates explained why the Oracle of Delphi called him the wisest man in Athens. It wasn't because he knew more — it was because he was the only one honest enough to admit what he didn't know. Everyone else pretended.",
+    "action": "In your next conversation, replace one statement with 'I don't know enough about that — can you explain?' Notice how the dynamic changes.",
+    "topic": "relationships"
+  },
+  {
+    "id": "017",
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "source": "Twilight of the Idols",
+    "story": "Nietzsche wrote this while battling chronic illness that left him bedridden for days. He couldn't control his body, but he could choose what his suffering meant. He decided it was fuel for his philosophy — and produced his greatest works during his worst years.",
+    "action": "Write your 'why' in one sentence. Not a goal — a reason. 'I do this because...' Put it where you'll see it every morning.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "018",
+    "quote": "Price is what you pay. Value is what you get.",
+    "author": "Warren Buffett",
+    "source": "2008 Berkshire Hathaway Letter",
+    "story": "In 2008, while everyone panicked and sold stocks at historic lows, Buffett wrote a calm letter to shareholders and invested billions. He saw the same crisis everyone else did — but he measured value, not price. Within 5 years, those investments doubled.",
+    "action": "Before your next purchase over $50, ask: 'Will this matter to me in 6 months?' If not, wait 48 hours before buying.",
+    "topic": "money"
+  },
+  {
+    "id": "019",
+    "quote": "What you do speaks so loudly that I cannot hear what you say.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Letters and Social Aims",
+    "story": "Emerson wrote this about a preacher who spoke beautifully about charity but lived lavishly. The congregation slowly emptied — not because his words were wrong, but because his life contradicted them. Trust is built by feet, not lips.",
+    "action": "Think of one value you talk about but don't consistently practice. Take one concrete action today that aligns with it.",
+    "topic": "leadership"
+  },
+  {
+    "id": "020",
+    "quote": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book X",
+    "story": "Aurelius wrote this as a reminder to himself after spending a day in philosophical debate with his advisors. Hours of arguing about virtue — while outside, people needed help. He closed his journal and went to work.",
+    "action": "Stop reading about productivity, fitness, or self-improvement for today. Instead, do the one thing you already know you should be doing.",
+    "topic": "discipline"
+  },
+  {
+    "id": "021",
+    "quote": "The wound is the place where the light enters you.",
+    "author": "Rumi",
+    "source": "Selected Poems",
+    "story": "Rumi became one of history's greatest poets only after losing his closest friend, Shams. The grief shattered him so completely that poetry poured out of the cracks. He wrote 70,000 verses — every one born from loss.",
+    "action": "Think of your deepest setback. Write down one strength, insight, or relationship that only exists because of that pain.",
+    "topic": "relationships"
+  },
+  {
+    "id": "022",
+    "quote": "The best revenge is not to be like your enemy.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book VI",
+    "story": "An advisor urged Aurelius to execute a rebellious general brutally, as a warning. Aurelius pardoned him instead. The general, stunned by mercy, became one of Rome's most loyal commanders. Cruelty would have created a martyr; grace created an ally.",
+    "action": "Think of someone who wronged you. Instead of fantasizing about revenge, ask: how can I respond in a way that makes me proud?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "023",
+    "quote": "I fear not the man who has practiced 10,000 kicks once, but the man who has practiced one kick 10,000 times.",
+    "author": "Bruce Lee",
+    "source": "Attributed",
+    "story": "Lee's training partner once showed off dozens of flashy techniques. Lee watched, then threw one punch — his straight lead — faster than the eye could follow. He'd thrown that same punch hundreds of thousands of times. Simplicity, mastered, is unstoppable.",
+    "action": "Identify the one skill that matters most in your work. Spend 20 focused minutes on it today — not learning something new, but sharpening what you already know.",
+    "topic": "discipline"
+  },
+  {
+    "id": "024",
+    "quote": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "author": "Leo Tolstoy",
+    "source": "Three Methods of Reform",
+    "story": "Tolstoy was a wealthy aristocrat who preached simplicity. His wife once found him giving away their family's money to peasants while their own children went without. The contradiction tortured him — and became his greatest insight: reform starts inward.",
+    "action": "Name one thing you want others to change. Now flip it: where do you do the exact same thing, just in a different form?",
+    "topic": "relationships"
+  },
+  {
+    "id": "025",
+    "quote": "Do not pray for an easy life; pray for the strength to endure a difficult one.",
+    "author": "Bruce Lee",
+    "source": "Striking Thoughts",
+    "story": "Lee was told he'd never walk again after a severe back injury in 1970. During months in bed, he didn't pray for healing — he designed new training systems, wrote philosophy, and planned his comeback. He returned stronger than before.",
+    "action": "Replace one complaint today with an action. Instead of 'this is too hard,' ask 'what would I need to learn to make this easier?'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "026",
+    "quote": "The richest man is not he who has the most, but he who needs the least.",
+    "author": "Unknown",
+    "source": "Ancient proverb",
+    "story": "A billionaire visited a remote village and met an old fisherman. 'What do you do all day?' The fisherman said: 'I fish in the morning, nap in the afternoon, play with my grandchildren at sunset.' The billionaire realized he was building an empire to achieve what this man already had.",
+    "action": "List 5 things you think you need to be happy. Cross out any you could actually live without. How many are left?",
+    "topic": "money"
+  },
+  {
+    "id": "027",
+    "quote": "Before you speak, let your words pass through three gates: Is it true? Is it necessary? Is it kind?",
+    "author": "Rumi",
+    "source": "Attributed",
+    "story": "A merchant came to Rumi, eager to share gossip about a mutual friend. Rumi held up his hand and asked these three questions. The merchant failed all three. 'Then why would you burden both of us with it?' Rumi replied. The merchant never gossiped again.",
+    "action": "Before sending your next message or email, pause and run it through the three gates. Edit or delete what doesn't pass.",
+    "topic": "relationships"
+  },
+  {
+    "id": "028",
+    "quote": "Luck is what happens when preparation meets opportunity.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius",
+    "story": "A young Roman asked Seneca why some men seemed perpetually lucky. Seneca pointed to a gladiator training in the arena below: 'Watch him. He practices 8 hours a day for a fight that lasts 8 minutes. When the moment comes, his body knows what to do. That is what you call luck.'",
+    "action": "Identify one opportunity you'd love to get. Now ask: if it appeared tomorrow, am I ready? What's the gap? Close it this week.",
+    "topic": "money"
+  },
+  {
+    "id": "029",
+    "quote": "The secret of change is to focus all your energy not on fighting the old, but on building the new.",
+    "author": "Socrates",
+    "source": "Way of the Peaceful Warrior (Dan Millman)",
+    "story": "A student told Socrates he wanted to stop being lazy. Socrates didn't give him discipline tips. He asked: 'What excites you so much that you'd leap out of bed for it?' The solution to bad habits isn't willpower — it's replacement with something compelling.",
+    "action": "Instead of trying to 'quit' a bad habit today, start a new activity that naturally fills the same time slot. What would you enjoy doing instead?",
+    "topic": "discipline"
+  },
+  {
+    "id": "030",
+    "quote": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "source": "Attributed",
+    "story": "When Einstein was denied an academic position after his PhD, he took a job as a patent clerk. The boring work gave his mind freedom to wander. In that 'failure,' he developed special relativity, the photoelectric effect, and Brownian motion — all in one year.",
+    "action": "Look at your current biggest frustration. Write: 'Because of this problem, I now have the chance to...' and finish the sentence honestly.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "031",
+    "quote": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+    "author": "Abraham Lincoln",
+    "source": "Attributed",
+    "story": "Lincoln was a frontier lawyer who prepared obsessively for trials. While opposing lawyers gathered witnesses, Lincoln studied the judge's temperament and the jury's background. He often won cases before saying a word — because he understood the room before entering it.",
+    "action": "Before starting your next big task, spend 25% of your planned time just preparing: organizing tools, clarifying goals, removing distractions.",
+    "topic": "discipline"
+  },
+  {
+    "id": "032",
+    "quote": "People don't care how much you know until they know how much you care.",
+    "author": "Theodore Roosevelt",
+    "source": "Attributed",
+    "story": "Roosevelt was shot in the chest during a speech in 1912. The bullet lodged near his lung, but he refused to leave. He spoke for 90 more minutes, bleeding through his shirt. 'It takes more than a bullet to kill a bull moose,' he said. The crowd didn't remember his policy points. They remembered he cared enough to stay.",
+    "action": "Send a message to someone you haven't spoken to in months. Not asking for anything — just 'I was thinking about you. How are you doing?'",
+    "topic": "leadership"
+  },
+  {
+    "id": "033",
+    "quote": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Wilhelm Meister's Journeyman Years",
+    "story": "Goethe was a polymath who studied law, science, art, and literature. But he noticed that the most knowledgeable scholars were often the least effective. They knew everything and did nothing. Meanwhile, merchants with half their learning built empires through action.",
+    "action": "Open your notes app. Find one good idea you saved more than a month ago but never acted on. Do something about it today — even a tiny step.",
+    "topic": "discipline"
+  },
+  {
+    "id": "034",
+    "quote": "Be kind, for everyone you meet is fighting a hard battle.",
+    "author": "Ian Maclaren",
+    "source": "Attributed",
+    "story": "Maclaren was a Scottish pastor who noticed that the most difficult parishioners — the angry, the cold, the withdrawn — were always the ones carrying the heaviest grief. The cruelest man in town had just lost his daughter. Behavior is often armor, not identity.",
+    "action": "Think of someone who irritated you recently. Imagine one possible struggle they might be dealing with that you don't know about. Does it change how you feel?",
+    "topic": "relationships"
+  },
+  {
+    "id": "035",
+    "quote": "If you want to go fast, go alone. If you want to go far, go together.",
+    "author": "African Proverb",
+    "source": "Traditional wisdom",
+    "story": "A tech startup founder burned out after building alone for two years. Revenue was decent but growth had stalled. He finally hired one person — not for their skills, but for their judgment. Within six months, the business tripled. Not because two people did more work, but because decisions got better.",
+    "action": "Identify one area where you're stubbornly doing everything alone. Who could you ask for help this week? Not delegating — collaborating.",
+    "topic": "leadership"
+  },
+  {
+    "id": "036",
+    "quote": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book V",
+    "story": "Aurelius kept a thought journal — not a diary of events, but of mental patterns. He tracked which thoughts led to peace and which to suffering. Over years, he trained his mind like an athlete trains muscles. Not by fighting bad thoughts, but by deliberately cultivating better ones.",
+    "action": "Before bed tonight, write 3 thoughts you had today that made you feel worse. Rephrase each one to be more accurate (not positive — accurate).",
+    "topic": "stoicism"
+  },
+  {
+    "id": "037",
+    "quote": "Annual income twenty pounds, annual expenditure nineteen pounds, result: happiness. Annual income twenty pounds, annual expenditure twenty-one pounds, result: misery.",
+    "author": "Charles Dickens",
+    "source": "David Copperfield",
+    "story": "Dickens wrote from experience. His father was imprisoned for debt when Charles was 12. The family's spending exceeded income by just a few shillings. That tiny margin destroyed everything. Dickens never forgot: the difference between security and ruin is smaller than you think.",
+    "action": "Check if you spent more or less than you earned last month. If more — even by $10 — find one subscription or habit to cut this week.",
+    "topic": "money"
+  },
+  {
+    "id": "038",
+    "quote": "It is the mark of an educated mind to entertain a thought without accepting it.",
+    "author": "Aristotle",
+    "source": "Nicomachean Ethics",
+    "story": "Aristotle debated flat-earthers, mystics, and political extremists — not to agree, but to understand. His students were shocked that he'd spend hours exploring ideas he found absurd. 'How else will I know where the cracks in my own thinking are?' he'd reply.",
+    "action": "Find an opinion piece you strongly disagree with. Read the whole thing. Write down the strongest point the author makes — even if you still disagree overall.",
+    "topic": "relationships"
+  },
+  {
+    "id": "039",
+    "quote": "Difficulties strengthen the mind, as labor does the body.",
+    "author": "Seneca",
+    "source": "Moral Letters, Letter 78",
+    "story": "Seneca was exiled to Corsica for 8 years — stripped of wealth, status, and comfort. Instead of breaking, he wrote his greatest philosophical works there. When finally recalled to Rome, he was sharper, calmer, and wiser than the man who'd been banished.",
+    "action": "Think of a hard thing you're dealing with right now. Reframe it: 'This is training me to become someone who can handle...' and finish the sentence.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "040",
+    "quote": "The two most important days in your life are the day you are born and the day you find out why.",
+    "author": "Mark Twain",
+    "source": "Attributed",
+    "story": "Twain discovered his 'why' accidentally. After failing as a miner, a soldier, and a businessman, he wrote a humorous letter to a newspaper. The response was overwhelming. He'd been running from his gift while chasing respectability.",
+    "action": "Complete this sentence without thinking too long: 'The activity where I lose track of time is...' That's a clue to your 'why.'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "041",
+    "quote": "Money is a terrible master but an excellent servant.",
+    "author": "P.T. Barnum",
+    "source": "The Art of Money Getting",
+    "story": "Barnum went bankrupt twice. The first time destroyed him — he'd let money become his identity. The second time, he treated it as a tool, rebuilt methodically, and became richer than before. Same person, same skills — different relationship with money.",
+    "action": "Look at your last 10 expenses. Label each: 'master' (bought out of anxiety/impulse) or 'servant' (deliberate, aligned with goals). Which column is longer?",
+    "topic": "money"
+  },
+  {
+    "id": "042",
+    "quote": "The measure of a man is what he does with power.",
+    "author": "Plato",
+    "source": "The Republic",
+    "story": "Plato proposed a thought experiment: if you had a ring that made you invisible, what would you do? Most people said they'd steal, spy, or cheat. Plato argued that a truly good person would act identically with or without the ring. Character is who you are when no one's watching.",
+    "action": "Think of a situation where you have power over someone — an employee, a partner, even a waiter. Are you treating them the way you would if roles were reversed?",
+    "topic": "leadership"
+  },
+  {
+    "id": "043",
+    "quote": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.",
+    "author": "Viktor Frankl",
+    "source": "Man's Search for Meaning",
+    "story": "In Auschwitz, Frankl observed that survival didn't correlate with physical strength. The strongest often died first, shattered by loss of hope. Those who found meaning — caring for another prisoner, holding onto a purpose — endured the unimaginable.",
+    "action": "Describe your current biggest challenge in one sentence. Now rewrite it starting with 'I choose to...' instead of 'I have to...' Feel the difference?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "044",
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "source": "Stanford Commencement, 2005",
+    "story": "Jobs was fired from Apple at 30 — the company he built. He called it devastating, but later said it freed him. He started NeXT and Pixar, fell in love with creating again, and returned to Apple to build the iPhone. Being fired removed obligation; what remained was passion.",
+    "action": "Rate your current work 1-10 on enjoyment. If it's below 6, what's the one element you could change or add to raise it by 2 points?",
+    "topic": "money"
+  },
+  {
+    "id": "045",
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Self-Reliance",
+    "story": "Emerson quit his job as a minister because he couldn't pretend to believe doctrines he doubted. His family was horrified. Society judged him. But the decision freed him to write essays that influenced Lincoln, Thoreau, and millions since.",
+    "action": "Identify one thing you do regularly to fit in but don't actually believe in or enjoy. What would happen if you stopped? Is the consequence real or imagined?",
+    "topic": "relationships"
+  },
+  {
+    "id": "046",
+    "quote": "The first rule of compounding: never interrupt it unnecessarily.",
+    "author": "Charlie Munger",
+    "source": "Berkshire Hathaway Shareholder Meeting",
+    "story": "Munger watched countless investors sell winning stocks to 'lock in profits' — then watch those stocks double, triple, quadruple. The urge to act feels productive. But in investing and in skill-building, the real money is made by those patient enough to sit still.",
+    "action": "Name one area of your life where you keep 'starting over' — fitness, saving, a project. Commit to not resetting for 90 days, no matter what.",
+    "topic": "money"
+  },
+  {
+    "id": "047",
+    "quote": "The world breaks everyone, and afterward, many are strong at the broken places.",
+    "author": "Ernest Hemingway",
+    "source": "A Farewell to Arms",
+    "story": "Hemingway was nearly killed by a mortar shell in World War I at age 18. Over 200 shrapnel fragments embedded in his legs. He spent months in a hospital bed. That experience — the randomness of death, the fragility of the body — became the foundation of everything he ever wrote.",
+    "action": "Where were you broken? Not metaphorically — specifically. What did that break teach you that nothing else could?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "048",
+    "quote": "A person who never made a mistake never tried anything new.",
+    "author": "Albert Einstein",
+    "source": "Attributed",
+    "story": "Einstein's first major paper contained a mathematical error that took three years to correct. His colleagues mocked him. He didn't care. He published faster than anyone in physics because he understood: errors are the tuition you pay for discovery.",
+    "action": "What's something you've been avoiding because you might fail at it? Lower the stakes: try it today with no expectation of quality. Just try.",
+    "topic": "discipline"
+  },
+  {
+    "id": "049",
+    "quote": "Speak only if it improves upon the silence.",
+    "author": "Mahatma Gandhi",
+    "source": "Attributed",
+    "story": "During critical negotiations with the British, Gandhi once sat in complete silence for an hour while his opponent talked. The Englishman, unnerved, made concession after concession to fill the void. Gandhi understood: silence is not absence — it's pressure.",
+    "action": "In your next conversation, try pausing 3 seconds before responding every time. Notice how people lean in. Silence invites depth.",
+    "topic": "relationships"
+  },
+  {
+    "id": "050",
+    "quote": "Vision without execution is hallucination.",
+    "author": "Thomas Edison",
+    "source": "Attributed",
+    "story": "Edison didn't just imagine the light bulb — he tested 6,000 materials for the filament. Six thousand. Reporters asked if he felt like a failure after 5,000 failed attempts. He said: 'I haven't failed. I've discovered 5,000 things that don't work.' Vision was the easy part.",
+    "action": "Take your biggest idea or dream. Write the very next physical action required — not 'research,' not 'think about it.' A verb with an object. Do it today.",
+    "topic": "leadership"
+  },
+  {
+    "id": "051",
+    "quote": "Amor fati — love your fate.",
+    "author": "Friedrich Nietzsche",
+    "source": "Ecce Homo",
+    "story": "Nietzsche didn't mean 'accept' your fate. He meant love it — the pain, the failure, all of it. Because every moment, even the worst ones, made you exactly who you are. Wishing away your past means wishing away yourself.",
+    "action": "Pick the worst thing that happened to you last year. Write 3 things that are true now only because that happened.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "052",
+    "quote": "Don't count the days, make the days count.",
+    "author": "Muhammad Ali",
+    "source": "Interview, 1975",
+    "story": "Ali said this while training for the Thrilla in Manila — one of the most brutal fights in boxing history. His trainers tracked rounds and miles. Ali tracked purpose. Every punch, every run had intention behind it. Not just accumulation — meaning.",
+    "action": "Tonight before bed, answer: did today count? If not, what one thing tomorrow would make you say 'yes'?",
+    "topic": "discipline"
+  },
+  {
+    "id": "053",
+    "quote": "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life.",
+    "author": "Confucius",
+    "source": "Analects",
+    "story": "A senior minister refused to ask younger advisors for input, fearing it would make him look weak. Within a year, his department collapsed from outdated strategies. Meanwhile, a junior officer who constantly asked 'stupid questions' rose to replace him — because his questions revealed what everyone else missed.",
+    "action": "Think of something you pretend to understand but don't. Ask someone to explain it today. The 60 seconds of discomfort saves years of ignorance.",
+    "topic": "relationships"
+  },
+  {
+    "id": "054",
+    "quote": "Comparison is the thief of joy.",
+    "author": "Theodore Roosevelt",
+    "source": "Attributed",
+    "story": "Roosevelt was a sickly child who could barely climb stairs. Instead of comparing himself to athletic peers, he competed only with yesterday's version of himself. By 20, he was boxing at Harvard. By 42, he was leading cavalry charges. His only benchmark was his own past.",
+    "action": "Open Instagram or LinkedIn. Find the post that made you feel worst about yourself today. Ask: 'Am I comparing their highlight reel to my behind-the-scenes?'",
+    "topic": "relationships"
+  },
+  {
+    "id": "055",
+    "quote": "Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.",
+    "author": "Warren Buffett",
+    "source": "Berkshire Hathaway Shareholder Letter",
+    "story": "Buffett's first rule isn't about greed — it's about survival. He watched countless smart investors blow up because they chased gains without protecting against losses. His boring, safe approach made him the richest investor alive. Excitement is expensive.",
+    "action": "Review your financial commitments. Is there one expense or investment where you're risking more than you can afford to lose? Fix it this week.",
+    "topic": "money"
+  },
+  {
+    "id": "056",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Self-Reliance",
+    "story": "Emerson wrote this after losing his first wife, his brother, and nearly his own health — all within a few years. He could have been defined by loss. Instead, he argued that internal resources — character, will, perspective — always outweigh external circumstances.",
+    "action": "Write down one external problem consuming your thoughts. Below it, list 3 internal strengths you can apply to it right now.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "057",
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "source": "Attributed",
+    "story": "Churchill was voted out of office in 1945, immediately after winning WWII. The man who saved Britain was rejected by Britain. He didn't retire in bitterness. He wrote, painted, and planned — then returned as Prime Minister in 1951. Neither victory nor defeat was the ending.",
+    "action": "Name your biggest recent win and your biggest recent failure. Now notice: life continued normally after both. Neither defined you.",
+    "topic": "leadership"
+  },
+  {
+    "id": "058",
+    "quote": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Self-Reliance",
+    "story": "A young man asked Emerson if his family history of poverty meant he was 'destined' to be poor. Emerson answered with a question: 'If I told you that you were destined to be rich, would you stop working?' Destiny is just a story. Decision is an action.",
+    "action": "Forget predictions, personality types, and horoscopes for today. Write: 'I am becoming someone who...' and finish it with something you actually want.",
+    "topic": "discipline"
+  },
+  {
+    "id": "059",
+    "quote": "A ship in harbor is safe, but that is not what ships are built for.",
+    "author": "John A. Shedd",
+    "source": "Salt from My Attic",
+    "story": "In 1912, the year the Titanic sank, thousands of people cancelled ocean crossings out of fear. But ships sitting in harbors rotted faster than those at sea — saltwater in motion preserves, stagnant water corrodes. Safety isn't always safe.",
+    "action": "What's your 'harbor' — the safe choice you're clinging to? What would leaving it look like? You don't have to leave today — just name it.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "060",
+    "quote": "Time is more valuable than money. You can get more money, but you cannot get more time.",
+    "author": "Jim Rohn",
+    "source": "7 Strategies for Wealth & Happiness",
+    "story": "Rohn once calculated that a $20/hour worker who wastes 2 hours daily on low-value activities loses $14,600/year. Not in money — in time-value. Over a career, that's nearly half a million dollars of potential traded for nothing memorable.",
+    "action": "Track your time today in 30-minute blocks. Tonight, label each block: 'invested' or 'spent.' How's the ratio?",
+    "topic": "money"
+  },
+  {
+    "id": "061",
+    "quote": "Courage is not the absence of fear, but the triumph over it.",
+    "author": "Nelson Mandela",
+    "source": "Autobiography",
+    "story": "Mandela admitted he was terrified during his trial, facing possible execution. He didn't pretend to be fearless — he chose to act despite the fear. The judges saw a man trembling but speaking truth. Real courage is visible precisely because the fear is visible too.",
+    "action": "Name one thing you're scared to do this week. Now commit to doing it while scared. Don't wait for the fear to pass — it won't.",
+    "topic": "discipline"
+  },
+  {
+    "id": "062",
+    "quote": "The art of being wise is the art of knowing what to overlook.",
+    "author": "William James",
+    "source": "Principles of Psychology",
+    "story": "James studied attention for decades and concluded that intelligence isn't about processing more — it's about ignoring more. The smartest people he observed shared one trait: they were ruthless about what they didn't pay attention to.",
+    "action": "List the 5 things competing for your attention right now. Cross out the 3 that matter least. Focus only on the remaining 2 today.",
+    "topic": "leadership"
+  },
+  {
+    "id": "063",
+    "quote": "When you arise in the morning, think of what a privilege it is to be alive — to think, to enjoy, to love.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book II",
+    "story": "Aurelius wrote this as a morning meditation. He'd wake before dawn — the emperor of Rome — and remind himself that today might be his last. Not morbidly. Gratefully. This awareness made every conversation sharper, every meal sweeter, every hour deliberate.",
+    "action": "Tomorrow morning, before checking your phone, take 3 breaths and name one thing you're genuinely grateful for. Do this for 7 days straight.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "064",
+    "quote": "Invest in yourself. Your career is the engine of your wealth.",
+    "author": "Paul Clitheroe",
+    "source": "Making Money Made Simple",
+    "story": "A factory worker spent $200 on a night course in accounting. His coworkers laughed. Within 2 years, he'd moved from the floor to the office. Within 5, he was managing budgets larger than his old annual salary. The $200 course returned 10,000% — no stock ever matched that.",
+    "action": "What's one skill that would make you worth 20% more in your field? Find a book, course, or mentor for it this week. Budget: under $50.",
+    "topic": "money"
+  },
+  {
+    "id": "065",
+    "quote": "Real integrity is doing the right thing, knowing that nobody's going to know whether you did it or not.",
+    "author": "Oprah Winfrey",
+    "source": "Commencement address, 2008",
+    "story": "Before she was famous, Winfrey was a local news anchor who refused to sensationalize a story about a house fire that killed children. Her producer threatened to fire her. She aired the story with dignity anyway. No one remembers the producer's name.",
+    "action": "Do one kind thing today that no one will ever know about. No posts, no mentions. Feel what motivates you when recognition is impossible.",
+    "topic": "leadership"
+  },
+  {
+    "id": "066",
+    "quote": "The more you sweat in training, the less you bleed in combat.",
+    "author": "Richard Marcinko",
+    "source": "Rogue Warrior",
+    "story": "Marcinko founded SEAL Team Six and was infamous for making training harder than actual missions. His men cursed him during drills. But in combat, while other units froze, his teams moved with eerie calm. They'd already survived worse — in practice.",
+    "action": "Identify the hardest scenario in your work or life. Now simulate it: practice the presentation in front of a mirror, rehearse the difficult conversation, run the numbers for the worst case.",
+    "topic": "discipline"
+  },
+  {
+    "id": "067",
+    "quote": "You can easily judge the character of a man by how he treats those who can do nothing for him.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Attributed",
+    "story": "Goethe once watched a nobleman be charming to a prince and cruel to a servant within the same minute. He wrote in his journal: 'I have just seen a man's entire character revealed in two sentences — one spoken up, one spoken down.'",
+    "action": "Notice how you treat the next 3 people who can't benefit you — a cashier, a stranger, a junior colleague. Is it different from how you treat your boss?",
+    "topic": "relationships"
+  },
+  {
+    "id": "068",
+    "quote": "The wise man does at once what the fool does finally.",
+    "author": "Niccolò Machiavelli",
+    "source": "The Prince",
+    "story": "Machiavelli observed that most leaders waited until crises forced their hand — then acted in panic. The rare effective ruler handled problems when they were still small and manageable. The same action, done early, costs 10% of what it costs late.",
+    "action": "What small problem have you been ignoring, hoping it'll resolve itself? Handle it in the next 24 hours. It'll take 15 minutes now or 15 hours later.",
+    "topic": "leadership"
+  },
+  {
+    "id": "069",
+    "quote": "Your net worth to the world is usually determined by what remains after your bad habits are subtracted from your good ones.",
+    "author": "Benjamin Franklin",
+    "source": "Poor Richard's Almanack",
+    "story": "Franklin tracked 13 virtues on a daily scorecard — marking every failure. He never scored perfectly. But over decades, his ratio improved steadily. He didn't eliminate bad habits; he simply ensured good ones outnumbered them. The math worked in his favor.",
+    "action": "Draw two columns: good daily habits, bad daily habits. Count each. Your goal isn't perfection — it's making the left column longer than the right.",
+    "topic": "discipline"
+  },
+  {
+    "id": "070",
+    "quote": "Loneliness does not come from having no people around you, but from being unable to communicate the things that seem important to you.",
+    "author": "Carl Jung",
+    "source": "Memories, Dreams, Reflections",
+    "story": "Jung was surrounded by colleagues, students, and patients his entire career. Yet he described profound loneliness — not from isolation, but from having ideas no one understood. When he finally wrote his deepest thoughts in the Red Book, he told no one for decades. Being heard matters more than being near.",
+    "action": "Think of one thing you feel but haven't told anyone. Text or call one trusted person today and share it. Not for advice — just to be heard.",
+    "topic": "relationships"
+  },
+  {
+    "id": "071",
+    "quote": "Discipline equals freedom.",
+    "author": "Jocko Willink",
+    "source": "Discipline Equals Freedom",
+    "story": "Willink commanded a SEAL unit in Ramadi. He woke at 4:30 AM every day — not because he loved mornings, but because the discipline of early rising gave him hours that no one could interrupt. Those hours became his space for thinking, training, and planning. Structure created the freedom others sought through chaos.",
+    "action": "Set your alarm 30 minutes earlier tomorrow. Use that time for one thing that matters to you — not email, not news. Your thing.",
+    "topic": "discipline"
+  },
+  {
+    "id": "072",
+    "quote": "You will never reach your destination if you stop and throw stones at every dog that barks.",
+    "author": "Winston Churchill",
+    "source": "Attributed",
+    "story": "Churchill received thousands of hate letters, insults in Parliament, and personal attacks in newspapers. His secretary asked how he dealt with it. 'I simply don't,' Churchill replied. 'I haven't the time. I'm rather busy saving civilization.'",
+    "action": "What criticism or conflict has been eating your mental bandwidth? Decide right now: respond or release. If it won't matter in 5 years, release it.",
+    "topic": "leadership"
+  },
+  {
+    "id": "073",
+    "quote": "The goal is not to be better than the other man, but your previous self.",
+    "author": "Dalai Lama",
+    "source": "The Art of Happiness",
+    "story": "A student asked the Dalai Lama how to deal with colleagues who were more successful. He laughed: 'You are competing with 8 billion people? That sounds exhausting. Compete with one — yourself yesterday. That is a fair match.'",
+    "action": "Write one thing you can do today that yesterday-you couldn't (or wouldn't). It can be tiny. That's a win.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "074",
+    "quote": "Don't tell people your plans. Show them your results.",
+    "author": "Unknown",
+    "source": "Common wisdom",
+    "story": "A startup founder announced his idea at every dinner party for a year. The social validation felt like progress. But the dopamine from talking replaced the drive to build. A competitor who told no one launched quietly and captured the market. Announcements eat ambition.",
+    "action": "Think of a goal you've been telling people about. Stop talking about it for 30 days. Channel that energy into doing. Announce it when it's done.",
+    "topic": "money"
+  },
+  {
+    "id": "075",
+    "quote": "To handle yourself, use your head; to handle others, use your heart.",
+    "author": "Eleanor Roosevelt",
+    "source": "Attributed",
+    "story": "Roosevelt was First Lady during the Great Depression. She visited relief camps personally, not to inspect — to listen. She sat with families, held children, and cried with mothers. Her husband made policy from data. She made policy from empathy. Both were necessary.",
+    "action": "In your next interaction with someone frustrated, resist the urge to problem-solve immediately. First ask: 'How are you feeling about this?' Listen for 60 seconds before offering solutions.",
+    "topic": "relationships"
+  },
+  {
+    "id": "076",
+    "quote": "If you can't explain it simply, you don't understand it well enough.",
+    "author": "Albert Einstein",
+    "source": "Attributed",
+    "story": "Einstein's most famous equation, E=mc², is five characters long. Behind it lies years of complex mathematics. But the equation itself is so simple a child can memorize it. Einstein believed that the final step of understanding anything is compression — reducing it to its essence.",
+    "action": "Take the most complex thing you're working on. Explain it to an imaginary 10-year-old in 3 sentences. Where you struggle is where your understanding is weakest.",
+    "topic": "leadership"
+  },
+  {
+    "id": "077",
+    "quote": "A gem cannot be polished without friction, nor a man perfected without trials.",
+    "author": "Seneca",
+    "source": "Moral Essays",
+    "story": "Seneca watched young Roman nobles inherit fortunes and collapse under their first setback. Meanwhile, freed slaves who'd endured decades of hardship built resilient empires. Comfort didn't prepare people for life; it softened them for failure.",
+    "action": "What is your current 'friction'? Instead of wishing it away, ask: 'What is this polishing in me?' Write the answer down.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "078",
+    "quote": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins",
+    "source": "Awaken the Giant Within",
+    "story": "Robbins grew up in poverty, working as a janitor at 17. He attended a seminar he couldn't afford by sneaking in through a back door. That single decision to begin — illegally, imperfectly — set off a chain that made him one of the most influential motivational figures alive.",
+    "action": "What journey have you been 'almost' starting? Take the most imperfect, embarrassing first step possible today. Not the right step — any step.",
+    "topic": "discipline"
+  },
+  {
+    "id": "079",
+    "quote": "Knowing what must be done does away with fear.",
+    "author": "Rosa Parks",
+    "source": "Interview, 1992",
+    "story": "Parks was afraid on the bus that day in Montgomery. Her hands shook. But she'd decided months earlier, in NAACP training, that when the moment came, she would not move. The decision was made before the fear arrived. When clarity of purpose meets the moment, fear becomes irrelevant.",
+    "action": "Decide now how you'll handle one future difficult situation — before it happens. Write: 'When X happens, I will Y.' Pre-deciding removes hesitation.",
+    "topic": "discipline"
+  },
+  {
+    "id": "080",
+    "quote": "The things you own end up owning you.",
+    "author": "Chuck Palahniuk",
+    "source": "Fight Club",
+    "story": "A wealthy collector spent decades acquiring rare art. His home became a museum — climate-controlled, alarmed, insured for millions. He couldn't travel, couldn't have guests over, couldn't relax. He served his possessions like a butler serves a master. Freedom was the one thing he couldn't buy.",
+    "action": "Walk through your home. Find 5 things you own that create more stress than joy — things you maintain, insure, worry about. Could you let one go this week?",
+    "topic": "money"
+  },
+  {
+    "id": "081",
+    "quote": "First they ignore you, then they laugh at you, then they fight you, then you win.",
+    "author": "Mahatma Gandhi",
+    "source": "Attributed",
+    "story": "Gandhi's salt march was mocked by the British press. A skinny man walking to the ocean to make salt? Absurd. Then thousands joined. Then millions. The British stopped laughing and started fighting. Within two decades, the empire that laughed was gone.",
+    "action": "Is someone laughing at what you're building? Good. You're on stage two. Keep going. What's one thing you can do today to reach stage three?",
+    "topic": "leadership"
+  },
+  {
+    "id": "082",
+    "quote": "How long are you going to wait before you demand the best for yourself?",
+    "author": "Epictetus",
+    "source": "Discourses, Book II",
+    "story": "A student told Epictetus he'd start living wisely 'next year, when things calm down.' Epictetus asked his age. 'Thirty.' 'So you've spent 30 years preparing to live. When exactly does the living begin? Things will never calm down. Start now or never.'",
+    "action": "What are you postponing until conditions are 'right'? Write down the conditions you're waiting for. Are any of them actually in your control?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "083",
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "source": "Stanford Commencement, 2005",
+    "story": "Jobs borrowed this from the final issue of the Whole Earth Catalog. It was a farewell message printed beneath a photograph of an early morning country road. The message: never become so full that you stop seeking, never become so smart that you stop experimenting.",
+    "action": "When did you last try something you were genuinely bad at? Sign up for one thing this week where you'll be the worst person in the room.",
+    "topic": "discipline"
+  },
+  {
+    "id": "084",
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison",
+    "source": "Attributed",
+    "story": "After thousands of failed light bulb experiments, Edison's lab burned down, destroying years of records. He was 67. The next morning, he told his son: 'All our mistakes are burned up. Thank God we can start fresh.' He rebuilt and succeeded within months.",
+    "action": "List your 3 biggest 'failures' this year. Reframe each: 'This taught me that ___ doesn't work, which means I should try ___.'",
+    "topic": "money"
+  },
+  {
+    "id": "085",
+    "quote": "In a gentle way, you can shake the world.",
+    "author": "Mahatma Gandhi",
+    "source": "Attributed",
+    "story": "Gandhi's most powerful weapon was not protest — it was spinning cotton. By quietly making his own cloth, he showed millions they didn't need the British textile industry. No anger, no violence. Just a man at a spinning wheel, dismantling an empire thread by thread.",
+    "action": "What change do you want to see around you? Instead of arguing for it, quietly live it today. Actions persuade where words fail.",
+    "topic": "leadership"
+  },
+  {
+    "id": "086",
+    "quote": "He who is not a good servant will not be a good master.",
+    "author": "Plato",
+    "source": "Laws",
+    "story": "Plato observed that the worst tyrants were those who had never served anyone. They didn't understand what people needed because they'd never been in a position of need. The best leaders he knew had all spent years following before they ever led.",
+    "action": "Think of someone who works 'below' you — in any context. Spend 30 minutes doing their kind of work today. What do you learn?",
+    "topic": "leadership"
+  },
+  {
+    "id": "087",
+    "quote": "The mind is everything. What you think, you become.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "story": "A monk asked Buddha how two brothers from the same village — same parents, same upbringing — became so different: one a thief, one a saint. Buddha said: 'Different thoughts, repeated daily, over years. That is all. There is no other explanation.'",
+    "action": "Write the 3 thoughts you repeat most often. Are they building the person you want to become? Replace one negative recurring thought with a deliberate positive one.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "088",
+    "quote": "It's not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "source": "Enchiridion",
+    "story": "When Epictetus's master deliberately broke his leg, Epictetus reportedly said calmly: 'I told you it would break.' He didn't scream. He didn't beg. He'd already decided that his body could be harmed but his mind was his own. That decision outlived the Roman Empire.",
+    "action": "Think of the last time you reacted badly to something. Replay the scene. What response would have made you proud? Rehearse that response for next time.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "089",
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "source": "Attributed",
+    "story": "Rockefeller closed his profitable kerosene business when he saw electricity coming. His partners thought he was insane — kerosene was making them rich. But Rockefeller understood: clinging to 'good' blinds you to 'great.' He reinvested in oil refining and became the richest American in history.",
+    "action": "What 'good enough' situation are you holding onto that might be blocking something greater? Write it down. You don't have to quit today — just acknowledge it.",
+    "topic": "money"
+  },
+  {
+    "id": "090",
+    "quote": "Well done is better than well said.",
+    "author": "Benjamin Franklin",
+    "source": "Poor Richard's Almanack",
+    "story": "Franklin noticed that Philadelphia's city council spent months debating a plan for street lighting. He said nothing. One morning, he simply hung a lantern outside his own door. Within a week, his neighbors did the same. Within a month, the whole street was lit. No vote required.",
+    "action": "What have you been discussing, planning, or debating? Skip the next discussion and just do the first version. Show, don't tell.",
+    "topic": "discipline"
+  },
+  {
+    "id": "091",
+    "quote": "Silence is a source of great strength.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "story": "A king asked Lao Tzu to advise on a border dispute. Two generals argued loudly for hours. Lao Tzu sat silent. When the king finally asked his opinion, both generals leaned in. The silence had given his eventual words more weight than hours of argument. Scarcity creates value — even in speech.",
+    "action": "Choose one hour today to be completely silent — no speaking, no texting, no social media. Notice what thoughts arise when you stop outputting.",
+    "topic": "discipline"
+  },
+  {
+    "id": "092",
+    "quote": "What we achieve inwardly will change outer reality.",
+    "author": "Plutarch",
+    "source": "Moralia",
+    "story": "Plutarch studied great leaders of Greece and Rome and found a pattern: external transformation always followed internal transformation. Alexander didn't conquer the world and then become confident — he became confident and then the world yielded.",
+    "action": "Instead of planning your next external move (new job, new city, new project), ask: what internal shift would make the biggest difference? Work on that first.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "093",
+    "quote": "People who say it cannot be done should not interrupt those who are doing it.",
+    "author": "George Bernard Shaw",
+    "source": "Attributed",
+    "story": "When the Wright brothers told people they were building a flying machine, engineers cited mathematical proofs that flight was impossible. The brothers had no engineering degrees. They owned a bicycle shop. They flew anyway. The 'impossible' proofs were wrong.",
+    "action": "Whose skepticism have you been absorbing? Name them. Now ask: have they done what I'm trying to do? If not, their opinion is theory, not experience.",
+    "topic": "leadership"
+  },
+  {
+    "id": "094",
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "source": "Undelivered address, 1945",
+    "story": "Roosevelt wrote this speech on the day he died — April 12, 1945. He never delivered it. The words were found on his desk, meant for a nation still at war, still doubting victory was possible. He believed doubt was the only real enemy. History proved him right.",
+    "action": "Write your biggest doubt about your future. Now write the opposite as if it were already true. Read both. Which one do you want to live inside?",
+    "topic": "money"
+  },
+  {
+    "id": "095",
+    "quote": "True friendship is a plant of slow growth.",
+    "author": "George Washington",
+    "source": "Letter, 1783",
+    "story": "Washington had thousands of acquaintances but fewer than five true friends. He maintained those friendships for decades through handwritten letters, shared hardship, and consistent loyalty. He understood: depth requires time. Breadth is the enemy of closeness.",
+    "action": "Think of your 3 closest friends. When did you last have a real conversation — not small talk? Reach out to one today with a genuine question about their life.",
+    "topic": "relationships"
+  },
+  {
+    "id": "096",
+    "quote": "Every man dies. Not every man really lives.",
+    "author": "William Wallace",
+    "source": "Attributed (via Braveheart)",
+    "story": "Whether Wallace said this is uncertain, but the sentiment is ancient. Seneca, Aurelius, and Buddhist monks all said variations. The point is consistent across millennia: biological life is guaranteed; a life of meaning is not. The clock runs regardless — what you do with it is your choice.",
+    "action": "If you had 5 years left, what would you stop doing immediately? Why are you still doing it now?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "097",
+    "quote": "It takes 20 years to build a reputation and five minutes to ruin it.",
+    "author": "Warren Buffett",
+    "source": "Interview",
+    "story": "Buffett's partner, Charlie Munger, once said Berkshire Hathaway's greatest asset wasn't its investments — it was its reputation. Competitors who cut corners gained short-term profits and lost long-term trust. Buffett played the infinite game: every decision was filtered through 'would I be comfortable if this were on the front page tomorrow?'",
+    "action": "Think of one shortcut you're tempted to take. Now imagine it on the front page of a newspaper with your name. Still worth it?",
+    "topic": "leadership"
+  },
+  {
+    "id": "098",
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "source": "Apology, via Plato",
+    "story": "Socrates said this at his own trial, knowing it might cost him his life. And it did — he was sentenced to death. But he chose death over silence. He believed that a life lived on autopilot, without questioning assumptions, without seeking truth, was not really life at all.",
+    "action": "Spend 10 minutes tonight with no phone, no screen. Just sit and ask: 'Am I living the life I actually want, or the one I drifted into?'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "099",
+    "quote": "Small daily improvements over time lead to stunning results.",
+    "author": "Robin Sharma",
+    "source": "The 5 AM Club",
+    "story": "A Japanese pottery master was asked how he made perfect bowls. He said: 'I don't. I make slightly better bowls. Every day, for 40 years.' His early work was clumsy. His recent work sells for thousands. No single day was transformative. Every day was necessary.",
+    "action": "Pick one skill that matters to you. Improve it by 1% today — watch one tutorial, practice for 10 minutes, read one article. Repeat tomorrow.",
+    "topic": "discipline"
+  },
+  {
+    "id": "100",
+    "quote": "The purpose of life is to find your gift. The meaning of life is to give it away.",
+    "author": "Pablo Picasso",
+    "source": "Attributed",
+    "story": "Picasso could draw photorealistically by age 13. He spent the rest of his life unlearning technique to find something more honest — his unique way of seeing. When he found it, he didn't hoard it. He painted 50,000 works and gave away thousands. The gift only has value in motion.",
+    "action": "What comes naturally to you that others find difficult? That's your gift. How can you share it with one person today — for free, with no expectation?",
+    "topic": "relationships"
   }
 ]

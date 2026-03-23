@@ -1,14 +1,902 @@
 [
-  {"id":"001","quote":"Você tem poder sobre sua mente — não sobre os eventos externos. Perceba isso e encontrará força.","author":"Marco Aurélio","source":"Meditações, Livro VI","story":"Aurélio escreveu isso num acampamento militar durante uma peste devastadora. Seu exército morria, o império ruía — mas toda noite ele abria seu diário. Não para reclamar, mas para se lembrar: a única coisa que controlava era sua própria reação.","action":"Escreva 3 coisas que te incomodam agora. Ao lado de cada uma, pergunte: 'Posso controlar isso?' Risque o que não pode.","topic":"stoicism"},
-  {"id":"002","quote":"O obstáculo é o caminho.","author":"Marco Aurélio","source":"Meditações, Livro V","story":"Quando uma estrada bloqueada parou o avanço do exército, Aurélio não se enfureceu nem recuou. Ordenou que seus engenheiros construíssem um novo caminho através do próprio obstáculo. A barreira se tornou o caminho adiante.","action":"Nomeie um problema que você tem evitado. Pergunte-se: que habilidade eu poderia desenvolver ao enfrentá-lo diretamente?","topic":"stoicism"},
-  {"id":"003","quote":"A riqueza não consiste em ter grandes posses, mas em ter poucos desejos.","author":"Epicteto","source":"Discursos","story":"Epicteto nasceu escravo. Não possuía nada — nem mesmo seu próprio corpo. Ao ganhar liberdade, escolheu viver com quase nada: uma esteira, uma lamparina, uma tigela de barro. Ensinava que o desejo, não a pobreza, é a verdadeira prisão.","action":"Confira suas compras recentes. Encontre 3 coisas que comprou mas nunca precisou. Calcule o total — esse é seu 'imposto do desejo' neste mês.","topic":"money"},
-  {"id":"004","quote":"Não é livre quem não é senhor de si mesmo.","author":"Epicteto","source":"Fragmentos","story":"Um rico senador romano visitou Epicteto, gabando-se de suas conexões políticas. Epicteto fez uma única pergunta: 'Você consegue ficar um dia sem vinho?' O senador não soube responder. Poder sobre os outros não significa nada se você não controla seus próprios hábitos.","action":"Escolha seu hábito diário mais automático — rolar o feed, beliscar comida, qualquer coisa. Abandone-o completamente amanhã. Só um dia. Observe como se sente.","topic":"discipline"},
-  {"id":"005","quote":"Sofremos mais na imaginação do que na realidade.","author":"Sêneca","source":"Cartas a Lucílio, Carta 13","story":"Sêneca escreveu isso a um amigo paralisado pelo medo de um julgamento próximo. O julgamento veio e passou sem consequências. Sua mensagem: sua mente ensaia desastres que nunca acontecem, roubando a paz do momento presente.","action":"Escreva sua maior preocupação. Abaixo, anote o que realmente aconteceu nas últimas 3 vezes que você se preocupou tanto. Vê o padrão?","topic":"stoicism"},
-  {"id":"006","quote":"O melhor momento para plantar uma árvore foi há 20 anos. O segundo melhor momento é agora.","author":"Provérbio chinês","source":"Sabedoria tradicional","story":"Um fazendeiro reclamava que o pomar do vizinho era abundante enquanto sua terra era vazia. 'Quando ele plantou?' perguntou o sábio. 'Vinte anos atrás.' 'E você, quando vai plantar?' O fazendeiro plantou naquela mesma tarde.","action":"Nomeie algo que você vem 'querendo começar' há meses. Coloque um timer de 10 minutos e dê o primeiro passo agora mesmo.","topic":"money"},
-  {"id":"007","quote":"Quem conhece os outros é sábio. Quem conhece a si mesmo é iluminado.","author":"Lao Tsé","source":"Tao Te Ching, Capítulo 33","story":"Um brilhante general foi até Lao Tsé, orgulhoso de ler cada inimigo perfeitamente. Lao Tsé perguntou: 'O que desperta sua raiva? O que você teme às 3 da manhã? Qual mentira você mais repete para si mesmo?' O general não tinha respostas.","action":"Coloque um timer de 5 minutos. Escreva sem parar: 'O que eu não quero admitir sobre mim mesmo é...' Não edite. Não julgue.","topic":"relationships"},
-  {"id":"008","quote":"O melhor líder é aquele cuja existência o povo mal conhece. Quando seu trabalho está feito, dizem: nós fizemos sozinhos.","author":"Lao Tsé","source":"Tao Te Ching, Capítulo 17","story":"O imperador Taizong da dinastia Tang ficava em silêncio durante as reuniões do conselho, deixando seus conselheiros debaterem livremente. Só falava para fazer perguntas, nunca para ordenar. Seu império prosperou por décadas.","action":"Na sua próxima reunião, faça 3 perguntas em vez de afirmações. Conte quantas ideias surgem que não existiriam se você tivesse falado primeiro.","topic":"leadership"},
-  {"id":"009","quote":"As correntes do hábito são leves demais para serem sentidas até que sejam pesadas demais para serem quebradas.","author":"Samuel Johnson","source":"Atribuído, século XVIII","story":"Johnson falava por experiência. Lutou contra depressão, tiques compulsivos e um medo paralisante da morte a vida toda. Mesmo assim, escreveu um dicionário inteiro sozinho — porque entendia que o mesmo mecanismo que constrói hábitos destrutivos pode construir extraordinários.","action":"Acompanhe um hábito por 7 dias. Marque um X cada vez. Não tente mudá-lo ainda — apenas observe. A consciência vem primeiro.","topic":"discipline"},
-  {"id":"010","quote":"Entre o estímulo e a resposta há um espaço. Nesse espaço está nossa liberdade e poder de escolha.","author":"Viktor Frankl","source":"Em Busca de Sentido","story":"Frankl descobriu isso no pior lugar da Terra — um campo de concentração nazista. Os guardas controlavam tudo externo: comida, calor, a própria vida. Mas não podiam controlar o espaço entre o que acontecia com ele e como ele escolhia reagir.","action":"Na próxima vez que alguém te irritar, faça uma pausa de 3 respirações antes de responder. Três respirações. Esse é o espaço de que Frankl fala.","topic":"stoicism"},
-  {"id":"011","quote":"Juros compostos são a oitava maravilha do mundo. Quem entende, ganha. Quem não entende, paga.","author":"Albert Einstein","source":"Atribuído","story":"Se Einstein realmente disse isso é debatido. Mas a matemática é real: R$ 500 por mês a 8% se tornam R$ 750.000 em 30 anos. A primeira década parece inútil. Mas a última década? Seu dinheiro rende mais do que você jamais investiu.","action":"Abra uma calculadora. Digite sua idade. Subtraia de 65. Multiplique por 12. É quantos depósitos de R$ 500 você ainda tem. Comece este mês.","topic":"money"},
-  {"id":"012","quote":"A maior glória não está em nunca cair, mas em se levantar cada vez que caímos.","author":"Nelson Mandela","source":"Longo Caminho para a Liberdade","story":"Mandela passou 27 anos preso. Quando saiu livre, não saiu quebrado — tornou-se presidente. Os guardas que o atormentaram? Ele os convidou para a posse. Sua resposta à queda não foi amargura. Foi tornar-se inquebrantável.","action":"Pense no seu fracasso mais recente. Escreva uma lição específica que ele te ensinou — uma que não poderia ter aprendido de outra forma.","topic":"leadership"}
+  {
+    "id": "001",
+    "quote": "Você tem poder sobre sua mente — não sobre eventos externos. Perceba isso, e você encontrará força.",
+    "author": "Mármore Aurélio",
+    "source": "Meditações, Livro VI",
+    "story": "Aurélio escreveu isso em um acampamento militar durante uma praga devastadora. Seu exército estava morrendo, o império desmoronando — ainda assim, todas as noites ele abria seu diário. Não para reclamar, mas para se lembrar: a única coisa que ele controlava era sua própria resposta.",
+    "action": "Escreva 3 coisas que estão te incomodando agora. Ao lado de cada uma, pergunte: 'Posso controlar isso?' Risque o que você não pode.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "002",
+    "quote": "O obstáculo é o caminho.",
+    "author": "Mármore Aurélio",
+    "source": "Meditações, Livro V",
+    "story": "Quando uma estrada bloqueada parou o avanço de seu exército, Aurélio não se enfureceu nem recuou. Ele ordenou que engenheiros construíssem uma nova estrada através do próprio obstáculo. A barreira se tornou o caminho a seguir — literalmente e filosoficamente.",
+    "action": "Nomeie um problema que você tem evitado. Pergunte: que habilidade ou força eu poderia desenvolver enfrentando isso de frente?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "003",
+    "quote": "A riqueza não consiste em ter grandes posses, mas em ter poucos desejos.",
+    "author": "Epicteto",
+    "source": "Discursos",
+    "story": "Epicteto nasceu escravo. Ele não possuía nada — nem mesmo seu próprio corpo. Após ganhar a liberdade, escolheu viver com quase nada: um tapete, uma lamparina, uma tigela de barro. Ele ensinou que o desejo, e não a pobreza, é a verdadeira prisão.",
+    "action": "Verifique suas compras recentes. Encontre 3 coisas que você comprou, mas nunca precisou. Calcule o total — esse é o seu 'imposto sobre o desejo' deste mês.",
+    "topic": "money"
+  },
+  {
+    "id": "004",
+    "quote": "Nenhum homem é livre que não é mestre de si mesmo.",
+    "author": "Epicteto",
+    "source": "Fragmentos",
+    "story": "Um rico senador romano visitou Epicteto, se gabando de suas conexões políticas. Epicteto fez uma pergunta: 'Você consegue passar um dia sem vinho?' O senador não conseguiu responder. O poder sobre os outros não significa nada se você não consegue comandar seus próprios hábitos.",
+    "action": "Escolha seu hábito diário mais automático — rolar a tela, beliscar, o que for. Pule-o completamente amanhã. Apenas um dia. Perceba como isso se sente.",
+    "topic": "discipline"
+  },
+  {
+    "id": "005",
+    "quote": "Sofremos mais frequentemente na imaginação do que na realidade.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, Carta 13",
+    "story": "Sêneca escreveu isso a um amigo paralisado pelo medo de um julgamento iminente. O julgamento veio e passou sem consequências. Seu ponto: sua mente ensaia desastres que nunca acontecem, roubando a paz do presente.",
+    "action": "Escreva sua maior preocupação. Abaixo, liste o que realmente aconteceu nas últimas 3 vezes que você se preocupou tanto. Veja o padrão?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "006",
+    "quote": "O melhor momento para plantar uma árvore foi há 20 anos. O segundo melhor momento é agora.",
+    "author": "Provérbio Chinês",
+    "source": "Sabedoria Tradicional",
+    "story": "Um fazendeiro reclamou que o pomar de seu vizinho era abundante enquanto suas terras eram áridas. 'Quando ele plantou?' perguntou o sábio. 'Vinte anos atrás.' 'E quando você irá plantar?' O fazendeiro plantou naquela tarde.",
+    "action": "Nomeie uma coisa que você está 'pretendendo começar' há meses. Defina um cronômetro de 10 minutos e dê o primeiro pequeno passo agora mesmo.",
+    "topic": "money"
+  },
+  {
+    "id": "007",
+    "quote": "Aquele que conhece os outros é sábio; aquele que se conhece é iluminado.",
+    "author": "Lao Tsé",
+    "source": "Tao Te Ching, Capítulo 33",
+    "story": "Um brilhante general veio até Lao Tsé, orgulhoso de ler perfeitamente cada inimigo. Lao Tsé perguntou: 'O que desencadeia sua raiva? O que você teme às 3 da manhã? Que mentira você conta a si mesmo com mais frequência?' O general não tinha respostas.",
+    "action": "Defina um cronômetro de 5 minutos. Escreva sem parar: 'A coisa que não quero admitir sobre mim mesmo é...' Não edite. Não julgue.",
+    "topic": "relationships"
+  },
+  {
+    "id": "008",
+    "quote": "Um líder é melhor quando as pessoas mal sabem que ele existe. Quando seu trabalho está feito, elas dizem: nós fizemos isso sozinhos.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching, Capítulo 17",
+    "story": "O imperador Taizong da dinastia Tang costumava sentar em silêncio durante as reuniões do conselho, permitindo que os conselheiros debatissem livremente. Ele só falava para fazer perguntas, nunca para comandar. Seu império prosperou por décadas.",
+    "action": "Na sua próxima reunião, faça 3 perguntas em vez de fazer afirmações. Conte quantas ideias surgem que não teriam surgido se você tivesse falado primeiro.",
+    "topic": "leadership"
+  },
+  {
+    "id": "009",
+    "quote": "As correntes do hábito são leves demais para serem sentidas até que se tornem pesadas demais para serem quebradas.",
+    "author": "Samuel Johnson",
+    "source": "Atribuído, século XVIII",
+    "story": "Johnson lutou contra a depressão, tiques compulsivos e um medo paralisante da morte durante toda a sua vida. No entanto, ele escreveu um dicionário inteiro sozinho — porque entendia que o mesmo mecanismo que constrói hábitos destrutivos pode construir hábitos extraordinários.",
+    "action": "Acompanhe um hábito pelos próximos 7 dias. Marque um X no papel cada vez que o fizer. Não tente mudá-lo ainda — apenas observe. A conscientização vem primeiro.",
+    "topic": "discipline"
+  },
+  {
+    "id": "010",
+    "quote": "Entre o estímulo e a resposta há um espaço. Nesse espaço está nossa liberdade e poder de escolha.",
+    "author": "Viktor Frankl",
+    "source": "Em Busca de Sentido",
+    "story": "Frankl descobriu isso em um campo de concentração nazista. Os guardas controlavam tudo o que era externo — comida, calor, vida. Mas eles não podiam controlar o espaço entre o que acontecia com ele e como ele escolhia responder.",
+    "action": "Na próxima vez que alguém te irritar, pause por 3 respirações antes de responder. Três respirações. Esse é o espaço do qual Frankl está falando.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "011",
+    "quote": "Juros compostos são a oitava maravilha do mundo. Aquele que os entende, os ganha. Aquele que não entende, os paga.",
+    "author": "Albert Einstein",
+    "source": "Atribuído",
+    "story": "Se Einstein realmente disse isso é debatido. Mas a matemática é real: R$500/mês a 8% se torna R$750.000 em 30 anos. A primeira década parece sem sentido. Mas a última década? Seu dinheiro rende mais do que você jamais colocou.",
+    "action": "Abra uma calculadora. Digite sua idade. Subtraia de 65. Multiplique por 12. É assim que muitos depósitos de R$500 você ainda tem. Comece este mês.",
+    "topic": "money"
+  },
+  {
+    "id": "012",
+    "quote": "A maior glória na vida não está em nunca cair, mas em levantar-se toda vez que caímos.",
+    "author": "Nelson Mandela",
+    "source": "Uma Longa Caminhada até a Liberdade",
+    "story": "Mandela passou 27 anos na prisão. Quando ele saiu livre, não saiu quebrado — ele se tornou presidente. Os guardas que o atormentaram? Ele os convidou para sua posse.",
+    "action": "Pense em sua falha mais recente. Escreva uma lição específica que ela te ensinou e que você não poderia ter aprendido de outra forma.",
+    "topic": "leadership"
+  },
+  {
+    "id": "013",
+    "quote": "Não é que temos pouco tempo para viver, mas que desperdiçamos uma grande parte dele.",
+    "author": "Sêneca",
+    "source": "Sobre a Brevidade da Vida",
+    "story": "Sêneca calculou que um típico nobre romano passava décadas em buscas sem sentido — bajulando políticos, assistindo a banquetes sem propósito, preocupando-se com fofocas. A vida parecia curta não porque realmente fosse, mas porque tão pouco dela era realmente vivido.",
+    "action": "Olhe para o seu relatório de tempo de tela. Quantas horas esta semana foram para conteúdos que você nem consegue lembrar? Esse é tempo que você não viveu.",
+    "topic": "discipline"
+  },
+  {
+    "id": "014",
+    "quote": "O homem que move uma montanha começa carregando pequenas pedras.",
+    "author": "Confúcio",
+    "source": "Analetos",
+    "story": "Um estudante perguntou a Confúcio como reformar um governo corrupto. Confúcio disse: comece sendo honesto em sua própria casa. O estudante queria uma revolução. Confúcio ofereceu algo mais difícil — consistência nas pequenas coisas.",
+    "action": "Escolha a versão mais pequena possível do seu maior objetivo. Você consegue fazer isso em 2 minutos? Faça isso todos os dias esta semana.",
+    "topic": "discipline"
+  },
+  {
+    "id": "015",
+    "quote": "Se você não planejar sua própria vida, é provável que caia no plano de outra pessoa.",
+    "author": "Jim Rohn",
+    "source": "A Arte de Viver Excepcionalmente",
+    "story": "Rohn tinha 25 anos, estava quebrado e envergonhado quando uma escoteira veio à sua porta vendendo biscoitos. Ele queria comprar, mas não tinha dinheiro. Esse momento de vergonha provocou uma completa reformulação de sua vida. Em 6 anos, ele se tornou um milionário.",
+    "action": "Escreva como é a sua terça-feira ideal em 3 anos. Cada detalhe — quando você acorda, no que trabalha, onde come. Agora compare com a terça-feira passada.",
+    "topic": "money"
+  },
+  {
+    "id": "016",
+    "quote": "A única verdadeira sabedoria está em saber que você não sabe de nada.",
+    "author": "Sócrates",
+    "source": "Apologia, via Platão",
+    "story": "Em seu julgamento, Sócrates explicou por que o Oráculo de Delfos o chamou de homem mais sábio de Atenas. Não era porque ele sabia mais — era porque ele era o único honesto o suficiente para admitir o que não sabia. Todos os outros fingiam.",
+    "action": "Na sua próxima conversa, substitua uma afirmação por 'Não sei o suficiente sobre isso — você pode explicar?' Note como a dinâmica muda.",
+    "topic": "relationships"
+  },
+  {
+    "id": "017",
+    "quote": "Aquele que tem um porquê para viver pode suportar quase qualquer como.",
+    "author": "Friedrich Nietzsche",
+    "source": "Crepúsculo dos Ídolos",
+    "story": "Nietzsche escreveu isso enquanto lutava contra uma doença crônica que o deixava acamado por dias. Ele não conseguia controlar seu corpo, mas podia escolher o que seu sofrimento significava. Ele decidiu que era combustível para sua filosofia — e produziu suas maiores obras durante seus piores anos.",
+    "action": "Escreva seu 'porquê' em uma frase. Não um objetivo — uma razão. 'Eu faço isso porque...' Coloque onde você verá todas as manhãs.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "018",
+    "quote": "Preço é o que você paga. Valor é o que você recebe.",
+    "author": "Warren Buffett",
+    "source": "Carta da Berkshire Hathaway de 2008",
+    "story": "Em 2008, enquanto todos entraram em pânico e venderam ações em mínimas históricas, Buffett escreveu uma carta calma aos acionistas e investiu bilhões. Ele viu a mesma crise que todos os outros — mas ele mediu valor, não preço. Em 5 anos, esses investimentos dobraram.",
+    "action": "Antes da sua próxima compra acima de R$250, pergunte: 'Isso vai importar para mim em 6 meses?' Se não, espere 48 horas antes de comprar.",
+    "topic": "money"
+  },
+  {
+    "id": "019",
+    "quote": "O que você faz fala tão alto que eu não consigo ouvir o que você diz.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Cartas e Objetivos Sociais",
+    "story": "Emerson escreveu isso sobre um pregador que falava lindamente sobre caridade, mas vivia de forma extravagante. A congregação lentamente se esvaziou — não porque suas palavras estavam erradas, mas porque sua vida as contradizia. A confiança é construída pelos pés, não pelos lábios.",
+    "action": "Pense em um valor sobre o qual você fala, mas não pratica consistentemente. Tome uma ação concreta hoje que esteja alinhada com isso.",
+    "topic": "leadership"
+  },
+  {
+    "id": "020",
+    "quote": "Não perca mais tempo discutindo sobre o que um homem bom deve ser. Seja um.",
+    "author": "Mármore Aurélio",
+    "source": "Meditações, Livro X",
+    "story": "Aurélio escreveu isso como um lembrete para si mesmo após passar um dia em debate filosófico com seus conselheiros. Horas discutindo sobre virtude — enquanto do lado de fora, pessoas precisavam de ajuda. Ele fechou seu diário e foi trabalhar.",
+    "action": "Pare de ler sobre produtividade, fitness ou autoaperfeiçoamento por hoje. Em vez disso, faça a única coisa que você já sabe que deveria estar fazendo.",
+    "topic": "discipline"
+  },
+  {
+    "id": "021",
+    "quote": "A ferida é o lugar onde a luz entra em você.",
+    "author": "Rumi",
+    "source": "Poemas Selecionados",
+    "story": "Rumi se tornou um dos maiores poetas da história apenas após perder seu amigo mais próximo, Shams. A dor o despedaçou de tal forma que a poesia jorrou das fendas. Ele escreveu 70.000 versos — cada um nascido da perda.",
+    "action": "Pense em seu maior revés. Anote uma força, percepção ou relacionamento que só existe por causa dessa dor.",
+    "topic": "relationships"
+  },
+  {
+    "id": "022",
+    "quote": "A melhor vingança é não ser como seu inimigo.",
+    "author": "Mármore Aurélio",
+    "source": "Meditações, Livro VI",
+    "story": "Um conselheiro instou Aurélio a executar brutalmente um general rebelde, como um aviso. Aurélio o perdoou em vez disso. O general, atônito pela misericórdia, tornou-se um dos comandantes mais leais de Roma. A crueldade teria criado um mártir; a graça criou um aliado.",
+    "action": "Pense em alguém que te fez mal. Em vez de fantasiar sobre vingança, pergunte: como posso responder de uma maneira que me faça sentir orgulhoso?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "023",
+    "quote": "Não temo o homem que praticou 10.000 chutes uma vez, mas o homem que praticou um chute 10.000 vezes.",
+    "author": "Bruce Lee",
+    "source": "Atribuído",
+    "story": "O parceiro de treino de Lee uma vez exibiu dezenas de técnicas chamativas. Lee observou, então lançou um soco — seu direto — mais rápido do que o olho podia seguir. Ele havia lançado aquele mesmo soco centenas de milhares de vezes. A simplicidade, dominada, é imparável.",
+    "action": "Identifique a única habilidade que mais importa no seu trabalho. Dedique 20 minutos focados nela hoje — não aprendendo algo novo, mas aprimorando o que você já sabe.",
+    "topic": "discipline"
+  },
+  {
+    "id": "024",
+    "quote": "Todo mundo pensa em mudar o mundo, mas ninguém pensa em mudar a si mesmo.",
+    "author": "Liev Tolstói",
+    "source": "Três Métodos de Reforma",
+    "story": "Tolstói era um aristocrata rico que pregava a simplicidade. Sua esposa certa vez o encontrou dando o dinheiro da família para camponeses enquanto seus próprios filhos ficavam sem. A contradição o torturava — e se tornou sua maior percepção: a reforma começa de dentro para fora.",
+    "action": "Nomeie uma coisa que você quer que os outros mudem. Agora inverta: onde você faz exatamente a mesma coisa, apenas de uma forma diferente?",
+    "topic": "relationships"
+  },
+  {
+    "id": "025",
+    "quote": "Não ore por uma vida fácil; ore pela força para suportar uma difícil.",
+    "author": "Bruce Lee",
+    "source": "Pensamentos Impactantes",
+    "story": "Lee foi informado de que nunca mais andaria após uma grave lesão nas costas em 1970. Durante meses na cama, ele não orou por cura — ele projetou novos sistemas de treinamento, escreveu filosofia e planejou seu retorno. Ele voltou mais forte do que antes.",
+    "action": "Substitua uma reclamação hoje por uma ação. Em vez de 'isso é muito difícil', pergunte 'o que eu precisaria aprender para tornar isso mais fácil?'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "026",
+    "quote": "O homem mais rico não é aquele que tem mais, mas aquele que precisa menos.",
+    "author": "Desconhecido",
+    "source": "Provérbio antigo",
+    "story": "Um bilionário visitou uma vila remota e conheceu um velho pescador. 'O que você faz o dia todo?' O pescador respondeu: 'Eu pesco de manhã, cochilo à tarde, brinco com meus netos ao pôr do sol.' O bilionário percebeu que estava construindo um império para alcançar o que esse homem já tinha.",
+    "action": "Liste 5 coisas que você acha que precisa para ser feliz. Risque qualquer uma que você poderia realmente viver sem. Quantas sobraram?",
+    "topic": "money"
+  },
+  {
+    "id": "027",
+    "quote": "Antes de falar, deixe suas palavras passarem por três portões: É verdade? É necessário? É gentil?",
+    "author": "Rumi",
+    "source": "Atribuído",
+    "story": "Um comerciante veio até Rumi, ansioso para compartilhar fofocas sobre um amigo em comum. Rumi levantou a mão e fez essas três perguntas. O comerciante falhou em todas as três. 'Então, por que você nos sobrecarregaria com isso?' Rumi respondeu. O comerciante nunca mais fofocou.",
+    "action": "Antes de enviar sua próxima mensagem ou e-mail, faça uma pausa e passe-a pelos três portões. Edite ou exclua o que não passar.",
+    "topic": "relationships"
+  },
+  {
+    "id": "028",
+    "quote": "A sorte é o que acontece quando a preparação encontra a oportunidade.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio",
+    "story": "Um jovem romano perguntou a Sêneca por que alguns homens pareciam perpetuamente sortudos. Sêneca apontou para um gladiador treinando na arena abaixo: 'Observe-o. Ele pratica 8 horas por dia para uma luta que dura 8 minutos. Quando o momento chega, seu corpo sabe o que fazer. Isso é o que você chama de sorte.'",
+    "action": "Identifique uma oportunidade que você adoraria ter. Agora pergunte: se ela aparecesse amanhã, estou pronto? Qual é a lacuna? Feche-a esta semana.",
+    "topic": "money"
+  },
+  {
+    "id": "029",
+    "quote": "O segredo da mudança é focar toda a sua energia não em lutar contra o antigo, mas em construir o novo.",
+    "author": "Sócrates",
+    "source": "Caminho do Guerreiro Pacífico (Dan Millman)",
+    "story": "Um aluno disse a Sócrates que queria parar de ser preguiçoso. Sócrates não lhe deu dicas de disciplina. Ele perguntou: 'O que te entusiasma tanto que você pularia da cama por isso?' A solução para maus hábitos não é força de vontade — é substituí-los por algo atraente.",
+    "action": "Em vez de tentar 'parar' um mau hábito hoje, comece uma nova atividade que naturalmente preencha o mesmo horário. O que você gostaria de fazer em vez disso?",
+    "topic": "discipline"
+  },
+  {
+    "id": "030",
+    "quote": "No meio da dificuldade está a oportunidade.",
+    "author": "Albert Einstein",
+    "source": "Atribuído",
+    "story": "Quando Einstein foi negado um cargo acadêmico após seu doutorado, ele aceitou um trabalho como funcionário de patentes. O trabalho monótono deu liberdade à sua mente para divagar. Nessa 'falha', ele desenvolveu a relatividade especial, o efeito fotoelétrico e o movimento browniano — tudo em um ano.",
+    "action": "Olhe para sua maior frustração atual. Escreva: 'Por causa deste problema, agora tenho a chance de...' e termine a frase honestamente.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "031",
+    "quote": "Dê-me seis horas para derrubar uma árvore e eu passarei as primeiras quatro afiando o machado.",
+    "author": "Abraham Lincoln",
+    "source": "Atribuído",
+    "story": "Lincoln era um advogado de fronteira que se preparava obsessivamente para os julgamentos. Enquanto os advogados opositores reuniam testemunhas, Lincoln estudava o temperamento do juiz e o histórico do júri. Ele frequentemente ganhava casos antes de dizer uma palavra — porque entendia o ambiente antes de entrar nele.",
+    "action": "Antes de começar sua próxima grande tarefa, passe 25% do tempo planejado apenas se preparando: organizando ferramentas, esclarecendo objetivos, removendo distrações.",
+    "topic": "discipline"
+  },
+  {
+    "id": "032",
+    "quote": "As pessoas não se importam com o quanto você sabe até saberem o quanto você se importa.",
+    "author": "Teodoro Roosevelt",
+    "source": "Atribuído",
+    "story": "Roosevelt foi baleado no peito durante um discurso em 1912. A bala ficou alojada perto de seu pulmão, mas ele se recusou a sair. Ele falou por mais 90 minutos, sangrando pela camisa. 'É preciso mais do que uma bala para matar um alce bravo', disse ele. A multidão não se lembrou de seus pontos de política. Eles lembraram que ele se importava o suficiente para ficar.",
+    "action": "Envie uma mensagem para alguém com quem você não fala há meses. Não pedindo nada — apenas 'Estava pensando em você. Como você está?'",
+    "topic": "leadership"
+  },
+  {
+    "id": "033",
+    "quote": "Saber não é suficiente; devemos aplicar. Querer não é suficiente; devemos fazer.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Os Anos de Aprendiz de Wilhelm Meister",
+    "story": "Goethe foi um polímata que estudou direito, ciência, arte e literatura. Mas ele percebeu que os acadêmicos mais conhecedores eram frequentemente os menos eficazes. Eles sabiam de tudo e não faziam nada. Enquanto isso, comerciantes com metade de seu conhecimento construíam impérios através da ação.",
+    "action": "Abra o aplicativo de notas. Encontre uma boa ideia que você salvou há mais de um mês, mas nunca agiu sobre ela. Faça algo a respeito hoje — mesmo que seja um pequeno passo.",
+    "topic": "discipline"
+  },
+  {
+    "id": "034",
+    "quote": "Seja gentil, pois todos que você encontra estão lutando uma batalha difícil.",
+    "author": "Ian Maclaren",
+    "source": "Atribuído",
+    "story": "Maclaren era um pastor escocês que percebeu que os paroquianos mais difíceis — os irritados, os frios, os reclusos — eram sempre aqueles que carregavam a maior dor. O homem mais cruel da cidade havia acabado de perder sua filha. O comportamento é muitas vezes uma armadura, não uma identidade.",
+    "action": "Pense em alguém que te irritou recentemente. Imagine uma possível luta que essa pessoa pode estar enfrentando e que você não conhece. Isso muda como você se sente?",
+    "topic": "relationships"
+  },
+  {
+    "id": "035",
+    "quote": "Se você quer ir rápido, vá sozinho. Se você quer ir longe, vá junto.",
+    "author": "Provérbio Africano",
+    "source": "Sabedoria Tradicional",
+    "story": "Um fundador de startup de tecnologia se esgotou após trabalhar sozinho por dois anos. A receita era razoável, mas o crescimento havia estagnado. Ele finalmente contratou uma pessoa — não por suas habilidades, mas por seu julgamento. Em seis meses, o negócio triplicou. Não porque duas pessoas fizessem mais trabalho, mas porque as decisões melhoraram.",
+    "action": "Identifique uma área onde você está teimosamente fazendo tudo sozinho. Quem você poderia pedir ajuda esta semana? Não delegar — colaborar.",
+    "topic": "leadership"
+  },
+  {
+    "id": "036",
+    "quote": "A felicidade da sua vida depende da qualidade dos seus pensamentos.",
+    "author": "Március Aurélio",
+    "source": "Meditações, Livro V",
+    "story": "Aurélio mantinha um diário de pensamentos — não um diário de eventos, mas de padrões mentais. Ele acompanhava quais pensamentos levavam à paz e quais à dor. Ao longo dos anos, ele treinou sua mente como um atleta treina músculos. Não lutando contra pensamentos ruins, mas cultivando deliberadamente os melhores.",
+    "action": "Antes de dormir esta noite, escreva 3 pensamentos que você teve hoje que te fizeram sentir pior. Reformule cada um para que seja mais preciso (não positivo — preciso).",
+    "topic": "stoicism"
+  },
+  {
+    "id": "037",
+    "quote": "Renda anual vinte libras, despesa anual dezenove libras, resultado: felicidade. Renda anual vinte libras, despesa anual vinte e uma libras, resultado: miséria.",
+    "author": "Charles Dickens",
+    "source": "David Copperfield",
+    "story": "Dickens escreveu a partir da experiência. Seu pai foi preso por dívidas quando Charles tinha 12 anos. Os gastos da família excediam a renda em apenas algumas xelins. Essa pequena margem destruiu tudo. Dickens nunca esqueceu: a diferença entre segurança e ruína é menor do que você pensa.",
+    "action": "Verifique se você gastou mais ou menos do que ganhou no mês passado. Se mais — mesmo que seja R$50 — encontre uma assinatura ou hábito para cortar esta semana.",
+    "topic": "money"
+  },
+  {
+    "id": "038",
+    "quote": "É a marca de uma mente educada entreter um pensamento sem aceitá-lo.",
+    "author": "Aristóteles",
+    "source": "Ética a Nicômaco",
+    "story": "Aristóteles debateu com defensores da Terra plana, místicos e extremistas políticos — não para concordar, mas para entender. Seus alunos ficaram chocados ao ver que ele passava horas explorando ideias que considerava absurdas. 'Como mais eu saberei onde estão as falhas no meu próprio pensamento?' ele respondia.",
+    "action": "Encontre um artigo de opinião com o qual você discorde fortemente. Leia tudo. Anote o ponto mais forte que o autor apresenta — mesmo que você ainda discorde no geral.",
+    "topic": "relationships"
+  },
+  {
+    "id": "039",
+    "quote": "As dificuldades fortalecem a mente, assim como o trabalho fortalece o corpo.",
+    "author": "Sêneca",
+    "source": "Cartas Morais, Carta 78",
+    "story": "Sêneca foi exilado para a Córsega por 8 anos — despojado de riqueza, status e conforto. Em vez de se quebrar, ele escreveu suas maiores obras filosóficas lá. Quando finalmente foi chamado de volta a Roma, ele estava mais afiado, calmo e sábio do que o homem que havia sido banido.",
+    "action": "Pense em algo difícil que você está enfrentando agora. Reenquadre: 'Isso está me treinando para me tornar alguém que pode lidar com...' e termine a frase.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "040",
+    "quote": "Os dois dias mais importantes da sua vida são o dia em que você nasce e o dia em que descobre o porquê.",
+    "author": "Mark Twain",
+    "source": "Atribuído",
+    "story": "Twain descobriu seu 'porquê' acidentalmente. Depois de falhar como minerador, soldado e empresário, ele escreveu uma carta humorística para um jornal. A resposta foi avassaladora. Ele estava fugindo de seu dom enquanto buscava respeitabilidade.",
+    "action": "Complete esta frase sem pensar muito: 'A atividade onde eu perco a noção do tempo é...' Essa é uma pista para o seu 'porquê.'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "041",
+    "quote": "O dinheiro é um mestre terrível, mas um excelente servo.",
+    "author": "P.T. Barnum",
+    "source": "A Arte de Ganhar Dinheiro",
+    "story": "Barnum faliu duas vezes. A primeira vez o destruiu — ele deixou o dinheiro se tornar sua identidade. Na segunda vez, ele o tratou como uma ferramenta, reconstruiu de forma metódica e se tornou mais rico do que antes. A mesma pessoa, as mesmas habilidades — uma relação diferente com o dinheiro.",
+    "action": "Olhe para suas últimas 10 despesas. Classifique cada uma: 'mestre' (comprado por ansiedade/impulso) ou 'servo' (deliberado, alinhado com os objetivos). Qual coluna é mais longa?",
+    "topic": "money"
+  },
+  {
+    "id": "042",
+    "quote": "A medida de um homem é o que ele faz com o poder.",
+    "author": "Platão",
+    "source": "A República",
+    "story": "Platão propôs um experimento mental: se você tivesse um anel que o tornasse invisível, o que você faria? A maioria das pessoas disse que roubaria, espionaria ou trapacearia. Platão argumentou que uma pessoa verdadeiramente boa agiria da mesma forma com ou sem o anel. O caráter é quem você é quando ninguém está olhando.",
+    "action": "Pense em uma situação onde você tem poder sobre alguém — um funcionário, um parceiro, até mesmo um garçom. Você está tratando essa pessoa da mesma forma que trataria se os papéis fossem invertidos?",
+    "topic": "leadership"
+  },
+  {
+    "id": "043",
+    "quote": "Tudo pode ser tirado de um homem, exceto uma coisa: a última das liberdades humanas — escolher a própria atitude em qualquer conjunto de circunstâncias.",
+    "author": "Viktor Frankl",
+    "source": "Em Busca de Sentido",
+    "story": "Em Auschwitz, Frankl observou que a sobrevivência não estava correlacionada com a força física. Os mais fortes muitas vezes morriam primeiro, devastados pela perda da esperança. Aqueles que encontraram significado — cuidando de outro prisioneiro, mantendo um propósito — suportaram o inimaginável.",
+    "action": "Descreva seu maior desafio atual em uma frase. Agora reescreva começando com 'Eu escolho...' em vez de 'Eu tenho que...' Sinta a diferença?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "044",
+    "quote": "A única maneira de fazer um grande trabalho é amar o que você faz.",
+    "author": "Steve Jobs",
+    "source": "Formatura de Stanford, 2005",
+    "story": "Jobs foi demitido da Apple aos 30 anos — a empresa que ele construiu. Ele chamou isso de devastador, mas depois disse que isso o libertou. Ele fundou a NeXT e a Pixar, se apaixonou novamente pela criação e voltou para a Apple para construir o iPhone. Ser demitido removeu a obrigação; o que restou foi a paixão.",
+    "action": "Avalie seu trabalho atual de 1 a 10 em termos de prazer. Se for abaixo de 6, qual é o único elemento que você poderia mudar ou adicionar para aumentar em 2 pontos?",
+    "topic": "money"
+  },
+  {
+    "id": "045",
+    "quote": "Ser você mesmo em um mundo que está constantemente tentando fazer de você algo diferente é a maior conquista.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Autoconfiança",
+    "story": "Emerson pediu demissão de seu emprego como ministro porque não conseguia fingir acreditar em doutrinas que duvidava. Sua família ficou horrorizada. A sociedade o julgou. Mas a decisão o libertou para escrever ensaios que influenciaram Lincoln, Thoreau e milhões desde então.",
+    "action": "Identifique uma coisa que você faz regularmente para se encaixar, mas que na verdade não acredita ou não gosta. O que aconteceria se você parasse? A consequência é real ou imaginária?",
+    "topic": "relationships"
+  },
+  {
+    "id": "046",
+    "quote": "A primeira regra da composição: nunca interrompa-a desnecessariamente.",
+    "author": "Charlie Munger",
+    "source": "Reunião de Acionistas da Berkshire Hathaway",
+    "story": "Munger observou incontáveis investidores venderem ações vencedoras para 'garantir lucros' — e depois ver essas ações dobrarem, triplicarem, quadruplicarem. O impulso de agir parece produtivo. Mas, em investimentos e no desenvolvimento de habilidades, o verdadeiro dinheiro é feito por aqueles que têm paciência suficiente para permanecer parados.",
+    "action": "Nomeie uma área da sua vida onde você continua 'começando de novo' — fitness, economia, um projeto. Comprometa-se a não reiniciar por 90 dias, não importa o que aconteça.",
+    "topic": "money"
+  },
+  {
+    "id": "047",
+    "quote": "O mundo quebra todos, e depois, muitos são fortes nos lugares quebrados.",
+    "author": "Ernest Hemingway",
+    "source": "Adeus às Armas",
+    "story": "Hemingway quase foi morto por um projétil de morteiro na Primeira Guerra Mundial aos 18 anos. Mais de 200 fragmentos de estilhaços ficaram presos em suas pernas. Ele passou meses em uma cama de hospital. Essa experiência — a aleatoriedade da morte, a fragilidade do corpo — se tornou a base de tudo o que ele escreveu.",
+    "action": "Onde você foi quebrado? Não metaforicamente — especificamente. O que essa quebra te ensinou que nada mais poderia?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "048",
+    "quote": "Uma pessoa que nunca cometeu um erro nunca tentou nada novo.",
+    "author": "Albert Einstein",
+    "source": "Atribuído",
+    "story": "O primeiro grande artigo de Einstein continha um erro matemático que levou três anos para ser corrigido. Seus colegas zombaram dele. Ele não se importou. Ele publicou mais rápido do que qualquer um na física porque entendeu: erros são a mensalidade que você paga pela descoberta.",
+    "action": "Qual é algo que você tem evitado porque pode falhar? Diminua as expectativas: experimente hoje sem esperar qualidade. Apenas tente.",
+    "topic": "discipline"
+  },
+  {
+    "id": "049",
+    "quote": "Fale apenas se isso melhorar o silêncio.",
+    "author": "Mahatma Gandhi",
+    "source": "Atribuído",
+    "story": "Durante negociações críticas com os britânicos, Gandhi uma vez ficou em completo silêncio por uma hora enquanto seu oponente falava. O inglês, nervoso, fez concessão após concessão para preencher o vazio. Gandhi entendeu: silêncio não é ausência — é pressão.",
+    "action": "Na sua próxima conversa, tente pausar 3 segundos antes de responder toda vez. Perceba como as pessoas se inclinam. O silêncio convida à profundidade.",
+    "topic": "relationships"
+  },
+  {
+    "id": "050",
+    "quote": "Visão sem execução é alucinação.",
+    "author": "Thomas Edison",
+    "source": "Atribuído",
+    "story": "Edison não apenas imaginou a lâmpada — ele testou 6.000 materiais para o filamento. Seis mil. Repórteres perguntaram se ele se sentia um fracasso após 5.000 tentativas fracassadas. Ele disse: 'Eu não falhei. Eu descobri 5.000 coisas que não funcionam.' A visão foi a parte fácil.",
+    "action": "Pegue sua maior ideia ou sonho. Escreva a próxima ação física necessária — não 'pesquisar', não 'pensar sobre isso.' Um verbo com um objeto. Faça isso hoje.",
+    "topic": "leadership"
+  },
+  {
+    "id": "051",
+    "quote": "Amor fati — ame seu destino.",
+    "author": "Friedrich Nietzsche",
+    "source": "Ecce Homo",
+    "story": "Nietzsche não quis dizer 'aceite' seu destino. Ele quis dizer ame-o — a dor, o fracasso, tudo isso. Porque cada momento, mesmo os piores, fez de você exatamente quem você é. Desejar apagar seu passado significa desejar apagar a si mesmo.",
+    "action": "Escolha a pior coisa que aconteceu com você no ano passado. Escreva 3 coisas que são verdadeiras agora apenas porque isso aconteceu.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "052",
+    "quote": "Não conte os dias, faça os dias contarem.",
+    "author": "Muhammad Ali",
+    "source": "Entrevista, 1975",
+    "story": "Ali disse isso enquanto treinava para o Thrilla in Manila — uma das lutas mais brutais da história do boxe. Seus treinadores contavam as rodadas e as milhas. Ali contava o propósito. Cada soco, cada corrida tinha uma intenção por trás. Não apenas acumulação — significado.",
+    "action": "Hoje à noite, antes de dormir, responda: o dia de hoje contou? Se não, qual uma coisa amanhã faria você dizer 'sim'?",
+    "topic": "discipline"
+  },
+  {
+    "id": "053",
+    "quote": "O homem que faz uma pergunta é um tolo por um minuto, o homem que não pergunta é um tolo por toda a vida.",
+    "author": "Confúcio",
+    "source": "Analectos",
+    "story": "Um ministro sênior se recusou a pedir a opinião de conselheiros mais jovens, temendo que isso o fizesse parecer fraco. Em um ano, seu departamento colapsou devido a estratégias ultrapassadas. Enquanto isso, um oficial júnior que constantemente fazia 'perguntas estúpidas' subiu para substituí-lo — porque suas perguntas revelavam o que todos os outros perderam.",
+    "action": "Pense em algo que você finge entender, mas não entende. Peça a alguém para explicar isso hoje. Os 60 segundos de desconforto economizam anos de ignorância.",
+    "topic": "relationships"
+  },
+  {
+    "id": "054",
+    "quote": "A comparação é o ladrão da alegria.",
+    "author": "Teodoro Roosevelt",
+    "source": "Atribuído",
+    "story": "Roosevelt era uma criança doente que mal conseguia subir escadas. Em vez de se comparar com colegas atléticos, ele competia apenas com a versão de si mesmo do dia anterior. Aos 20 anos, ele estava boxeando em Harvard. Aos 42, liderava charges de cavalaria. Seu único parâmetro era seu próprio passado.",
+    "action": "Abra o Instagram ou o LinkedIn. Encontre a postagem que fez você se sentir pior sobre si mesmo hoje. Pergunte: 'Estou comparando o destaque deles com os bastidores da minha vida?'",
+    "topic": "relationships"
+  },
+  {
+    "id": "055",
+    "quote": "Regra nº 1: Nunca perca dinheiro. Regra nº 2: Nunca se esqueça da Regra nº 1.",
+    "author": "Warren Buffett",
+    "source": "Carta aos Acionistas da Berkshire Hathaway",
+    "story": "A primeira regra de Buffett não é sobre ganância — é sobre sobrevivência. Ele viu inúmeros investidores inteligentes se destruírem porque perseguiam ganhos sem se proteger contra perdas. Sua abordagem chata e segura o tornou o investidor mais rico vivo. A empolgação é cara.",
+    "action": "Revise seus compromissos financeiros. Há uma despesa ou investimento em que você está arriscando mais do que pode perder? Corrija isso esta semana.",
+    "topic": "money"
+  },
+  {
+    "id": "056",
+    "quote": "O que está atrás de nós e o que está à nossa frente são questões pequenas comparadas ao que está dentro de nós.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Autoconfiança",
+    "story": "Emerson escreveu isso após perder sua primeira esposa, seu irmão e quase sua própria saúde — tudo em poucos anos. Ele poderia ter sido definido pela perda. Em vez disso, ele argumentou que os recursos internos — caráter, vontade, perspectiva — sempre superam as circunstâncias externas.",
+    "action": "Escreva um problema externo que está consumindo seus pensamentos. Abaixo dele, liste 3 forças internas que você pode aplicar a isso agora mesmo.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "057",
+    "quote": "O sucesso não é definitivo, o fracasso não é fatal: é a coragem de continuar que conta.",
+    "author": "Winston Churchill",
+    "source": "Atribuído",
+    "story": "Churchill foi destituído do cargo em 1945, imediatamente após vencer a Segunda Guerra Mundial. O homem que salvou a Grã-Bretanha foi rejeitado pela Grã-Bretanha. Ele não se aposentou amargurado. Ele escreveu, pintou e planejou — e então retornou como Primeiro-Ministro em 1951. Nem a vitória nem a derrota foram o fim.",
+    "action": "Nomeie sua maior conquista recente e seu maior fracasso recente. Agora perceba: a vida continuou normalmente após ambos. Nenhum deles definiu você.",
+    "topic": "leadership"
+  },
+  {
+    "id": "058",
+    "quote": "A única pessoa que você está destinado a se tornar é a pessoa que você decide ser.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Autoconfiança",
+    "story": "Um jovem perguntou a Emerson se a história de pobreza de sua família significava que ele estava 'destinado' a ser pobre. Emerson respondeu com uma pergunta: 'Se eu dissesse que você está destinado a ser rico, você pararia de trabalhar?' Destino é apenas uma história. Decisão é uma ação.",
+    "action": "Esqueça previsões, tipos de personalidade e horóscopos para hoje. Escreva: 'Estou me tornando alguém que...' e complete com algo que você realmente deseja.",
+    "topic": "discipline"
+  },
+  {
+    "id": "059",
+    "quote": "Um navio no porto é seguro, mas não é para isso que os navios foram construídos.",
+    "author": "John A. Shedd",
+    "source": "Sal do Meu Sótão",
+    "story": "Em 1912, o ano em que o Titanic afundou, milhares de pessoas cancelaram travessias oceânicas por medo. Mas os navios parados nos portos apodreciam mais rápido do que aqueles no mar — a água salgada em movimento preserva, a água parada corrói. A segurança nem sempre é segura.",
+    "action": "Qual é o seu 'porto' — a escolha segura à qual você está se agarrando? Como seria deixá-lo? Você não precisa sair hoje — apenas nomeie-o.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "060",
+    "quote": "O tempo é mais valioso do que o dinheiro. Você pode conseguir mais dinheiro, mas não pode conseguir mais tempo.",
+    "author": "Jim Rohn",
+    "source": "7 Estratégias para Riqueza e Felicidade",
+    "story": "Rohn uma vez calculou que um trabalhador que ganha R$20/hora e desperdiça 2 horas diárias em atividades de baixo valor perde R$14.600/ano. Não em dinheiro — em valor de tempo. Ao longo de uma carreira, isso equivale a quase meio milhão de reais de potencial trocado por nada memorável.",
+    "action": "Acompanhe seu tempo hoje em blocos de 30 minutos. Esta noite, rotule cada bloco: 'investido' ou 'gasto.' Qual é a proporção?",
+    "topic": "money"
+  },
+  {
+    "id": "061",
+    "quote": "A coragem não é a ausência do medo, mas o triunfo sobre ele.",
+    "author": "Nelson Mandela",
+    "source": "Autobiografia",
+    "story": "Mandela admitiu que estava aterrorizado durante seu julgamento, enfrentando a possível execução. Ele não fingiu ser destemido — ele escolheu agir apesar do medo. Os juízes viram um homem tremendo, mas falando a verdade. A verdadeira coragem é visível precisamente porque o medo também é visível.",
+    "action": "Nomeie uma coisa que você tem medo de fazer esta semana. Agora comprometa-se a fazê-la mesmo com medo. Não espere o medo passar — ele não vai.",
+    "topic": "discipline"
+  },
+  {
+    "id": "062",
+    "quote": "A arte de ser sábio é a arte de saber o que ignorar.",
+    "author": "William James",
+    "source": "Princípios de Psicologia",
+    "story": "James estudou a atenção por décadas e concluiu que a inteligência não se trata de processar mais — trata-se de ignorar mais. As pessoas mais inteligentes que ele observou compartilhavam uma característica: eram implacáveis sobre o que não prestavam atenção.",
+    "action": "Liste as 5 coisas que estão competindo pela sua atenção agora. Risque as 3 que importam menos. Foque apenas nas 2 restantes hoje.",
+    "topic": "leadership"
+  },
+  {
+    "id": "063",
+    "quote": "Quando você se levanta pela manhã, pense no privilégio que é estar vivo — pensar, desfrutar, amar.",
+    "author": "Március Aurélio",
+    "source": "Meditações, Livro II",
+    "story": "Aurélio escreveu isso como uma meditação matinal. Ele acordava antes do amanhecer — o imperador de Roma — e se lembrava de que hoje poderia ser seu último dia. Não de forma mórbida. Com gratidão. Essa consciência tornava cada conversa mais aguda, cada refeição mais doce, cada hora mais intencional.",
+    "action": "Na manhã de amanhã, antes de verificar seu telefone, respire 3 vezes e nomeie uma coisa pela qual você é genuinamente grato. Faça isso por 7 dias seguidos.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "064",
+    "quote": "Invista em si mesmo. Sua carreira é o motor da sua riqueza.",
+    "author": "Paul Clitheroe",
+    "source": "Fazendo Dinheiro de Forma Simples",
+    "story": "Um operário de fábrica gastou R$200 em um curso noturno de contabilidade. Seus colegas riram. Em 2 anos, ele havia se mudado do chão de fábrica para o escritório. Em 5 anos, ele estava gerenciando orçamentos maiores do que seu antigo salário anual. O curso de R$200 retornou 10.000% — nenhuma ação jamais igualou isso.",
+    "action": "Qual é uma habilidade que te tornaria 20% mais valioso na sua área? Encontre um livro, curso ou mentor para isso esta semana. Orçamento: até R$250.",
+    "topic": "money"
+  },
+  {
+    "id": "065",
+    "quote": "A verdadeira integridade é fazer a coisa certa, sabendo que ninguém vai saber se você fez ou não.",
+    "author": "Oprah Winfrey",
+    "source": "Discurso de formatura, 2008",
+    "story": "Antes de se tornar famosa, Winfrey era uma âncora de notícias local que se recusou a sensationalizar uma história sobre um incêndio em uma casa que matou crianças. Seu produtor ameaçou demiti-la. Mesmo assim, ela exibiu a história com dignidade. Ninguém se lembra do nome do produtor.",
+    "action": "Faça uma boa ação hoje que ninguém jamais saberá. Sem postagens, sem menções. Sinta o que te motiva quando o reconhecimento é impossível.",
+    "topic": "leadership"
+  },
+  {
+    "id": "066",
+    "quote": "Quanto mais você sua no treinamento, menos você sangra em combate.",
+    "author": "Richard Marcinko",
+    "source": "Guerreiro Rebelde",
+    "story": "Marcinko fundou a SEAL Team Six e era infame por tornar o treinamento mais difícil do que as missões reais. Seus homens o xingavam durante os exercícios. Mas em combate, enquanto outras unidades congelavam, suas equipes se moviam com uma calma estranha. Eles já haviam sobrevivido a coisas piores — na prática.",
+    "action": "Identifique o cenário mais difícil em seu trabalho ou vida. Agora simule-o: pratique a apresentação na frente de um espelho, ensaie a conversa difícil, faça as contas para o pior cenário.",
+    "topic": "discipline"
+  },
+  {
+    "id": "067",
+    "quote": "Você pode facilmente julgar o caráter de um homem pela maneira como ele trata aqueles que não podem fazer nada por ele.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Atribuído",
+    "story": "Goethe uma vez observou um nobre ser encantador com um príncipe e cruel com um servo na mesma minuto. Ele escreveu em seu diário: 'Acabei de ver o caráter inteiro de um homem revelado em duas frases — uma falada para cima, uma falada para baixo.'",
+    "action": "Preste atenção em como você trata as próximas 3 pessoas que não podem te beneficiar — um caixa, um estranho, um colega júnior. É diferente de como você trata seu chefe?",
+    "topic": "relationships"
+  },
+  {
+    "id": "068",
+    "quote": "O homem sábio faz de imediato o que o tolo faz finalmente.",
+    "author": "Niccolò Maquiavel",
+    "source": "O Príncipe",
+    "story": "Maquiavel observou que a maioria dos líderes esperava até que crises forçassem sua ação — então agiam em pânico. O raro governante eficaz lidava com os problemas quando ainda eram pequenos e gerenciáveis. A mesma ação, feita cedo, custa 10% do que custa tarde.",
+    "action": "Qual pequeno problema você tem ignorado, esperando que ele se resolva por conta própria? Resolva-o nas próximas 24 horas. Vai levar 15 minutos agora ou 15 horas depois.",
+    "topic": "leadership"
+  },
+  {
+    "id": "069",
+    "quote": "Seu patrimônio líquido para o mundo é geralmente determinado pelo que resta depois que seus maus hábitos são subtraídos dos seus bons.",
+    "author": "Benjamin Franklin",
+    "source": "Almanaque do Pobre Ricardo",
+    "story": "Franklin acompanhava 13 virtudes em um cartão de pontuação diário — marcando cada falha. Ele nunca obteve uma pontuação perfeita. Mas ao longo das décadas, sua proporção melhorou constantemente. Ele não eliminou os maus hábitos; ele simplesmente garantiu que os bons superassem os maus. A matemática trabalhava a seu favor.",
+    "action": "Desenhe duas colunas: bons hábitos diários, maus hábitos diários. Conte cada um. Seu objetivo não é a perfeição — é fazer a coluna da esquerda ser mais longa que a da direita.",
+    "topic": "discipline"
+  },
+  {
+    "id": "070",
+    "quote": "A solidão não vem de não ter pessoas ao seu redor, mas de não conseguir comunicar as coisas que parecem importantes para você.",
+    "author": "Carl Jung",
+    "source": "Memórias, Sonhos, Reflexões",
+    "story": "Jung esteve cercado por colegas, alunos e pacientes durante toda a sua carreira. No entanto, ele descreveu uma profunda solidão — não por isolamento, mas por ter ideias que ninguém entendia. Quando finalmente escreveu seus pensamentos mais profundos no Livro Vermelho, não contou a ninguém por décadas. Ser ouvido é mais importante do que estar perto.",
+    "action": "Pense em uma coisa que você sente, mas não contou a ninguém. Mande uma mensagem ou ligue para uma pessoa de confiança hoje e compartilhe isso. Não para pedir conselhos — apenas para ser ouvido.",
+    "topic": "relationships"
+  },
+  {
+    "id": "071",
+    "quote": "Disciplina é igual a liberdade.",
+    "author": "Jocko Willink",
+    "source": "Disciplina é Igual a Liberdade",
+    "story": "Willink comandou uma unidade SEAL em Ramadi. Ele acordava às 4:30 da manhã todos os dias — não porque amasse as manhãs, mas porque a disciplina de acordar cedo lhe dava horas que ninguém poderia interromper. Essas horas se tornaram seu espaço para pensar, treinar e planejar. A estrutura criou a liberdade que outros buscavam através do caos.",
+    "action": "Ajuste seu despertador para 30 minutos mais cedo amanhã. Use esse tempo para uma coisa que importa para você — não e-mail, não notícias. Sua coisa.",
+    "topic": "discipline"
+  },
+  {
+    "id": "072",
+    "quote": "Você nunca alcançará seu destino se parar e jogar pedras em cada cachorro que late.",
+    "author": "Winston Churchill",
+    "source": "Atribuído",
+    "story": "Churchill recebeu milhares de cartas de ódio, insultos no Parlamento e ataques pessoais em jornais. Sua secretária perguntou como ele lidava com isso. 'Eu simplesmente não lido,' respondeu Churchill. 'Não tenho tempo. Estou bastante ocupado salvando a civilização.'",
+    "action": "Que crítica ou conflito tem consumido sua energia mental? Decida agora: responder ou liberar. Se não vai importar em 5 anos, libere.",
+    "topic": "leadership"
+  },
+  {
+    "id": "073",
+    "quote": "O objetivo não é ser melhor do que o outro homem, mas sim do que você mesmo era antes.",
+    "author": "Dalai Lama",
+    "source": "A Arte da Felicidade",
+    "story": "Um estudante perguntou ao Dalai Lama como lidar com colegas que eram mais bem-sucedidos. Ele riu: 'Você está competindo com 8 bilhões de pessoas? Isso parece exaustivo. Compita com uma — você mesmo de ontem. Essa é uma competição justa.'",
+    "action": "Escreva uma coisa que você pode fazer hoje que o você de ontem não pôde (ou não quis). Pode ser algo pequeno. Isso é uma vitória.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "074",
+    "quote": "Não conte às pessoas seus planos. Mostre a elas seus resultados.",
+    "author": "Desconhecido",
+    "source": "Sabedoria comum",
+    "story": "Um fundador de startup anunciou sua ideia em todas as festas de jantar durante um ano. A validação social parecia progresso. Mas a dopamina de falar substituiu a vontade de construir. Um concorrente que não contou a ninguém lançou discretamente e conquistou o mercado. Anúncios consomem ambição.",
+    "action": "Pense em um objetivo sobre o qual você tem falado com as pessoas. Pare de falar sobre isso por 30 dias. Canalize essa energia para a ação. Anuncie quando estiver feito.",
+    "topic": "money"
+  },
+  {
+    "id": "075",
+    "quote": "Para lidar consigo mesmo, use a cabeça; para lidar com os outros, use o coração.",
+    "author": "Eleanor Roosevelt",
+    "source": "Atribuído",
+    "story": "Roosevelt foi Primeira Dama durante a Grande Depressão. Ela visitou pessoalmente os acampamentos de ajuda, não para inspecionar — mas para ouvir. Ela se sentou com famílias, segurou crianças e chorou com mães. Seu marido formulava políticas com base em dados. Ela formulava políticas a partir da empatia. Ambos eram necessários.",
+    "action": "Na sua próxima interação com alguém frustrado, resista à vontade de resolver o problema imediatamente. Primeiro pergunte: 'Como você está se sentindo em relação a isso?' Escute por 60 segundos antes de oferecer soluções.",
+    "topic": "relationships"
+  },
+  {
+    "id": "076",
+    "quote": "Se você não consegue explicar de forma simples, é porque não entende bem o suficiente.",
+    "author": "Albert Einstein",
+    "source": "Atribuído",
+    "story": "A equação mais famosa de Einstein, E=mc², tem cinco caracteres. Por trás dela estão anos de matemática complexa. Mas a própria equação é tão simples que uma criança pode memorizá-la. Einstein acreditava que o passo final para entender qualquer coisa é a compressão — reduzir a sua essência.",
+    "action": "Pegue a coisa mais complexa em que você está trabalhando. Explique-a para uma criança imaginária de 10 anos em 3 frases. Onde você tem dificuldade é onde sua compreensão é mais fraca.",
+    "topic": "leadership"
+  },
+  {
+    "id": "077",
+    "quote": "Uma joia não pode ser polida sem atrito, nem um homem aperfeiçoado sem provações.",
+    "author": "Sêneca",
+    "source": "Ensaios Morais",
+    "story": "Sêneca observou jovens nobres romanos herdarem fortunas e desmoronarem sob seu primeiro revés. Enquanto isso, escravos libertos que suportaram décadas de dificuldades construíram impérios resilientes. O conforto não preparou as pessoas para a vida; ele as amoleceu para o fracasso.",
+    "action": "Qual é o seu 'atrito' atual? Em vez de desejar que ele desapareça, pergunte: 'O que isso está polindo em mim?' Escreva a resposta.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "078",
+    "quote": "A única jornada impossível é aquela que você nunca começa.",
+    "author": "Tony Robbins",
+    "source": "Desperte o Gigante Interior",
+    "story": "Robbins cresceu na pobreza, trabalhando como zelador aos 17 anos. Ele participou de um seminário que não podia pagar, entrando por uma porta dos fundos. Essa única decisão de começar — ilegalmente, imperfeitamente — desencadeou uma cadeia de eventos que o tornou uma das figuras motivacionais mais influentes do mundo.",
+    "action": "Que jornada você tem 'quase' começado? Dê o passo mais imperfeito e constrangedor possível hoje. Não o passo certo — qualquer passo.",
+    "topic": "discipline"
+  },
+  {
+    "id": "079",
+    "quote": "Saber o que deve ser feito elimina o medo.",
+    "author": "Rosa Parks",
+    "source": "Entrevista, 1992",
+    "story": "Parks estava com medo no ônibus naquele dia em Montgomery. Suas mãos tremiam. Mas ela havia decidido meses antes, no treinamento da NAACP, que quando o momento chegasse, ela não se moveria. A decisão foi tomada antes que o medo chegasse. Quando a clareza de propósito encontra o momento, o medo se torna irrelevante.",
+    "action": "Decida agora como você lidará com uma situação difícil futura — antes que aconteça. Escreva: 'Quando X acontecer, eu farei Y.' Predecidir remove a hesitação.",
+    "topic": "discipline"
+  },
+  {
+    "id": "080",
+    "quote": "As coisas que você possui acabam possuindo você.",
+    "author": "Chuck Palahniuk",
+    "source": "Clube da Luta",
+    "story": "Um colecionador rico passou décadas adquirindo arte rara. Sua casa se tornou um museu — com controle de clima, alarmes, segurada por milhões. Ele não podia viajar, não podia receber convidados, não podia relaxar. Ele servia suas posses como um mordomo serve um mestre. A liberdade era a única coisa que ele não podia comprar.",
+    "action": "Caminhe pela sua casa. Encontre 5 coisas que você possui que criam mais estresse do que alegria — coisas que você mantém, assegura, se preocupa. Você conseguiria se desfazer de uma esta semana?",
+    "topic": "money"
+  },
+  {
+    "id": "081",
+    "quote": "Primeiro eles te ignoram, depois riem de você, então lutam contra você, e então você vence.",
+    "author": "Mahatma Gandhi",
+    "source": "Atribuído",
+    "story": "A marcha do sal de Gandhi foi zombada pela imprensa britânica. Um homem magro caminhando até o oceano para fazer sal? Absurdo. Então milhares se juntaram. Depois milhões. Os britânicos pararam de rir e começaram a lutar. Em duas décadas, o império que ria havia desaparecido.",
+    "action": "Alguém está rindo do que você está construindo? Bom. Você está na fase dois. Continue. Qual é uma coisa que você pode fazer hoje para alcançar a fase três?",
+    "topic": "leadership"
+  },
+  {
+    "id": "082",
+    "quote": "Quanto tempo você vai esperar antes de exigir o melhor para si mesmo?",
+    "author": "Epicteto",
+    "source": "Discursos, Livro II",
+    "story": "Um estudante disse a Epicteto que começaria a viver sabiamente 'no próximo ano, quando as coisas se acalmarem.' Epicteto perguntou sua idade. 'Trinta.' 'Então você passou 30 anos se preparando para viver. Quando exatamente a vida começa? As coisas nunca vão se acalmar. Comece agora ou nunca.'",
+    "action": "O que você está adiando até que as condições estejam 'certas'? Escreva as condições que você está esperando. Alguma delas está realmente sob seu controle?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "083",
+    "quote": "Mantenha-se faminto, mantenha-se tolo.",
+    "author": "Steve Jobs",
+    "source": "Formatura de Stanford, 2005",
+    "story": "Jobs pegou isso da edição final do Whole Earth Catalog. Era uma mensagem de despedida impressa sob uma fotografia de uma estrada rural de manhã cedo. A mensagem: nunca se torne tão cheio que pare de buscar, nunca se torne tão inteligente que pare de experimentar.",
+    "action": "Quando foi a última vez que você tentou algo em que era genuinamente ruim? Inscreva-se para uma coisa esta semana onde você será a pior pessoa na sala.",
+    "topic": "discipline"
+  },
+  {
+    "id": "084",
+    "quote": "Eu não falhei. Apenas encontrei 10.000 maneiras que não funcionam.",
+    "author": "Thomas Edison",
+    "source": "Atribuído",
+    "story": "Após milhares de experimentos fracassados com lâmpadas, o laboratório de Edison pegou fogo, destruindo anos de registros. Ele tinha 67 anos. Na manhã seguinte, ele disse ao filho: 'Todos os nossos erros foram queimados. Graças a Deus, podemos recomeçar.' Ele reconstruiu e teve sucesso em poucos meses.",
+    "action": "Liste suas 3 maiores 'falhas' deste ano. Reformule cada uma: 'Isso me ensinou que ___ não funciona, o que significa que eu deveria tentar ___.'",
+    "topic": "money"
+  },
+  {
+    "id": "085",
+    "quote": "De uma maneira gentil, você pode abalar o mundo.",
+    "author": "Mahatma Gandhi",
+    "source": "Atribuído",
+    "story": "A arma mais poderosa de Gandhi não era o protesto — era fiar algodão. Ao fazer seu próprio tecido silenciosamente, ele mostrou a milhões que não precisavam da indústria têxtil britânica. Sem raiva, sem violência. Apenas um homem em uma roda de fiar, desmontando um império fio a fio.",
+    "action": "Que mudança você quer ver ao seu redor? Em vez de argumentar por isso, viva isso silenciosamente hoje. Ações persuadem onde palavras falham.",
+    "topic": "leadership"
+  },
+  {
+    "id": "086",
+    "quote": "Aquele que não é um bom servo não será um bom mestre.",
+    "author": "Platão",
+    "source": "Leis",
+    "story": "Platão observou que os piores tiranos eram aqueles que nunca haviam servido a ninguém. Eles não entendiam o que as pessoas precisavam porque nunca estiveram em uma posição de necessidade. Os melhores líderes que ele conhecia haviam passado anos servindo antes de liderar.",
+    "action": "Pense em alguém que trabalha 'abaixo' de você — em qualquer contexto. Passe 30 minutos fazendo o trabalho dessa pessoa hoje. O que você aprende?",
+    "topic": "leadership"
+  },
+  {
+    "id": "087",
+    "quote": "A mente é tudo. O que você pensa, você se torna.",
+    "author": "Buda",
+    "source": "Dhammapada",
+    "story": "Um monge perguntou a Buda como dois irmãos da mesma aldeia — mesmos pais, mesma criação — se tornaram tão diferentes: um ladrão, um santo. Buda disse: 'Pensamentos diferentes, repetidos diariamente, ao longo dos anos. Isso é tudo. Não há outra explicação.'",
+    "action": "Escreva os 3 pensamentos que você repete com mais frequência. Eles estão construindo a pessoa que você deseja se tornar? Substitua um pensamento negativo recorrente por um positivo deliberado.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "088",
+    "quote": "Não é o que acontece com você, mas como você reage a isso que importa.",
+    "author": "Epicteto",
+    "source": "Enquirídio",
+    "story": "Quando o mestre de Epicteto quebrou deliberadamente sua perna, Epicteto supostamente disse calmamente: 'Eu te disse que iria quebrar.' Ele não gritou. Ele não implorou. Ele já havia decidido que seu corpo poderia ser ferido, mas sua mente era sua. Essa decisão sobreviveu ao Império Romano.",
+    "action": "Pense na última vez que você reagiu mal a algo. Reproduza a cena. Que resposta teria te deixado orgulhoso? Ensaiar essa resposta para a próxima vez.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "089",
+    "quote": "Não tenha medo de abrir mão do bom para ir em busca do ótimo.",
+    "author": "John D. Rockefeller",
+    "source": "Atribuído",
+    "story": "Rockefeller fechou seu lucrativo negócio de querosene quando viu a eletricidade chegando. Seus parceiros achavam que ele estava louco — o querosene os tornava ricos. Mas Rockefeller entendeu: apegar-se ao 'bom' cega você para o 'ótimo'. Ele reinvestiu na refinação de petróleo e se tornou o americano mais rico da história.",
+    "action": "Que situação de 'bom o suficiente' você está segurando que pode estar bloqueando algo maior? Escreva isso. Você não precisa desistir hoje — apenas reconheça.",
+    "topic": "money"
+  },
+  {
+    "id": "090",
+    "quote": "Feito é melhor do que falado.",
+    "author": "Benjamin Franklin",
+    "source": "Almanaque de Pobre Ricardo",
+    "story": "Franklin percebeu que o conselho da cidade da Filadélfia passou meses debatendo um plano para a iluminação das ruas. Ele não disse nada. Uma manhã, ele simplesmente pendurou uma lanterna do lado de fora de sua própria porta. Em uma semana, seus vizinhos fizeram o mesmo. Em um mês, toda a rua estava iluminada. Nenhum voto necessário.",
+    "action": "O que você tem discutido, planejado ou debatido? Pule a próxima discussão e apenas faça a primeira versão. Mostre, não conte.",
+    "topic": "discipline"
+  },
+  {
+    "id": "091",
+    "quote": "O silêncio é uma fonte de grande força.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "story": "Um rei pediu a Lao Tzu que aconselhasse sobre uma disputa de fronteira. Dois generais discutiram alto por horas. Lao Tzu permaneceu em silêncio. Quando o rei finalmente pediu sua opinião, ambos os generais se inclinaram. O silêncio havia dado às suas palavras finais mais peso do que horas de discussão. A escassez cria valor — mesmo na fala.",
+    "action": "Escolha uma hora hoje para ficar completamente em silêncio — sem falar, sem mensagens, sem redes sociais. Observe quais pensamentos surgem quando você para de se expressar.",
+    "topic": "discipline"
+  },
+  {
+    "id": "092",
+    "quote": "O que alcançamos internamente mudará a realidade externa.",
+    "author": "Plutarco",
+    "source": "Morais",
+    "story": "Plutarco estudou grandes líderes da Grécia e de Roma e encontrou um padrão: a transformação externa sempre seguia a transformação interna. Alexandre não conquistou o mundo e depois se tornou confiante — ele se tornou confiante e então o mundo se rendeu.",
+    "action": "Em vez de planejar seu próximo movimento externo (novo emprego, nova cidade, novo projeto), pergunte-se: que mudança interna faria a maior diferença? Trabalhe nisso primeiro.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "093",
+    "quote": "As pessoas que dizem que não pode ser feito não deveriam interromper aqueles que estão fazendo.",
+    "author": "George Bernard Shaw",
+    "source": "Atribuído",
+    "story": "Quando os irmãos Wright disseram às pessoas que estavam construindo uma máquina voadora, engenheiros citaram provas matemáticas de que o voo era impossível. Os irmãos não tinham diplomas em engenharia. Eles possuíam uma loja de bicicletas. Mesmo assim, voaram. As provas 'impossíveis' estavam erradas.",
+    "action": "De quem você tem absorvido ceticismo? Nomeie-os. Agora pergunte: eles fizeram o que estou tentando fazer? Se não, a opinião deles é teoria, não experiência.",
+    "topic": "leadership"
+  },
+  {
+    "id": "094",
+    "quote": "O único limite para a nossa realização de amanhã serão nossas dúvidas de hoje.",
+    "author": "Franklin D. Roosevelt",
+    "source": "Discurso não proferido, 1945",
+    "story": "Roosevelt escreveu este discurso no dia em que morreu — 12 de abril de 1945. Ele nunca o proferiu. As palavras foram encontradas em sua mesa, destinadas a uma nação ainda em guerra, ainda duvidando que a vitória fosse possível. Ele acreditava que a dúvida era o único inimigo real. A história provou que ele estava certo.",
+    "action": "Escreva sua maior dúvida sobre seu futuro. Agora escreva o oposto como se já fosse verdade. Leia ambos. Qual você quer viver?",
+    "topic": "money"
+  },
+  {
+    "id": "095",
+    "quote": "A verdadeira amizade é uma planta de crescimento lento.",
+    "author": "Jorge Washington",
+    "source": "Carta, 1783",
+    "story": "Washington tinha milhares de conhecidos, mas menos de cinco verdadeiros amigos. Ele manteve essas amizades por décadas através de cartas manuscritas, dificuldades compartilhadas e lealdade consistente. Ele entendia: a profundidade requer tempo. A extensão é a inimiga da proximidade.",
+    "action": "Pense em seus 3 amigos mais próximos. Quando foi a última vez que você teve uma conversa real — não apenas uma conversa superficial? Entre em contato com um deles hoje com uma pergunta genuína sobre a vida deles.",
+    "topic": "relationships"
+  },
+  {
+    "id": "096",
+    "quote": "Todo homem morre. Nem todo homem realmente vive.",
+    "author": "Guilherme Wallace",
+    "source": "Atribuído (via Coração Valente)",
+    "story": "Se Wallace disse isso é incerto, mas o sentimento é antigo. Sêneca, Aurélio e monges budistas disseram variações. O ponto é consistente ao longo dos milênios: a vida biológica é garantida; uma vida com significado não é. O tempo passa independentemente — o que você faz com ele é sua escolha.",
+    "action": "Se você tivesse 5 anos de vida restantes, o que você pararia de fazer imediatamente? Por que você ainda está fazendo isso agora?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "097",
+    "quote": "Leva 20 anos para construir uma reputação e cinco minutos para arruiná-la.",
+    "author": "Warren Buffett",
+    "source": "Entrevista",
+    "story": "O parceiro de Buffett, Charlie Munger, uma vez disse que o maior ativo da Berkshire Hathaway não eram seus investimentos — era sua reputação. Concorrentes que cortavam caminhos obtinham lucros de curto prazo e perdiam a confiança a longo prazo. Buffett jogou o jogo infinito: cada decisão era filtrada pela pergunta 'eu ficaria confortável se isso estivesse na primeira página amanhã?'",
+    "action": "Pense em um atalho que você está tentado a tomar. Agora imagine isso na primeira página de um jornal com seu nome. Ainda vale a pena?",
+    "topic": "leadership"
+  },
+  {
+    "id": "098",
+    "quote": "A vida não examinada não vale a pena ser vivida.",
+    "author": "Sócrates",
+    "source": "Apologia, via Platão",
+    "story": "Sócrates disse isso em seu próprio julgamento, sabendo que isso poderia custar-lhe a vida. E custou — ele foi condenado à morte. Mas ele escolheu a morte em vez do silêncio. Ele acreditava que uma vida vivida no piloto automático, sem questionar suposições, sem buscar a verdade, não era realmente vida.",
+    "action": "Passe 10 minutos esta noite sem telefone, sem tela. Apenas sente-se e pergunte: 'Estou vivendo a vida que realmente quero, ou aquela na qual fui levado a entrar?'",
+    "topic": "stoicism"
+  },
+  {
+    "id": "099",
+    "quote": "Pequenas melhorias diárias ao longo do tempo levam a resultados impressionantes.",
+    "author": "Robin Sharma",
+    "source": "O Clube das 5 da Manhã",
+    "story": "Um mestre de cerâmica japonês foi perguntado como ele fazia tigelas perfeitas. Ele disse: 'Eu não faço. Eu faço tigelas um pouco melhores. Todos os dias, por 40 anos.' Seu trabalho inicial era desajeitado. Seu trabalho recente é vendido por milhares. Nenhum dia único foi transformador. Cada dia foi necessário.",
+    "action": "Escolha uma habilidade que é importante para você. Melhore-a em 1% hoje — assista a um tutorial, pratique por 10 minutos, leia um artigo. Repita amanhã.",
+    "topic": "discipline"
+  },
+  {
+    "id": "100",
+    "quote": "O propósito da vida é encontrar seu dom. O significado da vida é compartilhá-lo.",
+    "author": "Pablo Picasso",
+    "source": "Atribuído",
+    "story": "Picasso podia desenhar de forma fotorealista aos 13 anos. Ele passou o resto de sua vida desaprendendo técnicas para encontrar algo mais honesto — sua maneira única de ver. Quando ele encontrou, não guardou para si. Ele pintou 50.000 obras e deu milhares delas. O dom só tem valor em movimento.",
+    "action": "O que vem naturalmente para você que os outros acham difícil? Esse é o seu dom. Como você pode compartilhá-lo com uma pessoa hoje — de graça, sem expectativas?",
+    "topic": "relationships"
+  }
 ]
