@@ -33,7 +33,6 @@ class ContentManager {
     func loadCards() {
         // Try locale-specific file first, then fallback to default
         let locale = Locale.current.language.languageCode?.identifier ?? "en"
-        print("DEBUG: locale = \(locale)")
 
         let fileNames: [String]
         switch locale {
@@ -47,23 +46,17 @@ class ContentManager {
         
         for name in fileNames {
             if let url = Bundle.main.url(forResource: name, withExtension: "json") {
-                print("DEBUG: found file \(name).json at \(url)")
                 if let data = try? Data(contentsOf: url),
                    let cards = try? JSONDecoder().decode([WisdomCard].self, from: data),
                    !cards.isEmpty {
-                    print("DEBUG: loaded \(cards.count) cards from \(name).json")
-                    print("DEBUG: first quote = \(cards[0].quote.prefix(50))")
                     allCards = cards
                     return
                 }
-            } else {
-                print("DEBUG: file \(name).json NOT FOUND in bundle")
             }
         }
 
         // Fallback to sample cards
         allCards = Self.sampleCards
-        print("DEBUG: loaded \(allCards.count) cards from file")
     }
     
     func toggleSave(_ card: WisdomCard) {
