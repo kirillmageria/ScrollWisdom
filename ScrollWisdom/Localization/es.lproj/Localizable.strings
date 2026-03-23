@@ -49,3 +49,9 @@
 "topic.relationships" = "Relaciones";
 "topic.leadership" = "Liderazgo";
 "topic.discipline" = "Disciplina";
+
+/* Notifications */
+"settings.notifications" = "Notificaciones";
+"settings.notif.morning" = "Sabiduría matutina";
+"settings.notif.time" = "Hora de envío";
+"settings.notif.enable" = "Activar notificaciones";

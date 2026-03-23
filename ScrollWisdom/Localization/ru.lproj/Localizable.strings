@@ -49,3 +49,9 @@
 "topic.relationships" = "Отношения";
 "topic.leadership" = "Лидерство";
 "topic.discipline" = "Дисциплина";
+
+/* Notifications */
+"settings.notifications" = "Уведомления";
+"settings.notif.morning" = "Утренняя мудрость";
+"settings.notif.time" = "Время доставки";
+"settings.notif.enable" = "Включить уведомления";

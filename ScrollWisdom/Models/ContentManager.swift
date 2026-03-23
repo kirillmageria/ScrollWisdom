@@ -15,21 +15,23 @@ class ContentManager {
     private let streakKey = "streakCount"
     private let lastOpenKey = "lastOpenDate"
     private let onboardingKey = "hasCompletedOnboarding"
-    
+
     var filteredCards: [WisdomCard] {
         allCards.filter { selectedTopics.contains($0.topic) }.shuffled()
     }
-    
+
     var savedCards: [WisdomCard] {
         allCards.filter { savedCardIDs.contains($0.id) }
     }
-    
+
+    private var viewedCardIDs: Set<String> = []
+
     init() {
         loadCards()
         loadSavedState()
         updateStreak()
     }
-    
+
     func loadCards() {
         // Try locale-specific file first, then fallback to default
         let locale = Locale.current.language.languageCode?.identifier ?? "en"
@@ -43,7 +45,7 @@ class ContentManager {
         case "pt": fileNames = ["cards_pt-BR", "cards"]
         default:   fileNames = ["cards"]
         }
-        
+
         for name in fileNames {
             if let url = Bundle.main.url(forResource: name, withExtension: "json") {
                 if let data = try? Data(contentsOf: url),
@@ -58,7 +60,7 @@ class ContentManager {
         // Fallback to sample cards
         allCards = Self.sampleCards
     }
-    
+
     func toggleSave(_ card: WisdomCard) {
         if savedCardIDs.contains(card.id) {
             savedCardIDs.remove(card.id)
@@ -67,15 +69,17 @@ class ContentManager {
         }
         saveToDisk()
     }
-    
+
     func isSaved(_ card: WisdomCard) -> Bool {
         savedCardIDs.contains(card.id)
     }
-    
-    func markViewed() {
-        cardsViewedToday += 1
+
+    func markViewed(cardID: String) {
+        if viewedCardIDs.insert(cardID).inserted {
+            cardsViewedToday += 1
+        }
     }
-    
+
     func completeOnboarding(topics: Set<WisdomCard.Topic>) {
         selectedTopics = topics
         hasCompletedOnboarding = true

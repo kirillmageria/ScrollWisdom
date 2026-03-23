@@ -3,7 +3,8 @@ import SwiftUI
 struct FeedView: View {
     @Environment(ContentManager.self) var manager
     @State private var feedCards: [WisdomCard] = []
-    
+    @State private var currentCardID: String?
+
     var body: some View {
         ZStack {
             if feedCards.isEmpty {
@@ -24,16 +25,29 @@ struct FeedView: View {
                                 onShare: { shareCard(card) }
                             )
                             .containerRelativeFrame(.vertical)
+                            .id(card.id)
                             .onAppear {
-                                manager.markViewed()
                                 if index >= feedCards.count - 3 { appendMore() }
                             }
                         }
                     }
+                    .scrollTargetLayout()
                 }
                 .scrollTargetBehavior(.paging)
+                .scrollPosition(id: $currentCardID)
                 .ignoresSafeArea()
-                
+                .onAppear {
+                    if currentCardID == nil, let first = feedCards.first {
+                        currentCardID = first.id
+                        manager.markViewed(cardID: first.id)
+                    }
+                }
+                .onChange(of: currentCardID) { _, newID in
+                    if let newID {
+                        manager.markViewed(cardID: newID)
+                    }
+                }
+
                 VStack {
                     HStack {
                         Spacer()
@@ -50,7 +64,11 @@ struct FeedView: View {
                 }
             }
         }
-        .onAppear { loadFeed() }
+        .onAppear {
+            if feedCards.isEmpty {
+                loadFeed()
+            }
+        }
     }
     
     private func loadFeed() {

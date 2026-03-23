@@ -3,7 +3,8 @@ import SwiftUI
 @main
 struct ScrollWisdomApp: App {
     @State private var manager = ContentManager()
-    
+    @State private var notificationManager = NotificationManager()
+
     var body: some Scene {
         WindowGroup {
             Group {
@@ -14,6 +15,7 @@ struct ScrollWisdomApp: App {
                 }
             }
             .environment(manager)
+            .environment(notificationManager)
             .preferredColorScheme(.dark)
         }
     }

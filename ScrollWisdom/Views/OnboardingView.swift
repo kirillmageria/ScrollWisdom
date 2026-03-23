@@ -2,25 +2,26 @@ import SwiftUI
 
 struct OnboardingView: View {
     @Environment(ContentManager.self) var manager
+    @Environment(NotificationManager.self) var notifManager
     @State private var step = 0
     @State private var selectedTopics: Set<WisdomCard.Topic> = []
-    
+
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-            
+
             VStack(spacing: 0) {
                 Spacer()
-                
+
                 switch step {
                 case 0: welcomeStep
                 case 1: topicStep
                 case 2: readyStep
                 default: EmptyView()
                 }
-                
+
                 Spacer()
-                
+
                 HStack(spacing: 8) {
                     ForEach(0..<3, id: \.self) { i in
                         Circle()
@@ -29,9 +30,10 @@ struct OnboardingView: View {
                     }
                 }
                 .padding(.bottom, 20)
-                
+
                 Button {
                     if step == 2 {
+                        notifManager.requestPermission()
                         let topics = selectedTopics.isEmpty ? Set(WisdomCard.Topic.allCases) : selectedTopics
                         manager.completeOnboarding(topics: topics)
                     } else {
@@ -51,7 +53,7 @@ struct OnboardingView: View {
             }
         }
     }
-    
+
     var welcomeStep: some View {
         VStack(spacing: 20) {
             Text("🏛").font(.system(size: 64))
@@ -66,7 +68,7 @@ struct OnboardingView: View {
                 .padding(.horizontal, 40)
         }
     }
-    
+
     var topicStep: some View {
         VStack(spacing: 24) {
             Text(String(localized: "onboarding.topics.title"))
@@ -75,7 +77,7 @@ struct OnboardingView: View {
             Text(String(localized: "onboarding.topics.subtitle"))
                 .font(.system(size: 15))
                 .foregroundStyle(.white.opacity(0.4))
-            
+
             VStack(spacing: 10) {
                 ForEach(WisdomCard.Topic.allCases, id: \.self) { topic in
                     let isSelected = selectedTopics.contains(topic)
@@ -99,7 +101,7 @@ struct OnboardingView: View {
             .padding(.horizontal, 28)
         }
     }
-    
+
     var readyStep: some View {
         VStack(spacing: 20) {
             Image(systemName: "sparkles").font(.system(size: 48)).foregroundStyle(.white.opacity(0.6))
@@ -109,12 +111,12 @@ struct OnboardingView: View {
             VStack(alignment: .leading, spacing: 12) {
                 featureRow(icon: "hand.draw", text: String(localized: "onboarding.ready.swipe"))
                 featureRow(icon: "heart", text: String(localized: "onboarding.ready.save"))
-                featureRow(icon: "bell", text: String(localized: "onboarding.ready.notification"))
+                featureRow(icon: "bell.badge", text: String(localized: "onboarding.ready.notification"))
             }
             .padding(.horizontal, 40).padding(.top, 8)
         }
     }
-    
+
     func featureRow(icon: String, text: String) -> some View {
         HStack(spacing: 14) {
             Image(systemName: icon).font(.system(size: 18)).foregroundStyle(.white.opacity(0.5)).frame(width: 28)

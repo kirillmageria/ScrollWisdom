@@ -50,3 +50,8 @@
 "topic.leadership" = "Leadership";
 "topic.discipline" = "Discipline";
 
+/* Notifications */
+"settings.notifications" = "Notificações";
+"settings.notif.morning" = "Sabedoria matinal";
+"settings.notif.time" = "Horário de entrega";
+"settings.notif.enable" = "Ativar notificações";
