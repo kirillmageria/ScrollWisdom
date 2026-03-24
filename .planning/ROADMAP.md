@@ -26,7 +26,7 @@
 **Plans:** 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Remove export feature, fix Settings buttons/version/formatter, delete dead code
+- [x] 01-01-PLAN.md — Remove export feature, fix Settings buttons/version/formatter, delete dead code
 
 ### Phase 2: Legal
 **Goal**: Создать и опубликовать Privacy Policy и Terms of Service, обновить URL в коде
@@ -74,7 +74,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Bugs & Polish | 0/1 | Planned | - |
+| 1. Bugs & Polish | 1/1 | Complete | 2026-03-25 |
 | 2. Legal | 0/1 | Not started | - |
 | 3. Crashlytics | 0/1 | Not started | - |
 | 4. App Store Submission | 0/3 | Not started | - |

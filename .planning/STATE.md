@@ -10,12 +10,18 @@ See: .planning/PROJECT.md (updated 2026-03-25)
 ## Current Phase
 
 **Phase 1 — Bugs & Polish**
-Status: Not started
-Plan: Run `/gsd:plan-phase 1` to begin
+Status: Complete (1/1 plans done)
+Completed: 2026-03-25
 
 ## Completed Phases
 
-(none yet)
+- Phase 1: Bugs & Polish (01-01-PLAN.md) -- 2026-03-25
+
+## Decisions
+
+- Used @Environment(\.requestReview) for rate button (SwiftUI native, iOS 16+)
+- Used mailto: link for feedback (simple, no dependencies)
+- Static DateFormatter on SettingsView struct (one-time allocation)
 
 ## Notes
 
@@ -23,6 +29,7 @@ Plan: Run `/gsd:plan-phase 1` to begin
 - В текущей сессии уже исправлены: сохранение топиков, счётчик карточек, thread safety StoreManager, фоллбек фида
 - Продукты в App Store Connect ещё не созданы
 - Privacy Policy / Terms указывают на example.com
+- Phase 1 complete: export removed from paywall, settings buttons functional, dead code deleted
 
 ---
 *Last updated: 2026-03-25*
