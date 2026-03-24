@@ -23,10 +23,10 @@
   3. Кнопки Rate и Feedback в Settings выполняют реальные действия
   4. Мёртвый код `filteredCards` удалён из ContentManager
   5. DateFormatter в SettingsView вынесен в статическую переменную
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 01-01: Paywall & Settings cleanup
+- [ ] 01-01-PLAN.md — Remove export feature, fix Settings buttons/version/formatter, delete dead code
 
 ### Phase 2: Legal
 **Goal**: Создать и опубликовать Privacy Policy и Terms of Service, обновить URL в коде
@@ -74,7 +74,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Bugs & Polish | 0/1 | Not started | - |
+| 1. Bugs & Polish | 0/1 | Planned | - |
 | 2. Legal | 0/1 | Not started | - |
 | 3. Crashlytics | 0/1 | Not started | - |
 | 4. App Store Submission | 0/3 | Not started | - |
