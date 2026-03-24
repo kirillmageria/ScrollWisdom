@@ -1,105 +1,80 @@
 # Roadmap: ScrollWisdom
 
-**Milestone:** v1.0 — App Store Release
-**Goal:** Опубликовать приложение в App Store
+## Overview
 
----
+Довести ScrollWisdom до публикации в App Store: финальные баги, юридические документы, crash-репортинг, и полный App Store submission.
 
-## Phase 1 — Bugs & Polish
+## Phases
 
-**Goal:** Устранить все оставшиеся баги и убрать нереализованные фичи из UI перед релизом.
+- [ ] **Phase 1: Bugs & Polish** - Устранить оставшиеся баги и убрать нереализованные фичи из UI
+- [ ] **Phase 2: Legal** - Privacy Policy и Terms of Service с реальными URL
+- [ ] **Phase 3: Crashlytics** - Интеграция crash-репортинга для мониторинга после релиза
+- [ ] **Phase 4: App Store Submission** - Настройка App Store Connect и публикация
 
-**Requirements:** BUG-01, BUG-02, BUG-03, BUG-04, BUG-05
+## Phase Details
 
-### Plans
+### Phase 1: Bugs & Polish
+**Goal**: Устранить все оставшиеся баги и убрать нереализованные фичи перед релизом
+**Depends on**: Nothing (first phase)
+**Requirements**: BUG-01, BUG-02, BUG-03, BUG-04, BUG-05
+**Success Criteria** (what must be TRUE):
+  1. PaywallView не упоминает экспорт карточек
+  2. Версия приложения читается из Bundle автоматически
+  3. Кнопки Rate и Feedback в Settings выполняют реальные действия
+  4. Мёртвый код `filteredCards` удалён из ContentManager
+  5. DateFormatter в SettingsView вынесен в статическую переменную
+**Plans**: TBD
 
-**Plan 1.1 — Paywall & Settings cleanup**
-- Убрать экспорт из PaywallView (фича, описание, иконка)
-- Версия из `Bundle.main.infoDictionary["CFBundleShortVersionString"]`
-- Кнопки Rate и Feedback в AboutRow — добавить действия (SKStoreReviewController + mailto)
-- Удалить `filteredCards` из ContentManager
-- Вынести `DateFormatter` в статическую переменную в SettingsView
+Plans:
+- [ ] 01-01: Paywall & Settings cleanup
 
-**Verification:** Приложение собирается без предупреждений, paywall не упоминает экспорт, версия обновляется автоматически, кнопки работают.
+### Phase 2: Legal
+**Goal**: Создать и опубликовать Privacy Policy и Terms of Service, обновить URL в коде
+**Depends on**: Phase 1
+**Requirements**: LEGAL-01, LEGAL-02, LEGAL-03
+**Success Criteria** (what must be TRUE):
+  1. Privacy Policy опубликована на реальном URL
+  2. Terms of Service опубликованы на реальном URL
+  3. Ссылки в PaywallView открывают реальные страницы
+**Plans**: TBD
 
----
+Plans:
+- [ ] 02-01: Privacy Policy & Terms generation and integration
 
-## Phase 2 — Legal
+### Phase 3: Crashlytics
+**Goal**: Интегрировать Firebase Crashlytics для мониторинга стабильности после релиза
+**Depends on**: Phase 2
+**Requirements**: CRASH-01, CRASH-02, CRASH-03
+**Success Criteria** (what must be TRUE):
+  1. Firebase SDK добавлен через Swift Package Manager
+  2. FirebaseApp.configure() вызывается при старте приложения
+  3. Тестовый краш отображается в Firebase Console
+**Plans**: TBD
 
-**Goal:** Создать и опубликовать Privacy Policy и Terms of Service, обновить URL в коде.
+Plans:
+- [ ] 03-01: Firebase Crashlytics integration
 
-**Requirements:** LEGAL-01, LEGAL-02, LEGAL-03
+### Phase 4: App Store Submission
+**Goal**: Опубликовать ScrollWisdom в App Store
+**Depends on**: Phase 3
+**Requirements**: STORE-01, STORE-02, STORE-03, STORE-04, STORE-05, STORE-06, STORE-07
+**Success Criteria** (what must be TRUE):
+  1. App ID и продукты подписки созданы в App Store Connect
+  2. Скриншоты и описание заполнены минимум для EN и RU
+  3. Приложение прошло TestFlight тестирование
+  4. Приложение отправлено на ревью Apple
+**Plans**: TBD
 
-### Plans
+Plans:
+- [ ] 04-01: App Store Connect setup (App ID + subscription products)
+- [ ] 04-02: Store assets (screenshots, description, keywords)
+- [ ] 04-03: TestFlight & Submit
 
-**Plan 2.1 — Privacy Policy & Terms**
-- Сгенерировать Privacy Policy (через /legal скилл или шаблон)
-- Сгенерировать Terms of Service
-- Опубликовать на хостинге (GitHub Pages, Notion или аналог)
-- Заменить `https://example.com/terms` и `https://example.com/privacy` в PaywallView на реальные URL
+## Progress
 
-**Verification:** Ссылки в приложении открывают реальные страницы с актуальным содержимым.
-
----
-
-## Phase 3 — Crashlytics
-
-**Goal:** Интегрировать crash reporting для мониторинга стабильности после релиза.
-
-**Requirements:** CRASH-01, CRASH-02, CRASH-03
-
-### Plans
-
-**Plan 3.1 — Firebase Crashlytics integration**
-- Создать Firebase проект, добавить iOS app
-- Добавить Firebase SDK через Swift Package Manager
-- Настроить `GoogleService-Info.plist`
-- Инициализировать `FirebaseApp.configure()` в `ScrollWisdomApp.swift`
-- Проверить что репорты приходят в консоль
-
-**Verification:** Тестовый краш из debug-режима отображается в Firebase Console в течение нескольких минут.
-
----
-
-## Phase 4 — App Store Submission
-
-**Goal:** Опубликовать ScrollWisdom в App Store.
-
-**Requirements:** STORE-01 — STORE-07
-
-### Plans
-
-**Plan 4.1 — App Store Connect setup**
-- Создать App ID в Developer Portal
-- Создать приложение в App Store Connect
-- Создать subscription group с продуктами monthly ($3.99) и yearly ($29.99), 3-дневный триал
-- Настроить sandbox тестирование
-
-**Plan 4.2 — Store assets**
-- Скриншоты для iPhone 6.7" (iPhone 15 Pro Max) и 6.1"
-- Описание приложения EN + RU (основные языки)
-- Ключевые слова (stoicism, wisdom, philosophy, daily quotes, marcus aurelius...)
-- Иконка приложения финальная
-
-**Plan 4.3 — TestFlight & Submit**
-- Архивировать и загрузить билд через Xcode
-- Пройти внутреннее тестирование TestFlight
-- Заполнить все поля в App Store Connect (возрастной рейтинг, категория, privacy)
-- Submit на ревью Apple
-
-**Verification:** Приложение появляется в поиске App Store и доступно для загрузки. Подписка проходит через реальный StoreKit.
-
----
-
-## Summary
-
-| Phase | Focus | Requirements | Est. Complexity |
-|-------|-------|-------------|-----------------|
-| 1 | Bugs & Polish | BUG-01..05 | Low |
-| 2 | Legal | LEGAL-01..03 | Low |
-| 3 | Crashlytics | CRASH-01..03 | Low |
-| 4 | App Store | STORE-01..07 | Medium |
-
----
-*Created: 2026-03-25*
-*Milestone: v1.0 App Store Release*
+| Phase | Plans Complete | Status | Completed |
+|-------|----------------|--------|-----------|
+| 1. Bugs & Polish | 0/1 | Not started | - |
+| 2. Legal | 0/1 | Not started | - |
+| 3. Crashlytics | 0/1 | Not started | - |
+| 4. App Store Submission | 0/3 | Not started | - |
