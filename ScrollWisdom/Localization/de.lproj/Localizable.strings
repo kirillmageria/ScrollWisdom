@@ -72,8 +72,6 @@
 "paywall.feature.saves.desc" = "Erstelle deine persönliche Weisheitsbibliothek";
 "paywall.feature.notifs.title" = "Intelligente Erinnerungen";
 "paywall.feature.notifs.desc" = "Weisheit am Morgen und Abend";
-"paywall.feature.export.title" = "Sammlung exportieren";
-"paywall.feature.export.desc" = "Speichere deine Favoriten als PDF";
 "paywall.plan.yearly" = "Jährlich";
 "paywall.plan.yearly.detail" = "$2.50/Monat, jährlich abgerechnet";
 "paywall.plan.yearly.badge" = "37% SPAREN";

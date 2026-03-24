@@ -72,8 +72,6 @@
 "paywall.feature.saves.desc" = "Créez votre bibliothèque personnelle de sagesse";
 "paywall.feature.notifs.title" = "Rappels intelligents";
 "paywall.feature.notifs.desc" = "Sagesse matin et soir";
-"paywall.feature.export.title" = "Exporter la collection";
-"paywall.feature.export.desc" = "Enregistrez vos favoris en PDF";
 "paywall.plan.yearly" = "Annuel";
 "paywall.plan.yearly.detail" = "2,50 $/mois, facturé annuellement";
 "paywall.plan.yearly.badge" = "ÉCONOMISEZ 37 %";

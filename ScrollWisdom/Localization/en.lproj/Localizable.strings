@@ -72,8 +72,6 @@
 "paywall.feature.saves.desc" = "Build your personal wisdom library";
 "paywall.feature.notifs.title" = "Smart reminders";
 "paywall.feature.notifs.desc" = "Morning & evening wisdom delivery";
-"paywall.feature.export.title" = "Export collection";
-"paywall.feature.export.desc" = "Save your favorites as PDF";
 "paywall.plan.yearly" = "Yearly";
 "paywall.plan.yearly.detail" = "$2.50/month, billed annually";
 "paywall.plan.yearly.badge" = "SAVE 37%";
