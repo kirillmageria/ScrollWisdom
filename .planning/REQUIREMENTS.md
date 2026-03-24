@@ -7,11 +7,11 @@
 
 ### Bugs & Polish
 
-- [ ] **BUG-01**: Экспорт карточек убран из PaywallView (не рекламировать нереализованную фичу)
-- [ ] **BUG-02**: Версия приложения читается из `Bundle.main` вместо захардкоженной "1.0.0"
-- [ ] **BUG-03**: Кнопки "Оценить" и "Обратная связь" в Settings открывают реальные ссылки
-- [ ] **BUG-04**: Мёртвый код `filteredCards` в ContentManager удалён
-- [ ] **BUG-05**: `DateFormatter` в `SettingsView.timeString` вынесен в статическую переменную
+- [x] **BUG-01**: Экспорт карточек убран из PaywallView (не рекламировать нереализованную фичу)
+- [x] **BUG-02**: Версия приложения читается из `Bundle.main` вместо захардкоженной "1.0.0"
+- [x] **BUG-03**: Кнопки "Оценить" и "Обратная связь" в Settings открывают реальные ссылки
+- [x] **BUG-04**: Мёртвый код `filteredCards` в ContentManager удалён
+- [x] **BUG-05**: `DateFormatter` в `SettingsView.timeString` вынесен в статическую переменную
 
 ### Legal & Compliance
 
@@ -62,11 +62,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BUG-01 | Phase 1 | Pending |
-| BUG-02 | Phase 1 | Pending |
-| BUG-03 | Phase 1 | Pending |
-| BUG-04 | Phase 1 | Pending |
-| BUG-05 | Phase 1 | Pending |
+| BUG-01 | Phase 1 | Complete |
+| BUG-02 | Phase 1 | Complete |
+| BUG-03 | Phase 1 | Complete |
+| BUG-04 | Phase 1 | Complete |
+| BUG-05 | Phase 1 | Complete |
 | LEGAL-01 | Phase 2 | Pending |
 | LEGAL-02 | Phase 2 | Pending |
 | LEGAL-03 | Phase 2 | Pending |
