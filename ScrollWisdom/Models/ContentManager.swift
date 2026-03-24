@@ -17,6 +17,8 @@ class ContentManager {
     private let streakKey = "streakCount"
     private let lastOpenKey = "lastOpenDate"
     private let onboardingKey = "hasCompletedOnboarding"
+    private let cardsViewedTodayKey = "cardsViewedToday"
+    private let cardsViewedDateKey = "cardsViewedDate"
 
     /// Returns cards filtered by user-selected topics AND available (free/premium) topics
     func feedCards(availableTopics: Set<WisdomCard.Topic>) -> [WisdomCard] {
@@ -82,6 +84,7 @@ class ContentManager {
     func markViewed(cardID: String) {
         if viewedCardIDs.insert(cardID).inserted {
             cardsViewedToday += 1
+            UserDefaults.standard.set(cardsViewedToday, forKey: cardsViewedTodayKey)
         }
     }
 
@@ -102,6 +105,36 @@ class ContentManager {
         }
         streak = UserDefaults.standard.integer(forKey: streakKey)
         hasCompletedOnboarding = UserDefaults.standard.bool(forKey: onboardingKey)
+
+        let today = Calendar.current.startOfDay(for: Date())
+        if let savedDateStr = UserDefaults.standard.string(forKey: cardsViewedDateKey),
+           let savedDate = ISO8601DateFormatter().date(from: savedDateStr),
+           Calendar.current.isDate(savedDate, inSameDayAs: today) {
+            cardsViewedToday = UserDefaults.standard.integer(forKey: cardsViewedTodayKey)
+        } else {
+            cardsViewedToday = 0
+            UserDefaults.standard.set(ISO8601DateFormatter().string(from: today), forKey: cardsViewedDateKey)
+        }
+    }
+
+    func toggleTopic(_ topic: WisdomCard.Topic) {
+        if selectedTopics.contains(topic) {
+            guard selectedTopics.count > 1 else { return }
+            selectedTopics.remove(topic)
+        } else {
+            selectedTopics.insert(topic)
+        }
+        saveTopics()
+    }
+
+    func resetTopics(to topics: Set<WisdomCard.Topic>) {
+        selectedTopics = topics
+        saveTopics()
+    }
+
+    private func saveTopics() {
+        let topicStrings = selectedTopics.map { $0.rawValue }
+        UserDefaults.standard.set(topicStrings, forKey: topicsKey)
     }
 
     private func saveToDisk() {

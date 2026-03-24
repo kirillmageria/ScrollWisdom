@@ -81,7 +81,10 @@ struct FeedView: View {
         let available = store.availableTopics()
         feedCards = manager.feedCards(availableTopics: available)
         if feedCards.isEmpty {
-            feedCards = ContentManager.sampleCards.shuffled()
+            // selectedTopics не пересекается с available (напр. выбраны только premium-топики без подписки)
+            // показываем все доступные карточки и сбрасываем selectedTopics
+            manager.resetTopics(to: available)
+            feedCards = manager.feedCards(availableTopics: available)
         }
     }
 

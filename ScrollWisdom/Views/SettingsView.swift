@@ -160,13 +160,7 @@ struct SettingsView: View {
                                 .contentShape(Rectangle())
                                 .onTapGesture {
                                     if isFree || store.isPremium {
-                                        if isOn {
-                                            if manager.selectedTopics.count > 1 {
-                                                manager.selectedTopics.remove(topic)
-                                            }
-                                        } else {
-                                            manager.selectedTopics.insert(topic)
-                                        }
+                                        manager.toggleTopic(topic)
                                     } else {
                                         showPaywall = true
                                     }
