@@ -1,11 +1,14 @@
 import Foundation
 import StoreKit
 
+@MainActor
 @Observable
 class StoreManager {
     var products: [Product] = []
     var purchasedProductIDs: Set<String> = []
     var isLoading = false
+
+    private var transactionListenerTask: Task<Void, Never>?
 
     // Product identifiers — create these in App Store Connect
     static let monthlyID = "com.scrollwisdom.premium.monthly"
@@ -39,9 +42,11 @@ class StoreManager {
     }
 
     init() {
-        Task { await loadProducts() }
-        Task { await updatePurchasedProducts() }
-        Task { await listenForTransactions() }
+        Task {
+            await loadProducts()
+            await updatePurchasedProducts()
+        }
+        transactionListenerTask = Task { await listenForTransactions() }
     }
 
     // MARK: - Load products
@@ -94,9 +99,7 @@ class StoreManager {
             }
         }
 
-        await MainActor.run {
-            self.purchasedProductIDs = purchased
-        }
+        purchasedProductIDs = purchased
     }
 
     // MARK: - Listen for transaction updates
