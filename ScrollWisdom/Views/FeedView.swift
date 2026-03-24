@@ -2,6 +2,7 @@ import SwiftUI
 
 struct FeedView: View {
     @Environment(ContentManager.self) var manager
+    @Environment(StoreManager.self) var store
     @State private var feedCards: [WisdomCard] = []
     @State private var currentCardID: String?
 
@@ -48,6 +49,7 @@ struct FeedView: View {
                     }
                 }
 
+                // Top overlay — streak
                 VStack {
                     HStack {
                         Spacer()
@@ -69,15 +71,23 @@ struct FeedView: View {
                 loadFeed()
             }
         }
+        // Reload feed when premium status changes
+        .onChange(of: store.isPremium) { _, _ in
+            loadFeed()
+        }
     }
-    
+
     private func loadFeed() {
-        feedCards = manager.filteredCards
-        if feedCards.isEmpty { feedCards = ContentManager.sampleCards.shuffled() }
+        let available = store.availableTopics()
+        feedCards = manager.feedCards(availableTopics: available)
+        if feedCards.isEmpty {
+            feedCards = ContentManager.sampleCards.shuffled()
+        }
     }
-    
+
     private func appendMore() {
-        let more = manager.filteredCards.map { card in
+        let available = store.availableTopics()
+        let more = manager.feedCards(availableTopics: available).map { card in
             WisdomCard(
                 id: "\(card.id)_\(feedCards.count + Int.random(in: 1000...9999))",
                 quote: card.quote,

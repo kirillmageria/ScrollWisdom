@@ -3,6 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(ContentManager.self) var manager
     @Environment(NotificationManager.self) var notifManager
+    @Environment(StoreManager.self) var store
     @State private var notifTime = Date()
     @State private var showTimePicker = false
     @State private var showPaywall = false
@@ -92,9 +93,7 @@ struct SettingsView: View {
                                         .clipShape(RoundedRectangle(cornerRadius: 10))
                                 }
                             } else {
-                                Button {
-                                    notifManager.requestPermission()
-                                } label: {
+                                Button { notifManager.requestPermission() } label: {
                                     Text(String(localized: "settings.notif.enable"))
                                         .font(.system(size: 13, weight: .semibold))
                                         .foregroundStyle(.black)
@@ -112,17 +111,73 @@ struct SettingsView: View {
                                 .frame(height: 0.5)
                                 .padding(.vertical, 12)
 
-                            DatePicker(
-                                "",
-                                selection: $notifTime,
-                                displayedComponents: .hourAndMinute
-                            )
-                            .datePickerStyle(.wheel)
-                            .labelsHidden()
-                            .colorScheme(.dark)
-                            .onChange(of: notifTime) { _, newValue in
-                                let comps = Calendar.current.dateComponents([.hour, .minute], from: newValue)
-                                notifManager.updateTime(hour: comps.hour ?? 8, minute: comps.minute ?? 0)
+                            DatePicker("", selection: $notifTime, displayedComponents: .hourAndMinute)
+                                .datePickerStyle(.wheel)
+                                .labelsHidden()
+                                .colorScheme(.dark)
+                                .onChange(of: notifTime) { _, newValue in
+                                    let comps = Calendar.current.dateComponents([.hour, .minute], from: newValue)
+                                    notifManager.updateTime(hour: comps.hour ?? 8, minute: comps.minute ?? 0)
+                                }
+                        }
+                    }
+                }
+                .padding(.horizontal, 20)
+
+                // MARK: - Topics with lock indicators
+                SettingsCard {
+                    VStack(spacing: 0) {
+                        ForEach(Array(WisdomCard.Topic.allCases.enumerated()), id: \.element) { index, topic in
+                            let isFree = store.isTopicFree(topic)
+                            let isOn = manager.selectedTopics.contains(topic)
+
+                            VStack(spacing: 0) {
+                                HStack {
+                                    Text(topic.emoji).font(.system(size: 18))
+                                    Text(topic.displayName)
+                                        .font(.system(size: 15, weight: .medium))
+                                        .foregroundStyle(.white)
+
+                                    if !isFree && !store.isPremium {
+                                        Image(systemName: "crown.fill")
+                                            .font(.system(size: 10))
+                                            .foregroundStyle(Color(hex: "#f0a500"))
+                                    }
+
+                                    Spacer()
+
+                                    if isFree || store.isPremium {
+                                        Image(systemName: isOn ? "checkmark.circle.fill" : "circle")
+                                            .font(.system(size: 18))
+                                            .foregroundStyle(isOn ? Color(hex: "#f0a500") : .white.opacity(0.2))
+                                    } else {
+                                        Image(systemName: "lock.fill")
+                                            .font(.system(size: 14))
+                                            .foregroundStyle(.white.opacity(0.2))
+                                    }
+                                }
+                                .padding(.vertical, 12)
+                                .contentShape(Rectangle())
+                                .onTapGesture {
+                                    if isFree || store.isPremium {
+                                        if isOn {
+                                            if manager.selectedTopics.count > 1 {
+                                                manager.selectedTopics.remove(topic)
+                                            }
+                                        } else {
+                                            manager.selectedTopics.insert(topic)
+                                        }
+                                    } else {
+                                        showPaywall = true
+                                    }
+                                }
+
+                                if index < WisdomCard.Topic.allCases.count - 1 {
+                                    Rectangle()
+                                        .fill(.white.opacity(0.06))
+                                        .frame(height: 0.5)
+                                        .padding(.leading, 32)
+                                }
                             }
                         }
                     }
@@ -130,59 +185,78 @@ struct SettingsView: View {
                 .padding(.horizontal, 20)
 
                 // MARK: - Premium
-                Button { showPaywall = true } label: {
-                    VStack(spacing: 16) {
-                        HStack {
-                            Image(systemName: "crown.fill")
-                                .font(.system(size: 24))
-                                .foregroundStyle(
-                                    LinearGradient(
-                                        colors: [Color(hex: "#f0a500"), Color(hex: "#ff6b35")],
-                                        startPoint: .topLeading,
-                                        endPoint: .bottomTrailing
-                                    )
-                                )
-
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(String(localized: "settings.premium.title"))
-                                    .font(.system(size: 16, weight: .bold))
-                                    .foregroundStyle(.white)
-                                Text(String(localized: "settings.premium.subtitle"))
-                                    .font(.system(size: 12))
-                                    .foregroundStyle(.white.opacity(0.4))
-                            }
-
-                            Spacer()
-
-                            Text(String(localized: "settings.premium.price"))
-                                .font(.system(size: 14, weight: .bold))
-                                .foregroundStyle(Color(hex: "#f0a500"))
-                        }
-
-                        HStack(spacing: 8) {
-                            PremiumPill(icon: "infinity", text: String(localized: "settings.premium.pill.saves"))
-                            PremiumPill(icon: "eye.slash", text: String(localized: "settings.premium.pill.noads"))
-                            PremiumPill(icon: "bell.badge", text: String(localized: "settings.premium.pill.notifs"))
-                        }
-                    }
-                    .padding(16)
-                    .background(
-                        RoundedRectangle(cornerRadius: 16)
-                            .fill(.white.opacity(0.04))
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16)
-                                    .strokeBorder(
+                if !store.isPremium {
+                    Button { showPaywall = true } label: {
+                        VStack(spacing: 16) {
+                            HStack {
+                                Image(systemName: "crown.fill")
+                                    .font(.system(size: 24))
+                                    .foregroundStyle(
                                         LinearGradient(
-                                            colors: [Color(hex: "#f0a500").opacity(0.4), Color(hex: "#ff6b35").opacity(0.1)],
+                                            colors: [Color(hex: "#f0a500"), Color(hex: "#ff6b35")],
                                             startPoint: .topLeading,
                                             endPoint: .bottomTrailing
-                                        ),
-                                        lineWidth: 1
+                                        )
                                     )
-                            )
-                    )
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(String(localized: "settings.premium.title"))
+                                        .font(.system(size: 16, weight: .bold))
+                                        .foregroundStyle(.white)
+                                    Text(String(localized: "settings.premium.subtitle"))
+                                        .font(.system(size: 12))
+                                        .foregroundStyle(.white.opacity(0.4))
+                                }
+                                Spacer()
+                                Text(String(localized: "settings.premium.price"))
+                                    .font(.system(size: 14, weight: .bold))
+                                    .foregroundStyle(Color(hex: "#f0a500"))
+                            }
+
+                            HStack(spacing: 8) {
+                                PremiumPill(icon: "infinity", text: String(localized: "settings.premium.pill.saves"))
+                                PremiumPill(icon: "sparkles", text: String(localized: "settings.premium.pill.topics"))
+                                PremiumPill(icon: "bell.badge", text: String(localized: "settings.premium.pill.notifs"))
+                            }
+                        }
+                        .padding(16)
+                        .background(
+                            RoundedRectangle(cornerRadius: 16)
+                                .fill(.white.opacity(0.04))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .strokeBorder(
+                                            LinearGradient(
+                                                colors: [Color(hex: "#f0a500").opacity(0.4), Color(hex: "#ff6b35").opacity(0.1)],
+                                                startPoint: .topLeading,
+                                                endPoint: .bottomTrailing
+                                            ),
+                                            lineWidth: 1
+                                        )
+                                )
+                        )
+                    }
+                    .padding(.horizontal, 20)
+                } else {
+                    // Premium active badge
+                    HStack {
+                        Image(systemName: "crown.fill")
+                            .foregroundStyle(Color(hex: "#f0a500"))
+                        Text(String(localized: "settings.premium.active"))
+                            .font(.system(size: 15, weight: .semibold))
+                            .foregroundStyle(.white)
+                        Spacer()
+                        Text("Premium")
+                            .font(.system(size: 12, weight: .bold))
+                            .foregroundStyle(.black)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 4)
+                            .background(Color(hex: "#f0a500"))
+                            .clipShape(Capsule())
+                    }
+                    .padding(16)
+                    .background(RoundedRectangle(cornerRadius: 16).fill(.white.opacity(0.04)))
+                    .padding(.horizontal, 20)
                 }
-                .padding(.horizontal, 20)
 
                 // MARK: - About
                 SettingsCard {
@@ -194,7 +268,6 @@ struct SettingsView: View {
                 }
                 .padding(.horizontal, 20)
 
-                // Footer
                 Text("Scroll Wisdom")
                     .font(.system(size: 12, weight: .medium, design: .serif))
                     .foregroundStyle(.white.opacity(0.15))
@@ -211,10 +284,7 @@ struct SettingsView: View {
             notifTime = Calendar.current.date(from: comps) ?? Date()
         }
         .sheet(isPresented: $showPaywall) {
-            Text("Paywall coming soon")
-                .foregroundStyle(.white)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.black)
+            PaywallView()
         }
     }
 
@@ -224,8 +294,7 @@ struct SettingsView: View {
         var comps = DateComponents()
         comps.hour = notifManager.morningHour
         comps.minute = notifManager.morningMinute
-        let date = Calendar.current.date(from: comps) ?? Date()
-        return formatter.string(from: date)
+        return formatter.string(from: Calendar.current.date(from: comps) ?? Date())
     }
 }
 
@@ -233,14 +302,10 @@ struct SettingsView: View {
 
 struct SettingsCard<Content: View>: View {
     @ViewBuilder let content: Content
-
     var body: some View {
         content
             .padding(16)
-            .background(
-                RoundedRectangle(cornerRadius: 16)
-                    .fill(.white.opacity(0.04))
-            )
+            .background(RoundedRectangle(cornerRadius: 16).fill(.white.opacity(0.04)))
     }
 }
 
@@ -249,49 +314,29 @@ struct StatCard: View {
     let label: String
     let icon: String
     let gradient: [Color]
-
     var body: some View {
         VStack(spacing: 8) {
-            Image(systemName: icon)
-                .font(.system(size: 18))
-                .foregroundStyle(
-                    LinearGradient(colors: gradient, startPoint: .topLeading, endPoint: .bottomTrailing)
-                )
-
-            Text(value)
-                .font(.system(size: 28, weight: .bold, design: .rounded))
-                .foregroundStyle(.white)
-
-            Text(label)
-                .font(.system(size: 11))
-                .foregroundStyle(.white.opacity(0.35))
-                .lineLimit(1)
+            Image(systemName: icon).font(.system(size: 18))
+                .foregroundStyle(LinearGradient(colors: gradient, startPoint: .topLeading, endPoint: .bottomTrailing))
+            Text(value).font(.system(size: 28, weight: .bold, design: .rounded)).foregroundStyle(.white)
+            Text(label).font(.system(size: 11)).foregroundStyle(.white.opacity(0.35)).lineLimit(1)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 16)
-        .background(
-            RoundedRectangle(cornerRadius: 16)
-                .fill(.white.opacity(0.04))
-        )
+        .frame(maxWidth: .infinity).padding(.vertical, 16)
+        .background(RoundedRectangle(cornerRadius: 16).fill(.white.opacity(0.04)))
     }
 }
 
 struct PremiumPill: View {
     let icon: String
     let text: String
-
     var body: some View {
         HStack(spacing: 4) {
-            Image(systemName: icon)
-                .font(.system(size: 10))
-            Text(text)
-                .font(.system(size: 11))
+            Image(systemName: icon).font(.system(size: 10))
+            Text(text).font(.system(size: 11))
         }
         .foregroundStyle(.white.opacity(0.5))
-        .padding(.horizontal, 10)
-        .padding(.vertical, 5)
-        .background(.white.opacity(0.06))
-        .clipShape(Capsule())
+        .padding(.horizontal, 10).padding(.vertical, 5)
+        .background(.white.opacity(0.06)).clipShape(Capsule())
     }
 }
 
@@ -300,38 +345,21 @@ struct AboutRow: View {
     let title: String
     let value: String?
     let showDivider: Bool
-
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Image(systemName: icon)
-                    .font(.system(size: 14))
-                    .foregroundStyle(.white.opacity(0.4))
-                    .frame(width: 24)
-
-                Text(title)
-                    .font(.system(size: 15))
-                    .foregroundStyle(.white.opacity(0.7))
-
+                Image(systemName: icon).font(.system(size: 14)).foregroundStyle(.white.opacity(0.4)).frame(width: 24)
+                Text(title).font(.system(size: 15)).foregroundStyle(.white.opacity(0.7))
                 Spacer()
-
                 if let value {
-                    Text(value)
-                        .font(.system(size: 14))
-                        .foregroundStyle(.white.opacity(0.3))
+                    Text(value).font(.system(size: 14)).foregroundStyle(.white.opacity(0.3))
                 } else {
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 12, weight: .medium))
-                        .foregroundStyle(.white.opacity(0.2))
+                    Image(systemName: "chevron.right").font(.system(size: 12, weight: .medium)).foregroundStyle(.white.opacity(0.2))
                 }
             }
             .padding(.vertical, 12)
-
             if showDivider {
-                Rectangle()
-                    .fill(.white.opacity(0.06))
-                    .frame(height: 0.5)
-                    .padding(.leading, 38)
+                Rectangle().fill(.white.opacity(0.06)).frame(height: 0.5).padding(.leading, 38)
             }
         }
     }

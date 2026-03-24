@@ -63,3 +63,27 @@
 "settings.notif.morning" = "Sabiduría matutina";
 "settings.notif.time" = "Hora de envío";
 "settings.notif.enable" = "Activar notificaciones";
+
+"paywall.title" = "Desbloquea toda la sabiduría";
+"paywall.subtitle" = "Obtén acceso a todos los temas y funciones";
+"paywall.feature.topics.title" = "Los 5 temas";
+"paywall.feature.topics.desc" = "Dinero, Relaciones, Liderazgo y más";
+"paywall.feature.saves.title" = "Guardados ilimitados";
+"paywall.feature.saves.desc" = "Crea tu biblioteca personal de sabiduría";
+"paywall.feature.notifs.title" = "Recordatorios inteligentes";
+"paywall.feature.notifs.desc" = "Sabiduría cada mañana y cada noche";
+"paywall.feature.export.title" = "Exportar colección";
+"paywall.feature.export.desc" = "Guarda tus favoritos como PDF";
+"paywall.plan.yearly" = "Anual";
+"paywall.plan.yearly.detail" = "$2.50/mes, facturado anualmente";
+"paywall.plan.yearly.badge" = "AHORRA 37%";
+"paywall.plan.monthly" = "Mensual";
+"paywall.plan.monthly.detail" = "Cancela en cualquier momento";
+"paywall.subscribe" = "Comenzar prueba gratuita";
+"paywall.trial" = "3 días gratis, luego se renueva automáticamente";
+"paywall.restore" = "Restaurar";
+"paywall.terms" = "Términos";
+"paywall.privacy" = "Privacidad";
+"paywall.error" = "Error";
+"settings.premium.active" = "Premium activo";
+"settings.premium.pill.topics" = "Todos los temas";

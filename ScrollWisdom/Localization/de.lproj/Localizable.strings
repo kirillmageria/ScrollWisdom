@@ -63,3 +63,27 @@
 "settings.notif.morning" = "Morgenweisheit";
 "settings.notif.time" = "Zustellzeit";
 "settings.notif.enable" = "Benachrichtigungen aktivieren";
+
+"paywall.title" = "Alle Weisheiten freischalten";
+"paywall.subtitle" = "Zugriff auf alle Themen und Funktionen";
+"paywall.feature.topics.title" = "Alle 5 Themen";
+"paywall.feature.topics.desc" = "Geld, Beziehungen, Führung & mehr";
+"paywall.feature.saves.title" = "Unbegrenzte Speicherungen";
+"paywall.feature.saves.desc" = "Erstelle deine persönliche Weisheitsbibliothek";
+"paywall.feature.notifs.title" = "Intelligente Erinnerungen";
+"paywall.feature.notifs.desc" = "Weisheit am Morgen und Abend";
+"paywall.feature.export.title" = "Sammlung exportieren";
+"paywall.feature.export.desc" = "Speichere deine Favoriten als PDF";
+"paywall.plan.yearly" = "Jährlich";
+"paywall.plan.yearly.detail" = "$2.50/Monat, jährlich abgerechnet";
+"paywall.plan.yearly.badge" = "37% SPAREN";
+"paywall.plan.monthly" = "Monatlich";
+"paywall.plan.monthly.detail" = "Jederzeit kündbar";
+"paywall.subscribe" = "Kostenlose Testversion starten";
+"paywall.trial" = "3 Tage kostenlos, danach automatische Verlängerung";
+"paywall.restore" = "Wiederherstellen";
+"paywall.terms" = "AGB";
+"paywall.privacy" = "Datenschutz";
+"paywall.error" = "Fehler";
+"settings.premium.active" = "Premium aktiv";
+"settings.premium.pill.topics" = "Alle Themen";

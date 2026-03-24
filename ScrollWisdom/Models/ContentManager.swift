@@ -9,22 +9,30 @@ class ContentManager {
     var streak: Int = 0
     var cardsViewedToday: Int = 0
     var hasCompletedOnboarding: Bool = false
-    
+
+    private var viewedCardIDs: Set<String> = []
+
     private let savedKey = "savedCardIDs"
     private let topicsKey = "selectedTopics"
     private let streakKey = "streakCount"
     private let lastOpenKey = "lastOpenDate"
     private let onboardingKey = "hasCompletedOnboarding"
 
-    var filteredCards: [WisdomCard] {
-        allCards.filter { selectedTopics.contains($0.topic) }.shuffled()
+    /// Returns cards filtered by user-selected topics AND available (free/premium) topics
+    func feedCards(availableTopics: Set<WisdomCard.Topic>) -> [WisdomCard] {
+        allCards.filter { card in
+            selectedTopics.contains(card.topic) && availableTopics.contains(card.topic)
+        }.shuffled()
     }
 
     var savedCards: [WisdomCard] {
         allCards.filter { savedCardIDs.contains($0.id) }
     }
 
-    private var viewedCardIDs: Set<String> = []
+    // Keep old filteredCards for backward compat
+    var filteredCards: [WisdomCard] {
+        allCards.filter { selectedTopics.contains($0.topic) }.shuffled()
+    }
 
     init() {
         loadCards()
@@ -33,7 +41,6 @@ class ContentManager {
     }
 
     func loadCards() {
-        // Try locale-specific file first, then fallback to default
         let locale = Locale.current.language.languageCode?.identifier ?? "en"
 
         let fileNames: [String]
@@ -47,17 +54,15 @@ class ContentManager {
         }
 
         for name in fileNames {
-            if let url = Bundle.main.url(forResource: name, withExtension: "json") {
-                if let data = try? Data(contentsOf: url),
-                   let cards = try? JSONDecoder().decode([WisdomCard].self, from: data),
-                   !cards.isEmpty {
-                    allCards = cards
-                    return
-                }
+            if let url = Bundle.main.url(forResource: name, withExtension: "json"),
+               let data = try? Data(contentsOf: url),
+               let cards = try? JSONDecoder().decode([WisdomCard].self, from: data),
+               !cards.isEmpty {
+                allCards = cards
+                return
             }
         }
 
-        // Fallback to sample cards
         allCards = Self.sampleCards
     }
 
@@ -87,7 +92,7 @@ class ContentManager {
         let topicStrings = topics.map { $0.rawValue }
         UserDefaults.standard.set(topicStrings, forKey: topicsKey)
     }
-    
+
     private func loadSavedState() {
         if let ids = UserDefaults.standard.array(forKey: savedKey) as? [String] {
             savedCardIDs = Set(ids)
@@ -98,11 +103,11 @@ class ContentManager {
         streak = UserDefaults.standard.integer(forKey: streakKey)
         hasCompletedOnboarding = UserDefaults.standard.bool(forKey: onboardingKey)
     }
-    
+
     private func saveToDisk() {
         UserDefaults.standard.set(Array(savedCardIDs), forKey: savedKey)
     }
-    
+
     private func updateStreak() {
         let today = Calendar.current.startOfDay(for: Date())
         if let lastStr = UserDefaults.standard.string(forKey: lastOpenKey),
@@ -120,11 +125,10 @@ class ContentManager {
         UserDefaults.standard.set(streak, forKey: streakKey)
         UserDefaults.standard.set(ISO8601DateFormatter().string(from: today), forKey: lastOpenKey)
     }
-    
-    // MARK: - Fallback sample cards (English)
+
     static let sampleCards: [WisdomCard] = [
-        WisdomCard(id: "s1", quote: "You have power over your mind — not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius", source: "Meditations, Book VI", story: "Aurelius wrote this in a military camp during a devastating plague. His army was dying, the empire crumbling — yet every evening he opened his journal.", action: "Write down 3 things bothering you. Next to each, ask: Can I control this?", topic: .stoicism),
-        WisdomCard(id: "s2", quote: "We suffer more often in imagination than in reality.", author: "Seneca", source: "Letters to Lucilius", story: "Seneca wrote this to a friend paralyzed by fear of an upcoming trial. The trial came and went without consequence.", action: "Write down your biggest worry. Below it, list what actually happened the last 3 times you worried this much.", topic: .stoicism),
-        WisdomCard(id: "s3", quote: "Wealth consists not in having great possessions, but in having few wants.", author: "Epictetus", source: "Discourses", story: "Epictetus was born a slave. After gaining freedom, he chose to live with almost nothing. He taught that desire, not poverty, is the real prison.", action: "Check your recent purchases. Find 3 things you bought but never needed.", topic: .money),
+        WisdomCard(id: "s1", quote: "You have power over your mind — not outside events.", author: "Marcus Aurelius", source: "Meditations", story: "Written during a plague in a military camp.", action: "Write 3 things bothering you. Ask: can I control this?", topic: .stoicism),
+        WisdomCard(id: "s2", quote: "We suffer more in imagination than in reality.", author: "Seneca", source: "Letters to Lucilius", story: "Written to a friend paralyzed by fear.", action: "Write your biggest worry. What happened the last 3 times?", topic: .stoicism),
+        WisdomCard(id: "s3", quote: "The chains of habit are too light to be felt until they are too heavy to be broken.", author: "Samuel Johnson", source: "Attributed", story: "Johnson battled depression his entire life but wrote a dictionary solo.", action: "Track one habit for 7 days. Just observe.", topic: .discipline),
     ]
 }

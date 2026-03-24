@@ -63,3 +63,27 @@
 "settings.notif.morning" = "Утренняя мудрость";
 "settings.notif.time" = "Время доставки";
 "settings.notif.enable" = "Включить уведомления";
+
+"paywall.title" = "Открой всю мудрость";
+"paywall.subtitle" = "Доступ ко всем темам и функциям";
+"paywall.feature.topics.title" = "Все 5 тем";
+"paywall.feature.topics.desc" = "Деньги, Отношения, Лидерство и другие";
+"paywall.feature.saves.title" = "Безлимитные сохранения";
+"paywall.feature.saves.desc" = "Создай свою библиотеку мудрости";
+"paywall.feature.notifs.title" = "Умные напоминания";
+"paywall.feature.notifs.desc" = "Утренняя и вечерняя доставка мудрости";
+"paywall.feature.export.title" = "Экспорт коллекции";
+"paywall.feature.export.desc" = "Сохрани избранное в PDF";
+"paywall.plan.yearly" = "Годовая";
+"paywall.plan.yearly.detail" = "$2.50/мес, оплата за год";
+"paywall.plan.yearly.badge" = "−37%";
+"paywall.plan.monthly" = "Месячная";
+"paywall.plan.monthly.detail" = "Отмена в любое время";
+"paywall.subscribe" = "Начать бесплатный период";
+"paywall.trial" = "3 дня бесплатно, затем автопродление";
+"paywall.restore" = "Восстановить";
+"paywall.terms" = "Условия";
+"paywall.privacy" = "Конфиденциальность";
+"paywall.error" = "Ошибка";
+"settings.premium.active" = "Premium активен";
+"settings.premium.pill.topics" = "Все темы";

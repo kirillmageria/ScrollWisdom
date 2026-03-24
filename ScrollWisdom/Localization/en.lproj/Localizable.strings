@@ -63,3 +63,27 @@
 "settings.notif.morning" = "Morning wisdom";
 "settings.notif.time" = "Delivery time";
 "settings.notif.enable" = "Enable notifications";
+
+"paywall.title" = "Unlock All Wisdom";
+"paywall.subtitle" = "Get access to every topic and feature";
+"paywall.feature.topics.title" = "All 5 topics";
+"paywall.feature.topics.desc" = "Money, Relationships, Leadership & more";
+"paywall.feature.saves.title" = "Unlimited saves";
+"paywall.feature.saves.desc" = "Build your personal wisdom library";
+"paywall.feature.notifs.title" = "Smart reminders";
+"paywall.feature.notifs.desc" = "Morning & evening wisdom delivery";
+"paywall.feature.export.title" = "Export collection";
+"paywall.feature.export.desc" = "Save your favorites as PDF";
+"paywall.plan.yearly" = "Yearly";
+"paywall.plan.yearly.detail" = "$2.50/month, billed annually";
+"paywall.plan.yearly.badge" = "SAVE 37%";
+"paywall.plan.monthly" = "Monthly";
+"paywall.plan.monthly.detail" = "Cancel anytime";
+"paywall.subscribe" = "Start Free Trial";
+"paywall.trial" = "3 days free, then auto-renews";
+"paywall.restore" = "Restore";
+"paywall.terms" = "Terms";
+"paywall.privacy" = "Privacy";
+"paywall.error" = "Error";
+"settings.premium.active" = "Premium Active";
+"settings.premium.pill.topics" = "All topics";
