@@ -7,6 +7,14 @@ struct SettingsView: View {
     @State private var notifTime = Date()
     @State private var showTimePicker = false
     @State private var showPaywall = false
+    @Environment(\.requestReview) private var requestReview
+    @Environment(\.openURL) private var openURL
+
+    private static let timeFormatter: DateFormatter = {
+        let f = DateFormatter()
+        f.timeStyle = .short
+        return f
+    }()
 
     var body: some View {
         ScrollView {
@@ -255,9 +263,25 @@ struct SettingsView: View {
                 // MARK: - About
                 SettingsCard {
                     VStack(spacing: 0) {
-                        AboutRow(icon: "info.circle", title: String(localized: "settings.version"), value: "1.0.0", showDivider: true)
-                        AboutRow(icon: "star", title: String(localized: "settings.rate"), value: nil, showDivider: true)
-                        AboutRow(icon: "envelope", title: String(localized: "settings.feedback"), value: nil, showDivider: false)
+                        AboutRow(icon: "info.circle", title: String(localized: "settings.version"),
+                                 value: Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0",
+                                 showDivider: true)
+
+                        Button {
+                            requestReview()
+                        } label: {
+                            AboutRow(icon: "star", title: String(localized: "settings.rate"), value: nil, showDivider: true)
+                        }
+                        .buttonStyle(.plain)
+
+                        Button {
+                            if let url = URL(string: "mailto:support@scrollwisdom.app?subject=ScrollWisdom%20Feedback") {
+                                openURL(url)
+                            }
+                        } label: {
+                            AboutRow(icon: "envelope", title: String(localized: "settings.feedback"), value: nil, showDivider: false)
+                        }
+                        .buttonStyle(.plain)
                     }
                 }
                 .padding(.horizontal, 20)
@@ -283,12 +307,10 @@ struct SettingsView: View {
     }
 
     private var timeString: String {
-        let formatter = DateFormatter()
-        formatter.timeStyle = .short
         var comps = DateComponents()
         comps.hour = notifManager.morningHour
         comps.minute = notifManager.morningMinute
-        return formatter.string(from: Calendar.current.date(from: comps) ?? Date())
+        return Self.timeFormatter.string(from: Calendar.current.date(from: comps) ?? Date())
     }
 }
 
