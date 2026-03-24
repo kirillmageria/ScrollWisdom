@@ -30,6 +30,14 @@
 "settings.premium.title" = "Scroll Wisdom Premium";
 "settings.premium.subtitle" = "Все темы, безлимитные сохранения, без рекламы";
 "settings.premium.price" = "$3.99/мес";
+"settings.subtitle" = "Твой путь";
+"settings.notif.active" = "Активно";
+"settings.notif.inactive" = "Нажми, чтобы включить";
+"settings.rate" = "Оценить приложение";
+"settings.feedback" = "Обратная связь";
+"settings.premium.pill.saves" = "Сохранения";
+"settings.premium.pill.noads" = "Без рекламы";
+"settings.premium.pill.notifs" = "Пуши";
 
 /* Onboarding */
 "onboarding.title" = "Scroll Wisdom";

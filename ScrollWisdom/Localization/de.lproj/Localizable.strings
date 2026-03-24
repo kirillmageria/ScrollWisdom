@@ -30,6 +30,14 @@
 "settings.premium.title" = "Scroll Wisdom Premium";
 "settings.premium.subtitle" = "Alle Themen, unbegrenzt speichern, keine Werbung";
 "settings.premium.price" = "3,99 $/Monat";
+"settings.subtitle" = "Dein Weg";
+"settings.notif.active" = "Aktiv";
+"settings.notif.inactive" = "Tippen zum Aktivieren";
+"settings.rate" = "App bewerten";
+"settings.feedback" = "Feedback senden";
+"settings.premium.pill.saves" = "Speichern";
+"settings.premium.pill.noads" = "Keine Werbung";
+"settings.premium.pill.notifs" = "Hinweise";
 
 /* Onboarding */
 "onboarding.title" = "Scroll Wisdom";
