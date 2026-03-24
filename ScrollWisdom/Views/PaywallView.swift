@@ -167,13 +167,13 @@ struct PaywallView: View {
 
                         Circle().fill(.white.opacity(0.15)).frame(width: 3, height: 3)
 
-                        Link(String(localized: "paywall.terms"), destination: URL(string: "https://example.com/terms")!)
+                        Link(String(localized: "paywall.terms"), destination: URL(string: "https://kirillmagerya.github.io/ScrollWisdom/terms-of-service")!)
                             .font(.system(size: 12))
                             .foregroundStyle(.white.opacity(0.3))
 
                         Circle().fill(.white.opacity(0.15)).frame(width: 3, height: 3)
 
-                        Link(String(localized: "paywall.privacy"), destination: URL(string: "https://example.com/privacy")!)
+                        Link(String(localized: "paywall.privacy"), destination: URL(string: "https://kirillmagerya.github.io/ScrollWisdom/privacy-policy")!)
                             .font(.system(size: 12))
                             .foregroundStyle(.white.opacity(0.3))
                     }
