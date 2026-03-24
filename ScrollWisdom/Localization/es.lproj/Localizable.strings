@@ -72,8 +72,6 @@
 "paywall.feature.saves.desc" = "Crea tu biblioteca personal de sabiduría";
 "paywall.feature.notifs.title" = "Recordatorios inteligentes";
 "paywall.feature.notifs.desc" = "Sabiduría cada mañana y cada noche";
-"paywall.feature.export.title" = "Exportar colección";
-"paywall.feature.export.desc" = "Guarda tus favoritos como PDF";
 "paywall.plan.yearly" = "Anual";
 "paywall.plan.yearly.detail" = "$2.50/mes, facturado anualmente";
 "paywall.plan.yearly.badge" = "AHORRA 37%";

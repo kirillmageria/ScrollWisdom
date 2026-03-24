@@ -90,10 +90,6 @@ struct PaywallView: View {
                         PaywallFeature(icon: "bell.badge", color: "#3b82f6",
                                        title: String(localized: "paywall.feature.notifs.title"),
                                        desc: String(localized: "paywall.feature.notifs.desc"),
-                                       showDivider: true)
-                        PaywallFeature(icon: "doc.text", color: "#10b981",
-                                       title: String(localized: "paywall.feature.export.title"),
-                                       desc: String(localized: "paywall.feature.export.desc"),
                                        showDivider: false)
                     }
                     .padding(16)

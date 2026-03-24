@@ -72,8 +72,6 @@
 "paywall.feature.saves.desc" = "Создай свою библиотеку мудрости";
 "paywall.feature.notifs.title" = "Умные напоминания";
 "paywall.feature.notifs.desc" = "Утренняя и вечерняя доставка мудрости";
-"paywall.feature.export.title" = "Экспорт коллекции";
-"paywall.feature.export.desc" = "Сохрани избранное в PDF";
 "paywall.plan.yearly" = "Годовая";
 "paywall.plan.yearly.detail" = "$2.50/мес, оплата за год";
 "paywall.plan.yearly.badge" = "−37%";

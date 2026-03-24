@@ -31,11 +31,6 @@ class ContentManager {
         allCards.filter { savedCardIDs.contains($0.id) }
     }
 
-    // Keep old filteredCards for backward compat
-    var filteredCards: [WisdomCard] {
-        allCards.filter { selectedTopics.contains($0.topic) }.shuffled()
-    }
-
     init() {
         loadCards()
         loadSavedState()
