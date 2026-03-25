@@ -280,9 +280,22 @@ struct SettingsView: View {
                                 openURL(url)
                             }
                         } label: {
+                            #if DEBUG
+                            AboutRow(icon: "envelope", title: String(localized: "settings.feedback"), value: nil, showDivider: true)
+                            #else
                             AboutRow(icon: "envelope", title: String(localized: "settings.feedback"), value: nil, showDivider: false)
+                            #endif
                         }
                         .buttonStyle(.plain)
+
+                        #if DEBUG
+                        Button {
+                            fatalError("Test crash for Crashlytics")
+                        } label: {
+                            AboutRow(icon: "flame", title: "Test Crash", value: nil, showDivider: false)
+                        }
+                        .buttonStyle(.plain)
+                        #endif
                     }
                 }
                 .padding(.horizontal, 20)
