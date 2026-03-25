@@ -52,7 +52,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 03-01-PLAN.md — Firebase SDK setup (SPM + config), initialization code, debug crash button, subscription custom value
+- [x] 03-01-PLAN.md — Firebase SDK setup (SPM + config), initialization code, debug crash button, subscription custom value
 
 ### Phase 4: App Store Submission
 **Goal**: Опубликовать ScrollWisdom в App Store
@@ -76,5 +76,5 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. Bugs & Polish | 1/1 | Complete | 2026-03-25 |
 | 2. Legal | 0/1 | Not started | - |
-| 3. Crashlytics | 0/1 | Not started | - |
+| 3. Crashlytics | 1/1 | Complete | 2026-03-26 |
 | 4. App Store Submission | 0/3 | Not started | - |
