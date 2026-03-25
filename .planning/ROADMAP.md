@@ -49,10 +49,10 @@ Plans:
   1. Firebase SDK добавлен через Swift Package Manager
   2. FirebaseApp.configure() вызывается при старте приложения
   3. Тестовый краш отображается в Firebase Console
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 03-01: Firebase Crashlytics integration
+- [ ] 03-01-PLAN.md — Firebase SDK setup (SPM + config), initialization code, debug crash button, subscription custom value
 
 ### Phase 4: App Store Submission
 **Goal**: Опубликовать ScrollWisdom в App Store
