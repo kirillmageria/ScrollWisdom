@@ -36,7 +36,7 @@ Plans:
   1. Privacy Policy опубликована на реальном URL
   2. Terms of Service опубликованы на реальном URL
   3. Ссылки в PaywallView открывают реальные страницы
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
 - [ ] 02-01: Privacy Policy & Terms generation and integration
@@ -63,12 +63,12 @@ Plans:
   2. Скриншоты и описание заполнены минимум для EN и RU
   3. Приложение прошло TestFlight тестирование
   4. Приложение отправлено на ревью Apple
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 04-01: App Store Connect setup (App ID + subscription products)
-- [ ] 04-02: Store assets (screenshots, description, keywords)
-- [ ] 04-03: TestFlight & Submit
+- [ ] 04-01-PLAN.md — App Store Connect setup (App ID + subscription products)
+- [ ] 04-02-PLAN.md — Screenshots, metadata, and store listing (EN + RU)
+- [ ] 04-03-PLAN.md — TestFlight testing and Apple review submission
 
 ## Progress
 
