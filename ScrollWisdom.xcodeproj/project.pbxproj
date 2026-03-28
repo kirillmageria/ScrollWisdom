@@ -6,8 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		208AA9822F74848400C15ED2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 208AA9812F74848400C15ED2 /* FirebaseCrashlytics */; };
+		2098B56B2F7861B800D8664B /* ScrollWisdomProducts.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		204998832F7098C700159F11 /* ScrollWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScrollWisdomProducts.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208AA9822F74848400C15ED2 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +39,7 @@
 		2049987A2F7098C700159F11 = {
 			isa = PBXGroup;
 			children = (
+				2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */,
 				204998852F7098C700159F11 /* ScrollWisdom */,
 				204998842F7098C700159F11 /* Products */,
 			);
@@ -55,6 +63,7 @@
 				2049987F2F7098C700159F11 /* Sources */,
 				204998802F7098C700159F11 /* Frameworks */,
 				204998812F7098C700159F11 /* Resources */,
+				208AA9832F7484D300C15ED2 /* Firebase Crashlytics dSYM Upload */,
 			);
 			buildRules = (
 			);
@@ -65,6 +74,7 @@
 			);
 			name = ScrollWisdom;
 			packageProductDependencies = (
+				208AA9812F74848400C15ED2 /* FirebaseCrashlytics */,
 			);
 			productName = ScrollWisdom;
 			productReference = 204998832F7098C700159F11 /* ScrollWisdom.app */;
@@ -99,6 +109,9 @@
 			);
 			mainGroup = 2049987A2F7098C700159F11;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				208AA9802F74848400C15ED2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 204998842F7098C700159F11 /* Products */;
 			projectDirPath = "";
@@ -114,10 +127,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2098B56B2F7861B800D8664B /* ScrollWisdomProducts.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208AA9832F7484D300C15ED2 /* Firebase Crashlytics dSYM Upload */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Firebase Crashlytics dSYM Upload";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2049987F2F7098C700159F11 /* Sources */ = {
@@ -274,6 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = KirillMageria.ScrollWisdom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -309,6 +351,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = KirillMageria.ScrollWisdom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -343,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		208AA9802F74848400C15ED2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		208AA9812F74848400C15ED2 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 208AA9802F74848400C15ED2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2049987B2F7098C700159F11 /* Project object */;
 }

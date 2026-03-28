@@ -55,7 +55,7 @@
          referenceType = "1">
       </LocationScenarioReference>
       <StoreKitConfigurationFileReference
-         identifier = "../../ScrollWisdom/ScrollWisdomProducts.storekit">
+         identifier = "../../ScrollWisdomProducts.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
