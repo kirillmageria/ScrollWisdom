@@ -61,7 +61,7 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "com.scrollwisdom.premium.monthly",
+          "productID" : "com.scrollwisdom.monthly.v2",
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Monthly",
           "subscriptionGroupID" : "11B27BF1",
@@ -93,7 +93,7 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "com.scrollwisdom.premium.yearly",
+          "productID" : "com.scrollwisdom.yearly.v2",
           "recurringSubscriptionPeriod" : "P1Y",
           "referenceName" : "Yearly",
           "subscriptionGroupID" : "11B27BF1",

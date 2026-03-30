@@ -11,8 +11,8 @@ class StoreManager {
     private var transactionListenerTask: Task<Void, Never>?
 
     // Product identifiers — create these in App Store Connect
-    static let monthlyID = "com.scrollwisdom.premium.monthly"
-    static let yearlyID = "com.scrollwisdom.premium.yearly"
+    static let monthlyID = "com.scrollwisdom.monthly.v2"
+    static let yearlyID = "com.scrollwisdom.yearly.v2"
 
     // Free topics — available without subscription
     static let freeTopics: Set<WisdomCard.Topic> = [.stoicism, .discipline]
