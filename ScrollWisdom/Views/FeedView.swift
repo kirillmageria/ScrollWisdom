@@ -1,8 +1,10 @@
 import SwiftUI
+import StoreKit
 
 struct FeedView: View {
     @Environment(ContentManager.self) var manager
     @Environment(StoreManager.self) var store
+    @Environment(\.requestReview) private var requestReview
     @State private var feedCards: [WisdomCard] = []
     @State private var currentCardID: String?
 
@@ -22,7 +24,12 @@ struct FeedView: View {
                             CardView(
                                 card: card,
                                 isSaved: manager.isSaved(card),
-                                onSave: { manager.toggleSave(card) },
+                                onSave: {
+                                    manager.toggleSave(card)
+                                    if manager.savedCardIDs.count == 3 {
+                                        requestReview()
+                                    }
+                                },
                                 onShare: { shareCard(card) }
                             )
                             .containerRelativeFrame(.vertical)

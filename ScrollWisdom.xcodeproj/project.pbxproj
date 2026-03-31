@@ -16,9 +16,22 @@
 		2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScrollWisdomProducts.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2097E3692F7B3B8300AF75D6 /* Exceptions for "ScrollWisdom" folder in "ScrollWisdom" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 204998822F7098C700159F11 /* ScrollWisdom */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		204998852F7098C700159F11 /* ScrollWisdom */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2097E3692F7B3B8300AF75D6 /* Exceptions for "ScrollWisdom" folder in "ScrollWisdom" target */,
+			);
 			path = ScrollWisdom;
 			sourceTree = "<group>";
 		};
@@ -302,7 +315,9 @@
 				DEVELOPMENT_TEAM = 65TNRYCD64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScrollWisdom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Scroll Wisdom";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -338,7 +353,9 @@
 				DEVELOPMENT_TEAM = 65TNRYCD64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScrollWisdom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Scroll Wisdom";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
