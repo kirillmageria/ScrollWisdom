@@ -57,6 +57,8 @@
 "topic.relationships" = "Отношения";
 "topic.leadership" = "Лидерство";
 "topic.discipline" = "Дисциплина";
+"topic.health" = "Здоровье";
+"topic.psychology" = "Психология";
 
 /* Notifications */
 "settings.notifications" = "Уведомления";

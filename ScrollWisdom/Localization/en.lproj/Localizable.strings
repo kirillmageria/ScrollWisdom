@@ -57,6 +57,8 @@
 "topic.relationships" = "Relationships";
 "topic.leadership" = "Leadership";
 "topic.discipline" = "Discipline";
+"topic.health" = "Health";
+"topic.psychology" = "Psychology";
 
 /* Notifications */
 "settings.notifications" = "Notifications";

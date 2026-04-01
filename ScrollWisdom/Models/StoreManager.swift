@@ -15,8 +15,8 @@ class StoreManager {
     static let yearlyID = "com.scrollwisdom.yearly.v2"
 
     // Free topics — available without subscription
-    static let freeTopics: Set<WisdomCard.Topic> = [.stoicism, .discipline]
-    static let premiumTopics: Set<WisdomCard.Topic> = [.money, .relationships, .leadership]
+    static let freeTopics: Set<WisdomCard.Topic> = [.stoicism, .discipline, .health]
+    static let premiumTopics: Set<WisdomCard.Topic> = [.money, .relationships, .leadership, .psychology]
 
     var isPremium: Bool {
         !purchasedProductIDs.isEmpty

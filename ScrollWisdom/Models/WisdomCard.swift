@@ -15,6 +15,8 @@ struct WisdomCard: Codable, Identifiable, Hashable {
         case relationships = "relationships"
         case leadership = "leadership"
         case discipline = "discipline"
+        case health = "health"
+        case psychology = "psychology"
         
         var displayName: String {
             NSLocalizedString("topic.\(rawValue)", comment: "")
@@ -27,6 +29,8 @@ struct WisdomCard: Codable, Identifiable, Hashable {
             case .relationships: return "❤️"
             case .leadership: return "👑"
             case .discipline: return "⚡"
+            case .health: return "💪"
+            case .psychology: return "🧠"
             }
         }
         
@@ -37,6 +41,8 @@ struct WisdomCard: Codable, Identifiable, Hashable {
             case .relationships: return ["#2e1a1a", "#3e1621"]
             case .leadership: return ["#1a2e1a", "#0e2d1a"]
             case .discipline: return ["#2e2a1a", "#3e2916"]
+            case .health: return ["#0e2a1a", "#0a2012"]
+            case .psychology: return ["#1a1a2e", "#2a1a3e"]
             }
         }
     }

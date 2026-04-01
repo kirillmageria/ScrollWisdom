@@ -898,5 +898,185 @@
     "story": "Picasso podía dibujar de manera fotorealista a los 13 años. Pasó el resto de su vida desaprendiendo técnicas para encontrar algo más honesto: su forma única de ver. Cuando lo encontró, no lo atesoró. Pintó 50,000 obras y regaló miles. El regalo solo tiene valor en movimiento.",
     "action": "¿Qué te sale natural y que a otros les resulta difícil? Ese es tu regalo. ¿Cómo puedes compartirlo con una persona hoy — gratis, sin expectativas?",
     "topic": "relationships"
+  },
+  {
+    "id": "101",
+    "quote": "The body is your temple. Keep it pure and clean for the soul to reside in.",
+    "author": "B.K.S. Iyengar",
+    "source": "Light on Yoga",
+    "story": "Iyengar suffered from tuberculosis, typhoid, and malaria as a child. Doctors gave him little hope. At 16, he began practicing yoga — not for spirituality, but for survival. At 95, he was still teaching, saying: 'I don't do yoga. I live yoga.'",
+    "action": "Spend 5 minutes moving right now: stretch, walk, squat. Not for results — just to feel your body. Notice every movement.",
+    "topic": "health"
+  },
+  {
+    "id": "102",
+    "quote": "Sleep is the best meditation.",
+    "author": "Dalai Lama",
+    "source": "Various interviews",
+    "story": "Matthew Walker's research showed: after 20 hours without sleep, cognitive function drops to the level of 0.08% blood alcohol. Most people are chronically sleep-deprived and don't even notice — because fatigue dulls the ability to assess fatigue.",
+    "action": "Go to bed 30 minutes earlier tonight. Put your phone away an hour before sleep. Just one experiment — see how you feel tomorrow morning.",
+    "topic": "health"
+  },
+  {
+    "id": "103",
+    "quote": "Let food be thy medicine and medicine be thy food.",
+    "author": "Hippocrates",
+    "source": "Aphorisms",
+    "story": "Hippocrates treated patients with food, air, and movement — when most doctors used magical rituals. He noticed: people who ate simple, natural food got sick less. His principle still holds 2,500 years later.",
+    "action": "Look at your next meal as a choice. Add one real food — fruit, vegetables, nuts. Don't subtract — add.",
+    "topic": "health"
+  },
+  {
+    "id": "104",
+    "quote": "Movement is life. Life is movement.",
+    "author": "Leo Tolstoy",
+    "source": "Diaries",
+    "story": "Tolstoy learned to ride a bicycle at 60. At 70, he walked 20 km a day. At 82, he fled his home in the frost and walked several stations. His body remained stronger than his spirit until the very end. He knew: stillness is not rest — it is slow dying.",
+    "action": "Get up and walk for 10 minutes without your phone. Just walking. Notice your breath, steps, surroundings. It is both meditation and movement at once.",
+    "topic": "health"
+  },
+  {
+    "id": "105",
+    "quote": "Fatigue is the best pillow.",
+    "author": "Benjamin Franklin",
+    "source": "Poor Richard's Almanack",
+    "story": "Franklin woke at 5 AM and asked himself: 'What good shall I do today?' In the evening he asked: 'What good have I done today?' He believed: honest physical and mental work is the best sleep aid and the best antidepressant.",
+    "action": "Plan one physically active thing today — cleaning, a walk, cycling. Something that will tire you out. In the evening, assess your sleep quality.",
+    "topic": "health"
+  },
+  {
+    "id": "106",
+    "quote": "Mind and body are not two but one.",
+    "author": "Baruch Spinoza",
+    "source": "Ethics",
+    "story": "Modern science confirms Spinoza: 90% of serotonin is produced in the gut. Chronic pain changes personality. Depression lives in the body no less than in the mind. You cannot treat one while ignoring the other.",
+    "action": "Notice your body right now: where is there tension? Shoulders, jaw, stomach? Take three deep exhales, consciously relaxing those areas.",
+    "topic": "health"
+  },
+  {
+    "id": "107",
+    "quote": "Water is the driving force of all nature.",
+    "author": "Leonardo da Vinci",
+    "source": "Notebooks",
+    "story": "Research shows: losing just 2% of body water reduces cognitive function by 20%. Most people are constantly mildly dehydrated and mistake it for fatigue, irritability, or 'brain fog'.",
+    "action": "Drink a glass of water right now. Set a reminder every 2 hours today. The simplest experiment with a potentially noticeable effect.",
+    "topic": "health"
+  },
+  {
+    "id": "108",
+    "quote": "Nature does not hurry, yet everything is accomplished.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "story": "The Japanese concept of 'shinrin-yoku' — forest bathing — was officially recognized as medicine in 1982. Studies showed: 2 hours in the forest reduces cortisol by 16%, blood pressure by 7%, and improves immunity by 40%. Nature heals even when we simply exist in it.",
+    "action": "Find 15 minutes outside away from screens today. A park, a yard, any place with trees. Just be there without a task.",
+    "topic": "health"
+  },
+  {
+    "id": "109",
+    "quote": "Breathe. You are already where you need to be.",
+    "author": "Thich Nhat Hanh",
+    "source": "Peace Is Every Step",
+    "story": "Thich Nhat Hanh survived the Vietnam War and years of exile. He developed mindful breathing not as esotericism, but as a survival tool. His community of hundreds was united by one simple principle: if you can breathe, you can live.",
+    "action": "Take 4 breaths: inhale 4 seconds, hold 4, exhale 6. This activates the parasympathetic nervous system and reduces stress in 2 minutes.",
+    "topic": "health"
+  },
+  {
+    "id": "110",
+    "quote": "Health is not something you do sometimes. It is who you are.",
+    "author": "Rip Esselstyn",
+    "source": "The Engine 2 Diet",
+    "story": "Esselstyn was a professional firefighter and triathlete. His fire crew in Texas suffered from obesity and heart disease. He introduced a new nutrition protocol. After a year — a transformation of the entire team. Health became not a diet, but an identity.",
+    "action": "Formulate one statement about yourself: 'I am someone who...' For example: 'I am someone who moves every day.' Repeat it three times aloud.",
+    "topic": "health"
+  },
+  {
+    "id": "111",
+    "quote": "Between stimulus and response there is a space. In that space is our power to choose our response.",
+    "author": "Viktor Frankl",
+    "source": "Man's Search for Meaning",
+    "story": "Frankl spent three years in Nazi concentration camps. He lost everything — his family, his manuscript, his future. Yet he observed: some prisoners maintained dignity even in hell, while others lost their humanity in freedom. The difference was not in the conditions — but in the pause between what happens and how they respond.",
+    "action": "Next time you feel irritation or anxiety, pause for 3 seconds before responding. Just 3 seconds. That is the space of freedom.",
+    "topic": "psychology"
+  },
+  {
+    "id": "112",
+    "quote": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+    "author": "Epictetus",
+    "source": "Enchiridion",
+    "story": "Epictetus was born a slave and spent part of his life in chains. His master once began twisting his leg. Epictetus calmly said: 'You will break it.' The master broke it. 'I told you,' Epictetus replied. The leg was not under his control. His attitude toward the pain was.",
+    "action": "Think of something that worries you now. Ask: 'Is this a fact or my interpretation?' Write the fact separately from your evaluation.",
+    "topic": "psychology"
+  },
+  {
+    "id": "113",
+    "quote": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "author": "Carl Jung",
+    "source": "Psychological Types",
+    "story": "Jung called this the 'shadow' — the part of ourselves we reject and project onto others. A person irritated by another's laziness often suppresses their own desire to rest. Someone angry at another's aggression often fears their own. The mirror is always nearby.",
+    "action": "Think of someone who strongly irritates you. Honestly ask: is there anything in you similar to what you cannot accept in them? Just observe.",
+    "topic": "psychology"
+  },
+  {
+    "id": "114",
+    "quote": "The greatest revolution of our generation is the discovery that human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives.",
+    "author": "William James",
+    "source": "The Principles of Psychology",
+    "story": "James — the father of American psychology — himself experienced severe depression. He found the way out through a simple experiment: to act as if he felt confident, even without feeling it. The body changes the mind. Behavior changes beliefs.",
+    "action": "Choose one limiting belief ('I am not capable of...', 'I will not succeed...'). Write the opposite and find one piece of evidence for it from your own life.",
+    "topic": "psychology"
+  },
+  {
+    "id": "115",
+    "quote": "Anxiety is the price we pay for imagination.",
+    "author": "Daniel Gilbert",
+    "source": "Stumbling on Happiness",
+    "story": "Research shows: 85% of what we worry about never happens. Of the remaining 15% — people cope better than they expected. The brain is designed to predict threats, not to make accurate forecasts. Anxiety is not information about the future. It is information about the state of your nervous system now.",
+    "action": "Write down one thing that worries you. Rate it 1-10: how likely is it to happen? What will you do if it does? A concrete plan reduces anxiety.",
+    "topic": "psychology"
+  },
+  {
+    "id": "116",
+    "quote": "Happiness is not something ready-made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "source": "The Art of Happiness",
+    "story": "Tollle experienced a suicidal crisis at 29. The night after the words 'I cannot live with myself,' he suddenly asked: who is this 'I' that cannot tolerate 'myself'? This question changed everything. He discovered the observer behind thoughts — and found peace without changing a single external circumstance.",
+    "action": "Right now, close your eyes for 60 seconds. Observe your thoughts without engaging with them — like clouds. You are not your thoughts. You are the one who observes them.",
+    "topic": "psychology"
+  },
+  {
+    "id": "117",
+    "quote": "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+    "author": "Marcel Proust",
+    "source": "In Search of Lost Time",
+    "story": "Psychologists call this 'cognitive reappraisal' — changing the interpretation, not the situation itself. The same event of being fired some see as a catastrophe, others as a beginning. Not reality, but the lens determines the experience.",
+    "action": "Recall a difficult situation from the past that ultimately led to something good. What lesson did it give you? Apply that lesson to a current difficulty.",
+    "topic": "psychology"
+  },
+  {
+    "id": "118",
+    "quote": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+    "source": "This Is My Story",
+    "story": "Roosevelt was a shy, anxious child. She lost her mother at 8, her father at 10. Every public appearance required overcoming herself. She became one of the most influential voices of her time — precisely because she did not wait for fear to pass, but moved forward despite it.",
+    "action": "Name one thing you avoid because of fear or discomfort. Take the smallest possible step toward it today — one call, one email, one word.",
+    "topic": "psychology"
+  },
+  {
+    "id": "119",
+    "quote": "Life is 10% what happens to you and 90% how you react to it.",
+    "author": "Charles Swindoll",
+    "source": "Strengthening Your Grip",
+    "story": "Neuroscientist Richard Davidson spent 30 years studying the brains of people with sustained happiness. Conclusion: emotional reactions are not fixed traits but skills. The brain is plastic. Training attention and reappraisal literally changes neural connections.",
+    "action": "Today, when something goes wrong, stop and ask: 'What can I do about this?' Instead of 'why is this happening to me?'",
+    "topic": "psychology"
+  },
+  {
+    "id": "120",
+    "quote": "The mind is an excellent servant but a terrible master.",
+    "author": "David Foster Wallace",
+    "source": "This Is Water",
+    "story": "Wallace said these words in a speech to college graduates. By default, he said, we are the center of the universe. Our anxieties are real, our desires urgent, our suffering the main event. The only way out is to consciously choose what to think about and how to interpret what happens.",
+    "action": "Choose one situation today where your first impulse is irritation or judgment. Think of three possible explanations for the other person's behavior, besides 'they are bad/wrong'.",
+    "topic": "psychology"
   }
 ]
