@@ -83,3 +83,4 @@ playground.xcworkspace
 # Swift Package Manager
 # Package.resolved.claude/
 GoogleService-Info.plist
+.planning/phases/*/screenshots/
