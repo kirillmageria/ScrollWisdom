@@ -60,7 +60,7 @@
 
 /* Notifications */
 "settings.notifications" = "Notifications";
-"settings.notif.morning" = "Morning wisdom";
+"settings.notif.morning" = "Daily wisdom";
 "settings.notif.time" = "Delivery time";
 "settings.notif.enable" = "Enable notifications";
 

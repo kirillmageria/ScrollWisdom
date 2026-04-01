@@ -212,6 +212,19 @@ struct OnboardingView: View {
                     Text("— Эпиктет")
                         .font(.system(size: 12))
                         .foregroundStyle(.white.opacity(0.5))
+                    Rectangle()
+                        .fill(.white.opacity(0.06))
+                        .frame(height: 0.5)
+                        .padding(.vertical, 4)
+                    HStack(spacing: 4) {
+                        Image(systemName: "arrow.up.right").font(.system(size: 9, weight: .bold))
+                        Text("Попробуй сегодня").font(.system(size: 10, weight: .semibold)).tracking(0.5)
+                    }
+                    .foregroundStyle(Color(hex: "#D4A84B"))
+                    Text("Запиши одно дело, которое ты откладываешь. Сделай первый шаг прямо сейчас.")
+                        .font(.system(size: 12))
+                        .foregroundStyle(.white.opacity(0.55))
+                        .lineSpacing(3)
                 }
                 .padding(20)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -249,12 +262,12 @@ struct OnboardingView: View {
                 )
                 .padding(.bottom, 28)
 
-            Text("Утренняя мудрость")
+            Text("Мудрость дня")
                 .font(.system(size: 28, weight: .bold, design: .serif))
                 .foregroundStyle(.white)
                 .padding(.bottom, 16)
 
-            Text("Каждое утро — одна мысль от великих стоиков.\nНикакого спама.")
+            Text("Одна мысль от великих стоиков в удобное для тебя время.\nНикакого спама.")
                 .font(.system(size: 16))
                 .foregroundStyle(.white.opacity(0.5))
                 .multilineTextAlignment(.center)

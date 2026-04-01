@@ -60,7 +60,7 @@
 
 /* Notifications */
 "settings.notifications" = "Уведомления";
-"settings.notif.morning" = "Утренняя мудрость";
+"settings.notif.morning" = "Мудрость дня";
 "settings.notif.time" = "Время доставки";
 "settings.notif.enable" = "Включить уведомления";
 
