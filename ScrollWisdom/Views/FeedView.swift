@@ -7,6 +7,8 @@ struct FeedView: View {
     @Environment(\.requestReview) private var requestReview
     @State private var feedCards: [WisdomCard] = []
     @State private var currentCardID: String?
+    @State private var showPaywall = false
+    private let freeSaveLimit = 10
 
     var body: some View {
         ZStack {
@@ -25,6 +27,10 @@ struct FeedView: View {
                                 card: card,
                                 isSaved: manager.isSaved(card),
                                 onSave: {
+                                    if !manager.isSaved(card) && !store.isPremium && manager.savedCardIDs.count >= freeSaveLimit {
+                                        showPaywall = true
+                                        return
+                                    }
                                     manager.toggleSave(card)
                                     if manager.savedCardIDs.count == 3 {
                                         requestReview()
@@ -53,6 +59,9 @@ struct FeedView: View {
                 .onChange(of: currentCardID) { _, newID in
                     if let newID {
                         manager.markViewed(cardID: newID)
+                        if manager.cardsViewedToday == 10 {
+                            requestReview()
+                        }
                     }
                 }
 
@@ -81,6 +90,10 @@ struct FeedView: View {
         // Reload feed when premium status changes
         .onChange(of: store.isPremium) { _, _ in
             loadFeed()
+        }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView()
+                .environment(store)
         }
     }
 
