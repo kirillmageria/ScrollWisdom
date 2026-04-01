@@ -3,8 +3,10 @@ import SwiftUI
 struct OnboardingView: View {
     @Environment(ContentManager.self) var manager
     @Environment(NotificationManager.self) var notifManager
+    @Environment(StoreManager.self) var store
     @State private var step = 0
     @State private var selectedTopics: Set<WisdomCard.Topic> = []
+    @State private var showPaywall = false
 
     private let totalSteps = 4
 
@@ -103,6 +105,10 @@ struct OnboardingView: View {
                 }
             }
         }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView()
+                .environment(store)
+        }
     }
 
     // MARK: - Steps
@@ -148,33 +154,53 @@ struct OnboardingView: View {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
                 ForEach(WisdomCard.Topic.allCases, id: \.self) { topic in
                     let isSelected = selectedTopics.contains(topic)
+                    let isFree = store.isTopicFree(topic)
                     Button {
-                        withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
-                            if isSelected { selectedTopics.remove(topic) } else { selectedTopics.insert(topic) }
+                        if isFree {
+                            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                                if isSelected { selectedTopics.remove(topic) } else { selectedTopics.insert(topic) }
+                            }
+                        } else {
+                            showPaywall = true
                         }
                     } label: {
-                        VStack(spacing: 12) {
-                            Text(topic.emoji)
-                                .font(.system(size: 36))
-                            VStack(spacing: 4) {
-                                Text(topic.displayName)
-                                    .font(.system(size: 14, weight: .semibold))
-                                    .foregroundStyle(.white)
-                                    .multilineTextAlignment(.center)
+                        ZStack(alignment: .topTrailing) {
+                            VStack(spacing: 12) {
+                                Text(topic.emoji)
+                                    .font(.system(size: 36))
+                                VStack(spacing: 4) {
+                                    Text(topic.displayName)
+                                        .font(.system(size: 14, weight: .semibold))
+                                        .foregroundStyle(.white)
+                                        .multilineTextAlignment(.center)
+                                    if !isFree {
+                                        Text("Premium")
+                                            .font(.system(size: 9, weight: .semibold))
+                                            .tracking(0.5)
+                                            .foregroundStyle(Color(hex: "#D4A84B").opacity(0.7))
+                                    }
+                                }
+                            }
+                            .frame(maxWidth: .infinity)
+                            .frame(height: 110)
+                            .background(isSelected ? Color(hex: "#D4A84B").opacity(0.12) : .white.opacity(0.04))
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .strokeBorder(
+                                        isSelected ? Color(hex: "#D4A84B").opacity(0.5) : .white.opacity(0.07),
+                                        lineWidth: isSelected ? 1 : 0.5
+                                    )
+                            )
+                            .scaleEffect(isSelected ? 1.02 : 1.0)
+
+                            if !isFree {
+                                Image(systemName: "crown.fill")
+                                    .font(.system(size: 10))
+                                    .foregroundStyle(Color(hex: "#D4A84B").opacity(0.8))
+                                    .padding(8)
                             }
                         }
-                        .frame(maxWidth: .infinity)
-                        .frame(height: 110)
-                        .background(isSelected ? Color(hex: "#D4A84B").opacity(0.12) : .white.opacity(0.04))
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 20)
-                                .strokeBorder(
-                                    isSelected ? Color(hex: "#D4A84B").opacity(0.5) : .white.opacity(0.07),
-                                    lineWidth: isSelected ? 1 : 0.5
-                                )
-                        )
-                        .scaleEffect(isSelected ? 1.02 : 1.0)
                     }
                     .buttonStyle(.plain)
                 }
