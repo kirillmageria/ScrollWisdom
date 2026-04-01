@@ -85,3 +85,6 @@
 "paywall.error" = "Ошибка";
 "settings.premium.active" = "Premium активен";
 "settings.premium.pill.topics" = "Все темы";
+"onboarding.enter" = "Войти в мудрость";
+"onboarding.skip" = "Пропустить";
+"onboarding.notifications.enable" = "Включить напоминания";

@@ -6,121 +6,309 @@ struct OnboardingView: View {
     @State private var step = 0
     @State private var selectedTopics: Set<WisdomCard.Topic> = []
 
+    private let totalSteps = 4
+
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
+            // Background gradient
+            LinearGradient(
+                colors: [Color(hex: "#0a0a0f"), Color(hex: "#020203")],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .ignoresSafeArea()
+
+            // Ambient glow
+            Circle()
+                .fill(Color(hex: "#D4A84B").opacity(0.07))
+                .frame(width: 300, height: 300)
+                .blur(radius: 60)
+                .offset(x: 40, y: -60)
+                .allowsHitTesting(false)
 
             VStack(spacing: 0) {
-                Spacer()
-
-                switch step {
-                case 0: welcomeStep
-                case 1: topicStep
-                case 2: readyStep
-                default: EmptyView()
+                // Progress bar
+                if step > 0 {
+                    GeometryReader { geo in
+                        ZStack(alignment: .leading) {
+                            RoundedRectangle(cornerRadius: 2)
+                                .fill(.white.opacity(0.08))
+                            RoundedRectangle(cornerRadius: 2)
+                                .fill(Color(hex: "#D4A84B"))
+                                .frame(width: geo.size.width * CGFloat(step) / CGFloat(totalSteps - 1))
+                                .animation(.spring(response: 0.4), value: step)
+                        }
+                    }
+                    .frame(height: 3)
+                    .padding(.horizontal, 32)
+                    .padding(.top, 56)
                 }
 
                 Spacer()
 
-                HStack(spacing: 8) {
-                    ForEach(0..<3, id: \.self) { i in
-                        Circle()
-                            .fill(i == step ? .white : .white.opacity(0.2))
-                            .frame(width: 6, height: 6)
+                Group {
+                    switch step {
+                    case 0: welcomeStep
+                    case 1: topicStep
+                    case 2: previewStep
+                    case 3: notificationStep
+                    default: EmptyView()
                     }
                 }
-                .padding(.bottom, 20)
+                .transition(.asymmetric(
+                    insertion: .move(edge: .trailing).combined(with: .opacity),
+                    removal: .move(edge: .leading).combined(with: .opacity)
+                ))
+                .id(step)
 
+                Spacer()
+
+                // CTA Button
                 Button {
-                    if step == 2 {
-                        notifManager.requestPermission()
-                        let topics = selectedTopics.isEmpty ? Set(WisdomCard.Topic.allCases) : selectedTopics
-                        manager.completeOnboarding(topics: topics)
-                    } else {
-                        withAnimation(.spring(response: 0.4)) { step += 1 }
-                    }
+                    handleCTA()
                 } label: {
-                    Text(step == 2 ? String(localized: "onboarding.start") : String(localized: "onboarding.continue"))
+                    Text(ctaLabel)
                         .font(.system(size: 17, weight: .semibold))
-                        .foregroundStyle(.black)
+                        .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
-                        .frame(height: 52)
-                        .background(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 14))
+                        .frame(height: 56)
+                        .background(.white.opacity(0.08))
+                        .background {
+                            RoundedRectangle(cornerRadius: 16)
+                                .fill(Color(hex: "#D4A84B").opacity(ctaGlowOpacity))
+                                .blur(radius: 16)
+                        }
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16)
+                                .strokeBorder(.white.opacity(0.15), lineWidth: 0.5)
+                        )
+                        .opacity(ctaEnabled ? 1 : 0.4)
                 }
-                .padding(.horizontal, 28)
-                .padding(.bottom, 40)
+                .disabled(!ctaEnabled)
+                .padding(.horizontal, 32)
+                .padding(.bottom, 48)
+                .animation(.easeOut(duration: 0.2), value: ctaEnabled)
+
+                // Skip on notification screen
+                if step == 3 {
+                    Button {
+                        completeOnboarding()
+                    } label: {
+                        Text(String(localized: "onboarding.skip"))
+                            .font(.system(size: 14))
+                            .foregroundStyle(.white.opacity(0.35))
+                    }
+                    .padding(.bottom, 24)
+                }
             }
         }
     }
 
+    // MARK: - Steps
+
     var welcomeStep: some View {
-        VStack(spacing: 20) {
-            Text("🏛").font(.system(size: 64))
-            Text(String(localized: "onboarding.title"))
-                .font(.system(size: 32, weight: .bold, design: .serif))
-                .foregroundStyle(.white)
-            Text(String(localized: "onboarding.subtitle"))
-                .font(.system(size: 16))
-                .foregroundStyle(.white.opacity(0.5))
-                .multilineTextAlignment(.center)
-                .lineSpacing(4)
-                .padding(.horizontal, 40)
+        VStack(alignment: .leading, spacing: 0) {
+            // Quote
+            HStack(spacing: 0) {
+                Rectangle()
+                    .fill(Color(hex: "#D4A84B"))
+                    .frame(width: 2)
+                    .padding(.vertical, 4)
+                Spacer().frame(width: 16)
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Потеря времени — единственная потеря, которую нельзя вернуть.")
+                        .font(.system(size: 38, weight: .semibold, design: .serif))
+                        .foregroundStyle(.white)
+                        .lineSpacing(6)
+                        .italic()
+                    Text("— Сенека")
+                        .font(.system(size: 14, weight: .regular))
+                        .foregroundStyle(Color(hex: "#8A8F98"))
+                        .tracking(0.5)
+                }
+            }
+            .padding(.horizontal, 32)
+
         }
     }
 
     var topicStep: some View {
-        VStack(spacing: 24) {
-            Text(String(localized: "onboarding.topics.title"))
-                .font(.system(size: 26, weight: .bold, design: .serif))
-                .foregroundStyle(.white)
-            Text(String(localized: "onboarding.topics.subtitle"))
-                .font(.system(size: 15))
-                .foregroundStyle(.white.opacity(0.4))
+        VStack(spacing: 0) {
+            VStack(spacing: 8) {
+                Text("Что тебя ведёт?")
+                    .font(.system(size: 26, weight: .bold, design: .serif))
+                    .foregroundStyle(.white)
+                Text("Выбери одно или несколько")
+                    .font(.system(size: 14))
+                    .foregroundStyle(.white.opacity(0.4))
+            }
+            .padding(.bottom, 28)
 
-            VStack(spacing: 10) {
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
                 ForEach(WisdomCard.Topic.allCases, id: \.self) { topic in
                     let isSelected = selectedTopics.contains(topic)
                     Button {
-                        if isSelected { selectedTopics.remove(topic) } else { selectedTopics.insert(topic) }
-                    } label: {
-                        HStack {
-                            Text(topic.emoji).font(.system(size: 20))
-                            Text(topic.displayName).font(.system(size: 16, weight: .medium))
-                            Spacer()
-                            if isSelected { Image(systemName: "checkmark.circle.fill").font(.system(size: 20)) }
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                            if isSelected { selectedTopics.remove(topic) } else { selectedTopics.insert(topic) }
                         }
-                        .foregroundStyle(.white)
-                        .padding(.horizontal, 20).padding(.vertical, 14)
-                        .background(isSelected ? .white.opacity(0.12) : .white.opacity(0.05))
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
-                        .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(isSelected ? .white.opacity(0.3) : .clear, lineWidth: 1))
+                    } label: {
+                        VStack(spacing: 12) {
+                            Text(topic.emoji)
+                                .font(.system(size: 36))
+                            VStack(spacing: 4) {
+                                Text(topic.displayName)
+                                    .font(.system(size: 14, weight: .semibold))
+                                    .foregroundStyle(.white)
+                                    .multilineTextAlignment(.center)
+                            }
+                        }
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 110)
+                        .background(isSelected ? Color(hex: "#D4A84B").opacity(0.12) : .white.opacity(0.04))
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20)
+                                .strokeBorder(
+                                    isSelected ? Color(hex: "#D4A84B").opacity(0.5) : .white.opacity(0.07),
+                                    lineWidth: isSelected ? 1 : 0.5
+                                )
+                        )
+                        .scaleEffect(isSelected ? 1.02 : 1.0)
                     }
+                    .buttonStyle(.plain)
                 }
             }
-            .padding(.horizontal, 28)
+            .padding(.horizontal, 32)
         }
     }
 
-    var readyStep: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "sparkles").font(.system(size: 48)).foregroundStyle(.white.opacity(0.6))
-            Text(String(localized: "onboarding.ready.title"))
+    var previewStep: some View {
+        VStack(spacing: 0) {
+            VStack(spacing: 8) {
+                Text("Вот как это работает")
+                    .font(.system(size: 26, weight: .bold, design: .serif))
+                    .foregroundStyle(.white)
+                    .multilineTextAlignment(.center)
+            }
+            .padding(.bottom, 32)
+
+            // Mini card preview
+            ZStack {
+                LinearGradient(
+                    colors: [Color(hex: "#1a1409"), Color(hex: "#0d0d0d")],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("СТОИЦИЗМ")
+                        .font(.system(size: 9, weight: .semibold))
+                        .tracking(3)
+                        .foregroundStyle(.white.opacity(0.4))
+                    Text("Не трать время на то, что не в твоей власти.")
+                        .font(.system(size: 18, weight: .medium, design: .serif))
+                        .foregroundStyle(.white)
+                        .lineSpacing(4)
+                    Text("— Эпиктет")
+                        .font(.system(size: 12))
+                        .foregroundStyle(.white.opacity(0.5))
+                }
+                .padding(20)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .frame(height: 160)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .overlay(RoundedRectangle(cornerRadius: 20).strokeBorder(.white.opacity(0.08), lineWidth: 0.5))
+            .rotationEffect(.degrees(-1.5))
+            .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
+            .padding(.horizontal, 40)
+            .padding(.bottom, 36)
+
+            // Gesture hints
+            HStack(spacing: 0) {
+                gestureHint(icon: "arrow.up", text: "Листай\nвверх")
+                Spacer()
+                gestureHint(icon: "heart", text: "Двойной\nтап")
+                Spacer()
+                gestureHint(icon: "bell", text: "Утром\nв 9:00")
+            }
+            .padding(.horizontal, 48)
+        }
+    }
+
+    var notificationStep: some View {
+        VStack(spacing: 0) {
+            Image(systemName: "sun.horizon.fill")
+                .font(.system(size: 56))
+                .foregroundStyle(
+                    LinearGradient(
+                        colors: [Color(hex: "#D4A84B"), Color(hex: "#E8C070")],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .padding(.bottom, 28)
+
+            Text("Утренняя мудрость")
                 .font(.system(size: 28, weight: .bold, design: .serif))
                 .foregroundStyle(.white)
-            VStack(alignment: .leading, spacing: 12) {
-                featureRow(icon: "hand.draw", text: String(localized: "onboarding.ready.swipe"))
-                featureRow(icon: "heart", text: String(localized: "onboarding.ready.save"))
-                featureRow(icon: "bell.badge", text: String(localized: "onboarding.ready.notification"))
-            }
-            .padding(.horizontal, 40).padding(.top, 8)
+                .padding(.bottom, 16)
+
+            Text("Каждое утро — одна мысль от великих стоиков.\nНикакого спама.")
+                .font(.system(size: 16))
+                .foregroundStyle(.white.opacity(0.5))
+                .multilineTextAlignment(.center)
+                .lineSpacing(5)
+                .padding(.horizontal, 40)
         }
     }
 
-    func featureRow(icon: String, text: String) -> some View {
-        HStack(spacing: 14) {
-            Image(systemName: icon).font(.system(size: 18)).foregroundStyle(.white.opacity(0.5)).frame(width: 28)
-            Text(text).font(.system(size: 15)).foregroundStyle(.white.opacity(0.7))
+    // MARK: - Helpers
+
+    func gestureHint(icon: String, text: String) -> some View {
+        VStack(spacing: 8) {
+            Image(systemName: icon)
+                .font(.system(size: 20))
+                .foregroundStyle(Color(hex: "#D4A84B").opacity(0.7))
+            Text(text)
+                .font(.system(size: 11))
+                .foregroundStyle(.white.opacity(0.35))
+                .multilineTextAlignment(.center)
+                .lineSpacing(2)
         }
+    }
+
+    var ctaLabel: String {
+        switch step {
+        case 0: return String(localized: "onboarding.start")
+        case 1: return String(localized: "onboarding.continue")
+        case 2: return String(localized: "onboarding.continue")
+        case 3: return String(localized: "onboarding.notifications.enable")
+        default: return String(localized: "onboarding.continue")
+        }
+    }
+
+    var ctaEnabled: Bool {
+        step != 1 || !selectedTopics.isEmpty
+    }
+
+    var ctaGlowOpacity: Double {
+        step == 1 ? (selectedTopics.isEmpty ? 0 : 0.15) : 0.1
+    }
+
+    func handleCTA() {
+        if step == 3 {
+            notifManager.requestPermission()
+            completeOnboarding()
+        } else {
+            withAnimation(.spring(response: 0.38, dampingFraction: 0.85)) {
+                step += 1
+            }
+        }
+    }
+
+    func completeOnboarding() {
+        let topics = selectedTopics.isEmpty ? Set(WisdomCard.Topic.allCases) : selectedTopics
+        manager.completeOnboarding(topics: topics)
     }
 }
