@@ -266,7 +266,7 @@ struct SettingsView: View {
                         .buttonStyle(.plain)
 
                         Button {
-                            if let url = URL(string: "mailto:support@scrollwisdom.app?subject=ScrollWisdom%20Feedback") {
+                            if let url = URL(string: "mailto:kirill.mageria@gmail.com?subject=ScrollWisdom%20Feedback") {
                                 openURL(url)
                             }
                         } label: {
