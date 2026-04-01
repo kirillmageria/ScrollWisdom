@@ -87,8 +87,10 @@ struct FeedView: View {
                 loadFeed()
             }
         }
-        // Reload feed when premium status changes
         .onChange(of: store.isPremium) { _, _ in
+            loadFeed()
+        }
+        .onChange(of: manager.selectedTopics) { _, _ in
             loadFeed()
         }
         .sheet(isPresented: $showPaywall) {
