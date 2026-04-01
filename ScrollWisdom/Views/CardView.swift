@@ -18,24 +18,24 @@ struct CardView: View {
             .ignoresSafeArea()
             
             VStack(alignment: .leading, spacing: 0) {
-                Spacer().frame(height: 60)
-                
+                Spacer()
+
                 Text(card.topic.displayName.uppercased())
                     .font(.system(size: 11, weight: .semibold))
                     .tracking(3)
                     .foregroundStyle(.white.opacity(0.4))
                     .padding(.horizontal, 28)
-                
+
                 Spacer().frame(height: 28)
-                
-                Text("\u{201C}\(card.quote)\u{201D}")
+
+                Text(card.quote)
                     .font(.system(size: 24, weight: .medium, design: .serif))
                     .foregroundStyle(.white)
                     .lineSpacing(5)
                     .padding(.horizontal, 28)
-                
+
                 Spacer().frame(height: 16)
-                
+
                 HStack(spacing: 8) {
                     Rectangle().fill(.white.opacity(0.3)).frame(width: 20, height: 1)
                     Text(card.author)
@@ -48,17 +48,9 @@ struct CardView: View {
                     }
                 }
                 .padding(.horizontal, 28)
-                
-                Spacer().frame(height: 24)
-                
-                Text(card.story)
-                    .font(.system(size: 15))
-                    .foregroundStyle(.white.opacity(0.7))
-                    .lineSpacing(5)
-                    .padding(.horizontal, 28)
-                
-                Spacer().frame(height: 20)
-                
+
+                Spacer()
+
                 VStack(alignment: .leading, spacing: 8) {
                     HStack(spacing: 6) {
                         Image(systemName: "arrow.up.right").font(.system(size: 11, weight: .bold))
@@ -66,7 +58,7 @@ struct CardView: View {
                             .font(.system(size: 12, weight: .semibold)).tracking(1)
                     }
                     .foregroundStyle(Color(hex: "#f0a500"))
-                    
+
                     Text(card.action)
                         .font(.system(size: 14))
                         .foregroundStyle(.white.opacity(0.8))
@@ -77,9 +69,8 @@ struct CardView: View {
                 .background(.white.opacity(0.06))
                 .clipShape(RoundedRectangle(cornerRadius: 12))
                 .padding(.horizontal, 28)
-                
-                Spacer()
-                
+                .padding(.bottom, 16)
+
                 HStack(spacing: 32) {
                     Button(action: onSave) {
                         VStack(spacing: 4) {
