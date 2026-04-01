@@ -3,17 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ScrollWisdom Support</title>
+<title>ScrollWisdom – Support</title>
 <style>
-  body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; color: #333; }
-  h1 { font-size: 28px; }
-  a { color: #f0a500; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0d0d0d; color: #f0ece4; min-height: 100vh; }
+  .hero { text-align: center; padding: 80px 20px 60px; border-bottom: 1px solid #222; }
+  .hero h1 { font-size: 36px; font-weight: 700; letter-spacing: -0.5px; }
+  .hero p { margin-top: 12px; color: #888; font-size: 16px; }
+  .container { max-width: 640px; margin: 0 auto; padding: 60px 20px; }
+  .section { margin-bottom: 48px; }
+  .section h2 { font-size: 20px; font-weight: 600; margin-bottom: 16px; color: #f0a500; }
+  .section p, .section li { font-size: 16px; line-height: 1.7; color: #bbb; }
+  .section ul { padding-left: 20px; }
+  .section li { margin-bottom: 8px; }
+  a { color: #f0a500; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .contact-box { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 24px; text-align: center; }
+  .contact-box p { color: #888; margin-bottom: 12px; }
+  .contact-box a { font-size: 18px; font-weight: 600; }
+  footer { text-align: center; padding: 40px 20px; color: #444; font-size: 13px; border-top: 1px solid #1a1a1a; }
 </style>
 </head>
 <body>
-<h1>ScrollWisdom Support</h1>
-<p>For help or feedback, contact us at <a href="mailto:kirill.mageria@gmail.com">kirill.mageria@gmail.com</a></p>
-<h2>Privacy Policy</h2>
-<p>ScrollWisdom does not collect or share personal data.</p>
+<div class="hero">
+  <h1>ScrollWisdom</h1>
+  <p>Daily Stoic Wisdom</p>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>Support</h2>
+    <div class="contact-box">
+      <p>Have a question or found a bug? We're here to help.</p>
+      <a href="mailto:kirill.mageria@gmail.com">kirill.mageria@gmail.com</a>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Privacy Policy</h2>
+    <p>ScrollWisdom respects your privacy. Here's what you need to know:</p>
+    <ul>
+      <li>We do not collect or store personal information.</li>
+      <li>No account or registration is required.</li>
+      <li>All your data (saved cards, settings) stays on your device.</li>
+      <li>We use Firebase Crashlytics solely for crash reporting to improve stability. No personal data is sent.</li>
+      <li>We do not share any data with third parties.</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Terms of Use</h2>
+    <p>By using ScrollWisdom, you agree to use the app for personal, non-commercial purposes. All quote content is sourced from public domain works or attributed sources. Subscription purchases are processed by Apple and subject to Apple's Terms and Conditions.</p>
+  </div>
+</div>
+<footer>© 2026 ScrollWisdom. All rights reserved.</footer>
 </body>
 </html>
