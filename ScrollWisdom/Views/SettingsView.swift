@@ -22,17 +22,7 @@ struct SettingsView: View {
             VStack(spacing: 20) {
 
                 // MARK: - Header
-                VStack(spacing: 4) {
-                    Text(String(localized: "settings.title"))
-                        .font(.system(size: 28, weight: .bold, design: .serif))
-                        .foregroundStyle(.white)
-                    Text(String(localized: "settings.subtitle"))
-                        .font(.system(size: 13))
-                        .foregroundStyle(.white.opacity(0.3))
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.top, 60)
-                .padding(.bottom, 4)
+                Spacer().frame(height: 60)
 
                 // MARK: - Stats
                 HStack(spacing: 12) {
