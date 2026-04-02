@@ -90,3 +90,5 @@
 "onboarding.enter" = "Weisheit betreten";
 "onboarding.skip" = "Überspringen";
 "onboarding.notifications.enable" = "Morgenerinnerung aktivieren";
+\"onboarding.welcome.quote\" = \"Der Verlust von Zeit ist der einzige Verlust, der nicht wiederzugewinnen ist.\";
+\"onboarding.welcome.author\" = \"— Seneca\";

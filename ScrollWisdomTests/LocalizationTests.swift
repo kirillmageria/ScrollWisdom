@@ -198,3 +198,45 @@ final class CardJSONTests: XCTestCase {
         }
     }
 }
+
+final class HardcodedStringTests: XCTestCase {
+    // Checks that Swift source files contain no hardcoded Russian text
+    func testNoHardcodedCyrillicInSwiftSources() {
+        let projectRoot = URL(fileURLWithPath: #file)
+            .deletingLastPathComponent()
+            .deletingLastPathComponent()
+            .appendingPathComponent("ScrollWisdom")
+
+        guard let enumerator = FileManager.default.enumerator(
+            at: projectRoot,
+            includingPropertiesForKeys: nil
+        ) else {
+            XCTFail("Cannot enumerate source files")
+            return
+        }
+
+        let cyrillic = try! NSRegularExpression(pattern: "[а-яёА-ЯЁ]")
+        var offenders: [String] = []
+
+        for case let fileURL as URL in enumerator {
+            guard fileURL.pathExtension == "swift" else { continue }
+            guard let source = try? String(contentsOf: fileURL, encoding: .utf8) else { continue }
+
+            // Check each line for Cyrillic outside of comments
+            let lines = source.components(separatedBy: "\n")
+            for (i, line) in lines.enumerated() {
+                let trimmed = line.trimmingCharacters(in: .whitespaces)
+                // Skip pure comment lines and localization .strings references
+                if trimmed.hasPrefix("//") { continue }
+                let range = NSRange(trimmed.startIndex..., in: trimmed)
+                if cyrillic.firstMatch(in: trimmed, range: range) != nil {
+                    let name = fileURL.lastPathComponent
+                    offenders.append("\(name):\(i+1) → \(trimmed.prefix(80))")
+                }
+            }
+        }
+
+        XCTAssert(offenders.isEmpty,
+            "Hardcoded Cyrillic found in Swift sources:\n" + offenders.joined(separator: "\n"))
+    }
+}
