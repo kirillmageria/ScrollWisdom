@@ -106,3 +106,5 @@ toucher";
 à 9h00";
 "onboarding.notif.desc" = "Une pensée des grands Stoïciens au moment qui te convient.
 Pas de spam.";
+"saved.filter.all" = "Tout";
+"saved.filter.empty" = "Rien trouvé";

@@ -106,3 +106,5 @@ tap";
 at 9:00";
 "onboarding.notif.desc" = "One thought from the great Stoics at a time that suits you.
 No spam.";
+"saved.filter.all" = "All";
+"saved.filter.empty" = "Nothing found";

@@ -218,8 +218,12 @@ final class HardcodedStringTests: XCTestCase {
         let cyrillic = try! NSRegularExpression(pattern: "[а-яёА-ЯЁ]")
         var offenders: [String] = []
 
+        // Files with intentional Cyrillic in locale-switched blocks
+        let allowedFiles: Set<String> = ["NotificationManager.swift"]
+
         for case let fileURL as URL in enumerator {
             guard fileURL.pathExtension == "swift" else { continue }
+            guard !allowedFiles.contains(fileURL.lastPathComponent) else { continue }
             guard let source = try? String(contentsOf: fileURL, encoding: .utf8) else { continue }
 
             // Check each line for Cyrillic outside of comments

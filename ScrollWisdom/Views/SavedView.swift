@@ -75,7 +75,7 @@ struct SavedView: View {
                         // Topic filters
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 8) {
-                                TopicPill(label: "Все", emoji: nil, isSelected: selectedTopic == nil) {
+                                TopicPill(label: String(localized: "saved.filter.all"), emoji: nil, isSelected: selectedTopic == nil) {
                                     withAnimation(.spring(response: 0.3)) { selectedTopic = nil }
                                 }
                                 ForEach(WisdomCard.Topic.allCases, id: \.self) { topic in
@@ -103,7 +103,7 @@ struct SavedView: View {
                                 Image(systemName: "magnifyingglass")
                                     .font(.system(size: 32))
                                     .foregroundStyle(.white.opacity(0.2))
-                                Text("Ничего не найдено")
+                                Text(String(localized: "saved.filter.empty"))
                                     .font(.system(size: 15))
                                     .foregroundStyle(.white.opacity(0.3))
                             }
