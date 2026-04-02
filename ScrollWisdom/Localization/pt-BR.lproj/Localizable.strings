@@ -71,7 +71,7 @@
 
 "paywall.title" = "Desbloqueie toda a sabedoria";
 "paywall.subtitle" = "Tenha acesso a todos os temas e recursos";
-"paywall.feature.topics.title" = "Todos os 7 temas";
+"paywall.feature.topics.title" = "Todos os %d temas";
 "paywall.feature.topics.desc" = "Dinheiro, Relacionamentos, Liderança e mais";
 "paywall.feature.saves.title" = "Salvamentos ilimitados";
 "paywall.feature.saves.desc" = "Crie sua biblioteca pessoal de sabedoria";

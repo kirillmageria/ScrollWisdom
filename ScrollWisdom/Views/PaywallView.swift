@@ -80,7 +80,7 @@ struct PaywallView: View {
                     // Features
                     VStack(spacing: 0) {
                         PaywallFeature(icon: "sparkles", color: "#f0a500",
-                                       title: String(localized: "paywall.feature.topics.title"),
+                                       title: String(format: String(localized: "paywall.feature.topics.title"), WisdomCard.Topic.allCases.count),
                                        desc: String(localized: "paywall.feature.topics.desc"),
                                        showDivider: true)
                         PaywallFeature(icon: "bookmark.fill", color: "#a855f7",

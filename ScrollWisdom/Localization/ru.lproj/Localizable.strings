@@ -68,7 +68,7 @@
 
 "paywall.title" = "Открой всю мудрость";
 "paywall.subtitle" = "Доступ ко всем темам и функциям";
-"paywall.feature.topics.title" = "Все 7 тем";
+"paywall.feature.topics.title" = "Все %d тем";
 "paywall.feature.topics.desc" = "Деньги, Отношения, Лидерство и другие";
 "paywall.feature.saves.title" = "Безлимитные сохранения";
 "paywall.feature.saves.desc" = "Создай свою библиотеку мудрости";

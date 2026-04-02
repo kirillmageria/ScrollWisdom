@@ -68,7 +68,7 @@
 
 "paywall.title" = "Unlock All Wisdom";
 "paywall.subtitle" = "Get access to every topic and feature";
-"paywall.feature.topics.title" = "All 7 topics";
+"paywall.feature.topics.title" = "All %d topics";
 "paywall.feature.topics.desc" = "Money, Relationships, Leadership & more";
 "paywall.feature.saves.title" = "Unlimited saves";
 "paywall.feature.saves.desc" = "Build your personal wisdom library";

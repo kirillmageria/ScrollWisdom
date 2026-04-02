@@ -68,7 +68,7 @@
 
 "paywall.title" = "Alle Weisheiten freischalten";
 "paywall.subtitle" = "Zugriff auf alle Themen und Funktionen";
-"paywall.feature.topics.title" = "Alle 7 Themen";
+"paywall.feature.topics.title" = "Alle %d Themen";
 "paywall.feature.topics.desc" = "Geld, Beziehungen, Führung & mehr";
 "paywall.feature.saves.title" = "Unbegrenzte Speicherungen";
 "paywall.feature.saves.desc" = "Erstelle deine persönliche Weisheitsbibliothek";
