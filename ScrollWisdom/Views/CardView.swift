@@ -38,13 +38,15 @@ struct CardView: View {
 
                 HStack(spacing: 8) {
                     Rectangle().fill(.white.opacity(0.3)).frame(width: 20, height: 1)
-                    Text(card.author)
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundStyle(.white.opacity(0.6))
-                    if !card.source.isEmpty {
-                        Text("\u{00B7}  \(card.source)")
-                            .font(.system(size: 12))
-                            .foregroundStyle(.white.opacity(0.35))
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(card.author)
+                            .font(.system(size: 14, weight: .medium))
+                            .foregroundStyle(.white.opacity(0.6))
+                        if !card.source.isEmpty {
+                            Text(card.source)
+                                .font(.system(size: 11))
+                                .foregroundStyle(.white.opacity(0.3))
+                        }
                     }
                 }
                 .padding(.horizontal, 28)
