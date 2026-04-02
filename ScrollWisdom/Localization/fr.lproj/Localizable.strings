@@ -87,3 +87,6 @@
 "paywall.error" = "Erreur";
 "settings.premium.active" = "Premium actif";
 "settings.premium.pill.topics" = "Tous les sujets";
+"onboarding.enter" = "Entrer dans la sagesse";
+"onboarding.skip" = "Passer";
+"onboarding.notifications.enable" = "Activer le rappel matinal";
