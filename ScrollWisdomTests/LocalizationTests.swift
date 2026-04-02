@@ -128,11 +128,14 @@ final class CardJSONTests: XCTestCase {
     }
 
     func testTopicCount() {
-        let cards = loadCards("cards_ru")
+        let allFiles = [("ru", "cards_ru"), ("en", "cards")] + nonRussianFiles
         let topics = ["stoicism", "discipline", "health", "money", "leadership", "relationships", "psychology"]
-        for topic in topics {
-            let count = cards.filter { ($0["topic"] as? String) == topic }.count
-            XCTAssertEqual(count, 50, "Topic '\(topic)' has \(count) cards, expected 50")
+        for (lang, file) in allFiles {
+            let cards = loadCards(file)
+            for topic in topics {
+                let count = cards.filter { ($0["topic"] as? String) == topic }.count
+                XCTAssertEqual(count, 50, "[\(lang)] Topic '\(topic)' has \(count) cards, expected 50")
+            }
         }
     }
 
