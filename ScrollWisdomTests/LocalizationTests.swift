@@ -140,7 +140,8 @@ final class CardJSONTests: XCTestCase {
     }
 
     func testNoCyrillicInNonRussian() {
-        for (lang, file) in nonRussianFiles {
+        let allNonRussianFiles = [("en", "cards")] + nonRussianFiles
+        for (lang, file) in allNonRussianFiles {
             let cards = loadCards(file)
             var offenders: [String] = []
             for card in cards {
