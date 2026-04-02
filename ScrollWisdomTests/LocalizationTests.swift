@@ -142,7 +142,7 @@ final class CardJSONTests: XCTestCase {
             var offenders: [String] = []
             for card in cards {
                 let id = card["id"] as? String ?? "?"
-                for field in ["quote", "author", "story", "action"] {
+                for field in ["quote", "author", "source", "story", "action"] {
                     if let val = card[field] as? String, containsCyrillic(val) {
                         offenders.append("\(id).\(field)")
                     }
