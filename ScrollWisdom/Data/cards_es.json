@@ -1078,5 +1078,2075 @@
     "story": "Wallace: por defecto, somos el centro del universo. Nuestras ansiedades reales, nuestro sufrimiento — el evento principal. La única salida es elegir conscientemente en qué pensar.",
     "action": "Elige una situación donde tu primer impulso es la irritación. Piensa tres explicaciones para el comportamiento ajeno además de «está equivocado».",
     "topic": "psychology"
+  },
+  {
+    "id": "121",
+    "quote": "Nunca consideres ventajoso lo que te obligaria a romper tu palabra o perder el respeto por ti mismo.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro III",
+    "story": "Aurelio escribio esto tras una reunion con un senador que le ofrecio un compromiso politicamente ventajoso pero deshonesto. En lugar de rechazarlo directamente, abrio su diario y escribio este recordatorio: ninguna ventaja vale la perdida de integridad interior.",
+    "action": "Recuerda una promesa que aun no has cumplido. Cumplela hoy o dile honestamente a esa persona que no puedes.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "122",
+    "quote": "La perdida no es mas que cambio, y el cambio es la alegria de la naturaleza.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro IV",
+    "story": "Aurelio perdio cinco hijos en su primera infancia. Cada vez regresaba al mismo pensamiento: la naturaleza toma de vuelta lo que dio. El dolor era real — pero resistir a la naturaleza duplicaba el sufrimiento.",
+    "action": "Anota algo que hayas perdido y aun no hayas aceptado. Al lado, escribe: que nueva posibilidad nacio gracias a esa perdida?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "123",
+    "quote": "No esperes la aprobacion de los demas para ser bueno.",
+    "author": "Эпиктет",
+    "source": "Discursos, Libro I",
+    "story": "Un joven estudiante se quejo ante Epicteto de que su familia no valoraba sus estudios filosoficos. Epicteto respondio: si la virtud requiere aprobacion ajena, ya no es virtud.",
+    "action": "Hoy, haz una buena accion para alguien que probablemente no te lo agradecera. Nota tu sensacion despues.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "124",
+    "quote": "Trata a cada hombre como a un amigo, pero no confies tu corazon a todos.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 3",
+    "story": "Lucilio escribio a Seneca sobre un amigo en quien habia confiado plenamente, pero que lo traiciono. Seneca respondio: la sabiduria no esta en cerrarse a todos ni en abrirse a cada uno. La confianza se gana con el tiempo.",
+    "action": "Piensa en alguien en quien confias demasiado rapido. Establece un limite interno: que no le diras mas antes de que se lo gane.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "125",
+    "quote": "Si la conducta de alguien te ofende, retirate inmediatamente a tu interior y pregunta: que hay en ti que causa ese dolor?",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro VIII",
+    "story": "Uno de los allegados de Aurelio lo humillo publicamente. Aurelio hizo una pausa y continuo calmadamente. Por la noche anoto: la irritacion senala inestabilidad interior, no la culpa ajena.",
+    "action": "Recuerda la ultima vez que las palabras de alguien te hirieron mas de lo esperado. Preguntate honestamente: por que me afecto eso precisamente?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "126",
+    "quote": "El hombre que no conoce el reposo tampoco conoce la libertad.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 68",
+    "story": "Seneca escribio a Lucilio que se quejaba de estar agotado a pesar de su retiro de los asuntos publicos. Seneca diagnostico: la liberacion exterior no basta si la mente permanece agitada. La verdadera libertad comienza en la quietud interior.",
+    "action": "Esta noche, reserva 10 minutos sin pantalla, sin musica, sin agenda. Simplemente sientate. Observa la incomodidad y luego la calma que llega.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "127",
+    "quote": "La muerte no es nada para nosotros: cuando somos, la muerte no esta; cuando la muerte esta, nosotros ya no somos.",
+    "author": "Эпикур",
+    "source": "Carta a Meneceo",
+    "story": "Epicuro escribio esta carta a su amigo Meneceo que tenia miedo a morir. Queria mostrarle que el miedo a la muerte es irracional: nunca se puede encontrar la muerte, pues en cuanto llega, uno ya no esta para vivirla.",
+    "action": "Escribe que harias de forma diferente si supieras que nunca tendrias miedo a la muerte. Elige una cosa y comienza esta semana.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "128",
+    "quote": "No es lo que sucede lo que hace infeliz al hombre, sino lo que piensa sobre lo que sucede.",
+    "author": "Эпиктет",
+    "source": "Manual, capitulo 5",
+    "story": "Un estudiante de Epicteto se quejo de haber sido humillado por un amigo rico. Epicteto le pregunto: que te hirio, sus palabras o tu conviccion de que sus palabras tenian poder sobre ti? El estudiante quedo en silencio.",
+    "action": "Piensa en algo que te haya molestado recientemente. Escribe: la situacion y, por separado, tu interpretacion de la situacion. Observa la diferencia.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "129",
+    "quote": "Soporta y abstente.",
+    "author": "Эпиктет",
+    "source": "Discursos morales",
+    "story": "Esta maxima de Epicteto estaba grabada a la entrada de su escuela. Los visitantes preguntaban a menudo: es todo? Epicteto respondia: si. Soporta lo inevitable. Abstente de lo innecesario. Casi todo lo que sufrimos viene de la incapacidad de hacer una u otra cosa.",
+    "action": "Hoy identifica algo que debes soportar y algo de lo que debes abstenerte. Practica ambas conscientemente.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "130",
+    "quote": "Vive como si vivieras por segunda vez y como si la primera vez hubieras actuado como estas a punto de actuar ahora.",
+    "author": "Виктор Франкл",
+    "source": "El hombre en busca de sentido",
+    "story": "Frankl desarrollo este ejercicio mental en los campos de concentracion. Imaginarse que revive su vida con conciencia de lo que viene le ayudaba a elegir de forma diferente en momentos de tentacion o debilidad.",
+    "action": "Piensa en una decision que estas a punto de tomar. Imagina que la revives dentro de 10 anos. Que elegiras entonces?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "131",
+    "quote": "La filosofia no le promete nada externo al hombre.",
+    "author": "Эпиктет",
+    "source": "Discursos, Libro I",
+    "story": "Un rico comerciante vino a ver a Epicteto esperando que la filosofia le trajera prestigio y exito. Epicteto le respondio directamente: la filosofia no te hace rico, famoso ni popular. Te ayuda a ser libre, lo cual es infinitamente mas raro.",
+    "action": "Preguntate: por que busco desarrollarme en este momento, para parecer o para ser? La respuesta honesta guia las proximas acciones.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "132",
+    "quote": "Haz lo que la naturaleza exige ahora mismo. Parte de inmediato si tienes la posibilidad.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro VIII",
+    "story": "Aurelio escribio esto una manana en que le costaba levantarse de la cama, sabiendo que le esperaba un largo dia de responsabilidades imperiales. Se recordo: la naturaleza exige que te levantes, actues, y no te demores en la comodidad.",
+    "action": "Identifica algo que llevas dias postergando. Lo exige la naturaleza? Si es asi, hazlo en la proxima hora.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "133",
+    "quote": "No podemos elegir las circunstancias externas, pero siempre podemos elegir como responder.",
+    "author": "Эпиктет",
+    "source": "Manual, capitulo 1",
+    "story": "Epicteto vivio como esclavo durante muchos anos. Sus amos podian controlar su cuerpo, pero no su pensamiento. Descubrio que incluso en cautiverio total, una zona de libertad permanecia intacta: la respuesta interior a los eventos.",
+    "action": "Hoy, ante una circunstancia desagradable que no puedes cambiar, escribe tres formas distintas de responder. Elige la mejor.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "134",
+    "quote": "La felicidad de quienes pueden darse la felicidad a si mismos.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro VII",
+    "story": "Aurelio escribio estas palabras tras observar a cortesanos que dependian completamente del humor imperial para su propia alegria. Anoto: que fragilidad necesitar de otros para ser feliz. El sabio encuentra la felicidad en si mismo.",
+    "action": "Identifica algo que te haria feliz hoy y que no dependa de otra persona. Hazlo.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "135",
+    "quote": "El tiempo pasa mientras dudamos.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 1",
+    "story": "Seneca escribio esta carta a Lucilio en respuesta a su queja de que la vida pasaba demasiado rapido. Seneca corrigio a su amigo: la vida no pasa, la desperdiciamos. Cada hora de duda es una hora perdida que nadie recuperara.",
+    "action": "Piensa en una decision que llevas mas de una semana dudando en tomar. Decidete ahora, aunque sea imperfectamente. La accion imperfecta vale mas que la perfecta inaccion.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "136",
+    "quote": "El que teme a la muerte no hara nada digno de la vida.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 77",
+    "story": "Seneca escribio a Lucilio, que casi habia muerto ahogado y se habia obsesionado con la muerte. Seneca respondio: la muerte no te amenaza, es vivir retraido por miedo a la muerte lo que te empobrece. Aspira en grande, sabiendo que todo termina.",
+    "action": "Escribe algo que aun no te has atrevido a hacer por miedo a las consecuencias. Ese miedo seguiria ahi si ya no tuvieras miedo a la muerte?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "137",
+    "quote": "Nada grande en el mundo se ha cumplido sin pasion.",
+    "author": "Георг Вильгельм Гегель",
+    "source": "Lecciones sobre la filosofia de la historia",
+    "story": "Hegel observo a los grandes conquistadores y reformadores de la historia y noto que ninguno actuaba por puro deber. Cada uno estaba impulsado por algo mas grande: una vision, una conviccion, una pasion que superaba la razon pura.",
+    "action": "Identifica la pasion que subyace a tu trabajo actual. Si no la encuentras, preguntate: adonde fue? Como puedo reavivarla?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "138",
+    "quote": "Se severo contigo mismo e indulgente con los demas.",
+    "author": "Конфуций",
+    "source": "Conversaciones, capitulo XII",
+    "story": "Confucio observo a dos de sus discipulos que se disputaban, cada uno senalando los defectos del otro. Les pregunto: cuanto tiempo dedicaron este mes a examinar sus propios defectos? Ambos callaron. Concluyo: empieza por ti mismo.",
+    "action": "Esta noche, evalua una decision que tomaste hoy con la misma severidad que aplicas a los demas. Luego piensa en alguien a quien hayas juzgado y preguntate si fuiste justo.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "139",
+    "quote": "La mas dulce de las victorias es vencerse a uno mismo.",
+    "author": "Платон",
+    "source": "Las Leyes, Libro I",
+    "story": "Platon relato que los Juegos Olimpicos se celebraban no solo para honrar a los vencedores deportivos, sino para recordar que la victoria sobre uno mismo es superior a cualquier victoria sobre los demas. Un campeon puede ser derrotado por sus propios deseos.",
+    "action": "Identifica un habito o impulso que te cuesta controlar. Resiste conscientemente hoy una vez. Anota como te sientes despues.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "140",
+    "quote": "Cuando estes cansado de la vanidad, retira en ti mismo todo lo que puedas.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro IV",
+    "story": "Aurelio escribio esto durante una campana militar, en medio del ruido de los soldados y las decisiones urgentes. Anoto que la agitacion exterior es inevitable, pero que cada hombre posee un espacio interior donde la paz siempre es accesible.",
+    "action": "Date 5 minutos de retiro interior hoy: cierra los ojos, respira, observa tus pensamientos sin reaccionar. Aunque sea en la oficina o de camino.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "141",
+    "quote": "El sabio lleva consigo todo lo que le pertenece.",
+    "author": "Стильпон из Мегар",
+    "source": "Fragmentos estoicos",
+    "story": "Stilpon de Megara perdio su ciudad, su familia y sus bienes en una conquista militar. Cuando el conquistador le pregunto si habia perdido algo, respondio: no. Porque todo lo que verdaderamente me pertenece, mi razon, mi virtud, mi caracter, siempre esta conmigo.",
+    "action": "Imagina que pierdes todo lo que posees. Que es lo que nadie puede quitarte? Esa es tu verdadera riqueza.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "142",
+    "quote": "Deja de hablar de como debe ser un hombre bueno, y selo.",
+    "author": "Марк Аврелий",
+    "source": "Meditaciones, Libro X",
+    "story": "Aurelio se impacientaba con los filosofos de corte que pasaban horas teorizando sobre la virtud mientras practicaban la adulacion y la corrupcion. Escribio este aforismo como reproche para si mismo tanto como para los demas: las palabras sin actos son viento.",
+    "action": "Piensa en un valor que afirmas verbalmente con frecuencia. Evalua honestamente tu comportamiento en los ultimos 7 dias. Coincide con ese valor?",
+    "topic": "stoicism"
+  },
+  {
+    "id": "143",
+    "quote": "Ningun viento sera favorable para quien no sabe hacia que puerto navega.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 71",
+    "story": "Seneca respondio a Lucilio que se quejaba de que todo parecia ir mal. Le hizo esta pregunta: adonde quieres ir? Lucilio no supo responder. Seneca concluyo: la confusion rara vez viene de la mala suerte, viene de la falta de direccion.",
+    "action": "Escribe en una frase tu objetivo principal para el ano. Si no puedes, ese es el primer problema que resolver.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "144",
+    "quote": "No te pierdas en la multitud.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 7",
+    "story": "Seneca desaconsejo a Lucilio que frecuentara demasiado las multitudes y los espectaculos. No por desprecio hacia la gente, sino porque habia observado que las multitudes ejercen una presion invisible: uniformizan, aplanan, erosionan la individualidad sin que uno se percate.",
+    "action": "Esta semana identifica una opinion o habito que adoptaste por presion social sin elegirlo de verdad. Preguntate si realmente es tuyo.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "145",
+    "quote": "Incluso al caer, el gran hombre no suelta lo que verdaderamente le pertenece.",
+    "author": "Сенека",
+    "source": "Cartas a Lucilio, Carta 98",
+    "story": "Seneca escribio a Lucilio que acababa de sufrir una gran perdida financiera y se sentia destrozado. Seneca le recordo: los bienes externos pueden ser arrebatados, pero el caracter, la dignidad, la sabiduria acumulada, eso no se quita. Incluso en la derrota, sigues siendo tu.",
+    "action": "Imagina que mañana pierdes tu estatus, tu fortuna o tu reputacion. Que permaneceria intocable en ti? Eso es lo que merece ser protegido.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "146",
+    "quote": "La autodisciplina es lo que separa a los ganadores de los perdedores.",
+    "author": "Тед Тёрнер",
+    "source": "Entrevista, 1996",
+    "story": "Turner heredó una pequeña agencia publicitaria y la transformó en CNN. Se levantaba a las 5 de la mañana siete días a la semana. No porque fuera naturalmente disciplinado, sino porque creó sistemas que hacían inevitable la disciplina.",
+    "action": "Establece un 'disparador' para un hábito importante: después de [acción existente], inmediatamente haces [nueva acción].",
+    "topic": "discipline"
+  },
+  {
+    "id": "147",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Роберт Кольер",
+    "source": "El secreto de las edades",
+    "story": "Collier estudió las biografías de los más exitosos de su época. Descubrió: pequeñas acciones correctas, hechas con persistencia. La magia estaba en la repetición, no en el genio.",
+    "action": "Elige una pequeña acción (5–10 min) que te acerque a tu objetivo. Hazla cada día durante 30 días. Pon un recordatorio ahora.",
+    "topic": "discipline"
+  },
+  {
+    "id": "148",
+    "quote": "El dolor es temporal. Rendirse es permanente.",
+    "author": "Лэнс Армстронг",
+    "source": "No solo sobre ciclismo",
+    "story": "Armstrong escribió esto tras sobrevivir a un cáncer en etapa terminal. En las etapas de montaña más duras, repetía esta frase. El dolor dura minutos. La decisión de rendirse queda para siempre.",
+    "action": "La próxima vez que quieras abandonar algo difícil, pregunta: '¿En una hora estaré contento de haberme detenido, o de haber continuado?'",
+    "topic": "discipline"
+  },
+  {
+    "id": "149",
+    "quote": "Un profesional es un aficionado que no se rindió.",
+    "author": "Ричард Бах",
+    "source": "Ilusiones",
+    "story": "Bach recibió 18 rechazos de editoriales. En el 19º intento, el libro fue aceptado, convirtiéndose en un bestseller mundial con 40 millones de ejemplares. La diferencia entre él y los que se rindieron no era el talento — era la perseverancia.",
+    "action": "Recuerda un proyecto que abandonaste demasiado pronto. ¿Qué te impedía continuar? ¿Es esa razón superable hoy?",
+    "topic": "discipline"
+  },
+  {
+    "id": "150",
+    "quote": "La motivación te hace empezar. El hábito te hace continuar.",
+    "author": "Джим Рон",
+    "source": "7 estrategias de riqueza y felicidad",
+    "story": "Rohn trabajaba con personas que comenzaban con entusiasmo y abandonaban a las tres semanas. Conclusión: depender de la motivación es depender del buen humor. Los hábitos funcionan con cualquier estado de ánimo.",
+    "action": "Vincula un hábito a una hora y lugar precisos: 'A las 7:30, justo tras despertar, hago X'. Repite 21 días.",
+    "topic": "discipline"
+  },
+  {
+    "id": "151",
+    "quote": "Cada victoria sobre uno mismo hace que la siguiente sea más fácil.",
+    "author": "Томас Кемпийский",
+    "source": "La imitación de Cristo",
+    "story": "Kempis vivía en un monasterio con un horario estricto. Observó: los monjes que cumplían los pequeños votos superaban más fácilmente las grandes pruebas. Las pequeñas victorias entrenan el músculo de la voluntad.",
+    "action": "Haz algo incómodo pero útil hoy — ducha fría, ejercicio antes del desayuno. Para fortalecer el músculo de la autodisciplina.",
+    "topic": "discipline"
+  },
+  {
+    "id": "152",
+    "quote": "O tú manejas el día, o el día te maneja a ti.",
+    "author": "Джим Рон",
+    "source": "El arte de la vida excepcional",
+    "story": "Rohn describía dos tipos: los que empiezan el día con intención y los que reaccionan a lo que llega. Tras diez años, la diferencia es colosal — no en inteligencia, sino en gestión del tiempo.",
+    "action": "Anota tres tareas para mañana por orden de importancia. Comienza por la primera antes de abrir correos o mensajería.",
+    "topic": "discipline"
+  },
+  {
+    "id": "153",
+    "quote": "Primero haz lo necesario, luego lo posible, y de repente te encontrarás haciendo lo imposible.",
+    "author": "Франциск Ассизский",
+    "source": "Atribuido",
+    "story": "Francisco comenzó a restaurar una pequeña iglesia en ruinas con sus propias manos. No pensaba en el resultado final — solo en la siguiente piedra. Piedra a piedra, la iglesia fue restaurada.",
+    "action": "Divide una tarea enorme en tres pasos. Haz solo el primer paso hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "154",
+    "quote": "La grandeza no está en no caer nunca, sino en levantarse cada vez.",
+    "author": "Оливер Голдсмит",
+    "source": "Atribuido",
+    "story": "Goldsmith era un estudiante sin dinero, aspirante a sacerdote fracasado y vagabundo. Comenzó a escribir para sobrevivir. 'El vicario de Wakefield', escrito en deudas, se convirtió en un clásico.",
+    "action": "Recuerda tu reciente recaída con un hábito. No te culpes — simplemente recomienza hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "155",
+    "quote": "La concentración es la raíz de todas las capacidades.",
+    "author": "Брюс Ли",
+    "source": "Jeet Kune Do",
+    "story": "Lee prohibía a sus alumnos pensar en varias técnicas a la vez. Una técnica repetida mil veces con plena concentración valía más que mil técnicas superficiales. Entrenó un solo golpe hasta que fue imbatible.",
+    "action": "Elige un proyecto. Cierra todas las pestañas innecesarias. Trabaja 25 minutos sin interrupciones. Luego un descanso.",
+    "topic": "discipline"
+  },
+  {
+    "id": "156",
+    "quote": "Primero formamos hábitos, luego los hábitos nos forman.",
+    "author": "Джон Дрейден",
+    "source": "Atribuido",
+    "story": "Dryden — poeta laureado de Inglaterra — escribía cada mañana a la misma hora durante cuarenta años. No esperaba la inspiración. Se sentaba. El hábito creó la productividad que todos llamaban genio.",
+    "action": "Define un hábito deseado. Prepara el entorno: elimina obstáculos, pon un recordatorio, prepara el material con antelación.",
+    "topic": "discipline"
+  },
+  {
+    "id": "157",
+    "quote": "Nunca hagas excepciones hasta que un nuevo hábito esté firmemente establecido.",
+    "author": "Уильям Джеймс",
+    "source": "Principios de psicología",
+    "story": "James concluyó: la primera excepción es catastrófica. No solo rompe la cadena — destruye la creencia 'soy ese tipo de persona'. La continuidad — no la perfección — es la identidad.",
+    "action": "Elige un hábito y comprométete: ninguna excepción durante 14 días. Marca cada día con una X. La cadena visible motiva más que la fuerza de voluntad.",
+    "topic": "discipline"
+  },
+  {
+    "id": "158",
+    "quote": "La mayoría de las personas sobreestima lo que puede hacer en un año y subestima lo que puede hacer en diez.",
+    "author": "Билл Гейтс",
+    "source": "Atribuido",
+    "story": "Gates trabajó en Microsoft de 1975 a 1995 antes de que la empresa dominara el mundo. Veinte años de trabajo constante. Cada año parecía insuficiente. Cada década resultó transformadora.",
+    "action": "Escribe lo que quieres ser en 10 años. ¿Qué acción diaria puedes comenzar ahora?",
+    "topic": "discipline"
+  },
+  {
+    "id": "159",
+    "quote": "La fuerza más destructiva de la vida es una mente desocupada.",
+    "author": "Альберт Эйнштейн",
+    "source": "Atribuido",
+    "story": "Einstein tenía un horario estricto incluso en sus períodos más creativos. Decía que la mente desocupada no descansa — divaga. La divagación genera ansiedad. La estructura genera claridad.",
+    "action": "Planifica tres 'anclas' para mañana: hora de despertar fija, un trabajo principal, hora de dormir fija.",
+    "topic": "discipline"
+  },
+  {
+    "id": "160",
+    "quote": "Da un paso adelante, y el camino aparecerá.",
+    "author": "Стив Джобс",
+    "source": "Discurso de graduación en Stanford, 2005",
+    "story": "Jobs abandonó la universidad sin saber qué hacer. Asistió a clases de caligrafía por simple interés. Diez años después, eso se convirtió en la base de las fuentes del Macintosh.",
+    "action": "Elige algo que te interese pero parezca irracional. Dedícale 30 minutos hoy, solo por curiosidad.",
+    "topic": "discipline"
+  },
+  {
+    "id": "161",
+    "quote": "Disciplina sin libertad es una prisión. Libertad sin disciplina es caos.",
+    "author": "Фриц Перлз",
+    "source": "Gestalt-terapia",
+    "story": "Perls observaba dos tipos de pacientes: rígidamente estructurados y totalmente no estructurados. Los mejores resultados venían de quienes equilibraban estructura y flexibilidad.",
+    "action": "Analiza tu nivel de estructura. ¿Necesitas más orden o más flexibilidad? Da un paso en la dirección correcta hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "162",
+    "quote": "La procrastinación es el impuesto más caro que pagamos voluntariamente.",
+    "author": "Робин Шарма",
+    "source": "El monje que vendió su Ferrari",
+    "story": "Sharma describía a un abogado que postergaba salud, familia y creatividad. A los 57 tuvo un infarto. La procrastinación le había costado veinte años de vida real.",
+    "action": "Nombra algo que llevas un mes postergando. Fija una fecha concreta. Díselo a alguien en voz alta.",
+    "topic": "discipline"
+  },
+  {
+    "id": "163",
+    "quote": "La calidad de vida está determinada por la calidad de las preguntas que te haces.",
+    "author": "Тони Роббинс",
+    "source": "Despertando al gigante interior",
+    "story": "Las personas infelices preguntan '¿por qué me pasa esto?' Las exitosas preguntan '¿qué puedo hacer?' La pregunta orienta la búsqueda del cerebro — y siempre encuentra una respuesta.",
+    "action": "Reemplaza una queja por una pregunta: '¿Qué puedo hacer con esto?' o '¿Qué hay de bueno en esta situación?' Inténtalo tres veces hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "164",
+    "quote": "La práctica no hace la perfección — la práctica perfecta hace la perfección.",
+    "author": "Вince Lombardi",
+    "source": "Atribuido",
+    "story": "Lombardi entrenó a los Green Bay Packers hacia varios campeonatos. Cada ejercicio se ejecutaba con atención total. Las repeticiones mal ejecutadas arraigan malas habilidades. La calidad importa más que la cantidad.",
+    "action": "Elige una habilidad a mejorar. Ralentiza, presta atención a los detalles en lugar de aumentar la cantidad.",
+    "topic": "discipline"
+  },
+  {
+    "id": "165",
+    "quote": "Si quieres algo que nunca has tenido, debes hacer lo que nunca has hecho.",
+    "author": "Томас Джефферсон",
+    "source": "Atribuido",
+    "story": "Jefferson redactó la Declaración de Independencia a los 33 años. Estaba dispuesto a escribir lo que otros temían — un documento que declaraba la guerra al Imperio Británico. Un nuevo resultado requiere una nueva acción.",
+    "action": "Nombra un resultado que deseas pero no has alcanzado. ¿Qué debes comenzar o dejar de hacer para hacerlo posible?",
+    "topic": "discipline"
+  },
+  {
+    "id": "166",
+    "quote": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+    "author": "Томас Эдисон",
+    "source": "Harper's Monthly, 1932",
+    "story": "Edison trabajaba 18 horas al día y hacía miles de experimentos. Sus inventos 'geniales' eran el resultado de un trabajo metódico e interminable.",
+    "action": "Elimina la palabra 'talento' de tu vocabulario por un día. Cada vez que veas el éxito de otro, pregunta: ¿cuántas horas de práctica hay detrás?",
+    "topic": "discipline"
+  },
+  {
+    "id": "167",
+    "quote": "La diferencia entre lo que eres y lo que quieres ser es lo que haces.",
+    "author": "Чарльз Дарвин",
+    "source": "Atribuido",
+    "story": "Darwin era un estudiante mediocre. Pero tenía una disciplina: observar y anotar cada día. Cinco años a bordo del Beagle — miles de páginas. La teoría de la evolución nació de un hábito diario.",
+    "action": "Esta noche, anota tres observaciones del día. Cinco minutos. Hazlo 30 días y mira qué cambia.",
+    "topic": "discipline"
+  },
+  {
+    "id": "168",
+    "quote": "La paciencia no es espera pasiva. Es aceptación activa del proceso.",
+    "author": "Рэй Далио",
+    "source": "Principios",
+    "story": "Dalio creó el mayor fondo de cobertura del mundo tras 15 años de trabajo con varias cuasi-quiebras. Analizaba metódicamente cada error. Sus 'Principios' — 500 páginas de lecciones de fracasos.",
+    "action": "Divide una tarea en la que eres impaciente en fases con plazos realistas. La paciencia es una habilidad de planificación.",
+    "topic": "discipline"
+  },
+  {
+    "id": "169",
+    "quote": "La disciplina es el puente entre los objetivos y los logros.",
+    "author": "Джим Рон",
+    "source": "El arte de la vida excepcional",
+    "story": "Rohn describía a dos personas con los mismos sueños: una soñaba con riqueza, la otra la construía. Después de cinco años, una seguía soñando, la otra había logrado su meta. Solo las acciones diarias marcaban la diferencia.",
+    "action": "Escribe un objetivo. Debajo: 'Cada día haré [acción] para acercarme a él.' Pon un recordatorio. Empieza hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "170",
+    "quote": "Quieres cambiar el mundo — empieza por hacer tu cama.",
+    "author": "Уильям МакРейвен",
+    "source": "Discurso a los graduados de la Universidad de Texas, 2014",
+    "story": "McRaven explicó: en el campamento de entrenamiento SEAL, lo primero es hacer la cama perfectamente. No se trata de la cama. Se trata de comenzar el día con una victoria.",
+    "action": "Haz tu cama cuidadosamente mañana por la mañana. Observa cómo afecta tu energía en los primeros minutos del día.",
+    "topic": "discipline"
+  },
+  {
+    "id": "171",
+    "quote": "La resistencia no es solo la capacidad de soportar una situación difícil; es la capacidad de transformarla en algo grande.",
+    "author": "Уолтер Эллиотт",
+    "source": "Ejercicios espirituales",
+    "story": "Elliott era un misionero católico que trabajó 40 años en condiciones difíciles. Observó: quienes 'soportaban' con amargura se quebraban. Quienes transformaban las dificultades en sabiduría salían más fuertes.",
+    "action": "Toma la cosa más difícil ahora mismo. Pregunta: ¿qué puedo sacar de esto? ¿Qué fuerza o sabiduría puede darme?",
+    "topic": "discipline"
+  },
+  {
+    "id": "172",
+    "quote": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "author": "Стив Джобс",
+    "source": "Discurso de graduación en Stanford, 2005",
+    "story": "Tras su regreso a Apple, Jobs canceló cientos de productos y se concentró en unos pocos. Los grandes productos nacen solo de una verdadera pasión. Disciplina sin amor — coacción. Con amor — maestría.",
+    "action": "Evalúa del 1 al 10 cuánto te gusta lo que haces. Si menos de 7 — ¿qué pequeño paso puede aumentar esa puntuación? Hazlo hoy.",
+    "topic": "discipline"
+  },
+  {
+    "id": "173",
+    "quote": "Tu mañana define tu día. Tu día define tu vida.",
+    "author": "Хэл Элрод",
+    "source": "Miracle Morning",
+    "story": "Elrod tuvo un terrible accidente de coche. Mientras se recuperaba, desarrolló un ritual matutino: meditación, afirmaciones, visualización, lectura, escritura, ejercicio. Seis meses después, florecía.",
+    "action": "Desarrolla tu rutina matutina de 20 minutos con al menos: movimiento, silencio, lectura. Prueba esta rutina mañana por la mañana.",
+    "topic": "discipline"
+  },
+  {
+    "id": "174",
+    "quote": "La riqueza no es sobre el dinero. La riqueza es sobre las opciones.",
+    "author": "Крис Рок",
+    "source": "Actuación, 2008",
+    "story": "Rock creció en la pobreza en Brooklyn. Decía que la diferencia entre pobreza y riqueza no son los lujos, sino la elección. El pobre no puede decir no a un trabajo que odia. El rico sí puede. El dinero no compra la felicidad — compra la libertad de elegir dónde buscarla.",
+    "action": "Calcula cuántos meses podrías vivir de tus ahorros sin ingresos. Ese es tu nivel de libertad. ¿Qué puedes hacer para aumentarlo un mes este año?",
+    "topic": "money"
+  },
+  {
+    "id": "175",
+    "quote": "El mundo financiero está diseñado para transferir dinero de los impacientes a los pacientes.",
+    "author": "Уоррен Баффет",
+    "source": "Entrevista en CNBC, 2008",
+    "story": "En 2008, el mercado se desplomó. Miles de inversores vendían en pánico. Buffett compraba. Su cartera seguía cayendo — y él seguía comprando. Cinco años después, quienes habían entrado en pánico y vendido en el fondo habían perdido su fortuna. Quienes aguantaron o compraron triplicaron su capital.",
+    "action": "Verifica si en tus decisiones financieras hay impaciencia: retirada anticipada de inversiones, compras impulsivas, deudas por placer 'inmediato'. Encuentra un lugar donde la paciencia te daría más.",
+    "topic": "money"
+  },
+  {
+    "id": "176",
+    "quote": "No ahorres lo que queda después de los gastos — gasta lo que queda después del ahorro.",
+    "author": "Уоррен Баффет",
+    "source": "Carta a los accionistas de Berkshire Hathaway",
+    "story": "La mayoría de las personas planea ahorrar lo que sobre. Generalmente no queda nada. Buffett hacía lo contrario desde su primer sueldo: apartaba un porcentaje primero y luego vivía con el resto. El principio de 'págarte primero' lo convirtió en millonario antes de los 30.",
+    "action": "Configura una transferencia automática de al menos el 5–10 % de tu próximo sueldo a una cuenta separada el mismo día que lo recibes. Vive con el resto. Es el camino más sencillo hacia la estabilidad financiera.",
+    "topic": "money"
+  },
+  {
+    "id": "177",
+    "quote": "La independencia financiera es la capacidad de vivir de los ingresos de tus activos.",
+    "author": "Роберт Кийосаки",
+    "source": "Padre rico, padre pobre",
+    "story": "Kiyosaki trazó una línea radicalmente simple entre activos y pasivos: un activo pone dinero en tu bolsillo, un pasivo lo saca. Su 'padre rico' solo gastaba en activos. Su 'padre pobre' compraba cosas que parecían activos pero eran pasivos. La diferencia está en la mentalidad, no en los ingresos.",
+    "action": "Haz una lista de tus compras del último mes. Marca cada una como A (activo — genera ingresos o valor) o P (pasivo — quita dinero). ¿Cuál es la proporción?",
+    "topic": "money"
+  },
+  {
+    "id": "178",
+    "quote": "El dinero es un buen sirviente para los buenos y un mal amo para los malos.",
+    "author": "Фрэнсис Бэкон",
+    "source": "Ensayo «Sobre la riqueza»",
+    "story": "Bacon era lord canciller de Inglaterra y uno de los hombres más ricos de su época. Observaba cómo el dinero amplificaba lo que ya existía en la persona. El generoso se volvía más generoso. El avaro — más avaro aún. El dinero no cambia el carácter — lo revela.",
+    "action": "Pregúntate: ¿quién quieres ser cuando tengas más dinero? Actúa así hoy mismo — al nivel que tienes ahora.",
+    "topic": "money"
+  },
+  {
+    "id": "179",
+    "quote": "Invierte en conocimiento — produce los mejores intereses.",
+    "author": "Бенджамин Франклин",
+    "source": "El almanaque del pobre Richard",
+    "story": "Franklin abandonó la escuela a los 10 años por la pobreza de su familia. Pero leía todo lo que podía conseguir y aprendió solo varios idiomas, física, derecho y diplomacia. Al final de su vida era el hombre más rico de Filadelfia, embajador en Francia y autor de la Constitución de EE. UU. El conocimiento no requirió crédito.",
+    "action": "Elige una habilidad que podría aumentar tus ingresos. Encuentra un libro o curso sobre ese tema. Empieza esta noche.",
+    "topic": "money"
+  },
+  {
+    "id": "180",
+    "quote": "El dinero gastado se acaba. El invertido crece.",
+    "author": "Томас Стэнли",
+    "source": "El vecino millonario",
+    "story": "Stanley pasó 20 años estudiando a los verdaderos millonarios estadounidenses. Su conclusión sorprendió a todos: la mayoría vivía modestamente, conducía coches de segunda mano y compraba ropa en tiendas normales. No parecían ricos. Eran ricos — porque invertían la diferencia entre ingresos y gastos.",
+    "action": "Elige algo que planeabas comprar por estatus o para impresionar a otros. Destina esa cantidad a inversiones en lugar de la compra. Un solo experimento.",
+    "topic": "money"
+  },
+  {
+    "id": "181",
+    "quote": "Muchos creen que los problemas financieros son problemas de dinero. En realidad son problemas de comportamiento.",
+    "author": "Дэйв Рэмзи",
+    "source": "Transformación financiera total",
+    "story": "Ramsey se declaró en quiebra a los 26 años, a pesar de ganar por encima de la media. El problema no era el sueldo — era el comportamiento. Cambió no de trabajo, sino de hábitos. Siete años después era financieramente libre. Hoy enseña a millones que la educación financiera empieza por la psicología, no por la aritmética.",
+    "action": "Analiza una decisión financiera de esta semana: ¿fue racional o emocional? ¿Qué habría cambiado si hubieras esperado 48 horas?",
+    "topic": "money"
+  },
+  {
+    "id": "182",
+    "quote": "El coste de algo se mide por la cantidad de vida que intercambias por ello.",
+    "author": "Генри Дэвид Торо",
+    "source": "Walden",
+    "story": "Thoreau pasó dos años en el bosque, llevando una vida sencilla y llevando las cuentas al céntimo. Su conclusión: las personas trabajan años por cosas que no necesitan. Cada cosa no cuesta tantos dólares, sino tantas horas de vida — la propia vida, irrecuperable.",
+    "action": "Antes de tu próxima gran compra, calcula: ¿cuántas horas de trabajo cuesta? Si pagaras con tiempo en lugar de dinero, ¿lo comprarías igualmente?",
+    "topic": "money"
+  },
+  {
+    "id": "183",
+    "quote": "Un presupuesto le dice a tu dinero adónde ir, en lugar de preguntarte después adónde fue.",
+    "author": "Джон Максвелл",
+    "source": "Hoy importa",
+    "story": "Maxwell trabajó con miles de líderes y notó un patrón: las personas que gestionan su dinero conscientemente también gestionan todo lo demás mejor. Un presupuesto no es una restricción. Es un plan. La diferencia entre quienes viven del resto y quienes construyen un futuro a menudo se reduce a esta única herramienta.",
+    "action": "Escribe en papel o en una aplicación tres categorías de gastos para el próximo mes con límites. Esto tomará 10 minutos y cambiará inmediatamente tu relación con el dinero.",
+    "topic": "money"
+  },
+  {
+    "id": "184",
+    "quote": "No es necesario ganar más. Hay que gastar menos en lo que no importa.",
+    "author": "Джейкоб Лунд Фискер",
+    "source": "Jubilación anticipada extrema",
+    "story": "Fisker era físico con un salario alto y se jubiló a los 33 años. Su secreto: redujo sus gastos a 7.000 dólares al año — no por privación, sino por elección consciente. Iba en bicicleta, cocinaba él mismo, reparaba las cosas. La libertad costaba menos de lo que pensaba.",
+    "action": "Revisa tus gastos de los últimos 30 días. Encuentra una categoría de gastos que podrías reducir a la mitad sin afectar significativamente tu calidad de vida. Hazlo desde mañana.",
+    "topic": "money"
+  },
+  {
+    "id": "185",
+    "quote": "El dinero no te hará feliz, pero su ausencia seguramente te hará infeliz.",
+    "author": "Киану Ривз",
+    "source": "Entrevista, 2019",
+    "story": "Reeves donó gran parte de su caché de 'Matrix' al equipo de rodaje, al que consideraba mal pagado. No lo motivaba la acumulación. Pero sabía por experiencia: la estabilidad financiera es un fundamento sin el cual es difícil ser generoso, creativo y tranquilo.",
+    "action": "Determina la cantidad mínima con la que te sientes financieramente seguro. Ese es tu objetivo para un fondo de reserva. ¿Qué puedes hacer hoy para avanzar hacia él?",
+    "topic": "money"
+  },
+  {
+    "id": "186",
+    "quote": "Si quieres ser rico, aprende de alguien que se hizo rico, no de alguien que enseña a serlo.",
+    "author": "Нассим Николас Талеб",
+    "source": "Antifrágil",
+    "story": "Taleb criticaba a los gurús financieros que vendían libros sobre riqueza sin tener ellos mismos una fortuna significativa. Lo llamaba 'no tener skin in the game'. El mejor maestro es aquel que arriesga su propio dinero y ha pasado por fracasos y éxitos reales. La teoría sin práctica es una ilusión costosa.",
+    "action": "Encuentra a una persona en tu entorno que haya logrado el resultado financiero al que aspiras. Pide una reunión o estudia su trayectoria en detalle.",
+    "topic": "money"
+  },
+  {
+    "id": "187",
+    "quote": "El primer paso hacia la riqueza es tomar la decisión de ser rico.",
+    "author": "Наполеон Хилл",
+    "source": "Piense y hágase rico",
+    "story": "Hill entrevistó a 500 de las personas más ricas de América por encargo de Andrew Carnegie. Su conclusión: la riqueza no empieza con talento ni suerte, sino con una intención clara. Las personas sin una intención financiera precisa derivan. Un objetivo concreto con una cifra concreta cambia todas las decisiones posteriores.",
+    "action": "Escribe un objetivo financiero concreto: una cantidad, un plazo, una razón. Por ejemplo: 'Al 31 de diciembre de [año] tengo [cantidad] en mi cuenta, porque [razón].' Léelo cada mañana.",
+    "topic": "money"
+  },
+  {
+    "id": "188",
+    "quote": "Ahorrar sin objetivo es privación. Ahorrar con objetivo es poder.",
+    "author": "Суз Орман",
+    "source": "El camino hacia la riqueza",
+    "story": "Orman trabajó como camarera antes de convertirse en asesora financiera. Explicaba a sus clientes: la gente abandona el presupuesto porque se siente como un castigo. Cuando cada euro ahorrado está vinculado a un sueño concreto — libertad, viaje, seguridad — ahorrar se convierte en fuerza, no en sacrificio.",
+    "action": "Abre una cuenta separada y ponle el nombre de tu objetivo financiero. Transfiere una pequeña cantidad cada semana. Un nombre concreto hace el objetivo real.",
+    "topic": "money"
+  },
+  {
+    "id": "189",
+    "quote": "Las personas ricas tienen televisores pequeños y grandes bibliotecas. Las pobres tienen televisores grandes y pequeñas bibliotecas.",
+    "author": "Зиг Зиглар",
+    "source": "Nacido para ganar",
+    "story": "Ziglar estudiaba los hábitos de las personas financieramente exitosas y encontraba una constante: la lectura. No noticias, no redes sociales — libros sobre negocios, desarrollo, historias de éxito. El millonario promedio lee un libro de no ficción por semana. La persona promedio — uno al año.",
+    "action": "Lee hoy al menos 20 páginas de un libro sobre finanzas, negocios o desarrollo personal. Si no tienes uno — elige uno ahora y pídelo.",
+    "topic": "money"
+  },
+  {
+    "id": "190",
+    "quote": "La mejor inversión es en uno mismo. El retorno es siempre positivo.",
+    "author": "Уоррен Баффет",
+    "source": "Entrevista, 2007",
+    "story": "Un joven periodista le preguntó a Buffett cuál había sido la mejor inversión de su vida. Respondió sin dudar: el curso de oratoria de Dale Carnegie por 100 dólares, que tomó a los 20 años. Según él, ese curso le ayudó a transmitir ideas a las personas — y sin esa habilidad, el dinero nunca habría llegado.",
+    "action": "Determina una habilidad que podría duplicar tu valor profesional. Encuentra un curso o libro sobre ella. Invierte en esto este mes.",
+    "topic": "money"
+  },
+  {
+    "id": "191",
+    "quote": "Las pequeñas fugas hunden los grandes barcos.",
+    "author": "Бенджамин Франклин",
+    "source": "El almanaque del pobre Richard",
+    "story": "Franklin llevaba cuentas meticulosas. Notó: la riqueza no se destruye por una gran catástrofe, sino por cien pequeños gastos imprudentes. Café diario, suscripciones no utilizadas, pequeñas compras impulsivas — separadamente invisibles, juntas en un año — una fortuna.",
+    "action": "Encuentra tres suscripciones o gastos regulares que usas raramente. Cancela al menos uno hoy. Calcula cuánto ahorrarás en un año.",
+    "topic": "money"
+  },
+  {
+    "id": "192",
+    "quote": "La diversificación es el único almuerzo gratis en las inversiones.",
+    "author": "Гарри Марковиц",
+    "source": "Teoría del portafolio, 1952",
+    "story": "Markowitz recibió el Nobel por demostrar matemáticamente que una cartera diversificada soporta menos riesgo con el mismo rendimiento esperado. Pero cuando un periodista le preguntó cómo invertía él mismo, Markowitz admitió: 'Lo divido a partes iguales entre acciones y bonos.' Incluso el genio simplifica para sí mismo.",
+    "action": "Comprueba si todos tus ahorros no están concentrados en un solo lugar: solo efectivo, solo una empresa, solo inmuebles. Considera una forma sencilla de diversificación.",
+    "topic": "money"
+  },
+  {
+    "id": "193",
+    "quote": "Vivir por debajo de sus posibilidades no es privación. Es libertad.",
+    "author": "Морган Хаузел",
+    "source": "La psicología del dinero",
+    "story": "Housel describía a Ronald Read — conserje y empleado de gasolinera en Vermont — que dejó 8 millones de dólares a organizaciones benéficas tras su muerte. Nunca ganó mucho. Nunca gastó mucho. E invirtió durante décadas. Su riqueza fue el resultado de la paciencia y la humildad, no de los ingresos.",
+    "action": "Encuentra algo en lo que gastas por apariencia o por la opinión de los demás. La próxima semana, omite ese gasto. Siente la diferencia — o su ausencia.",
+    "topic": "money"
+  },
+  {
+    "id": "194",
+    "quote": "El riesgo viene de no saber lo que estás haciendo.",
+    "author": "Уоррен Баффет",
+    "source": "Carta a los accionistas, 1993",
+    "story": "Buffett invertía en empresas que entendía perfectamente — Coca-Cola, American Express, Wells Fargo. Rechazó las empresas tecnológicas en los 90, cuando todos a su alrededor hacían fortuna. Cuando estalló la burbuja, Berkshire perdió poco. Los competidores lo perdieron todo. La ignorancia es más peligrosa que la volatilidad.",
+    "action": "¿Tienes una inversión u obligación financiera que no entiendes del todo? Dedica 30 minutos hoy a informarte sobre ella.",
+    "topic": "money"
+  },
+  {
+    "id": "195",
+    "quote": "La riqueza no es lo que ganas, sino lo que conservas.",
+    "author": "Томас Стэнли",
+    "source": "El vecino millonario",
+    "story": "Stanley pasó 20 años estudiando a los millonarios. Su principal conclusión: la mayoría de las personas con altos ingresos no son ricas — viven de nómina en nómina, solo a mayor escala. La verdadera riqueza es la diferencia entre lo que se gana y lo que se gasta, multiplicada por el tiempo.",
+    "action": "Calcula tu 'índice de riqueza': activos netos divididos por (edad × ingresos / 10). Si es inferior a 1, gastas más de lo que acumulas. ¿Qué cambiar?",
+    "topic": "money"
+  },
+  {
+    "id": "196",
+    "quote": "La deuda es esclavitud con un comienzo agradable.",
+    "author": "Дэйв Рэмзи",
+    "source": "Transformación financiera total",
+    "story": "Ramsey describía a familias que compraban casas, coches y vacaciones a crédito. Al principio parecía que vivían mejor que los demás. Diez años después trabajaban para el banco, no para ellas mismas. Sus ingresos pertenecían a los acreedores. La libertad vale más que el confort inmediato.",
+    "action": "Anota todas tus deudas, sus tasas de interés y pagos mínimos. Identifica la deuda con la tasa más alta y haz un pago adicional este mes.",
+    "topic": "money"
+  },
+  {
+    "id": "197",
+    "quote": "El que entiende el interés compuesto, lo gana. El que no lo entiende, lo paga.",
+    "author": "Чарли Мангер",
+    "source": "Discurso a los graduados de USC, 1994",
+    "story": "Munger explicaba a los estudiantes: el mismo mecanismo — el interés compuesto — funciona a tu favor o en tu contra. El inversor que invirtió pronto se beneficia. El deudor de tarjeta de crédito lo paga a favor del banco. Conocer este mecanismo determina literalmente el destino financiero.",
+    "action": "Usa una calculadora de interés compuesto online. Introduce tu edad y la cantidad que podrías ahorrar mensualmente. Mira qué pasará en 20 años. Eso debería motivarte.",
+    "topic": "money"
+  },
+  {
+    "id": "198",
+    "quote": "El paso más importante hacia la riqueza es empezar antes de estar listo.",
+    "author": "Питер Линч",
+    "source": "Un paso por Wall Street",
+    "story": "Lynch gestionó el fondo Magellan en Fidelity de 1977 a 1990 — rentabilidad anual media del 29 %. Decía que la mayoría de los inversores perdían dinero esperando el 'momento adecuado'. El momento adecuado siempre está en el pasado. El segundo mejor — es ahora.",
+    "action": "Si no tienes cuenta de inversión, abre una hoy. Si ya la tienes — deposita cualquier cantidad. Lo importante es empezar, no empezar perfectamente.",
+    "topic": "money"
+  },
+  {
+    "id": "199",
+    "quote": "La riqueza se construye en el silencio y se destruye en el ruido.",
+    "author": "Уоррен Баффет",
+    "source": "Entrevista, 2004",
+    "story": "En el año 2000, en el pico de la burbuja puntocom, todos alrededor de Buffett ganaban con las acciones tecnológicas. Lo llamaban dinosaurio que no entendía la nueva economía. Él siguió tranquilamente su estrategia. Cuando la burbuja estalló, compró en el fondo lo que entendía. El ruido crea entusiasmo. El silencio crea riqueza.",
+    "action": "Cancela la suscripción a un blog financiero o fuente de noticias que genera ansiedad y ganas de reaccionar. Las decisiones tomadas en silencio suelen ser mejores que las tomadas en el ruido.",
+    "topic": "money"
+  },
+  {
+    "id": "200",
+    "quote": "El dinero es una herramienta. Como todas las herramientas, es peligrosa en manos inexpertas.",
+    "author": "Артур Мотье",
+    "source": "Atribuido",
+    "story": "Los psicólogos estudiaron a los ganadores de la lotería y descubrieron una estadística impactante: la mayoría era más pobre 5 a 7 años después del premio que antes. El dinero sin habilidades financieras ni mentalidad adecuada no da riqueza — da una ilusión temporal y problemas permanentes.",
+    "action": "Nombra una habilidad financiera que te falta: presupuestar, invertir, negociar el salario. Encuentra un libro o curso sobre ella. Empieza a aprender hoy.",
+    "topic": "money"
+  },
+  {
+    "id": "201",
+    "quote": "Tus ingresos dentro de cinco años están determinados por los libros que lees y las personas con las que te asocias hoy.",
+    "author": "Чарли Джонс",
+    "source": "La vida es buena",
+    "story": "Jones — agente de seguros convertido en millonario — explicaba su éxito no por estrategias misteriosas. Buscaba sistemáticamente la compañía de personas más inteligentes que él y leía un libro por semana. En 20 años, eso cambió no solo sus ingresos — sino el tipo de problemas que resolvía y las personas con las que trabajaba.",
+    "action": "Mira los cinco libros que leíste el año pasado. ¿Qué dicen sobre la dirección en que se mueve tu vida? Añade ahora un libro de finanzas a tu lista.",
+    "topic": "money"
+  },
+  {
+    "id": "202",
+    "quote": "La libertad financiera es cuando tu dinero trabaja para ti, y no tú para el dinero.",
+    "author": "Роберт Кийосаки",
+    "source": "Padre rico, padre pobre",
+    "story": "Kiyosaki describía la 'carrera de ratas': ganar, gastar, ganar más, gastar más. La salida: crear fuentes de ingresos pasivos: inversiones, negocio, propiedad intelectual. Los primeros pasos son pequeños. Pero cada activo es un ladrillo en el edificio de la libertad.",
+    "action": "Nombra una fuente de ingresos pasivos teóricamente posible para ti. Encuentra una persona o recurso que te ayude a entender los primeros pasos.",
+    "topic": "money"
+  },
+  {
+    "id": "203",
+    "quote": "Nunca dependas de una única fuente de ingresos. Crea una segunda.",
+    "author": "Уоррен Баффет",
+    "source": "Atribuido",
+    "story": "Buffett empezó a ganar dinero a los 6 años vendiendo chicles. En la escuela repartía periódicos. En la adolescencia reparaba y revendía máquinas de juego. Nunca dependió de una sola fuente. Cada nuevo flujo de ingresos le aportaba no solo dinero — sino confianza.",
+    "action": "Piensa en una habilidad o conocimiento por el que la gente estaría dispuesta a pagar. Eso podría convertirse en una fuente de ingresos adicional. Da el primer paso hacia su monetización esta semana.",
+    "topic": "money"
+  },
+  {
+    "id": "204",
+    "quote": "Págate primero a ti mismo — esa es la base de todo éxito financiero personal.",
+    "author": "Джордж Клейсон",
+    "source": "El hombre más rico de Babilonia",
+    "story": "En el libro, un comerciante babilónico enseñaba: de cada diez monedas que entren en tu bolsa, guarda una. Siempre. Sin excepciones. Este único hábito — una parte de los ingresos directamente al ahorro — creaba fortunas en el año 2000 a.C. igual que las crea hoy.",
+    "action": "Abre ahora una cuenta de ahorro separada. Transfiere al menos el 10 % de tus últimos ingresos. No pienses de dónde sacar el dinero — piensa en cómo vivir con el 90 % restante.",
+    "topic": "money"
+  },
+  {
+    "id": "205",
+    "quote": "El verdadero líder es aquel que crea más líderes, no más seguidores.",
+    "author": "Ральф Нейдер",
+    "source": "Atribuido",
+    "story": "Nader luchó durante décadas por los derechos de los consumidores en EE. UU. Su principal descubrimiento: los movimientos que dependen de una sola persona se derrumban con ella. Los movimientos que crean miles de líderes competentes viven eternamente. No formaba seguidores — creaba organizadores.",
+    "action": "Piensa en alguien de tu entorno que podría asumir más responsabilidad. ¿Qué puedes hacer hoy para ayudarle a crecer?",
+    "topic": "leadership"
+  },
+  {
+    "id": "206",
+    "quote": "El liderazgo es una acción, no una posición.",
+    "author": "Дональд МакГэннон",
+    "source": "Atribuido",
+    "story": "McGannon dirigió Westinghouse Broadcasting en los años 1960-80, convirtiéndola en un modelo de diversidad y ética en el periodismo. No esperaba la aprobación de sus asesores — actuaba cuando era correcto. Su decisión más famosa: contratar a la primera mujer negra como presentadora en horario de máxima audiencia 20 años antes de que fuera la norma.",
+    "action": "Identifica una situación en tu vida donde estás esperando un permiso o un cargo para tomar la iniciativa. Da un paso adelante sin permiso — hoy.",
+    "topic": "leadership"
+  },
+  {
+    "id": "207",
+    "quote": "Las personas siguen al líder antes de seguir su visión.",
+    "author": "Джон Максвелл",
+    "source": "Las 21 leyes irrefutables del liderazgo",
+    "story": "Maxwell estudió a cientos de líderes y descubrió: las ideas brillantes no mueven a la gente. Las personas mueven a las personas. Cuando Martin Luther King pronunciaba su discurso Tengo un sueño, la gente lloraba no por la fuerza de la idea — sino por la fuerza del hombre ante ellos.",
+    "action": "Recuerda una situación en que intentaste convencer a personas de una idea y fracasaste. Mirando atrás: ¿te tenían suficiente confianza? ¿Qué podrías haber hecho para fortalecer primero la confianza?",
+    "topic": "leadership"
+  },
+  {
+    "id": "208",
+    "quote": "Los grandes líderes no temen parecer vulnerables.",
+    "author": "Брене Браун",
+    "source": "Los dones de la imperfección",
+    "story": "Brown pasó 12 años estudiando la vergüenza y la vulnerabilidad. Su principal conclusión sobre los líderes: los más eficaces hablaban abiertamente de sus errores y dudas. No es debilidad — es lo que hace que las personas estén dispuestas a seguirles. La armadura no protege al líder — aleja al equipo.",
+    "action": "En la próxima reunión con tu equipo, admite un error o incertidumbre que normalmente ocultas. Observa la reacción.",
+    "topic": "leadership"
+  },
+  {
+    "id": "209",
+    "quote": "Mandar es servir, nada más y nada menos.",
+    "author": "Андре Мальро",
+    "source": "Antimemorias",
+    "story": "Malraux fue ministro de Cultura de Francia bajo De Gaulle. Observaba: los mejores comandantes militares que conocía entraban primero en el peligro y eran los últimos en abandonar el campo de batalla. Su autoridad no se basaba en el rango — se basaba en que servían a los hombres a quienes mandaban.",
+    "action": "Hoy, haz algo por tu equipo o tus allegados que normalmente se considera por debajo de tu nivel. Ayuda con una tarea pequeña, recoge el desorden ajeno, apoya discretamente.",
+    "topic": "leadership"
+  },
+  {
+    "id": "210",
+    "quote": "La mayor victoria de un líder es cuando en su ausencia todo funciona mejor que con él presente.",
+    "author": "Питер Друкер",
+    "source": "El ejecutivo eficaz",
+    "story": "Drucker asesoró a cientos de empresas y desarrolló la prueba principal para un líder: ¿qué pasa cuando no estás? Si todo se derrumba — has creado dependencia. Si todo sigue funcionando — has creado un sistema. El verdadero liderazgo se hace a sí mismo innecesario.",
+    "action": "Nombra una cosa que solo haces tú y que nadie más puede hacer sin ti. Eso es dependencia. ¿Cómo podrías transmitir ese conocimiento o habilidad a alguien más?",
+    "topic": "leadership"
+  },
+  {
+    "id": "211",
+    "quote": "El líder conoce el camino, anda el camino y muestra el camino.",
+    "author": "Джон Максвелл",
+    "source": "Desarrollar líderes a tu alrededor",
+    "story": "Maxwell trabajaba con líderes corporativos que daban hermosos discursos sobre los valores, pero eran los primeros en incumplirlos bajo presión. Los equipos lo veían. La brecha entre palabras y hechos destruye la autoridad más rápido que cualquier fracaso. El líder es el mapa por el que se orienta el equipo.",
+    "action": "Identifica un valor que declaras pero no siempre encarnas. Hoy, compórtate de manera que tus acciones coincidan completamente con ese valor.",
+    "topic": "leadership"
+  },
+  {
+    "id": "212",
+    "quote": "El respeto se gana con los actos, no con los títulos.",
+    "author": "Колин Пауэлл",
+    "source": "Mi camino americano",
+    "story": "Powell — general de cuatro estrellas y secretario de Estado de EE. UU. — contaba que al inicio de su carrera un joven teniente no le escuchaba por prejuicios raciales. Powell no apeló a su cargo. Hacía su trabajo tan bien que el escéptico vino él solo a pedirle consejo.",
+    "action": "En lugar de apelar a tu cargo en la próxima disputa, deja que tus resultados hablen por ti. ¿Qué puedes hacer para demostrar competencia con hechos?",
+    "topic": "leadership"
+  },
+  {
+    "id": "213",
+    "quote": "La mejor manera de predecir el futuro es crearlo.",
+    "author": "Питер Друкер",
+    "source": "Management: tareas, responsabilidades, prácticas",
+    "story": "Drucker escribió esto en 1954, cuando la mayoría de las teorías de gestión se centraban en la reacción. Invirtió el paradigma: las grandes organizaciones no se adaptan al futuro, lo forman. Eso requiere visión, valentía y negarse a esperar permiso.",
+    "action": "Escribe un cambio que deseas ver en tu ámbito. ¿Qué pequeña acción puedes emprender hoy para crear ese futuro?",
+    "topic": "leadership"
+  },
+  {
+    "id": "214",
+    "quote": "Inspira a los demás con el ejemplo, no con las palabras.",
+    "author": "Альберт Швейцер",
+    "source": "Atribuido",
+    "story": "Schweitzer era organista, teólogo y filósofo de renombre mundial. A los 38 años abandonó su carrera y se fue como médico a África. Nunca le preguntaban por qué lo había hecho. Le preguntaban cómo seguir su ejemplo. El ejemplo es el único discurso que no puede ser refutado.",
+    "action": "Recuerda a una persona que te haya inspirado con el ejemplo. ¿Qué en su comportamiento te inspiró? ¿Cómo encarnar eso en tus acciones hoy?",
+    "topic": "leadership"
+  },
+  {
+    "id": "215",
+    "quote": "La fuerza del líder no está en conocer todas las respuestas, sino en hacer las preguntas correctas.",
+    "author": "Питер Сенге",
+    "source": "La quinta disciplina",
+    "story": "Senge estudiaba las organizaciones que aprenden — empresas que se adaptaban más rápido que sus competidores. Lo que las unía: los líderes hacían preguntas en las reuniones en lugar de dar respuestas. Eso creaba una cultura de búsqueda, no de ejecución.",
+    "action": "En la próxima reunión, haz tres preguntas abiertas antes de expresar tu opinión. Anota las ideas que surjan.",
+    "topic": "leadership"
+  },
+  {
+    "id": "216",
+    "quote": "El liderazgo es la capacidad de ver potencial donde otros ven un problema.",
+    "author": "Джон Гарднер",
+    "source": "Sobre el liderazgo",
+    "story": "Gardner fue asesor de varios presidentes de EE. UU. Estudiaba qué distingue a los líderes transformadores de los gestores. Respuesta: los gestores ven un problema y buscan una solución. Los líderes ven un problema y ven detrás de él una oportunidad de crecimiento.",
+    "action": "Toma un problema actual. Reformúlalo: ¿Cómo podría esta situación convertirse en una oportunidad? Escribe tres respuestas posibles.",
+    "topic": "leadership"
+  },
+  {
+    "id": "217",
+    "quote": "Los grandes líderes escuchan con la intención de comprender, no con la intención de responder.",
+    "author": "Стивен Кови",
+    "source": "Los 7 hábitos de la gente altamente efectiva",
+    "story": "Covey describía una reunión con el CEO de una gran corporación. Este le hizo una pregunta a un empleado y luego sin esperar la respuesta empezó a hablar. El empleado se cerró. Covey anotó: escuchar fingidamente es peor que el silencio.",
+    "action": "En la próxima conversación importante, ponte como objetivo: escuchar el 70 % del tiempo, hablar el 30 %. Haz preguntas aclaratorias.",
+    "topic": "leadership"
+  },
+  {
+    "id": "218",
+    "quote": "La tarea del líder no es estar delante de todos, sino elevar a quienes quedan atrás.",
+    "author": "Нельсон Мандела",
+    "source": "El largo camino hacia la libertad",
+    "story": "En prisión en la isla Robben, Mandela enseñaba a leer a los reclusos analfabetos. Era un abogado instruido — pero dedicaba horas a enseñar el abecedario a prisioneros que nunca habían tenido acceso a la educación. Su liderazgo no era una posición — era un servicio.",
+    "action": "Encuentra hoy a alguien a quien puedas transmitir un conocimiento o habilidad. Dedica 15-30 minutos a explicar algo que sabes hacer.",
+    "topic": "leadership"
+  },
+  {
+    "id": "219",
+    "quote": "El carisma no es algo con lo que se nace. Es algo que se desarrolla mediante el profundo cuidado de los demás.",
+    "author": "Тим Сандерс",
+    "source": "El amor es un arma letal en los negocios",
+    "story": "Sanders estudió las biografías de 50 de los líderes más carismáticos del siglo y descubrió: ninguno era naturalmente carismático. Lo que les unía — un interés sincero por las personas a su alrededor. La gente se sentía vista e importante. Eso era lo que creaba el magnetismo.",
+    "action": "Elige a una persona de tu entorno y haz algo que le demuestre que piensas en ella y te preocupas por ella. Por atención sincera.",
+    "topic": "leadership"
+  },
+  {
+    "id": "220",
+    "quote": "La iniciativa es hacer lo correcto sin instrucciones.",
+    "author": "Элберт Хаббард",
+    "source": "Un mensaje a García",
+    "story": "Hubbard escribió Un mensaje a García — un ensayo sobre un oficial al que se le encomendó llevar un mensaje a un general guerrillero en las selvas cubanas. No le dijeron cómo. No pidió ayuda. Fue y cumplió la misión.",
+    "action": "Encuentra una tarea que nadie ha asignado pero que es evidentemente necesaria. Hazla sin esperar alabanza ni permiso.",
+    "topic": "leadership"
+  },
+  {
+    "id": "221",
+    "quote": "No se puede gestionar lo que no se puede medir.",
+    "author": "Питер Друкер",
+    "source": "La práctica del management",
+    "story": "Drucker trabajaba con empresas que fijaban objetivos vagos. Los equipos no sabían cómo era el éxito. Insistía: todo objetivo debe tener una métrica concreta. De lo contrario es una intención, no un objetivo.",
+    "action": "Toma un objetivo inconmensurable. Reformúlalo con una métrica concreta. ¿Qué diferencia hace en tu planificación diaria?",
+    "topic": "leadership"
+  },
+  {
+    "id": "222",
+    "quote": "El mejor momento para tomar una decisión es cuando todavía puedes cambiar el rumbo, no cuando ya debes hacerlo.",
+    "author": "Рид Хастингс",
+    "source": "Sin reglas. La cultura única de Netflix",
+    "story": "Hastings migró Netflix de los DVD al streaming cuando el negocio de los DVD aún generaba enormes beneficios. Todos sus asesores decían: Espere. Él dijo: Ahora o nunca. Las empresas que esperan a que muera el viejo modelo pierden el impulso para construir el nuevo.",
+    "action": "Nombra un área donde sabes que hay que cambiar algo, pero lo estás postergando. ¿Cuál sería la decisión sabia a tomar ahora?",
+    "topic": "leadership"
+  },
+  {
+    "id": "223",
+    "quote": "Mantén a tus amigos cerca — y a tus críticos aún más cerca.",
+    "author": "Пересказ Сунь Цзы",
+    "source": "El arte de la guerra",
+    "story": "Sun Tzu enseñaba a los generales: el enemigo más peligroso es el que no se entiende. Entender a un crítico es entender las propias debilidades. Los líderes que se rodean solo de quienes están de acuerdo viven en un espejismo.",
+    "action": "Encuentra a alguien que habitualmente no esté de acuerdo contigo. Pide su opinión sobre tu próxima decisión importante. Escucha sin defensas.",
+    "topic": "leadership"
+  },
+  {
+    "id": "224",
+    "quote": "La confianza se construye despacio, se destruye rápido y se restaura dolorosamente.",
+    "author": "Стивен МакНейр",
+    "source": "La velocidad de la confianza",
+    "story": "En 2001, Johnson & Johnson retiró todo el Tylenol del mercado tras un solo caso de envenenamiento — eso costó 100 millones de dólares. La prensa los aplaudió. Su cuota de mercado se recuperó en 6 meses. La confianza es el activo más costoso y rentable de una organización.",
+    "action": "¿Hay alguien cuya confianza has perdido o arriesgas perder? ¿Qué acción concreta puedes emprender hoy para restaurarla?",
+    "topic": "leadership"
+  },
+  {
+    "id": "225",
+    "quote": "Los líderes ven más que los demás y antes que los demás.",
+    "author": "Левит Митчелл",
+    "source": "Atribuido",
+    "story": "Abraham Lincoln, entonces abogado de provincias, creía en el abolicionismo en los años 1840 — 20 años antes de la Guerra Civil. Sus contemporáneos lo consideraban un idealista ingenuo. Pero veía que la esclavitud era fundamentalmente incompatible con los ideales de la República.",
+    "action": "Escribe una tendencia en tu ámbito que parezca insignificante ahora, pero que pueda volverse importante en 3 a 5 años. ¿Qué podrías hacer hoy para prepararte?",
+    "topic": "leadership"
+  },
+  {
+    "id": "226",
+    "quote": "El verdadero liderazgo es influencia, no poder.",
+    "author": "Кен Бланшар",
+    "source": "El manager al minuto",
+    "story": "Blanchard estudió a miles de managers. Quienes se apoyaban en los poderes de su cargo obtenían conformidad. Quienes se apoyaban en la influencia obtenían compromiso. Los primeros eran obedecidos. Los segundos inspiraban iniciativa.",
+    "action": "Evalúa: ¿te seguiría la gente si no tuvieras un cargo oficial? ¿Qué puedes hacer para aumentar tu influencia independientemente de tu título?",
+    "topic": "leadership"
+  },
+  {
+    "id": "227",
+    "quote": "Lo mediocre es el enemigo de lo grandioso. Atrévete a no estar de acuerdo con la norma.",
+    "author": "Джим Коллинз",
+    "source": "De bueno a grandioso",
+    "story": "Collins estudió empresas que realizaron la transición hacia un trabajo extraordinario. Su principal descubrimiento: ninguna lo logró haciendo mejor lo que todos hacían. Todas encontraron algo en lo que podían ser las mejores del mundo — y se concentraron en eso.",
+    "action": "Nombra un área en la que puedas ser el mejor en tu nicho. ¿Cómo podrías concentrar más energía en eso?",
+    "topic": "leadership"
+  },
+  {
+    "id": "228",
+    "quote": "No les digas a las personas cómo hacer las cosas. Diles qué hay que hacer y déjales sorprenderte con los resultados.",
+    "author": "Джордж Паттон",
+    "source": "Declaraciones militares del general Patton",
+    "story": "Patton comandaba tropas dando a los oficiales máxima libertad táctica. Sus órdenes describían el resultado, no el método. Sus oficiales tomaban iniciativas que los generales más conservadores nunca habrían permitido.",
+    "action": "La próxima vez que delegues una tarea, di qué y por qué, pero no cómo. Dale a la persona libertad para encontrar su propia solución.",
+    "topic": "leadership"
+  },
+  {
+    "id": "229",
+    "quote": "La cultura se come a la estrategia en el desayuno.",
+    "author": "Питер Друкер",
+    "source": "Atribuido",
+    "story": "Ford gastó millones desarrollando una estrategia de transformación perfecta en los años 2000. Fracasó. No porque la estrategia fuera mala — sino porque la cultura de la empresa resistía el cambio. La estrategia sin transformación cultural es un documento, no un cambio.",
+    "action": "Nombra una norma cultural en tu equipo o familia que contradice los valores declarados. ¿Qué puedes hacer concretamente para cambiar ese comportamiento con tu propio ejemplo?",
+    "topic": "leadership"
+  },
+  {
+    "id": "230",
+    "quote": "El líder crea espacio para los demás, no lo llena él mismo.",
+    "author": "Маргарет Уитли",
+    "source": "Liderazgo y la nueva ciencia",
+    "story": "Wheatley estudiaba los sistemas autoorganizados en la naturaleza y los negocios. Su conclusión: los mejores líderes no son el centro — crean condiciones en las que otros pueden crecer, innovar y tomar decisiones.",
+    "action": "En la próxima reunión, habla conscientemente menos de lo habitual. Crea un espacio de silencio tras una pregunta y deja que los demás lo llenen.",
+    "topic": "leadership"
+  },
+  {
+    "id": "231",
+    "quote": "Elogia en público, critica en privado.",
+    "author": "Уинстон Черчилль",
+    "source": "Atribuido",
+    "story": "Churchill era conocido por sus críticas despiadadas a sus asesores. Pero siempre en privado. En público apoyaba a su gente aunque no estuviera de acuerdo. Comprendió: criticar a alguien ante los demás destruye su autoridad.",
+    "action": "Recuerda si criticaste a alguien delante de otros recientemente. Si es así — encuentra la manera de restaurar su autoridad en público. Crítica = en privado.",
+    "topic": "leadership"
+  },
+  {
+    "id": "232",
+    "quote": "El fracaso es solo una oportunidad para empezar de nuevo, esta vez con más inteligencia.",
+    "author": "Генри Форд",
+    "source": "Mi vida y mi obra",
+    "story": "Antes de crear la Ford Motor Company, Ford quebró dos veces. Su primera empresa cerró al cabo de un año. La segunda — en dos años. Tenía 40 años cuando finalmente triunfó. Su regla: nunca aprender la misma lección dos veces.",
+    "action": "Escribe tu fracaso profesional más doloroso. Debajo — tres lecciones concretas que extrajiste de él. ¿Cómo han influido esas lecciones en tus decisiones actuales?",
+    "topic": "leadership"
+  },
+  {
+    "id": "233",
+    "quote": "La velocidad del líder es la velocidad de la manada.",
+    "author": "Рэй Дэвис",
+    "source": "Atribuido",
+    "story": "En 2008, la crisis financiera golpeó al sector bancario. Umpqua Bank bajo la dirección de Davis no solo sobrevivió — creció. Se veía a Davis cada día en las sucursales, calmado, confiado, con un plan. Su energía era contagiosa.",
+    "action": "Reflexiona sobre tu nivel de energía y ritmo de trabajo. ¿Qué transmites en los períodos difíciles: pánico o estabilidad?",
+    "topic": "leadership"
+  },
+  {
+    "id": "234",
+    "quote": "Si eres la persona más lista de la sala, estás en la sala equivocada.",
+    "author": "Ричард Фейнман",
+    "source": "Atribuido",
+    "story": "Feynman — Premio Nobel de Física — nunca buscaba la compañía de sus iguales en conocimiento. Se rodeaba deliberadamente de personas que pensaban diferente. Decía: enseñar a un principiante es la mejor manera de comprobar si realmente entiendes algo.",
+    "action": "Apúntate a un evento o curso donde sabrás menos que los demás. Encuentra allí a una persona de la que puedas aprender algo.",
+    "topic": "leadership"
+  },
+  {
+    "id": "235",
+    "quote": "Lo importante no es solo lo que haces — sino lo que dejas de hacer.",
+    "author": "Питер Друкер",
+    "source": "El ejecutivo eficaz",
+    "story": "Drucker asesoraba a directores ejecutivos que se quejaban de falta de tiempo. Les pedía que anotaran todo lo que hacían durante una semana. Invariablemente, el 40-50 % podía delegarse o abandonarse. La clave de mayor eficiencia estaba en eliminar.",
+    "action": "Haz una lista de las tareas de esta semana. Elige tres que podrían delegarse y una de la que se puede prescindir.",
+    "topic": "leadership"
+  },
+  {
+    "id": "236",
+    "quote": "Las grandes empresas no contratan personas cualificadas para motivarlas — contratan personas ya motivadas.",
+    "author": "Саймон Синек",
+    "source": "Empieza con el por qué",
+    "story": "Sinek estudiaba empresas con culto a la lealtad — Apple, Southwest Airlines, Harley Davidson. Lo que las unía: no contrataban por habilidades — contrataban por valores y misión compartida. Las personas cualificadas que no creían en la misión se iban.",
+    "action": "Escribe el por qué de tu trabajo o proyecto — no qué haces, sino por qué es importante. Compártelo con una persona de tu equipo hoy.",
+    "topic": "leadership"
+  },
+  {
+    "id": "237",
+    "quote": "Para tener un buen amigo, hay que ser uno mismo un buen amigo.",
+    "author": "Ральф Уолдо Эмерсон",
+    "source": "Ensayos",
+    "story": "Emerson observaba que las personas se quejan de la falta de amigos fieles pero raramente invierten en la amistad ellos mismos. Anotaba en su diario: cada relación refleja lo que aportas. La amistad no es un don que se recibe — es una habilidad que se practica.",
+    "action": "Piensa en un amigo importante para ti. Haz hoy algo concreto por él — sin ocasión especial. Un mensaje sincero, una llamada inesperada, un gesto de atención.",
+    "topic": "relationships"
+  },
+  {
+    "id": "238",
+    "quote": "Las palabras pueden herir o sanar. Úsalas con sabiduría.",
+    "author": "Иоанн Лествичник",
+    "source": "La escala divina",
+    "story": "Juan Clímaco escribía para monjes que luchaban con sus palabras — el chisme, la crítica, las mentiras piadosas. Enseñaba: antes de hablar, pregúntate si es verdad, si es útil y si es benevolente. Dos de tres bastan para hablar. Ninguno de los tres — guarda silencio.",
+    "action": "Antes de tu próxima conversación difícil, pregúntate: ¿Lo que voy a decir es verdad? ¿Es útil? ¿Es benevolente? Ajusta tus palabras en consecuencia.",
+    "topic": "relationships"
+  },
+  {
+    "id": "239",
+    "quote": "La peor manera de extrañar a alguien es estar sentado a su lado.",
+    "author": "Габриэль Гарсиа Маркес",
+    "source": "El amor en los tiempos del cólera",
+    "story": "García Márquez escribía sobre parejas que comparten una casa pero no el alma. Florentino y Fermina se echaron de menos durante 50 años — pero las personas que duermen una al lado de la otra pueden estar aún más alejadas. La proximidad física sin presencia emocional es la soledad más agridulce.",
+    "action": "En la próxima comida o momento compartido con alguien importante, deja el teléfono a un lado. Estar plenamente presente — escucha, mira, haz preguntas.",
+    "topic": "relationships"
+  },
+  {
+    "id": "240",
+    "quote": "La única manera de deshacerse de un enemigo es convertirlo en amigo.",
+    "author": "Авраам Линкольн",
+    "source": "Discurso ante el Congreso",
+    "story": "Lincoln aplicaba este principio a sus adversarios políticos. Nombraba a sus enemigos más acérrimos para puestos importantes en su gabinete. Seward, que lo había humillado, se convirtió en su secretario de Estado más leal. Lincoln entendía: la adversidad compartida transforma a los rivales en aliados.",
+    "action": "Piensa en alguien con quien estés en conflicto. ¿Cuál sería el primer paso para transformar esa relación? No una reconciliación completa — solo un paso hacia la humanización del otro.",
+    "topic": "relationships"
+  },
+  {
+    "id": "241",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Жан-Батист Массийон",
+    "source": "Sermones",
+    "story": "Massillon predicaba en la corte de Luis XIV — un lugar donde la gratitud era rara y la adulación omnipresente. Observaba: las personas que recuerdan las cosas buenas reciben más cosas buenas. No por magia — sino porque la gratitud hace que uno preste atención a lo que siempre estuvo ahí.",
+    "action": "Escribe tres cosas por las que estás agradecido hoy. No eventos grandes — sino detalles: una conversación, la luz de la mañana, el café caliente. Hazlo ahora.",
+    "topic": "relationships"
+  },
+  {
+    "id": "242",
+    "quote": "El paso más importante en cualquier relación es entender a la persona, no convencerla.",
+    "author": "Стивен Кови",
+    "source": "Los 7 hábitos de la gente altamente efectiva",
+    "story": "Covey describía parejas que llevaban años discutiendo sin escucharse realmente. Les preguntaba: ¿puedes resumir la posición de tu pareja de modo que esté de acuerdo con tu resumen? La mayoría no podía. Convencer sin comprender es ruido.",
+    "action": "En el próximo desacuerdo, antes de argumentar, resume la posición del otro: Si entiendo bien, estás diciendo... Comprueba si tu resumen es correcto. Luego responde.",
+    "topic": "relationships"
+  },
+  {
+    "id": "243",
+    "quote": "Las relaciones no se rompen por los conflictos. Se rompen por el desprecio.",
+    "author": "Джон Готтман",
+    "source": "Matrimonios que funcionan",
+    "story": "Gottman estudió a más de 3.000 parejas durante 40 años. Podía predecir el divorcio con un 90 % de precisión tras 15 minutos de observación. La señal principal: el desprecio — poner los ojos en blanco, el sarcasmo, la humillación. El conflicto es normal. El desprecio es mortal.",
+    "action": "Reflexiona: ¿usas a veces el sarcasmo, los ojos en blanco o la condescendencia con tus seres queridos? La próxima vez, reemplázalo por: Me siento... cuando... Me gustaría...",
+    "topic": "relationships"
+  },
+  {
+    "id": "244",
+    "quote": "El amor no es lo que sientes. Es lo que haces.",
+    "author": "Скотт Пек",
+    "source": "El camino menos transitado",
+    "story": "Peck distinguía la atracción romántica — efímera — del amor como elección consciente. Escribía: enamorarse no es amor. Es una disolución temporal del ego. El amor real comienza cuando la euforia se desvanece y eliges comprometerte de nuevo.",
+    "action": "Piensa en alguien a quien amas. ¿Qué acción concreta, no sentimiento, mostraría ese amor hoy? Hazla — tengas ganas o no.",
+    "topic": "relationships"
+  },
+  {
+    "id": "245",
+    "quote": "El mayor regalo que puedes ofrecer a otra persona es tu plena presencia.",
+    "author": "Ричард Бах",
+    "source": "Ilusiones",
+    "story": "Bach escribía sobre un mecánico-filósofo que enseñaba: pasamos la vida lamentando el pasado o anticipando el futuro, perdiendo lo único real — el ahora. La plena presencia con otra persona es el regalo más raro y valioso que podemos ofrecer.",
+    "action": "Elige a una persona y pasa 20 minutos con ella sin teléfono, sin multitarea, sin pensamientos parásitos. Solo presente. Anota qué notaste diferente.",
+    "topic": "relationships"
+  },
+  {
+    "id": "246",
+    "quote": "La empatía no es acuerdo. Es comprensión.",
+    "author": "Брене Браун",
+    "source": "Los dones de la imperfección",
+    "story": "Brown distinguía la empatía — entrar en el mundo emocional de otra persona — de la simpatía: mirar a alguien desde arriba y tratar de animarle. La empatía dice: entiendo por qué sientes eso. La simpatía dice: es terrible, pero aquí tienes una solución.",
+    "action": "La próxima vez que alguien comparta un sufrimiento contigo, resiste el impulso de dar consejos o minimizar. Di simplemente: parece realmente difícil. Te escucho.",
+    "topic": "relationships"
+  },
+  {
+    "id": "247",
+    "quote": "El perdón no libera a quien perdonas — te libera a ti.",
+    "author": "Льюис Смедс",
+    "source": "Perdonar y olvidar",
+    "story": "Smedes era pastor que aconsejaba a víctimas de traición y violencia. Descubrió: quienes se negaban a perdonar cargaban el peso dos veces — la herida original y el odio continuo. Perdonar no es decir que lo ocurrido estuvo bien. Es dejar de ser su prisionero.",
+    "action": "Piensa en alguien a quien todavía no has perdonado. Escribe una carta que nunca enviarás. Di lo que sentiste. Termínala con: elijo no dejar que esto me defina más.",
+    "topic": "relationships"
+  },
+  {
+    "id": "248",
+    "quote": "La habilidad más importante en la comunicación es escuchar lo que no se dice.",
+    "author": "Питер Друкер",
+    "source": "Management",
+    "story": "Drucker asesoraba a CEOs y observaba: los mejores comunicadores leían entre líneas. Notaban las pausas, los temas evitados, el lenguaje corporal. La comunicación real ocurre en los espacios — en lo que las personas no se atreven a decir directamente pero transmiten indirectamente.",
+    "action": "En la próxima conversación importante, anota mentalmente lo que el otro no dice. ¿Qué preguntas evita? ¿Qué se omite? Pregunta con delicadeza sobre algo que hayas notado.",
+    "topic": "relationships"
+  },
+  {
+    "id": "249",
+    "quote": "No intentes cambiar a las personas. Acéptalas como son, o déjalas ir.",
+    "author": "Дейл Карнеги",
+    "source": "Cómo ganar amigos",
+    "story": "Carnegie observaba que los conflictos relacionales surgían casi siempre de los intentos de cambiar al otro. Las personas no cambian porque se les diga que están equivocadas — se defienden. El cambio viene del sentimiento de ser aceptadas, no criticadas.",
+    "action": "Piensa en alguien cuyo comportamiento intentas cambiar. Pregúntate honestamente: ¿es una necesidad real o una preferencia personal? Si es una preferencia — suéltala.",
+    "topic": "relationships"
+  },
+  {
+    "id": "250",
+    "quote": "Las relaciones son un espejo. Lo que te irrita en ellas — es una parte de ti que aún no has aceptado.",
+    "author": "Дипак Чопра",
+    "source": "Las siete leyes espirituales del éxito",
+    "story": "Chopra enseñaba que la irritación ante los demás es a menudo una proyección. Lo que nos molesta de los otros existe en nosotros — pero preferimos verlo en ellos. Reconocer este mecanismo no es una excusa para el comportamiento de los otros — es una herramienta de crecimiento personal.",
+    "action": "Piensa en algo que realmente te molesta de alguien. Pregúntate honestamente: ¿hago yo a veces lo mismo, de una forma diferente?",
+    "topic": "relationships"
+  },
+  {
+    "id": "251",
+    "quote": "Las conexiones son el alma del éxito. Y la amistad es el mejor camino hacia ellas.",
+    "author": "Уиллард Кейт",
+    "source": "La sabiduría de cada día",
+    "story": "Keith observaba que la mayoría de los éxitos profesionales provenían no solo de las habilidades, sino de las relaciones. Las personas que invertían en conexiones auténticas — sin agenda — tenían acceso a información, oportunidades y apoyos inaccesibles para otros.",
+    "action": "Contacta a alguien que respetas y con quien no has contactado en mucho tiempo. No para pedir algo — solo para reconectarte.",
+    "topic": "relationships"
+  },
+  {
+    "id": "252",
+    "quote": "Dime quiénes son tus amigos y te diré quién eres.",
+    "author": "Мигель де Сервантес",
+    "source": "Don Quijote",
+    "story": "Cervantes observaba que los compañeros que elegimos reflejan nuestros valores y moldean nuestro destino. Don Quijote era grande precisamente porque Sancho Panza estaba a su lado. Cada persona en nuestro entorno amplifica una parte de quiénes somos — para bien o para mal.",
+    "action": "Mira tu círculo más cercano. ¿Esas personas te elevan o te arrastran hacia abajo? Pasa esta semana más tiempo con alguien que te inspire.",
+    "topic": "relationships"
+  },
+  {
+    "id": "253",
+    "quote": "Nadie puede hacerte daño sin tu consentimiento.",
+    "author": "Элеонора Рузвельт",
+    "source": "Conferencia",
+    "story": "Roosevelt dijo esto después de haber sido humillada públicamente por críticos de su vida política. Entendía: el daño real viene del interior — de la decisión de que la opinión ajena define nuestro valor. Sin ese consentimiento interior, las palabras son solo palabras.",
+    "action": "Piensa en una crítica reciente que te hirió. Pregúntate: ¿le di a esa persona el poder de definir mi valor? ¿Qué tendría que pasar para que recuperaras ese poder?",
+    "topic": "relationships"
+  },
+  {
+    "id": "254",
+    "quote": "Si quieres ser feliz — aprende a ser agradecido. Si quieres ser rico — aprende a compartir.",
+    "author": "Бенджамин Дизраэли",
+    "source": "Discurso",
+    "story": "Disraeli fue primer ministro británico dos veces. Observaba que las personas más felices que conocía no tenían más razones para serlo — tenían más el hábito de la gratitud. Y las más generosas no tenían menos — simplemente habían entendido que compartir multiplica.",
+    "action": "Piensa en alguien que hizo algo bueno por ti — recientemente o en el pasado. Escríbele un mensaje de gratitud. Concreto, no general: gracias exactamente por esto...",
+    "topic": "relationships"
+  },
+  {
+    "id": "255",
+    "quote": "Escuchar es inclinarse hacia el otro con el deseo de escuchar su corazón.",
+    "author": "Паул Тиллих",
+    "source": "El coraje de ser",
+    "story": "Tillich, teólogo existencialista, decía que la escucha profunda es la forma más pura de amor. No escuchar para responder, ni para simpatizar — sino para entrar en el espacio interior del otro y verle tal como es. Es raro. Es transformador.",
+    "action": "La próxima vez que alguien te hable de algo importante, practica la escucha profunda: míralo, no planifiques tu respuesta, no termines sus frases. Solo: presente y abierto.",
+    "topic": "relationships"
+  },
+  {
+    "id": "256",
+    "quote": "La gran amistad requiere tres cosas: tiempo, atención y disposición a ser vulnerable.",
+    "author": "К.С. Льюис",
+    "source": "Los cuatro amores",
+    "story": "Lewis analizaba las distintas formas de amor — afecto, amistad, eros, caridad. La amistad, decía, nace en el momento en que dos personas descubren que ven la misma verdad. Pero solo sobrevive si están dispuestas a compartir no solo sus fortalezas, sino también sus miedos.",
+    "action": "Piensa en una amistad que quieres profundizar. Comparte con esa persona algo que normalmente no compartes — un miedo, una duda, una aspiración.",
+    "topic": "relationships"
+  },
+  {
+    "id": "257",
+    "quote": "Las personas no recuerdan lo que dijiste. Recuerdan cómo les hiciste sentir.",
+    "author": "Майя Анджелу",
+    "source": "Carta a mi hija",
+    "story": "Angelou aprendió esto creciendo en el racismo del sur de EE. UU. Las palabras de apoyo que recibía se olvidaban. Pero los profesores que la hacían sentir capaz y valiosa — los llevaba consigo toda su vida. La emoción es el pegamento de la memoria.",
+    "action": "Piensa en una persona a quien podrías hacer sentir apreciada hoy. No con palabras generales — con una observación específica: He notado... Admiro que tú...",
+    "topic": "relationships"
+  },
+  {
+    "id": "258",
+    "quote": "Tu enemigo no es el que te odia, sino el que es indiferente.",
+    "author": "Эли Визель",
+    "source": "La noche",
+    "story": "Wiesel — superviviente del Holocausto — dedicó su vida al testimonio. Enseñaba: el odio es al menos una forma de relación. La indiferencia borra al otro por completo. Es la indiferencia de los testigos la que hizo posibles las atrocidades — no solo el odio de los perseguidores.",
+    "action": "Piensa en alguien en tu vida a quien tiendes a ignorar o marginar. Haz hoy un gesto de atención hacia esa persona — una mirada, un saludo, una pregunta sincera.",
+    "topic": "relationships"
+  },
+  {
+    "id": "259",
+    "quote": "La familia no es la sangre. La familia son los que se quedan cuando es difícil.",
+    "author": "Ричард Бах",
+    "source": "Ilusiones",
+    "story": "Bach escribía sobre vínculos forjados en la adversidad más que en la biología. Había observado que sus amigos más cercanos — sin lazo de sangre — estaban más presentes en sus momentos difíciles que algunos familiares. La elección de quedarse define la familia.",
+    "action": "Piensa en las personas que estuvieron ahí para ti en tus momentos más difíciles. ¿Has expresado tu gratitud a alguna de ellas recientemente? Hazlo hoy.",
+    "topic": "relationships"
+  },
+  {
+    "id": "260",
+    "quote": "La hora más oscura siempre precede al amanecer. Aguanta — y comparte tu luz.",
+    "author": "Томас Фуллер",
+    "source": "Gnomología",
+    "story": "Fuller escribía en el siglo XVII sobre la tenacidad en la adversidad. Observaba que las personas que atravesaban las crisis más duras pero permanecían conectadas a su comunidad salían mejor. Compartir el dolor con alguien de confianza no es debilidad — es sabiduría práctica.",
+    "action": "Piensa en alguien que sabes que está pasando por un momento difícil. Contáctale hoy — no para resolver su problema, sino para recordarle que no está solo.",
+    "topic": "relationships"
+  },
+  {
+    "id": "261",
+    "quote": "El matrimonio es una larga conversación, llena de interrupciones.",
+    "author": "Фридрих Ницше",
+    "source": "Humano, demasiado humano",
+    "story": "Nietzsche observaba irónicamente que las parejas que duran no son las que no tienen conflictos — sino las que aprenden a interrumpir y reanudar la conversación una y otra vez. La continuidad de un diálogo — incluso caótico — es lo que mantiene la conexión.",
+    "action": "Piensa en una conversación inacabada con tu pareja o un ser querido. Retómala — no para tener razón, sino para comprender.",
+    "topic": "relationships"
+  },
+  {
+    "id": "262",
+    "quote": "El amor no es mirarse el uno al otro — es mirar juntos en la misma dirección.",
+    "author": "Антуан де Сент-Экзюпери",
+    "source": "El principito",
+    "story": "Saint-Exupéry escribía tras haber vivido relaciones difíciles y el aislamiento en el desierto. Comprendió: el amor romántico que se centra en el otro acaba consumiéndolo. El amor duradero comparte una visión — un objetivo común, un mundo que construir juntos.",
+    "action": "Habla con alguien importante para ti de tus sueños y proyectos a largo plazo. ¿Tienen una dirección común? Busca un terreno donde sus visiones se solapen.",
+    "topic": "relationships"
+  },
+  {
+    "id": "263",
+    "quote": "Juzga el acto, no a la persona.",
+    "author": "Джон Уэсли",
+    "source": "Sermones",
+    "story": "Wesley predicaba en una época en que el castigo social era definitivo. Enseñaba: condenar el comportamiento preservando la dignidad de la persona no solo es moralmente correcto — también es más eficaz para provocar un cambio. Las personas defienden su identidad, no sus actos.",
+    "action": "La próxima vez que estés decepcionado por alguien, formula tu crítica así: Lo que hiciste me afectó porque... — y no: Eres alguien que...",
+    "topic": "relationships"
+  },
+  {
+    "id": "264",
+    "quote": "Enseñas a las personas cómo tratarte con tu comportamiento.",
+    "author": "Фил МакГроу",
+    "source": "La vida en relación",
+    "story": "McGraw observaba que las personas que se quejaban de ser maltratadas a menudo permitían ese maltrato con su pasividad. No por debilidad — por hábito, por miedo a la confrontación, por el deseo de ser amadas. Cada vez que aceptas un maltrato sin nombrarlo, enseñas el permiso.",
+    "action": "Identifica un comportamiento que toleras pero que te daña. Comunica un límite claro a esa persona hoy — con calma, sin acusaciones: No me siento cómodo/a cuando...",
+    "topic": "relationships"
+  },
+  {
+    "id": "265",
+    "quote": "Un abrazo es un apretón de manos que viene del corazón.",
+    "author": "Барбара Джонсон",
+    "source": "Mis momentos cotidianos",
+    "story": "Johnson, escritora conocida por su humor y calidez humana, observaba que el contacto físico es un lenguaje que las palabras no pueden traducir. La investigación muestra: 20 segundos de abrazo sincero liberan oxitocina — la molécula de conexión. Es uno de los antidepresivos naturales más potentes.",
+    "action": "Da hoy un abrazo de verdad — largo, sincero — a alguien importante para ti. No una palmadita rápida en la espalda. Una presencia física real.",
+    "topic": "relationships"
+  },
+  {
+    "id": "266",
+    "quote": "La felicidad se multiplica cuando se comparte. La pena disminuye cuando se comparte.",
+    "author": "Джон Голсуорси",
+    "source": "Un hombre de propiedad",
+    "story": "Galsworthy observaba en sus novelas sobre la familia Forsyte que los personajes que guardaban todo para sí — éxitos, dolores — se marchitaban progresivamente. Los que compartían — alegrías y sufrimientos — permanecían vivos, conectados, humanos.",
+    "action": "Comparte hoy una buena noticia con alguien. Y si estás pasando por un momento difícil — habla con alguien de confianza. Observa cómo compartir transforma ambas cosas.",
+    "topic": "relationships"
+  },
+  {
+    "id": "267",
+    "quote": "Las palabras me equivoqué son de las más fuertes del idioma.",
+    "author": "Джойс Мейер",
+    "source": "No te preocupes",
+    "story": "Meyer, pastora cristiana, enseñaba que el orgullo es el principal obstáculo en las relaciones. Admitir un error — sinceramente, sin justificarse — es un acto de fuerza, no de debilidad. Esas tres palabras pueden desmantelar años de resentimiento y abrir una nueva página.",
+    "action": "¿Hay alguien a quien debas un sincero me equivoqué? Dilo — sin explicación, sin pero, sin devolver la responsabilidad. Solo: me equivoqué y lo lamento.",
+    "topic": "relationships"
+  },
+  {
+    "id": "268",
+    "quote": "Dale a una persona una reputación que debería merecer.",
+    "author": "Дейл Карнеги",
+    "source": "Cómo ganar amigos",
+    "story": "Carnegie había descubierto que las personas se comportan según las expectativas que se tienen de ellas. Si tratas a alguien como digno de confianza, generoso, capaz — tiende a alinearse con esa imagen. La reputación que atribuyes crea la realidad que vives.",
+    "action": "Piensa en alguien de quien esperas poco. Atribúyele intencionalmente una virtud positiva — en palabras y en hechos. Observa si eso cambia tu interacción.",
+    "topic": "relationships"
+  },
+  {
+    "id": "269",
+    "quote": "Ser auténtico cuesta más que ser perfecto.",
+    "author": "Дональд Миллер",
+    "source": "Historia de un verdadero",
+    "story": "Miller escribía sobre su propia lucha entre parecer perfecto y ser real. Observaba: las personas perfectas permanecen solas porque no se puede conectar con una fachada. Las personas auténticas — imperfectas, vulnerables, honestas — atraen conexiones profundas y duraderas.",
+    "action": "Esta semana, comparte algo verdadero — una lucha, una duda, un miedo — con alguien en quien confíes. Observa si eso profundiza o cambia la relación.",
+    "topic": "relationships"
+  },
+  {
+    "id": "270",
+    "quote": "La persona más generosa es la que está dispuesta a ceder cuando tiene razón.",
+    "author": "Чарльз Буковски",
+    "source": "Escritos",
+    "story": "Bukowski, autor conocido por sus personajes rudos y sus verdades duras, escribía aquí sobre una forma rara de generosidad: no necesitar tener la última palabra. Ceder cuando uno tiene razón no es debilidad — es reconocer que la relación vale más que el triunfo.",
+    "action": "Piensa en una discusión reciente en la que tenías razón pero la relación sufrió. ¿Valía la pena la victoria a costa de la relación? ¿Qué podrías haber cedido sin perder lo esencial?",
+    "topic": "relationships"
+  },
+  {
+    "id": "271",
+    "quote": "El ejercicio es rey, la nutrición es reina. Juntos forman un reino.",
+    "author": "Джек Лалэйн",
+    "source": "Conferencia",
+    "story": "LaLanne empezó a hacer ejercicio a los 15 años — delgado, enfermizo, dependiente del azúcar. Transformó su cuerpo y siguió entrenando hasta los 95 años. Su mensaje: no hay que ser extremo. Sé constante. Moverse y comer sano no son castigos — son los dos pilares de la vida.",
+    "action": "Planifica ahora tu próximo entrenamiento y tu próxima comida saludable. No mañana. No a partir del lunes. Ahora — una decisión concreta.",
+    "topic": "health"
+  },
+  {
+    "id": "272",
+    "quote": "Cuidar la salud es la principal ocupación de la vida.",
+    "author": "Авиценна",
+    "source": "Canon de medicina",
+    "story": "Avicena, médico del siglo X, entendía que la prevención era mejor que el tratamiento. Prescribía ejercicio, sueño, moderación alimentaria y gestión del estrés antes que cualquier medicamento. Sus principios, codificados hace mil años, coinciden estrechamente con las recomendaciones médicas modernas.",
+    "action": "Evalúa tu salud en una escala del 1 al 10 en cuatro áreas: sueño, alimentación, ejercicio, estrés. ¿Cuál es el área más baja? ¿Qué puedes mejorar esta semana?",
+    "topic": "health"
+  },
+  {
+    "id": "273",
+    "quote": "Quien no reserva tiempo para su salud tarde o temprano se verá obligado a reservarlo para su enfermedad.",
+    "author": "Эдвард Стэнли",
+    "source": "Discurso",
+    "story": "Stanley, aristócrata victoriano activo y deportista, pronunció esta frase en un discurso ante estudiantes. Había observado que los colegas que descuidaban su salud por falta de tiempo acababan dedicando aún más tiempo a tratar las consecuencias. La prevención siempre es el mayor retorno de inversión.",
+    "action": "Planifica 30 minutos de actividad física en tu agenda para los próximos tres días. Trata esos bloques como reuniones inviolables con tu salud futura.",
+    "topic": "health"
+  },
+  {
+    "id": "274",
+    "quote": "El hombre sano tiene mil deseos. El enfermo tiene uno.",
+    "author": "Индийская пословица",
+    "source": "Proverbio indio",
+    "story": "Esta antigua sabiduría atraviesa culturas porque capta algo universal: la salud es invisible cuando se tiene. Solo existe en su pérdida. Los deseos más grandiosos — viajar, crear, amar — suponen todos un cuerpo que funciona.",
+    "action": "Nombra cinco cosas que puedes hacer hoy gracias a tu salud y que no podrías hacer si estuvieras enfermo. La salud ya está ahí — reconócela.",
+    "topic": "health"
+  },
+  {
+    "id": "275",
+    "quote": "El descanso no es una recompensa por el trabajo realizado. Es una parte del trabajo.",
+    "author": "Алекс Суджонг-Ким Пэнг",
+    "source": "Descanso: por qué haces más haciendo menos",
+    "story": "Pang estudió los hábitos de los creadores más productivos de la historia — Darwin, Dickens, Poincaré. Todos trabajaban 4 a 5 horas al día en concentración profunda. El resto: paseos, sueño, ocio. El descanso no era un lujo — era lo que hacía posibles las horas de trabajo.",
+    "action": "Planifica hoy un descanso de verdad — sin pantalla, sin trabajo, sin multitarea. Un paseo, una siesta, un momento de silencio. Observa si tu energía cambia después.",
+    "topic": "health"
+  },
+  {
+    "id": "276",
+    "quote": "El músculo crece no durante el entrenamiento, sino durante el descanso posterior.",
+    "author": "Гиппократ",
+    "source": "Tratado sobre el ejercicio",
+    "story": "Hipócrates entendía que la recuperación no es pasiva — es cuando se produce el crecimiento. Los entrenadores modernos lo llaman supercompensación: el cuerpo se reconstruye más fuerte tras un estrés si se le da tiempo. Sin descanso, solo hay regresión.",
+    "action": "Planifica un día de recuperación activa esta semana: paseo ligero, estiramientos, sueño adicional. Trata el descanso como parte integral de tu programa.",
+    "topic": "health"
+  },
+  {
+    "id": "277",
+    "quote": "La luz solar es el mejor antiséptico.",
+    "author": "Луис Брандейс",
+    "source": "Discurso judicial",
+    "story": "Brandeis, juez estadounidense, usaba esta metáfora para la transparencia en el gobierno — pero se aplica literalmente a la salud. La luz natural regula el ritmo circadiano, estimula la vitamina D, mejora el humor. Las personas que pasan tiempo al aire libre tienen menos depresión, enfermedades autoinmunes y obesidad.",
+    "action": "Sal al exterior durante al menos 20 minutos hoy — sin teléfono, solo en la luz natural. Paseo, café en el balcón, pausa en un parque. Tu cuerpo necesita el sol.",
+    "topic": "health"
+  },
+  {
+    "id": "278",
+    "quote": "No es fuerte el que nunca enferma. Es fuerte el que sabe recuperarse.",
+    "author": "Гален из Пергама",
+    "source": "El arte de la medicina",
+    "story": "Galeno, médico de la Antigüedad romana, prescribía el ejercicio, los baños, la dieta y la recuperación como tratamiento principal. Entendía que el cuerpo tiene una capacidad natural de curación si se le proporcionan las condiciones adecuadas. La resiliencia no es la ausencia de enfermedad — es la capacidad de recuperarse.",
+    "action": "Tras tu próxima enfermedad o lesión, trata la recuperación con tanta seriedad como un proyecto: planifica el sueño, la nutrición, el descanso. La curación es activa.",
+    "topic": "health"
+  },
+  {
+    "id": "279",
+    "quote": "El mejor ejercicio es el que haces de verdad.",
+    "author": "Кеннет Купер",
+    "source": "Aeróbics",
+    "story": "Cooper, inventor del concepto de aeróbic, observaba que los programas perfectos abandonados al cabo de una semana valen menos que un programa mediocre practicado durante años. La clave: encontrar un movimiento que te guste lo suficiente para repetirlo. No el más eficaz sobre el papel — el más duradero en la práctica.",
+    "action": "Identifica una actividad física que realmente te guste o que hayas disfrutado en el pasado. Planifícala para los próximos 3 días. Empieza modestamente — 20 minutos son suficientes.",
+    "topic": "health"
+  },
+  {
+    "id": "280",
+    "quote": "Tu cerebro es un órgano. Cuídalo como a un corazón.",
+    "author": "Дэниел Эймен",
+    "source": "Cambia tu cerebro, cambia tu vida",
+    "story": "Amen, psiquiatra y neurocientífico, ha realizado más de 200.000 escáneres cerebrales. Su descubrimiento: el cerebro cambia en respuesta a lo que le hacemos. Un buen sueño, el ejercicio, la nutrición y la gestión del estrés cambian literalmente la estructura del cerebro — como el entrenamiento cambia los músculos.",
+    "action": "Elige un hábito que mejore la salud cerebral: sueño de 7-8h, ejercicio aeróbico 3 veces por semana, meditación o lectura. Comprométete durante 30 días.",
+    "topic": "health"
+  },
+  {
+    "id": "281",
+    "quote": "El estrés no es lo que nos ocurre. Es nuestra forma de reaccionar a lo que nos ocurre.",
+    "author": "Ганс Селье",
+    "source": "El estrés de la vida",
+    "story": "Selye, pionero de la investigación sobre el estrés, distinguía el estrés positivo — eustrés — que nos impulsa a crecer, del estrés negativo — distrés — que nos consume. La fuente externa no es el problema. Nuestra interpretación y respuesta lo son. Eso significa que tenemos una palanca.",
+    "action": "Identifica tu principal fuente de estrés en este momento. Pregúntate: ¿qué parte es incontrolable? ¿Qué parte está en mi poder cambiar? Concéntrate en la segunda.",
+    "topic": "health"
+  },
+  {
+    "id": "282",
+    "quote": "Una manzana al día mantiene al médico alejado.",
+    "author": "Валлийская пословица",
+    "source": "Proverbio galés",
+    "story": "Este proverbio del siglo XIX capturaba una verdad nutricional antes de la ciencia moderna. Las manzanas contienen fibra, antioxidantes y compuestos que apoyan el microbioma intestinal. Pero la idea más amplia es válida: los pequeños hábitos diarios consistentes hacen más que las grandes intervenciones puntuales.",
+    "action": "Añade una fruta o verdura extra a tu alimentación hoy. Solo una. Pequeño gesto, coherencia a largo plazo.",
+    "topic": "health"
+  },
+  {
+    "id": "283",
+    "quote": "La meditación no es vaciar la mente. Es entrenar la atención.",
+    "author": "Джон Кабат-Зинн",
+    "source": "Meditación de atención plena",
+    "story": "Kabat-Zinn introdujo la atención plena en la medicina occidental en los años 70, cuando se consideraba esotérica. Su investigación mostró que 8 semanas de práctica reducen la ansiedad, el dolor crónico y las recaídas depresivas. No es espiritual — es neurológico.",
+    "action": "Practica 5 minutos de meditación hoy: respira naturalmente, observa tus pensamientos sin seguirlos. Cada vez que te pierdas en los pensamientos — vuelve a la respiración. Ese es el gesto del entrenamiento.",
+    "topic": "health"
+  },
+  {
+    "id": "284",
+    "quote": "Envejecer es inevitable. La decrepitud — no.",
+    "author": "Генри Лодж",
+    "source": "Más joven el año que viene",
+    "story": "Lodge, médico, distinguía el envejecimiento biológico — inevitable — del deterioro funcional — en gran medida evitable. Su investigación mostraba que el ejercicio regular, una alimentación sana y las conexiones sociales permitían a las personas de 70 años funcionar como personas de 40. No es magia — es fisiología.",
+    "action": "Identifica un hábito de salud que hayas abandonado. Reinícialo esta semana — no perfectamente, pero reinícialo. El cuerpo responde a cada esfuerzo.",
+    "topic": "health"
+  },
+  {
+    "id": "285",
+    "quote": "La comida es información para tus genes.",
+    "author": "Дэниел Амен",
+    "source": "Cambia tu cerebro cambiando tu dieta",
+    "story": "Amen enseñaba que cada bocado envía una señal a tus células: activar genes de inflamación o antiinflamación, de crecimiento o de declive. La alimentación no es cuestión de calorías — es cuestión de información. Lo que comes le dice a tu cuerpo lo que debe hacer.",
+    "action": "Elige una comida esta semana y toma conciencia de cada ingrediente. Pregúntate: ¿qué le dice esto a mi cuerpo? Sustituye un ingrediente ultraprocesado por algo más natural.",
+    "topic": "health"
+  },
+  {
+    "id": "286",
+    "quote": "El cuerpo recuerda lo que la mente quiere olvidar.",
+    "author": "Бессел ван дер Колк",
+    "source": "El cuerpo lleva la cuenta",
+    "story": "Van der Kolk, psiquiatra especialista en trauma, mostró que las experiencias traumáticas no desaparecen con el tiempo — se inscriben en el cuerpo en forma de tensiones crónicas, respuestas al estrés, enfermedades. La terapia somática — movimiento, respiración, tacto — puede liberar lo que las palabras no pueden alcanzar.",
+    "action": "Observa una tensión física crónica en tu cuerpo — hombros, mandíbula, vientre. Dedica 5 minutos a relajar conscientemente esa zona. ¿Qué sentimiento o recuerdo acompaña esa tensión?",
+    "topic": "health"
+  },
+  {
+    "id": "287",
+    "quote": "La risa es la distancia más corta entre dos personas.",
+    "author": "Виктор Борге",
+    "source": "Espectáculo",
+    "story": "Borge, pianista y humorista danés-americano, sabía algo que la ciencia confirma ahora: la risa libera endorfinas, reduce el cortisol, refuerza el sistema inmunitario y crea lazos sociales. No es secundaria a la salud — es un componente esencial de ella.",
+    "action": "Encuentra algo que te haga reír de verdad hoy — un vídeo, un amigo, un recuerdo divertido. No fuerces la risa — búscala sinceramente. Observa cómo se siente tu cuerpo después.",
+    "topic": "health"
+  },
+  {
+    "id": "288",
+    "quote": "La prevención vale una onza — el tratamiento vale una libra.",
+    "author": "Бенджамин Франклин",
+    "source": "El almanaque del pobre Richard",
+    "story": "Franklin observaba que sus contemporáneos esperaban a caer enfermos para pensar en su salud. Prescribía la prevención: ejercicio, sueño, alimentación, higiene. En su época, sin antibióticos ni cirugía moderna, la prevención era literalmente una cuestión de vida o muerte.",
+    "action": "Identifica un riesgo de salud que conoces pero ignoras — visita médica perdida, dolor crónico no tratado, hábito nocivo. Da hoy un primer paso concreto.",
+    "topic": "health"
+  },
+  {
+    "id": "289",
+    "quote": "La verdadera riqueza es la salud, no el oro y la plata.",
+    "author": "Маhatma Ганди",
+    "source": "Gandhi por sí mismo",
+    "story": "Gandhi vivía según este principio: caminaba kilómetros cada día, ayunaba regularmente, dormía sencillamente. Dirigía un movimiento de masas con una energía que asombraba a hombres el doble de jóvenes. Decía: mi cuerpo es mi herramienta. Debo cuidarlo.",
+    "action": "Haz una lista de tus prioridades actuales. ¿Figura tu salud entre las tres primeras? Si no — ¿qué dice eso de tu sistema de valores real?",
+    "topic": "health"
+  },
+  {
+    "id": "290",
+    "quote": "Cada vez que entrenas, construyes un nuevo cerebro.",
+    "author": "Джон Рэйти",
+    "source": "Chispa: el ejercicio y el cerebro",
+    "story": "Ratey, neuropsiquiatra de Harvard, demostró que el ejercicio aeróbico estimula la neurogénesis — la creación de nuevas neuronas — en el hipocampo. El ejercicio es la intervención más poderosa conocida para la salud cerebral, superior a cualquier medicamento o suplemento.",
+    "action": "Haz hoy 20 minutos de ejercicio aeróbico — caminata rápida, bicicleta, natación. No es solo para tu cuerpo. Es para tu cerebro, tu humor, tu concentración.",
+    "topic": "health"
+  },
+  {
+    "id": "291",
+    "quote": "El agua es vida. El aire puro es vida. El movimiento es vida.",
+    "author": "Себастьян Кнайпп",
+    "source": "La curación por el agua",
+    "story": "Kneipp, sacerdote bávaro del siglo XIX, desarrolló un método natural de salud basado en el agua, las hierbas, el ejercicio, la alimentación y el equilibrio espiritual. Sus pacientes se recuperaban de dolencias para las que la medicina convencional no tenía remedio. Sus principios son ahora validados por la ciencia moderna.",
+    "action": "Comprueba tu hidratación hoy. Bebe un vaso de agua ahora. Sal al exterior a tomar aire fresco. Camina 10 minutos. Tres actos simples — salud fundamental.",
+    "topic": "health"
+  },
+  {
+    "id": "292",
+    "quote": "La comida debería ser un placer, no una ansiedad.",
+    "author": "Майкл Поллан",
+    "source": "En defensa de la comida",
+    "story": "Pollan, periodista gastronómico, observaba que el aumento de los trastornos alimentarios coincidía con el auge del nutricionismo — la obsesión por los nutrientes, las calorías, las dietas. Su regla: come comida real, no demasiado, sobre todo plantas. Simple. Sin ansiedad.",
+    "action": "En tu próxima comida, apaga las pantallas. Come despacio. Saborea. Observa si te sientes diferente cuando comes con atención en lugar de distraído.",
+    "topic": "health"
+  },
+  {
+    "id": "293",
+    "quote": "La edad no es más que un número. La forma física es un estilo de vida.",
+    "author": "Джоан Беноит Самуэльсон",
+    "source": "Discurso",
+    "story": "Samuelson ganó el maratón olímpico de 1984 con 26 años y continuó corriendo maratones hasta los sesenta. Observaba que las personas que continuaban siendo activas envejecían de manera diferente — no solo físicamente, sino mental y socialmente. El movimiento no tiene edad.",
+    "action": "Piensa en una actividad física que te gustaba en tu juventud. ¿Hay una versión adaptada a tu vida actual? Planifica practicarla esta semana.",
+    "topic": "health"
+  },
+  {
+    "id": "294",
+    "quote": "No hay mal tiempo — solo ropa inadecuada.",
+    "author": "Скандинавская пословица",
+    "source": "Proverbio escandinavo",
+    "story": "Los escandinavos mantienen una de las actividades al aire libre más altas del mundo, a pesar de los inviernos rigurosos. El concepto de friluftsliv — vida al aire libre — considera el contacto con la naturaleza, independientemente del clima, como esencial para la salud mental y física.",
+    "action": "La próxima vez que el tiempo te impida salir, equípate correctamente y sal de todas formas. 15 minutos al aire libre con cualquier tiempo es casi siempre mejor que quedarse dentro.",
+    "topic": "health"
+  },
+  {
+    "id": "295",
+    "quote": "El hombre muere por falta de movimiento y exceso de alimentación — como un coche se oxida parado y quema combustible equivocado.",
+    "author": "Гиппократ",
+    "source": "Corpus hippocraticum",
+    "story": "Hipócrates veía el cuerpo como un sistema que requiere mantenimiento activo. El movimiento mantiene las articulaciones, estimula la circulación, equilibra el metabolismo. La inmovilidad y la sobrealimentación son las dos principales fuerzas de destrucción del cuerpo — y ambas están bajo nuestro control.",
+    "action": "Haz una auditoría simple: ¿cuántas horas al día permaneces sentado? ¿Cuántos pasos das de media? ¿Qué puedes cambiar desde hoy para añadir más movimiento?",
+    "topic": "health"
+  },
+  {
+    "id": "296",
+    "quote": "Tu intestino es tu segundo cerebro.",
+    "author": "Майкл Гершон",
+    "source": "El segundo cerebro",
+    "story": "Gershon, neurogastroenterólogo, descubrió que el intestino contiene más de 100 millones de neuronas — más que la médula espinal. El intestino produce el 90 % de la serotonina del cuerpo. El microbioma intestinal influye en el humor, el sueño, las decisiones y el sistema inmunitario.",
+    "action": "Añade un alimento fermentado a tu alimentación esta semana: yogur natural, kéfir, chucrut, kimchi. El microbioma se nutre de la diversidad alimentaria.",
+    "topic": "health"
+  },
+  {
+    "id": "297",
+    "quote": "A veces el mejor medicamento es una buena conversación.",
+    "author": "Луиза Хей",
+    "source": "Sana tu vida",
+    "story": "Hay, escritora y terapeuta, observaba que muchos dolores físicos crónicos tenían raíces emocionales no tratadas. El sentimiento de ser escuchado — verdaderamente escuchado — por alguien benevolente tenía un efecto fisiológico medible: reducción del cortisol, mejora de la presión arterial, refuerzo del sistema inmunitario.",
+    "action": "Llama a alguien en quien confíes y habla de algo que te pesa. No para encontrar una solución — solo para ser escuchado. Observa cómo te sientes después.",
+    "topic": "health"
+  },
+  {
+    "id": "298",
+    "quote": "Cuidarse a uno mismo no es egoísmo. Es una condición previa para cuidar a los demás.",
+    "author": "Одри Лорд",
+    "source": "Una letanía para la supervivencia",
+    "story": "Lorde, poetisa y activista, escribía esto mientras luchaba contra el cáncer de mama siendo a la vez madre y militante. Comprendió: el sacrificio perpetuo de uno mismo no es una virtud — es una forma de desaparecer. Solo puedes dar lo que tienes. Cuidarse primero no es un lujo — es una necesidad.",
+    "action": "Identifica una necesidad de salud que estás descuidando porque pones a los demás primero. Planifica atenderla esta semana. No es egoísmo — es lo que te permite seguir dando.",
+    "topic": "health"
+  },
+  {
+    "id": "299",
+    "quote": "Una noche sin dormir te envejece más rápido que un año de vida.",
+    "author": "Мэтью Уолкер",
+    "source": "Por qué dormimos",
+    "story": "Walker, neurocientífico del sueño en Berkeley, pasó 20 años estudiando el impacto del sueño. Su conclusión: una noche con 6 horas o menos de sueño altera las funciones cognitivas tanto como una noche completa sin dormir. El sueño no es tiempo perdido — es cuando el cerebro se limpia, consolida la memoria y repara el cuerpo.",
+    "action": "Calcula tu deuda de sueño esta semana. ¿Cuál es tu total de horas de sueño dividido por el número de noches? Si es menos de 7 — ¿qué hábito puedes cambiar para mejorar esto?",
+    "topic": "health"
+  },
+  {
+    "id": "300",
+    "quote": "Tu cuerpo es el único lugar en el que con seguridad pasarás toda tu vida.",
+    "author": "Джим Рон",
+    "source": "Siete estrategias para la riqueza y la felicidad",
+    "story": "Rohn enseñaba que descuidar la salud por el trabajo es un intercambio perdedor: se pierde la salud para ganar dinero, luego se gasta el dinero para recuperar la salud. Y a menudo no se puede recuperar. El cuerpo es el instrumento de todo lo que importa — merece ser la prioridad.",
+    "action": "Hazle una promesa a tu cuerpo hoy: una cosa que harás cada día durante los próximos 30 días para cuidarlo. Escríbela. Fírmala.",
+    "topic": "health"
+  },
+  {
+    "id": "301",
+    "quote": "¿Quieres estar sano — camina mucho y come poco.",
+    "author": "Гиппократ",
+    "source": "Aforismos",
+    "story": "Hipócrates prescribía caminar como primer remedio para casi todas las enfermedades. Las investigaciones modernas confirman: 30 minutos de caminata diaria reducen el riesgo de enfermedad cardíaca, diabetes, depresión y deterioro cognitivo. Es la medicina más accesible y barata del mundo.",
+    "action": "Comprométete a caminar 30 minutos hoy — al aire libre, sin teléfono si es posible. Caminar no es una actividad física secundaria — es una de las más poderosas.",
+    "topic": "health"
+  },
+  {
+    "id": "302",
+    "quote": "El hombre es un ser creado para el movimiento, no para sentarse.",
+    "author": "Аристотель",
+    "source": "Física",
+    "story": "Aristóteles filosofaba caminando — su tradición llamaba a los filósofos peripatéticos, los que deambulan. Creía que el movimiento del cuerpo facilitaba el movimiento del pensamiento. La sedentariedad moderna va en contra de dos millones de años de evolución humana.",
+    "action": "Identifica los tres periodos del día en que permaneces más tiempo sentado. Planifica una interrupción de 5 minutos para cada periodo — de pie, caminar, estirar. Micro-movimientos, gran impacto.",
+    "topic": "health"
+  },
+  {
+    "id": "303",
+    "quote": "La moderación en la alimentación es el mejor médico.",
+    "author": "Авиценна",
+    "source": "Canon de medicina",
+    "story": "Avicena prescribía la moderación como primer principio de salud. Observaba que la mayoría de las enfermedades de sus pacientes ricos provenían del exceso — demasiada comida rica, demasiado alcohol, poca actividad. La sobriedad no era una restricción — era una prescripción médica.",
+    "action": "Identifica un hábito alimentario que sabes que es excesivo — porciones demasiado grandes, tentempiés innecesarios, azúcar. Aplica la moderación en una comida hoy. Observa lo que sientes.",
+    "topic": "health"
+  },
+  {
+    "id": "304",
+    "quote": "Una mente tranquila es la mejor medicina.",
+    "author": "Луиза де Саворнин Ломан",
+    "source": "Relatos de viaje",
+    "story": "De Savornin Lohman, viajera holandesa del siglo XIX, observaba en diferentes culturas que las personas que cultivaban la tranquilidad interior vivían más tiempo y con mejor salud. Las investigaciones modernas confirman: la paz mental crónica reduce la inflamación, mejora la inmunidad y alarga la vida.",
+    "action": "Elige una práctica de tranquilidad mental: meditación, diario, caminata silenciosa, oración, baño sin pantalla. Hazla durante 10 minutos hoy.",
+    "topic": "health"
+  },
+  {
+    "id": "305",
+    "quote": "El azúcar es un veneno que sabe a medicamento.",
+    "author": "Роберт Ластиг",
+    "source": "Oportunidad perdida",
+    "story": "Lustig, endocrinólogo pediátrico, pasó 20 años estudiando la obesidad infantil. Su conclusión: el azúcar añadido es tóxico en cantidades modernas — no por las calorías, sino por su impacto en el hígado, la insulina y el cerebro. Actúa como una droga — estimulante y adictivo.",
+    "action": "Comprueba las etiquetas de tres alimentos en tu cocina. ¿Cuántos gramos de azúcar añadido por porción? Si más de 5g — busca una alternativa. Reduce una fuente de azúcar oculto este mes.",
+    "topic": "health"
+  },
+  {
+    "id": "306",
+    "quote": "Tus manos son la prolongación de tu corazón.",
+    "author": "Карл Барт",
+    "source": "La Epístola a los Romanos",
+    "story": "Barth, teólogo suizo, usaba esta frase para hablar de la acción práctica como expresión de amor. Pero literalmente: las manos que hacen algo útil, que crean, reparan, cuidan, están conectadas a nuestro sentido del propósito y a nuestra salud mental. La inactividad de las manos es a menudo inactividad del alma.",
+    "action": "Haz hoy algo con tus manos que sea tangible: cocinar, construir, plantar, reparar, dibujar. Observa el efecto en tu humor.",
+    "topic": "health"
+  },
+  {
+    "id": "307",
+    "quote": "El cuerpo envejece, pero el espíritu puede permanecer joven.",
+    "author": "Леонард Хейфлик",
+    "source": "El reloj biológico",
+    "story": "Hayflick, biólogo celular, descubrió el límite que lleva su nombre — el número máximo de divisiones celulares. Pero también observaba: la velocidad a la que envejecemos depende en gran medida de nuestros hábitos. La actitud, el compromiso intelectual y las conexiones sociales influyen en el envejecimiento biológico más que los genes.",
+    "action": "Identifica una nueva habilidad o conocimiento que desees adquirir. Empieza a aprenderlo esta semana — no por una razón práctica, sino para mantener la mente activa y joven.",
+    "topic": "health"
+  },
+  {
+    "id": "308",
+    "quote": "Caminar es el mejor medicamento del hombre.",
+    "author": "Гиппократ",
+    "source": "Corpus hippocraticum",
+    "story": "Hipócrates prescribía caminar antes de todos los tratamientos. Hoy, los investigadores calculan que una caminata de 20 minutos al día reduce en un 20 % el riesgo de muerte prematura, en un 30 % el riesgo de depresión y en un 40 % el riesgo de Alzheimer. Es la polipíldora más eficaz y barata.",
+    "action": "Comprométete a caminar 20 minutos cada mañana durante los próximos 7 días. Sin podcast, sin teléfono si es posible. Solo el movimiento y la conciencia del mundo a tu alrededor.",
+    "topic": "health"
+  },
+  {
+    "id": "309",
+    "quote": "El sueño es el mejor modo de restaurar las fuerzas gastadas durante el día.",
+    "author": "Томас Деккер",
+    "source": "Los siete pecados capitales",
+    "story": "Dekker, dramaturgo inglés del siglo XVII, sabía intuitivamente lo que la ciencia confirma ahora: el sueño no es un lujo — es una restauración biológica esencial. Durante el sueño, el cerebro se limpia de residuos tóxicos, consolida los aprendizajes y repara los tejidos.",
+    "action": "Crea un ritual de sueño esta semana: misma hora de acostarse, sin pantallas 30 minutos antes, habitación fresca y oscura. Observa la calidad de tu sueño y tu energía al día siguiente.",
+    "topic": "health"
+  },
+  {
+    "id": "310",
+    "quote": "No comas nada que tu bisabuela no reconocería como comida.",
+    "author": "Майкл Поллан",
+    "source": "En defensa de la comida",
+    "story": "Pollan contraponía la comida real — ingredientes que los humanos han comido durante milenios — a los productos alimentarios ultraprocesados que ahora representan el 60 % de las calorías en los países desarrollados. La regla de la bisabuela es una heurística simple pero poderosa.",
+    "action": "Haz la compra esta semana aplicando la regla de Pollan: si tu bisabuela no reconocería el ingrediente, no lo compres. ¿Qué cambia eso en tu cesta?",
+    "topic": "health"
+  },
+  {
+    "id": "311",
+    "quote": "El comportamiento es el mejor espejo en el que cada uno puede verse.",
+    "author": "Иоганн Вольфганг фон Гёте",
+    "source": "Maximas y reflexiones",
+    "story": "Goethe observo a un joven poeta que se decia humilde pero interrumpia cada conversacion. Anoto en su diario: las palabras pueden mentir, los actos raramente. El comportamiento revela lo que la boca oculta.",
+    "action": "Hoy observa tus actos en lugar de tus intenciones. Lo que realmente hiciste, dice tanto como lo que planeabas hacer?",
+    "topic": "psychology"
+  },
+  {
+    "id": "312",
+    "quote": "La mayoria de las personas pasan su vida huyendo de su sombra en lugar de iluminar su luz.",
+    "author": "Карл Юнг",
+    "source": "El hombre y sus simbolos",
+    "story": "Jung encontro a un exitoso hombre de negocios que sufria de una depresion inexplicable. Al explorar sus suenos, descubrieron una ambicion creativa reprimida desde la infancia. Jung escribio: lo que reprimimos no desaparece, crece en la sombra.",
+    "action": "Anota una cualidad que criticas frecuentemente en otros. Preguntate honestamente: es algo que niegas en ti mismo?",
+    "topic": "psychology"
+  },
+  {
+    "id": "313",
+    "quote": "No vemos el mundo como es, sino como somos.",
+    "author": "Анаис Нин",
+    "source": "Diario, 1941",
+    "story": "Nin observo a dos lectores leer el mismo libro: uno salio inspirado, el otro deprimido. Noto que el texto no habia cambiado, solo diferian los lectores. Esta observacion se convirtio en el nucleo de su filosofia: nuestros filtros internos colorean todo.",
+    "action": "Elige una situacion reciente que te molesto. Preguntate: que dice mi reaccion sobre mi, y no sobre la situacion?",
+    "topic": "psychology"
+  },
+  {
+    "id": "314",
+    "quote": "El critico interior es el tirano mas cruel al que la mayoria de las personas obedece sin haberlo elegido jamas.",
+    "author": "Ричард Карсон",
+    "source": "No discutas con tu mente",
+    "story": "Carson trabajaba con un alto directivo que no podia terminar ni un solo proyecto sin decirse que era insuficiente. Al mapear la voz interior del paciente, descubrieron que pertenecia a su padre. Carson anoto: vivimos frecuentemente bajo la dictadura de voces heredadas.",
+    "action": "Hoy anota el primer pensamiento negativo que tengas sobre ti mismo. Hazte esta pregunta: quien te dijo eso por primera vez?",
+    "topic": "psychology"
+  },
+  {
+    "id": "315",
+    "quote": "La felicidad no es algo que encuentras. Es algo que construyes.",
+    "author": "Мартин Селигман",
+    "source": "La fuerza del optimismo",
+    "story": "Seligman habia estudiado originalmente la depresion. Tras decadas de investigacion, noto que los pacientes que sanaban por completo tenian algo en comun: habian comenzado a construir algo: una relacion, un proyecto, un significado.",
+    "action": "Nombra algo que estas construyendo actualmente que te da satisfaccion. Si no encuentras nada, elige algo pequeno hoy.",
+    "topic": "psychology"
+  },
+  {
+    "id": "316",
+    "quote": "No se puede cambiar lo que no se acepta.",
+    "author": "Карл Юнг",
+    "source": "Alma y vida",
+    "story": "Jung trabajaba con un paciente alcoholico que se negaba a admitir su dependencia. Durante meses giraron en circulos. El dia que el paciente dijo 'soy alcoholico', algo cambio. Jung anoto: la aceptacion no es capitulacion, es el comienzo del poder.",
+    "action": "Nombra una situacion en tu vida que aun no hayas aceptado. Escribe: acepto que esto es asi ahora. Observa como te sientes.",
+    "topic": "psychology"
+  },
+  {
+    "id": "317",
+    "quote": "El miedo no es un enemigo. Es informacion sobre lo que importa.",
+    "author": "Гэвин де Беккер",
+    "source": "El regalo del miedo",
+    "story": "De Becker estudio cientos de casos en que personas habian sobrevivido situaciones peligrosas. En casi todos los casos, habian sentido un miedo antes del evento que ignoraron. Concluyo: el miedo natural siempre es relevante.",
+    "action": "La proxima vez que sientas una inquietud inexplicable, detente y pregunta: que informacion me esta transmitiendo este miedo?",
+    "topic": "psychology"
+  },
+  {
+    "id": "318",
+    "quote": "Aceptamos el amor que creemos merecer.",
+    "author": "Стивен Чбоски",
+    "source": "Las ventajas de ser invisible",
+    "story": "El protagonista de la novela de Chbosky observa a su tia que permanece con un hombre que la maltrata. No entiende por que, hasta que se da cuenta de que ella cree en el fondo que no merece algo mejor. Esta frase se convirtio en una de las mas citadas de la literatura juvenil.",
+    "action": "Piensa en como eres tratado en tus relaciones mas cercanas. Es coherente con lo que crees merecer en el fondo?",
+    "topic": "psychology"
+  },
+  {
+    "id": "319",
+    "quote": "No eres tu quien piensa los pensamientos: son los pensamientos quienes te piensan.",
+    "author": "Будда",
+    "source": "Dhammapada",
+    "story": "Un monje budista le pregunto a Buda como detener los pensamientos negativos. Buda respondio: intenta detener el viento. Los pensamientos vienen y van como nubes; tu tarea no es detenerlos, sino no confundirte con ellos.",
+    "action": "Siéntate 5 minutos en silencio. Observa un pensamiento que aparece. Recuerda: yo no soy ese pensamiento, observo ese pensamiento.",
+    "topic": "psychology"
+  },
+  {
+    "id": "320",
+    "quote": "Las emociones son datos, no directivas.",
+    "author": "Сьюзен Дэвид",
+    "source": "Agilidad emocional",
+    "story": "David trabajaba con una directiva que suprimia toda emocion en el trabajo, creyendo que eso la haria mas eficiente. Pero su equipo la percibia como fria y poco fiable. Paradojicamente, cuando empezo a nombrar sus emociones, la confianza aumento.",
+    "action": "Hoy nombra tres emociones que estas sintiendo. Anotalas sin juicio. Que senalan sobre lo que importa para ti?",
+    "topic": "psychology"
+  },
+  {
+    "id": "321",
+    "quote": "La mayoria de las personas no escucha: espera su turno para hablar.",
+    "author": "Эрнест Хемингуэй",
+    "source": "El viejo y el mar",
+    "story": "Hemingway noto este patron durante anos de periodismo: las personas fingian escuchar, pero sus ojos traicionaban la espera. El mismo entrenaba su capacidad de escucha pasando veladas enteras solo haciendo preguntas.",
+    "action": "En tu proxima conversacion importante, cuenta cuantas veces estas a punto de hablar pero te contienes para escuchar mas.",
+    "topic": "psychology"
+  },
+  {
+    "id": "322",
+    "quote": "La mentalidad de crecimiento convierte el proceso de aprendizaje, no el resultado, en la fuente del orgullo.",
+    "author": "Кэрол Двек",
+    "source": "Mindset: la actitud del exito",
+    "story": "Dweck estudio dos grupos de ninos: los que eran elogiados por su inteligencia y los que eran elogiados por sus esfuerzos. Ante tareas dificiles, el primer grupo abandonaba, el segundo persistia. La conclusion: elogiar el esfuerzo, no el talento, cambia la trayectoria.",
+    "action": "La proxima vez que falles en algo, reemplaza 'soy malo en esto' por 'aun no lo he logrado'.",
+    "topic": "psychology"
+  },
+  {
+    "id": "323",
+    "quote": "Lo que no somos conscientes nos controla. Lo que somos conscientes, lo controlamos.",
+    "author": "Карл Юнг",
+    "source": "Psicologia del inconsciente",
+    "story": "Jung trataba a un hombre que saboteaba repetidamente sus relaciones amorosas. Cada pareja terminaba exigiendo 'demasiado'. Trabajando juntos, descubrieron que el hombre tenia un miedo profundo al abandono, tan inconsciente que operaba sin su consentimiento.",
+    "action": "Identifica un comportamiento que repites en diversas situaciones y que no te gusta. Preguntate: de que miedo oculto te protege este comportamiento?",
+    "topic": "psychology"
+  },
+  {
+    "id": "324",
+    "quote": "La forma mas extendida de desesperacion es la incapacidad de ser uno mismo.",
+    "author": "Сёрен Кьеркегор",
+    "source": "La enfermedad mortal",
+    "story": "Kierkegaard observo a hombres de iglesia que predicaban la virtud pero vivian en el automatismo. Diagnostico lo que llamo 'desesperacion': no el sentimiento de tristeza, sino el estado de desalineacion con la verdad interior.",
+    "action": "Piensa en la diferencia entre quien realmente eres y quien finges ser en tu vida cotidiana. Nombra un lugar donde esa brecha es mayor.",
+    "topic": "psychology"
+  },
+  {
+    "id": "325",
+    "quote": "Los habitos son simplemente decisiones automatizadas sobre como comportarse.",
+    "author": "Чарльз Дахигг",
+    "source": "El poder de los habitos",
+    "story": "Duhigg estudio los habitos de una mujer que llevaba anos fumando y no podia dejar. Descubrieron que fumar no era la verdadera adiccion, sino el ritual de salir de la oficina para socializar. Cuando crearon un ritual sustituto, lo dejo en 3 semanas.",
+    "action": "Elige un habito negativo. Identifica la recompensa que te da. Encuentra una accion diferente que proporcione la misma recompensa.",
+    "topic": "psychology"
+  },
+  {
+    "id": "326",
+    "quote": "La ansiedad es la imaginacion al servicio del miedo.",
+    "author": "Мария Хоннер",
+    "source": "Vivir sin ansiedad",
+    "story": "Honner trabajaba con un emprendedor que sufria ataques de panico antes de cada gran presentacion. Al examinar sus pensamientos, descubrieron que su imaginacion construia escenarios catastroficos detallados. Ella le enseno a usar esa misma imaginacion para escenarios positivos.",
+    "action": "La proxima vez que te sientas ansioso, escribe el escenario que tu imaginacion crea. Luego escribe un escenario alternativo con el mismo nivel de detalle.",
+    "topic": "psychology"
+  },
+  {
+    "id": "327",
+    "quote": "El hombre es todo lo que pudo haber sido y no llego a ser.",
+    "author": "Жан-Поль Сартр",
+    "source": "El existencialismo es un humanismo",
+    "story": "Sartre dio una conferencia tras la Segunda Guerra Mundial en que rechazo la idea de que la naturaleza humana predetermina el destino. Provoco al publico: eres lo que haces, no lo que planeas. La sala estaba dividida, pero cada uno se fue con una pregunta.",
+    "action": "Nombra algo que siempre quisiste hacer pero pospones. Fija una fecha concreta para comenzar, no cuando las condiciones sean perfectas.",
+    "topic": "psychology"
+  },
+  {
+    "id": "328",
+    "quote": "Una mente que se ha expandido a una nueva idea nunca volvera a su tamano original.",
+    "author": "Оливер Уэнделл Холмс",
+    "source": "El autocrata de la mesa del desayuno",
+    "story": "Holmes observo como sus colegas abogados envejecian aferrandose a los mismos argumentos que habian aprendido a los 25 anos. Noto que los mas brillantes compartian un rasgo: curiosidad perpetua, no experiencia acumulada.",
+    "action": "Hoy lee sobre un tema que nunca hayas estudiado. No para usarlo, sino para expandir tu mente.",
+    "topic": "psychology"
+  },
+  {
+    "id": "329",
+    "quote": "Nuestro mayor miedo no es ser inadecuados. Nuestro mayor miedo es ser poderosos mas alla de toda medida.",
+    "author": "Марианна Уильямсон",
+    "source": "Volver al amor",
+    "story": "Williamson escribio este pasaje tras anos de observacion: la mayoria de las personas sabotean su propio exito, no por miedo al fracaso, sino por miedo a lo que su pleno potencial les exigiria. Brillar es mas aterrador que esconderse.",
+    "action": "Piensa en un area donde te conformas con menos de lo que podrias. Preguntate honestamente: tengo miedo de lo que el exito pleno me exigiria?",
+    "topic": "psychology"
+  },
+  {
+    "id": "330",
+    "quote": "Cuando estes cansado, descansa; no te rindas.",
+    "author": "Банктиот Бимбо",
+    "source": "Lecciones de vida",
+    "story": "Bimbo, pastor y autor nigeriano, escribio este pensamiento tras acompanar a cientos de personas a traves de crisis. Observo que la rendicion no llega en el momento de la derrota, sino en los instantes de agotamiento que la preceden.",
+    "action": "La proxima vez que quieras dejar algo importante, preguntate: me estoy rindiendo porque es realmente la decision correcta, o porque simplemente estoy cansado en este momento?",
+    "topic": "psychology"
+  },
+  {
+    "id": "331",
+    "quote": "El autoconocimiento es el comienzo de toda sabiduria.",
+    "author": "Аристотель",
+    "source": "Etica a Nicomaco",
+    "story": "Aristoteles observo a sus estudiantes debatir con seguridad sobre politica y filosofia. Pero cuando les pidio que se describieran honestamente a si mismos, dudaron. Noto que conocer el mundo exterior sin conocerse a uno mismo es una forma de ignorancia.",
+    "action": "Escribe 5 de tus fortalezas y 5 de tus debilidades. Luego pide a alguien cercano que haga la misma lista sobre ti. Compara.",
+    "topic": "psychology"
+  },
+  {
+    "id": "332",
+    "quote": "No se puede cambiar el pasado. Pero la actitud hacia el pasado esta en tu poder.",
+    "author": "Виктор Франкл",
+    "source": "El hombre en busca de sentido",
+    "story": "Frankl sobrevivio a Auschwitz. Al salir, no conto una historia de odio, sino de como seguia eligiendo su respuesta interior a las circunstancias. Anoto que la ultima libertad humana es elegir la propia actitud en cualquier condicion.",
+    "action": "Piensa en un evento doloroso de tu pasado al que culpas de algo en tu vida actual. Preguntate: que nueva actitud podria ayudarme a avanzar?",
+    "topic": "psychology"
+  },
+  {
+    "id": "333",
+    "quote": "No podemos controlar el viento, pero podemos dirigir las velas.",
+    "author": "Эпиктет",
+    "source": "Discursos, Libro IV",
+    "story": "Epicteto, ex esclavo convertido en filosofo, fue interrogado sobre como permanecia sereno a pesar de las humillaciones sufridas. Respondio: las humillaciones eran reales, pero mi reaccion siempre fue mia. Nadie jamas pudo quitarme eso.",
+    "action": "Identifica hoy algo que no puedes controlar y que te preocupa. Luego identifica una accion concreta que puedas tomar en esa situacion.",
+    "topic": "psychology"
+  },
+  {
+    "id": "334",
+    "quote": "Todo problema que puedes resolver con dinero no es realmente un problema.",
+    "author": "Джей-Зи",
+    "source": "Decoded",
+    "story": "Jay-Z cuenta en sus entrevistas haber creido durante mucho tiempo que los problemas de dinero eran lo maximo del sufrimiento. Cuando se volvio rico, descubrio una capa mas profunda: problemas relacionales, de sentido, de identidad. El dinero habia resuelto una capa, pero habia revelado otras.",
+    "action": "Haz una lista de tus mayores preocupaciones actuales. Cuales podrian resolverse con mas dinero? Cuales no?",
+    "topic": "psychology"
+  },
+  {
+    "id": "335",
+    "quote": "La paciencia no es la capacidad de esperar, sino la de mantener una buena actitud mientras se espera.",
+    "author": "Джойс Мейер",
+    "source": "Gestiona tus emociones",
+    "story": "Meyer trabajo con una mujer que decia tener paciencia pero se quejaba constantemente. Meyer distinguio dos tipos de espera: pasiva y activa. La espera pasiva genera frustracion; la espera activa es elegida y productiva.",
+    "action": "La proxima vez que tengas que esperar algo, ponerte una microtarea o un aprendizaje durante ese tiempo. Transforma la espera en inversion.",
+    "topic": "psychology"
+  },
+  {
+    "id": "336",
+    "quote": "Tu cerebro no esta programado para la felicidad, esta programado para la supervivencia.",
+    "author": "Рик Хансон",
+    "source": "El cerebro que sana",
+    "story": "Hanson describio como el cerebro humano tiene un 'sesgo de negatividad' evolutivo: las malas experiencias se graban mas profundamente que las buenas. Propuso una practica: saborear conscientemente los buenos momentos durante 15-20 segundos para 'instalarlos' en la memoria a largo plazo.",
+    "action": "Hoy, cuando algo bueno suceda, detente 20 segundos y saborea conscientemente ese momento. Repite tres veces.",
+    "topic": "psychology"
+  },
+  {
+    "id": "337",
+    "quote": "El camino mas rapido hacia la felicidad es expresar gratitud a alguien a quien olvidaste agradecer.",
+    "author": "Мартин Селигман",
+    "source": "La fuerza del optimismo",
+    "story": "Seligman realizo un experimento en el que los participantes debian escribir una carta de gratitud y leerla en persona a alguien a quien nunca habian dado las gracias. Los resultados mostraron un aumento de felicidad mayor que cualquier otra intervencion probada.",
+    "action": "Piensa en alguien que tuvo un impacto positivo en ti y a quien nunca agradeciste correctamente. Escribele un mensaje hoy, aunque sea breve.",
+    "topic": "psychology"
+  },
+  {
+    "id": "338",
+    "quote": "Las personas raramente hacen algo malo pensando que es malo.",
+    "author": "Альберт Бандура",
+    "source": "Fundamentos del pensamiento social",
+    "story": "Bandura estudio a soldados que habian cometido atrocidades durante la guerra. Casi ninguno penso que actuaba de manera maliciosa: cada uno tenia un marco moral que justificaba sus acciones. Este descubrimiento transformo la psicologia moral.",
+    "action": "Piensa en una accion pasada que lamentes. Que historia te contaste en ese momento para justificarla? Que piensas de esa historia ahora?",
+    "topic": "psychology"
+  },
+  {
+    "id": "339",
+    "quote": "Juzgamos a los demas por sus actos; a nosotros mismos, por nuestras intenciones.",
+    "author": "Стивен Кови",
+    "source": "Los 7 habitos de la gente altamente efectiva",
+    "story": "Covey observo conflictos organizacionales donde cada parte se quejaba de la injusticia de la otra. Al pedir a cada parte que describiera sus propias motivaciones y las del otro, descubrio un sesgo universal: nos vemos a nosotros mismos con la mejor luz.",
+    "action": "Piensa en alguien cuyo comportamiento criticas. Intenta imaginar honestamente la intencion positiva que podria tener detras de ese acto.",
+    "topic": "psychology"
+  },
+  {
+    "id": "340",
+    "quote": "La autoestima es la reputacion que construyes para ti mismo.",
+    "author": "Натаниел Бранден",
+    "source": "El pilar de la autoestima",
+    "story": "Branden trabajo con cientos de altos directivos que habian tenido exito externo pero se sentian vacios. Descubrio que la autoestima no viene de los logros, sino de la coherencia entre los valores declarados y las acciones reales.",
+    "action": "Identifica un valor que afirmas tener. Evalua del 1 al 10 cuanto reflejaron tus acciones de la semana pasada ese valor. Si la puntuacion es baja, elige un cambio concreto.",
+    "topic": "psychology"
+  },
+  {
+    "id": "341",
+    "quote": "El hombre es la medida de todas las cosas, pero solo cuando se conoce a si mismo.",
+    "author": "Протагор",
+    "source": "Fragmentos",
+    "story": "Protagoras debatia con filosofos que afirmaban que la verdad era absoluta y universal. Les preguntaba: y si dos sabios llegan a conclusiones opuestas? No es la verdad relativa a quien la percibe?",
+    "action": "Elige una conviction fuerte que tengas. Intenta seriamente ponerte en el lugar de alguien que piensa lo contrario. Que comprendes desde esa perspectiva?",
+    "topic": "psychology"
+  },
+  {
+    "id": "342",
+    "quote": "El subconsciente siempre dice si.",
+    "author": "Жозеф Мёрфи",
+    "source": "El poder de tu mente subconsciente",
+    "story": "Murphy trabajo con pacientes que intentaban cambiar comportamientos solo con fuerza de voluntad, y fallaban. Descubrio que el subconsciente no distingue lo real de lo imaginado. Al cambiar las imagenes mentales repetidas, los comportamientos cambiaban sin esfuerzo consciente.",
+    "action": "Esta noche, antes de dormir, imaginate logrando algo que deseas, con detalles sensoriales. Repite durante 7 dias y observa que cambia.",
+    "topic": "psychology"
+  },
+  {
+    "id": "343",
+    "quote": "No hay nada bueno ni malo: solo nuestro pensamiento lo hace asi.",
+    "author": "Уильям Шекспир",
+    "source": "Hamlet, Acto II",
+    "story": "Hamlet, esperando la venganza, observa a dos actores llorar lagrimas reales por un personaje ficticio. Se pregunta: si el dolor imaginado puede ser real, que dice eso del dolor basado en nuestra interpretacion de los eventos?",
+    "action": "Piensa en algo que percibes como 'malo' en tu vida. Preguntate: en que sentido podria ser neutral o incluso positivo?",
+    "topic": "psychology"
+  },
+  {
+    "id": "344",
+    "quote": "No construimos muros para mantener a la gente fuera: los construimos para ver quien se preocupa lo suficiente como para cruzarlos.",
+    "author": "Антуан де Сент-Экзюпери",
+    "source": "El Principito",
+    "story": "Saint-Exupery observo a personas solitarias que se quejaban del aislamiento pero rechazaban todo intento de conexion. Anoto en sus cuadernos: los muros que construimos para protegernos pueden convertirse en los barrotes de nuestra propia prision.",
+    "action": "Piensa en un muro emocional que hayas construido. Preguntate: me protege realmente, o me impide recibir lo que quiero?",
+    "topic": "psychology"
+  },
+  {
+    "id": "345",
+    "quote": "Una generacion de ninos a los que no se les enseno a soportar la incomodidad es una generacion que sufre mas.",
+    "author": "Джонатан Хайдт",
+    "source": "La transformacion de la mente americana",
+    "story": "Haidt estudio datos sobre la salud mental de estudiantes universitarios estadounidenses entre 2012 y 2018. Descubrio que los niveles de ansiedad y depresion habian aumentado dramaticamente en la generacion protegida de toda friccion. La conclusion: el confort excesivo debilita.",
+    "action": "Esta semana, elige intencionalmente algo incomodo que evitas. Hazlo. Observa lo que realmente sucede frente a lo que imaginabas.",
+    "topic": "psychology"
+  },
+  {
+    "id": "346",
+    "quote": "No son tus logros los que te definen. Es la forma en que te recuperas de un fracaso.",
+    "author": "Давид Брукс",
+    "source": "Las segundas montanas",
+    "story": "Brooks entrevisto a personas que habian logrado todo segun los criterios sociales y se sentian vacias. Noto que quienes habian atravesado un fracaso o una perdida significativa y se habian recuperado tenian una profundidad que los demas no tenian.",
+    "action": "Piensa en tu mayor fracaso. Que aprendiste que no habrias aprendido de ninguna otra manera? Como te formo ese fracaso?",
+    "topic": "psychology"
+  },
+  {
+    "id": "347",
+    "quote": "La mejor manera de ayudar a los demas es ayudarse primero a uno mismo.",
+    "author": "Абрахам Маслоу",
+    "source": "Motivacion y personalidad",
+    "story": "Maslow noto que sus pacientes mas abnegados, los que se sacrificaban constantemente, eran a menudo tambien los mas amargados y agotados. Las personas que se cuidaban a si mismas tenian mas que dar, no menos.",
+    "action": "Identifica algo que haces por los demas mientras tu mismo lo necesitas. Hazlo por ti esta semana.",
+    "topic": "psychology"
+  },
+  {
+    "id": "348",
+    "quote": "La aceptacion no es una derrota. Es un mapa preciso de la realidad.",
+    "author": "Тара Брах",
+    "source": "Aceptacion radical",
+    "story": "Brach trabajaba con un hombre que se negaba a aceptar el diagnostico de cancer de su esposa. Gastaba sus energias buscando alternativas, negando. Cuando finalmente acepto la realidad, algo sorprendente ocurrio: se volvio presente y su esposa sintio que al fin estaba ahi.",
+    "action": "Piensa en algo en tu vida que aun resistes aceptar. Dilo en voz alta: 'Asi es ahora.' Observa si algo se libera.",
+    "topic": "psychology"
+  },
+  {
+    "id": "349",
+    "quote": "Todo lo que te irrita puede convertirse en tu maestro.",
+    "author": "Будда",
+    "source": "Dhammapada",
+    "story": "Buda enseno a un monje irritado por un alumno turbulento. Le pregunto: que en ti esta irritado? El monje se dio cuenta de que su irritacion reflejaba su apego a su propio confort y su imagen de maestro perfecto.",
+    "action": "Anota lo ultimo que te irrito. Preguntate: que revela esto sobre una expectativa insatisfecha en mi?",
+    "topic": "psychology"
+  },
+  {
+    "id": "350",
+    "quote": "Al final todo estara bien. Si aun no esta bien, es que todavia no es el final.",
+    "author": "Джон Леннон",
+    "source": "Entrevista, 1980",
+    "story": "Lennon dijo estas palabras en una entrevista tardia, pocas semanas antes de su muerte. Hablaba de sus propias luchas: la fama, la paz con Yoko, los conflictos en los Beatles. La frase no era ingenuidad: era una fe forjada por muchas tormentas atravesadas.",
+    "action": "Piensa en una situacion dificil actual. Puedes ver, aunque sea vagamente, como podria resolverse? Si es asi, es que el final aun no ha llegado.",
+    "topic": "psychology"
   }
 ]
