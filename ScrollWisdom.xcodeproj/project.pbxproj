@@ -11,7 +11,18 @@
 		2098B56B2F7861B800D8664B /* ScrollWisdomProducts.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		203297522F7EAA8500611C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2049987B2F7098C700159F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204998822F7098C700159F11;
+			remoteInfo = ScrollWisdom;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2032974E2F7EAA8500611C1C /* ScrollWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204998832F7098C700159F11 /* ScrollWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScrollWisdomProducts.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -27,6 +38,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		2032974F2F7EAA8500611C1C /* ScrollWisdomTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScrollWisdomTests;
+			sourceTree = "<group>";
+		};
 		204998852F7098C700159F11 /* ScrollWisdom */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -38,6 +54,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2032974B2F7EAA8500611C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		204998802F7098C700159F11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +77,7 @@
 			children = (
 				2098B56A2F7861B800D8664B /* ScrollWisdomProducts.storekit */,
 				204998852F7098C700159F11 /* ScrollWisdom */,
+				2032974F2F7EAA8500611C1C /* ScrollWisdomTests */,
 				204998842F7098C700159F11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				204998832F7098C700159F11 /* ScrollWisdom.app */,
+				2032974E2F7EAA8500611C1C /* ScrollWisdomTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +94,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2032974D2F7EAA8500611C1C /* ScrollWisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203297542F7EAA8500611C1C /* Build configuration list for PBXNativeTarget "ScrollWisdomTests" */;
+			buildPhases = (
+				2032974A2F7EAA8500611C1C /* Sources */,
+				2032974B2F7EAA8500611C1C /* Frameworks */,
+				2032974C2F7EAA8500611C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203297532F7EAA8500611C1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2032974F2F7EAA8500611C1C /* ScrollWisdomTests */,
+			);
+			name = ScrollWisdomTests;
+			packageProductDependencies = (
+			);
+			productName = ScrollWisdomTests;
+			productReference = 2032974E2F7EAA8500611C1C /* ScrollWisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		204998822F7098C700159F11 /* ScrollWisdom */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2049988E2F7098C900159F11 /* Build configuration list for PBXNativeTarget "ScrollWisdom" */;
@@ -103,6 +151,10 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					2032974D2F7EAA8500611C1C = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 204998822F7098C700159F11;
+					};
 					204998822F7098C700159F11 = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -131,11 +183,19 @@
 			projectRoot = "";
 			targets = (
 				204998822F7098C700159F11 /* ScrollWisdom */,
+				2032974D2F7EAA8500611C1C /* ScrollWisdomTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2032974C2F7EAA8500611C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		204998812F7098C700159F11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +234,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2032974A2F7EAA8500611C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2049987F2F7098C700159F11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,7 +250,59 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		203297532F7EAA8500611C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204998822F7098C700159F11 /* ScrollWisdom */;
+			targetProxy = 203297522F7EAA8500611C1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		203297552F7EAA8500611C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65TNRYCD64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KirillMageria.ScrollWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScrollWisdom";
+			};
+			name = Debug;
+		};
+		203297562F7EAA8500611C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65TNRYCD64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KirillMageria.ScrollWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScrollWisdom";
+			};
+			name = Release;
+		};
 		2049988C2F7098C900159F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -384,6 +503,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		203297542F7EAA8500611C1C /* Build configuration list for PBXNativeTarget "ScrollWisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203297552F7EAA8500611C1C /* Debug */,
+				203297562F7EAA8500611C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2049987E2F7098C700159F11 /* Build configuration list for PBXProject "ScrollWisdom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
