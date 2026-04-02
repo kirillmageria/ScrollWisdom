@@ -90,5 +90,5 @@
 "onboarding.enter" = "Enter Wisdom";
 "onboarding.skip" = "Skip";
 "onboarding.notifications.enable" = "Enable Morning Reminder";
-\"onboarding.welcome.quote\" = \"The loss of time is the only loss that cannot be recovered.\";
-\"onboarding.welcome.author\" = \"— Seneca\";
+"onboarding.welcome.quote" = "The loss of time is the only loss that cannot be recovered.";
+"onboarding.welcome.author" = "— Seneca";

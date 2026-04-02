@@ -90,5 +90,5 @@
 "onboarding.enter" = "Entrar en la sabiduría";
 "onboarding.skip" = "Omitir";
 "onboarding.notifications.enable" = "Activar recordatorio matutino";
-\"onboarding.welcome.quote\" = \"La pérdida del tiempo es la única pérdida que no puede recuperarse.\";
-\"onboarding.welcome.author\" = \"— Séneca\";
+"onboarding.welcome.quote" = "La pérdida del tiempo es la única pérdida que no puede recuperarse.";
+"onboarding.welcome.author" = "— Séneca";

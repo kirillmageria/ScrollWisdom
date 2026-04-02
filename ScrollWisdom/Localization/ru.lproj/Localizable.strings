@@ -90,5 +90,5 @@
 "onboarding.enter" = "Войти в мудрость";
 "onboarding.skip" = "Пропустить";
 "onboarding.notifications.enable" = "Включить напоминания";
-\"onboarding.welcome.quote\" = \"Потеря времени — единственная потеря, которую нельзя вернуть.\";
-\"onboarding.welcome.author\" = \"— Сенека\";
+"onboarding.welcome.quote" = "Потеря времени — единственная потеря, которую нельзя вернуть.";
+"onboarding.welcome.author" = "— Сенека";
