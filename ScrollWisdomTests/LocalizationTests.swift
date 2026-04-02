@@ -69,7 +69,7 @@ private let brandKeys: Set<String> = [
 
 // Keys that are legitimately the same word in specific languages
 private let languageIdenticalKeys: [String: Set<String>] = [
-    "de": ["tab.feed", "settings.version"],                                                     // Loanwords in German
+    "de": ["tab.feed", "settings.version", "onboarding.welcome.author"],                        // Loanwords in German + proper names
     "es": ["paywall.error"],                                                                     // Same word in Spanish
     "fr": ["topic.discipline", "topic.leadership", "settings.notifications", "settings.version"], // Same in French
     "pt": [],
