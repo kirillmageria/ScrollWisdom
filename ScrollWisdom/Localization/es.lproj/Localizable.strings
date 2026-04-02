@@ -92,3 +92,17 @@
 "onboarding.notifications.enable" = "Activar recordatorio matutino";
 "onboarding.welcome.quote" = "La pérdida del tiempo es la única pérdida que no puede recuperarse.";
 "onboarding.welcome.author" = "— Séneca";
+
+"onboarding.preview.title" = "Así es como funciona";
+"onboarding.preview.topic" = "ESTOICISMO";
+"onboarding.preview.quote" = "No desperdicies tiempo en lo que no está en tu poder.";
+"onboarding.preview.author" = "— Epicteto";
+"onboarding.preview.action" = "Escribe una cosa que has estado posponiendo. Da el primer paso ahora mismo.";
+"onboarding.hint.swipe" = "Desliza
+arriba";
+"onboarding.hint.doubletap" = "Doble
+toque";
+"onboarding.hint.morning" = "Mañana
+a las 9:00";
+"onboarding.notif.desc" = "Un pensamiento de los grandes estoicos en el momento que te convenga.
+Sin spam.";

@@ -142,10 +142,10 @@ struct OnboardingView: View {
     var topicStep: some View {
         VStack(spacing: 0) {
             VStack(spacing: 8) {
-                Text("Что тебя ведёт?")
+                Text(String(localized: "onboarding.topics.title"))
                     .font(.system(size: 26, weight: .bold, design: .serif))
                     .foregroundStyle(.white)
-                Text("Выбери одно или несколько")
+                Text(String(localized: "onboarding.topics.subtitle"))
                     .font(.system(size: 14))
                     .foregroundStyle(.white.opacity(0.4))
             }
@@ -212,7 +212,7 @@ struct OnboardingView: View {
     var previewStep: some View {
         VStack(spacing: 0) {
             VStack(spacing: 8) {
-                Text("Вот как это работает")
+                Text(String(localized: "onboarding.preview.title"))
                     .font(.system(size: 26, weight: .bold, design: .serif))
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.center)
@@ -227,15 +227,15 @@ struct OnboardingView: View {
                     endPoint: .bottomTrailing
                 )
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("СТОИЦИЗМ")
+                    Text(String(localized: "onboarding.preview.topic"))
                         .font(.system(size: 9, weight: .semibold))
                         .tracking(3)
                         .foregroundStyle(.white.opacity(0.4))
-                    Text("Не трать время на то, что не в твоей власти.")
+                    Text(String(localized: "onboarding.preview.quote"))
                         .font(.system(size: 18, weight: .medium, design: .serif))
                         .foregroundStyle(.white)
                         .lineSpacing(4)
-                    Text("— Эпиктет")
+                    Text(String(localized: "onboarding.preview.author"))
                         .font(.system(size: 12))
                         .foregroundStyle(.white.opacity(0.5))
                     Rectangle()
@@ -244,10 +244,10 @@ struct OnboardingView: View {
                         .padding(.vertical, 4)
                     HStack(spacing: 4) {
                         Image(systemName: "arrow.up.right").font(.system(size: 9, weight: .bold))
-                        Text("Попробуй сегодня").font(.system(size: 10, weight: .semibold)).tracking(0.5)
+                        Text(String(localized: "card.try_today")).font(.system(size: 10, weight: .semibold)).tracking(0.5)
                     }
                     .foregroundStyle(Color(hex: "#D4A84B"))
-                    Text("Запиши одно дело, которое ты откладываешь. Сделай первый шаг прямо сейчас.")
+                    Text(String(localized: "onboarding.preview.action"))
                         .font(.system(size: 12))
                         .foregroundStyle(.white.opacity(0.55))
                         .lineSpacing(3)
@@ -265,11 +265,11 @@ struct OnboardingView: View {
 
             // Gesture hints
             HStack(spacing: 0) {
-                gestureHint(icon: "arrow.up", text: "Листай\nвверх")
+                gestureHint(icon: "arrow.up", text: String(localized: "onboarding.hint.swipe"))
                 Spacer()
-                gestureHint(icon: "heart", text: "Двойной\nтап")
+                gestureHint(icon: "heart", text: String(localized: "onboarding.hint.doubletap"))
                 Spacer()
-                gestureHint(icon: "bell", text: "Утром\nв 9:00")
+                gestureHint(icon: "bell", text: String(localized: "onboarding.hint.morning"))
             }
             .padding(.horizontal, 48)
         }
@@ -288,12 +288,12 @@ struct OnboardingView: View {
                 )
                 .padding(.bottom, 28)
 
-            Text("Мудрость дня")
+            Text(String(localized: "settings.notif.morning"))
                 .font(.system(size: 28, weight: .bold, design: .serif))
                 .foregroundStyle(.white)
                 .padding(.bottom, 16)
 
-            Text("Одна мысль от великих стоиков в удобное для тебя время.\nНикакого спама.")
+            Text(String(localized: "onboarding.notif.desc"))
                 .font(.system(size: 16))
                 .foregroundStyle(.white.opacity(0.5))
                 .multilineTextAlignment(.center)

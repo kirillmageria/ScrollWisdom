@@ -92,3 +92,17 @@
 "onboarding.notifications.enable" = "Enable Morning Reminder";
 "onboarding.welcome.quote" = "The loss of time is the only loss that cannot be recovered.";
 "onboarding.welcome.author" = "— Seneca";
+
+"onboarding.preview.title" = "Here is how it works";
+"onboarding.preview.topic" = "STOICISM";
+"onboarding.preview.quote" = "Don't waste time on what is not in your power.";
+"onboarding.preview.author" = "— Epictetus";
+"onboarding.preview.action" = "Write one thing you have been putting off. Take the first step right now.";
+"onboarding.hint.swipe" = "Swipe
+up";
+"onboarding.hint.doubletap" = "Double
+tap";
+"onboarding.hint.morning" = "Morning
+at 9:00";
+"onboarding.notif.desc" = "One thought from the great Stoics at a time that suits you.
+No spam.";

@@ -92,3 +92,17 @@
 "settings.premium.pill.topics" = "Todos os temas";
 "onboarding.welcome.quote" = "A perda do tempo é a única perda que não pode ser recuperada.";
 "onboarding.welcome.author" = "— Sêneca";
+
+"onboarding.preview.title" = "Veja como funciona";
+"onboarding.preview.topic" = "ESTOICISMO";
+"onboarding.preview.quote" = "Não desperdice tempo com o que não está em seu poder.";
+"onboarding.preview.author" = "— Epicteto";
+"onboarding.preview.action" = "Escreva uma coisa que você tem adiado. Dê o primeiro passo agora.";
+"onboarding.hint.swipe" = "Deslize
+para cima";
+"onboarding.hint.doubletap" = "Toque
+duplo";
+"onboarding.hint.morning" = "Manhã
+às 9:00";
+"onboarding.notif.desc" = "Um pensamento dos grandes estoicos no momento que lhe convier.
+Sem spam.";

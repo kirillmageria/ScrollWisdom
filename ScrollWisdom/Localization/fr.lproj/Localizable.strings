@@ -92,3 +92,17 @@
 "onboarding.notifications.enable" = "Activer le rappel matinal";
 "onboarding.welcome.quote" = "La perte du temps est la seule perte qui ne peut être récupérée.";
 "onboarding.welcome.author" = "— Sénèque";
+
+"onboarding.preview.title" = "Voici comment ça fonctionne";
+"onboarding.preview.topic" = "STOÏCISME";
+"onboarding.preview.quote" = "Ne gaspille pas ton temps sur ce qui n'est pas en ton pouvoir.";
+"onboarding.preview.author" = "— Épictète";
+"onboarding.preview.action" = "Écris une chose que tu repousses. Fais le premier pas maintenant.";
+"onboarding.hint.swipe" = "Glisse
+vers le haut";
+"onboarding.hint.doubletap" = "Double
+toucher";
+"onboarding.hint.morning" = "Matin
+à 9h00";
+"onboarding.notif.desc" = "Une pensée des grands Stoïciens au moment qui te convient.
+Pas de spam.";

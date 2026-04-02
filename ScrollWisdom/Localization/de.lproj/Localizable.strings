@@ -92,3 +92,17 @@
 "onboarding.notifications.enable" = "Morgenerinnerung aktivieren";
 "onboarding.welcome.quote" = "Der Verlust von Zeit ist der einzige Verlust, der nicht wiederzugewinnen ist.";
 "onboarding.welcome.author" = "— Seneca";
+
+"onboarding.preview.title" = "So funktioniert es";
+"onboarding.preview.topic" = "STOIZISMUS";
+"onboarding.preview.quote" = "Verschwende keine Zeit mit dem, was nicht in deiner Macht liegt.";
+"onboarding.preview.author" = "— Epiktet";
+"onboarding.preview.action" = "Schreibe eine Sache auf, die du aufgeschoben hast. Mach jetzt den ersten Schritt.";
+"onboarding.hint.swipe" = "Nach oben
+wischen";
+"onboarding.hint.doubletap" = "Doppelt
+tippen";
+"onboarding.hint.morning" = "Morgens
+um 9:00";
+"onboarding.notif.desc" = "Ein Gedanke der großen Stoiker zur passenden Zeit.
+Kein Spam.";

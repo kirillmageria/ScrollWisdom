@@ -92,3 +92,17 @@
 "onboarding.notifications.enable" = "Включить напоминания";
 "onboarding.welcome.quote" = "Потеря времени — единственная потеря, которую нельзя вернуть.";
 "onboarding.welcome.author" = "— Сенека";
+
+"onboarding.preview.title" = "Вот как это работает";
+"onboarding.preview.topic" = "СТОИЦИЗМ";
+"onboarding.preview.quote" = "Не трать время на то, что не в твоей власти.";
+"onboarding.preview.author" = "— Эпиктет";
+"onboarding.preview.action" = "Запиши одно дело, которое ты откладываешь. Сделай первый шаг прямо сейчас.";
+"onboarding.hint.swipe" = "Листай
+вверх";
+"onboarding.hint.doubletap" = "Двойной
+тап";
+"onboarding.hint.morning" = "Утром
+в 9:00";
+"onboarding.notif.desc" = "Одна мысль от великих стоиков в удобное для тебя время.
+Никакого спама.";
