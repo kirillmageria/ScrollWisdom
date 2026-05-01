@@ -29,14 +29,20 @@ struct FeedView: View {
                                 onSave: {
                                     if !manager.isSaved(card) && !store.isPremium && manager.savedCardIDs.count >= freeSaveLimit {
                                         showPaywall = true
+                                        AnalyticsManager.paywallShown(trigger: "save_limit")
                                         return
                                     }
+                                    let wasSaved = manager.isSaved(card)
                                     manager.toggleSave(card)
+                                    wasSaved ? AnalyticsManager.cardUnsaved(card) : AnalyticsManager.cardSaved(card)
                                     if manager.savedCardIDs.count == 3 {
                                         requestReview()
                                     }
                                 },
-                                onShare: { shareCard(card) }
+                                onShare: {
+                                    shareCard(card)
+                                    AnalyticsManager.cardShared(card)
+                                }
                             )
                             .containerRelativeFrame(.vertical)
                             .id(card.id)
@@ -61,6 +67,10 @@ struct FeedView: View {
                         manager.markViewed(cardID: newID)
                         if manager.cardsViewedToday == 10 {
                             requestReview()
+                        }
+                        if let card = feedCards.first(where: { $0.id == newID }),
+                           let index = feedCards.firstIndex(where: { $0.id == newID }) {
+                            AnalyticsManager.cardViewed(card, index: index)
                         }
                     }
                 }

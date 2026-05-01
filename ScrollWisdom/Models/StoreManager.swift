@@ -71,6 +71,7 @@ class StoreManager {
             let transaction = try checkVerified(verification)
             await transaction.finish()
             await updatePurchasedProducts()
+            AnalyticsManager.subscriptionStarted(productID: product.id)
             return true
         case .userCancelled:
             return false
@@ -86,6 +87,7 @@ class StoreManager {
     func restore() async {
         try? await AppStore.sync()
         await updatePurchasedProducts()
+        if isPremium { AnalyticsManager.subscriptionRestored() }
     }
 
     // MARK: - Check active subscriptions
