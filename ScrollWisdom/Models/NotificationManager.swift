@@ -23,7 +23,10 @@ class NotificationManager {
             DispatchQueue.main.async {
                 self.isAuthorized = granted
                 if granted {
+                    AnalyticsManager.notificationPermissionGranted()
                     self.scheduleDailyNotifications()
+                } else {
+                    AnalyticsManager.notificationPermissionDenied()
                 }
             }
         }

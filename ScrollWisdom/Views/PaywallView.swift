@@ -2,12 +2,15 @@ import SwiftUI
 import StoreKit
 
 struct PaywallView: View {
+    var trigger: String = "unknown"
+
     @Environment(StoreManager.self) var store
     @Environment(\.dismiss) var dismiss
     @State private var selectedPlan: String = StoreManager.yearlyID
     @State private var isPurchasing = false
     @State private var showError = false
     @State private var errorMessage = ""
+    @State private var didSubscribe = false
 
     var body: some View {
         ZStack {
@@ -187,6 +190,11 @@ struct PaywallView: View {
         } message: {
             Text(errorMessage)
         }
+        .onDisappear {
+            if !didSubscribe {
+                AnalyticsManager.paywallDismissed(trigger: trigger)
+            }
+        }
     }
 
     private func subscribe() async {
@@ -200,7 +208,10 @@ struct PaywallView: View {
         }
         do {
             let success = try await store.purchase(product)
-            if success { dismiss() }
+            if success {
+                didSubscribe = true
+                dismiss()
+            }
         } catch {
             errorMessage = error.localizedDescription
             showError = true

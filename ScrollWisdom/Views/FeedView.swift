@@ -8,6 +8,7 @@ struct FeedView: View {
     @State private var feedCards: [WisdomCard] = []
     @State private var currentCardID: String?
     @State private var showPaywall = false
+    @State private var cardAppearTime: Date = Date()
     private let freeSaveLimit = 10
 
     var body: some View {
@@ -62,7 +63,16 @@ struct FeedView: View {
                         manager.markViewed(cardID: first.id)
                     }
                 }
-                .onChange(of: currentCardID) { _, newID in
+                .onChange(of: currentCardID) { oldID, newID in
+                    // Dwell time для предыдущей карточки
+                    if let oldID {
+                        let dwell = Int(Date().timeIntervalSince(cardAppearTime))
+                        if dwell >= 4, let card = feedCards.first(where: { $0.id == oldID }) {
+                            AnalyticsManager.cardEngaged(card, dwellSeconds: dwell)
+                        }
+                    }
+                    cardAppearTime = Date()
+
                     if let newID {
                         manager.markViewed(cardID: newID)
                         if manager.cardsViewedToday == 10 {
@@ -104,7 +114,7 @@ struct FeedView: View {
             loadFeed()
         }
         .sheet(isPresented: $showPaywall) {
-            PaywallView()
+            PaywallView(trigger: "save_limit")
                 .environment(store)
         }
     }

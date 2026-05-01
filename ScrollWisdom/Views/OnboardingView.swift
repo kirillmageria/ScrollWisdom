@@ -106,7 +106,7 @@ struct OnboardingView: View {
             }
         }
         .sheet(isPresented: $showPaywall) {
-            PaywallView()
+            PaywallView(trigger: "onboarding_premium_topic")
                 .environment(store)
         }
     }
@@ -161,6 +161,7 @@ struct OnboardingView: View {
                                 if isSelected { selectedTopics.remove(topic) } else { selectedTopics.insert(topic) }
                             }
                         } else {
+                            AnalyticsManager.paywallShown(trigger: "onboarding_premium_topic")
                             showPaywall = true
                         }
                     } label: {

@@ -71,7 +71,7 @@ class StoreManager {
             let transaction = try checkVerified(verification)
             await transaction.finish()
             await updatePurchasedProducts()
-            AnalyticsManager.subscriptionStarted(productID: product.id)
+            AnalyticsManager.subscriptionStarted(product: product, transactionID: String(transaction.id))
             return true
         case .userCancelled:
             return false
@@ -102,6 +102,8 @@ class StoreManager {
         }
 
         purchasedProductIDs = purchased
+        let activeProductID = purchased.first
+        AnalyticsManager.setSubscriptionTier(isPremium: !purchased.isEmpty, productID: activeProductID)
     }
 
     // MARK: - Listen for transaction updates
