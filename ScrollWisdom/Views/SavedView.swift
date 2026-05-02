@@ -112,6 +112,7 @@ struct SavedView: View {
                             LazyVStack(spacing: 12) {
                                 ForEach(filtered) { card in
                                     SavedCard(card: card) {
+                                        AnalyticsManager.cardUnsaved(card)
                                         withAnimation(.spring(response: 0.35)) {
                                             manager.toggleSave(card)
                                         }

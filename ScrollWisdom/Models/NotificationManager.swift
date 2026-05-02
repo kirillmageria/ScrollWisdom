@@ -119,8 +119,7 @@ class NotificationManager {
         components.hour = 19
         components.minute = 0
 
-//        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
         let request = UNNotificationRequest(
             identifier: Self.reEngagementID,
             content: content,

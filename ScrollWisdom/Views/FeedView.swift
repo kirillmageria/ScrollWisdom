@@ -9,7 +9,7 @@ struct FeedView: View {
     @State private var currentCardID: String?
     @State private var showPaywall = false
     @State private var cardAppearTime: Date = Date()
-    private let freeSaveLimit = 10
+    private let freeSaveLimit = 5
 
     var body: some View {
         ZStack {
