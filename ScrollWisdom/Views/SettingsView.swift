@@ -8,6 +8,7 @@ struct SettingsView: View {
     @State private var notifTime = Date()
     @State private var showTimePicker = false
     @State private var showPaywall = false
+    @State private var paywallTrigger = "settings"
     @Environment(\.requestReview) private var requestReview
     @Environment(\.openURL) private var openURL
 
@@ -161,6 +162,8 @@ struct SettingsView: View {
                                     if isFree || store.isPremium {
                                         manager.toggleTopic(topic)
                                     } else {
+                                        paywallTrigger = "settings_topic_lock"
+                                        AnalyticsManager.paywallShown(trigger: "settings_topic_lock")
                                         showPaywall = true
                                     }
                                 }
@@ -179,7 +182,11 @@ struct SettingsView: View {
 
                 // MARK: - Premium
                 if !store.isPremium {
-                    Button { showPaywall = true } label: {
+                    Button {
+                        paywallTrigger = "settings_premium_banner"
+                        AnalyticsManager.paywallShown(trigger: "settings_premium_banner")
+                        showPaywall = true
+                    } label: {
                         VStack(spacing: 16) {
                             HStack {
                                 Image(systemName: "crown.fill")
@@ -306,7 +313,7 @@ struct SettingsView: View {
             notifTime = Calendar.current.date(from: comps) ?? Date()
         }
         .sheet(isPresented: $showPaywall) {
-            PaywallView()
+            PaywallView(trigger: paywallTrigger)
         }
     }
 

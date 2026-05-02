@@ -89,6 +89,8 @@ class ContentManager {
         UserDefaults.standard.set(true, forKey: onboardingKey)
         let topicStrings = topics.map { $0.rawValue }
         UserDefaults.standard.set(topicStrings, forKey: topicsKey)
+        AnalyticsManager.onboardingCompleted(selectedTopics: topicStrings)
+        AnalyticsManager.setTopicsCount(topics.count)
     }
 
     private func loadSavedState() {
@@ -100,6 +102,7 @@ class ContentManager {
         }
         streak = UserDefaults.standard.integer(forKey: streakKey)
         hasCompletedOnboarding = UserDefaults.standard.bool(forKey: onboardingKey)
+        AnalyticsManager.setTopicsCount(selectedTopics.count)
 
         let today = Calendar.current.startOfDay(for: Date())
         if let savedDateStr = UserDefaults.standard.string(forKey: cardsViewedDateKey),
@@ -116,9 +119,12 @@ class ContentManager {
         if selectedTopics.contains(topic) {
             guard selectedTopics.count > 1 else { return }
             selectedTopics.remove(topic)
+            AnalyticsManager.topicToggled(topic.rawValue, enabled: false)
         } else {
             selectedTopics.insert(topic)
+            AnalyticsManager.topicToggled(topic.rawValue, enabled: true)
         }
+        AnalyticsManager.setTopicsCount(selectedTopics.count)
         saveTopics()
     }
 
@@ -144,7 +150,12 @@ class ContentManager {
             let diff = Calendar.current.dateComponents([.day], from: lastDay, to: today).day ?? 0
             if diff == 1 {
                 streak += 1
+                let milestones = [3, 7, 14, 30, 60, 100]
+                if milestones.contains(streak) {
+                    AnalyticsManager.streakMilestone(streak)
+                }
             } else if diff > 1 {
+                AnalyticsManager.streakBroken(previousStreak: streak)
                 streak = 1
             }
         } else {
@@ -152,6 +163,7 @@ class ContentManager {
         }
         UserDefaults.standard.set(streak, forKey: streakKey)
         UserDefaults.standard.set(ISO8601DateFormatter().string(from: today), forKey: lastOpenKey)
+        AnalyticsManager.setStreakBucket(streak)
     }
 
     static let sampleCards: [WisdomCard] = [

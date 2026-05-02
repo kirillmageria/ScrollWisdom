@@ -9,6 +9,7 @@ class NotificationManager {
 
     private let hourKey = "notif_morning_hour"
     private let minuteKey = "notif_morning_minute"
+    private static let reEngagementID = "re_engagement"
 
     init() {
         morningHour = UserDefaults.standard.object(forKey: hourKey) as? Int ?? 8
@@ -23,7 +24,11 @@ class NotificationManager {
             DispatchQueue.main.async {
                 self.isAuthorized = granted
                 if granted {
+                    AnalyticsManager.notificationPermissionGranted()
                     self.scheduleDailyNotifications()
+                    self.scheduleReEngagementNotification()
+                } else {
+                    AnalyticsManager.notificationPermissionDenied()
                 }
             }
         }
@@ -33,17 +38,20 @@ class NotificationManager {
         UNUserNotificationCenter.current().getNotificationSettings { settings in
             DispatchQueue.main.async {
                 self.isAuthorized = settings.authorizationStatus == .authorized
+                if self.isAuthorized {
+                    self.resetReEngagement()
+                }
             }
         }
     }
 
-    // MARK: - Schedule daily notifications
+    // MARK: - Daily notifications
 
     func scheduleDailyNotifications() {
-        // Remove old notifications first
-        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        // Удаляем только daily_wisdom_*, не трогаем re_engagement
+        let dailyIDs = (0..<7).map { "daily_wisdom_\($0)" }
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: dailyIDs)
 
-        // Schedule 7 days ahead with different quotes
         let quotes = Self.notificationQuotes.shuffled()
 
         for dayOffset in 0..<7 {
@@ -58,7 +66,6 @@ class NotificationManager {
             dateComponents.hour = morningHour
             dateComponents.minute = morningMinute
 
-            // Calculate the date for each notification
             if let futureDate = Calendar.current.date(byAdding: .day, value: dayOffset, to: Date()) {
                 let futureDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: futureDate)
                 dateComponents.year = futureDateComponents.year
@@ -86,6 +93,39 @@ class NotificationManager {
         if isAuthorized {
             scheduleDailyNotifications()
         }
+    }
+
+    // MARK: - Re-engagement notification
+
+    // Вызывается при каждом открытии приложения: отменяем старую, ставим новую на +3 дня
+    func resetReEngagement() {
+        guard isAuthorized else { return }
+        UNUserNotificationCenter.current().removePendingNotificationRequests(
+            withIdentifiers: [Self.reEngagementID]
+        )
+        scheduleReEngagementNotification()
+    }
+
+    private func scheduleReEngagementNotification() {
+        guard let quote = Self.reEngagementQuotes.randomElement() else { return }
+
+        let content = UNMutableNotificationContent()
+        content.title = quote.title
+        content.body = quote.body
+        content.sound = .default
+
+        guard let fireDate = Calendar.current.date(byAdding: .day, value: 3, to: Date()) else { return }
+        var components = Calendar.current.dateComponents([.year, .month, .day], from: fireDate)
+        components.hour = 19
+        components.minute = 0
+
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+        let request = UNNotificationRequest(
+            identifier: Self.reEngagementID,
+            content: content,
+            trigger: trigger
+        )
+        UNUserNotificationCenter.current().add(request)
     }
 
     // MARK: - Notification content (localized)
@@ -158,6 +198,61 @@ class NotificationManager {
                 NotifQuote(title: "❤️ Time to Reflect", body: "\"He who knows others is wise; he who knows himself is enlightened.\" — Lao Tzu"),
                 NotifQuote(title: "🏛 Start with Wisdom", body: "\"No man is free who is not master of himself.\" — Epictetus"),
                 NotifQuote(title: "⚡ Time to Act", body: "\"The best time to plant a tree was 20 years ago. The second best time is now.\""),
+            ]
+        }
+    }
+
+    static var reEngagementQuotes: [NotifQuote] {
+        let locale = Locale.current.language.languageCode?.identifier ?? "en"
+
+        switch locale {
+        case "ru":
+            return [
+                NotifQuote(title: "Ты не заходил несколько дней", body: "Начни жить прямо сейчас — Сенека"),
+                NotifQuote(title: "Начни снова сегодня", body: "Ничто великое не создаётся внезапно — Эпиктет"),
+                NotifQuote(title: "Загляни на минуту", body: "Каждый день — маленькая жизнь — Сенека"),
+                NotifQuote(title: "Возвращайся, цитата ждёт", body: "Трудности показывают, кто мы есть — Эпиктет"),
+                NotifQuote(title: "Есть мысль, которая тебя зацепит", body: "Потерянного времени не вернуть — Марк Аврелий"),
+            ]
+        case "es":
+            return [
+                NotifQuote(title: "Llevas unos días sin entrar", body: "Empieza a vivir ahora mismo — Séneca"),
+                NotifQuote(title: "Empieza de nuevo hoy", body: "Nada grande se crea de repente — Epicteto"),
+                NotifQuote(title: "Entra un momento", body: "Cada día es una pequeña vida — Séneca"),
+                NotifQuote(title: "Vuelve, hay una idea esperándote", body: "Las dificultades nos muestran quiénes somos — Epicteto"),
+                NotifQuote(title: "Un pensamiento que vale la pena", body: "El tiempo perdido no vuelve — Marco Aurelio"),
+            ]
+        case "de":
+            return [
+                NotifQuote(title: "Du warst ein paar Tage weg", body: "Fang jetzt an zu leben — Seneca"),
+                NotifQuote(title: "Fang heute neu an", body: "Nichts Großes entsteht plötzlich — Epiktet"),
+                NotifQuote(title: "Schau kurz rein", body: "Jeder Tag ist ein kleines Leben — Seneca"),
+                NotifQuote(title: "Ein Gedanke wartet auf dich", body: "Schwierigkeiten zeigen, wer wir sind — Epiktet"),
+                NotifQuote(title: "Komm zurück für einen Moment", body: "Verlorene Zeit kehrt nicht zurück — Marc Aurel"),
+            ]
+        case "fr":
+            return [
+                NotifQuote(title: "Tu n'es pas venu depuis quelques jours", body: "Commence à vivre maintenant — Sénèque"),
+                NotifQuote(title: "Recommence aujourd'hui", body: "Rien de grand ne se crée soudainement — Épictète"),
+                NotifQuote(title: "Reviens une minute", body: "Chaque jour est une petite vie — Sénèque"),
+                NotifQuote(title: "Une pensée t'attend", body: "Les épreuves révèlent qui nous sommes — Épictète"),
+                NotifQuote(title: "Un instant de clarté t'attend", body: "Le temps perdu ne revient pas — Marc Aurèle"),
+            ]
+        case "pt":
+            return [
+                NotifQuote(title: "Faz alguns dias que não entras", body: "Começa a viver agora mesmo — Sêneca"),
+                NotifQuote(title: "Começa de novo hoje", body: "Nada grande é criado de repente — Epicteto"),
+                NotifQuote(title: "Entra por um momento", body: "Cada dia é uma pequena vida — Sêneca"),
+                NotifQuote(title: "Há um pensamento esperando por ti", body: "As dificuldades revelam quem somos — Epicteto"),
+                NotifQuote(title: "Volta, vale a pena", body: "O tempo perdido não volta — Marco Aurélio"),
+            ]
+        default:
+            return [
+                NotifQuote(title: "You haven't visited in a few days", body: "Begin at once to live — Seneca"),
+                NotifQuote(title: "Start again today", body: "No great thing is created suddenly — Epictetus"),
+                NotifQuote(title: "Come back for a moment", body: "Every day is a little life — Seneca"),
+                NotifQuote(title: "A thought worth reading is waiting", body: "Difficulties show what men are — Epictetus"),
+                NotifQuote(title: "Don't let time slip away", body: "Time lost cannot be regained — Marcus Aurelius"),
             ]
         }
     }
