@@ -38,6 +38,9 @@ class NotificationManager {
         UNUserNotificationCenter.current().getNotificationSettings { settings in
             DispatchQueue.main.async {
                 self.isAuthorized = settings.authorizationStatus == .authorized
+                if self.isAuthorized {
+                    self.resetReEngagement()
+                }
             }
         }
     }
@@ -205,51 +208,51 @@ class NotificationManager {
         switch locale {
         case "ru":
             return [
-                NotifQuote(title: "«Начни жить прямо сейчас» — Сенека", body: "Ты не заходил несколько дней. Одна карточка. 30 секунд."),
-                NotifQuote(title: "«Ничто великое не создаётся внезапно» — Эпиктет", body: "Начни снова сегодня. Цитата уже ждёт тебя."),
-                NotifQuote(title: "«Каждый день — маленькая жизнь» — Сенека", body: "Несколько дней без мудрости. Загляни на минуту."),
-                NotifQuote(title: "«Трудности показывают, кто мы есть» — Эпиктет", body: "Возвращайся. Одна мысль способна изменить вечер."),
-                NotifQuote(title: "«Потерянного времени не вернуть» — Марк Аврелий", body: "Открой ScrollWisdom. Есть мысль, которая тебя зацепит."),
+                NotifQuote(title: "Начни жить прямо сейчас — Сенека", body: "Ты не заходил несколько дней. Одна карточка. 30 секунд."),
+                NotifQuote(title: "Ничто великое не создаётся внезапно — Эпиктет", body: "Начни снова сегодня. Цитата уже ждёт тебя."),
+                NotifQuote(title: "Каждый день — маленькая жизнь — Сенека", body: "Несколько дней без мудрости. Загляни на минуту."),
+                NotifQuote(title: "Трудности показывают, кто мы есть — Эпиктет", body: "Возвращайся. Одна мысль способна изменить вечер."),
+                NotifQuote(title: "Потерянного времени не вернуть — Марк Аврелий", body: "Открой ScrollWisdom. Есть мысль, которая тебя зацепит."),
             ]
         case "es":
             return [
-                NotifQuote(title: "«Empieza a vivir ahora mismo» — Séneca", body: "Llevas unos días sin entrar. Una tarjeta. 30 segundos."),
-                NotifQuote(title: "«Nada grande se crea de repente» — Epicteto", body: "Empieza de nuevo hoy. Tu cita del día te espera."),
-                NotifQuote(title: "«Cada día es una pequeña vida» — Séneca", body: "Unos días sin sabiduría. Entra un momento."),
-                NotifQuote(title: "«Las dificultades nos muestran quiénes somos» — Epicteto", body: "Vuelve. Un pensamiento puede cambiar tu tarde."),
-                NotifQuote(title: "«El tiempo perdido no vuelve» — Marco Aurelio", body: "Abre ScrollWisdom. Hay un pensamiento esperándote."),
+                NotifQuote(title: "Empieza a vivir ahora mismo — Séneca", body: "Llevas unos días sin entrar. Una tarjeta. 30 segundos."),
+                NotifQuote(title: "Nada grande se crea de repente — Epicteto", body: "Empieza de nuevo hoy. Tu cita del día te espera."),
+                NotifQuote(title: "Cada día es una pequeña vida — Séneca", body: "Unos días sin sabiduría. Entra un momento."),
+                NotifQuote(title: "Las dificultades nos muestran quiénes somos — Epicteto", body: "Vuelve. Un pensamiento puede cambiar tu tarde."),
+                NotifQuote(title: "El tiempo perdido no vuelve — Marco Aurelio", body: "Abre ScrollWisdom. Hay un pensamiento esperándote."),
             ]
         case "de":
             return [
-                NotifQuote(title: "«Fang jetzt an zu leben» — Seneca", body: "Du warst ein paar Tage weg. Eine Karte. 30 Sekunden."),
-                NotifQuote(title: "«Nichts Großes entsteht plötzlich» — Epiktet", body: "Fang heute neu an. Dein täglicher Gedanke wartet."),
-                NotifQuote(title: "«Jeder Tag ist ein kleines Leben» — Seneca", body: "Ein paar Tage ohne Weisheit. Schau kurz rein."),
-                NotifQuote(title: "«Schwierigkeiten zeigen, wer wir sind» — Epiktet", body: "Komm zurück. Ein Gedanke kann deinen Abend verändern."),
-                NotifQuote(title: "«Verlorene Zeit kehrt nicht zurück» — Marc Aurel", body: "Öffne ScrollWisdom. Ein Gedanke wartet auf dich."),
+                NotifQuote(title: "Fang jetzt an zu leben — Seneca", body: "Du warst ein paar Tage weg. Eine Karte. 30 Sekunden."),
+                NotifQuote(title: "Nichts Großes entsteht plötzlich — Epiktet", body: "Fang heute neu an. Dein täglicher Gedanke wartet."),
+                NotifQuote(title: "Jeder Tag ist ein kleines Leben — Seneca", body: "Ein paar Tage ohne Weisheit. Schau kurz rein."),
+                NotifQuote(title: "Schwierigkeiten zeigen, wer wir sind — Epiktet", body: "Komm zurück. Ein Gedanke kann deinen Abend verändern."),
+                NotifQuote(title: "Verlorene Zeit kehrt nicht zurück — Marc Aurel", body: "Öffne ScrollWisdom. Ein Gedanke wartet auf dich."),
             ]
         case "fr":
             return [
-                NotifQuote(title: "«Commence à vivre maintenant» — Sénèque", body: "Tu n'es pas venu depuis quelques jours. Une carte. 30 sec."),
-                NotifQuote(title: "«Rien de grand ne se crée soudainement» — Épictète", body: "Recommence aujourd'hui. Ta citation t'attend."),
-                NotifQuote(title: "«Chaque jour est une petite vie» — Sénèque", body: "Quelques jours sans sagesse. Reviens une minute."),
-                NotifQuote(title: "«Les épreuves révèlent qui nous sommes» — Épictète", body: "Reviens. Une pensée peut changer ta soirée."),
-                NotifQuote(title: "«Le temps perdu ne revient pas» — Marc Aurèle", body: "Ouvre ScrollWisdom. Une pensée t'attend."),
+                NotifQuote(title: "Commence à vivre maintenant — Sénèque", body: "Tu n'es pas venu depuis quelques jours. Une carte. 30 sec."),
+                NotifQuote(title: "Rien de grand ne se crée soudainement — Épictète", body: "Recommence aujourd'hui. Ta citation t'attend."),
+                NotifQuote(title: "Chaque jour est une petite vie — Sénèque", body: "Quelques jours sans sagesse. Reviens une minute."),
+                NotifQuote(title: "Les épreuves révèlent qui nous sommes — Épictète", body: "Reviens. Une pensée peut changer ta soirée."),
+                NotifQuote(title: "Le temps perdu ne revient pas — Marc Aurèle", body: "Ouvre ScrollWisdom. Une pensée t'attend."),
             ]
         case "pt":
             return [
-                NotifQuote(title: "«Começa a viver agora mesmo» — Sêneca", body: "Faz alguns dias que não entras. Um cartão. 30 segundos."),
-                NotifQuote(title: "«Nada grande é criado de repente» — Epicteto", body: "Começa de novo hoje. Tua citação do dia te espera."),
-                NotifQuote(title: "«Cada dia é uma pequena vida» — Sêneca", body: "Alguns dias sem sabedoria. Entra por um momento."),
-                NotifQuote(title: "«As dificuldades revelam quem somos» — Epicteto", body: "Volta. Um pensamento pode mudar sua tarde."),
-                NotifQuote(title: "«O tempo perdido não volta» — Marco Aurélio", body: "Abre o ScrollWisdom. Há um pensamento esperando por ti."),
+                NotifQuote(title: "Começa a viver agora mesmo — Sêneca", body: "Faz alguns dias que não entras. Um cartão. 30 segundos."),
+                NotifQuote(title: "Nada grande é criado de repente — Epicteto", body: "Começa de novo hoje. Tua citação do dia te espera."),
+                NotifQuote(title: "Cada dia é uma pequena vida — Sêneca", body: "Alguns dias sem sabedoria. Entra por um momento."),
+                NotifQuote(title: "As dificuldades revelam quem somos — Epicteto", body: "Volta. Um pensamento pode mudar sua tarde."),
+                NotifQuote(title: "O tempo perdido não volta — Marco Aurélio", body: "Abre o ScrollWisdom. Há um pensamento esperando por ti."),
             ]
         default:
             return [
-                NotifQuote(title: "\"Begin at once to live\" — Seneca", body: "You haven't visited in a few days. One card. 30 seconds."),
-                NotifQuote(title: "\"No great thing is created suddenly\" — Epictetus", body: "Start again today. Your daily wisdom is waiting."),
-                NotifQuote(title: "\"Every day is a little life\" — Seneca", body: "A few days without wisdom. Come back for a moment."),
-                NotifQuote(title: "\"Difficulties show what men are\" — Epictetus", body: "Come back. One thought can change your evening."),
-                NotifQuote(title: "\"Time lost cannot be regained\" — Marcus Aurelius", body: "Open ScrollWisdom. A thought worth reading is waiting."),
+                NotifQuote(title: "Begin at once to live — Seneca", body: "You haven't visited in a few days. One card. 30 seconds."),
+                NotifQuote(title: "No great thing is created suddenly — Epictetus", body: "Start again today. Your daily wisdom is waiting."),
+                NotifQuote(title: "Every day is a little life — Seneca", body: "A few days without wisdom. Come back for a moment."),
+                NotifQuote(title: "Difficulties show what men are — Epictetus", body: "Come back. One thought can change your evening."),
+                NotifQuote(title: "Time lost cannot be regained — Marcus Aurelius", body: "Open ScrollWisdom. A thought worth reading is waiting."),
             ]
         }
     }
