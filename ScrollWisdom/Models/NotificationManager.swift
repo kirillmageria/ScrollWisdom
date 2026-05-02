@@ -9,6 +9,7 @@ class NotificationManager {
 
     private let hourKey = "notif_morning_hour"
     private let minuteKey = "notif_morning_minute"
+    private static let reEngagementID = "re_engagement"
 
     init() {
         morningHour = UserDefaults.standard.object(forKey: hourKey) as? Int ?? 8
@@ -25,6 +26,7 @@ class NotificationManager {
                 if granted {
                     AnalyticsManager.notificationPermissionGranted()
                     self.scheduleDailyNotifications()
+                    self.scheduleReEngagementNotification()
                 } else {
                     AnalyticsManager.notificationPermissionDenied()
                 }
@@ -40,13 +42,13 @@ class NotificationManager {
         }
     }
 
-    // MARK: - Schedule daily notifications
+    // MARK: - Daily notifications
 
     func scheduleDailyNotifications() {
-        // Remove old notifications first
-        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        // Удаляем только daily_wisdom_*, не трогаем re_engagement
+        let dailyIDs = (0..<7).map { "daily_wisdom_\($0)" }
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: dailyIDs)
 
-        // Schedule 7 days ahead with different quotes
         let quotes = Self.notificationQuotes.shuffled()
 
         for dayOffset in 0..<7 {
@@ -61,7 +63,6 @@ class NotificationManager {
             dateComponents.hour = morningHour
             dateComponents.minute = morningMinute
 
-            // Calculate the date for each notification
             if let futureDate = Calendar.current.date(byAdding: .day, value: dayOffset, to: Date()) {
                 let futureDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: futureDate)
                 dateComponents.year = futureDateComponents.year
@@ -89,6 +90,39 @@ class NotificationManager {
         if isAuthorized {
             scheduleDailyNotifications()
         }
+    }
+
+    // MARK: - Re-engagement notification
+
+    // Вызывается при каждом открытии приложения: отменяем старую, ставим новую на +3 дня
+    func resetReEngagement() {
+        guard isAuthorized else { return }
+        UNUserNotificationCenter.current().removePendingNotificationRequests(
+            withIdentifiers: [Self.reEngagementID]
+        )
+        scheduleReEngagementNotification()
+    }
+
+    private func scheduleReEngagementNotification() {
+        guard let quote = Self.reEngagementQuotes.randomElement() else { return }
+
+        let content = UNMutableNotificationContent()
+        content.title = quote.title
+        content.body = quote.body
+        content.sound = .default
+
+        guard let fireDate = Calendar.current.date(byAdding: .day, value: 3, to: Date()) else { return }
+        var components = Calendar.current.dateComponents([.year, .month, .day], from: fireDate)
+        components.hour = 19
+        components.minute = 0
+
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+        let request = UNNotificationRequest(
+            identifier: Self.reEngagementID,
+            content: content,
+            trigger: trigger
+        )
+        UNUserNotificationCenter.current().add(request)
     }
 
     // MARK: - Notification content (localized)
@@ -161,6 +195,61 @@ class NotificationManager {
                 NotifQuote(title: "❤️ Time to Reflect", body: "\"He who knows others is wise; he who knows himself is enlightened.\" — Lao Tzu"),
                 NotifQuote(title: "🏛 Start with Wisdom", body: "\"No man is free who is not master of himself.\" — Epictetus"),
                 NotifQuote(title: "⚡ Time to Act", body: "\"The best time to plant a tree was 20 years ago. The second best time is now.\""),
+            ]
+        }
+    }
+
+    static var reEngagementQuotes: [NotifQuote] {
+        let locale = Locale.current.language.languageCode?.identifier ?? "en"
+
+        switch locale {
+        case "ru":
+            return [
+                NotifQuote(title: "«Начни жить прямо сейчас» — Сенека", body: "Ты не заходил несколько дней. Одна карточка. 30 секунд."),
+                NotifQuote(title: "«Ничто великое не создаётся внезапно» — Эпиктет", body: "Начни снова сегодня. Цитата уже ждёт тебя."),
+                NotifQuote(title: "«Каждый день — маленькая жизнь» — Сенека", body: "Несколько дней без мудрости. Загляни на минуту."),
+                NotifQuote(title: "«Трудности показывают, кто мы есть» — Эпиктет", body: "Возвращайся. Одна мысль способна изменить вечер."),
+                NotifQuote(title: "«Потерянного времени не вернуть» — Марк Аврелий", body: "Открой ScrollWisdom. Есть мысль, которая тебя зацепит."),
+            ]
+        case "es":
+            return [
+                NotifQuote(title: "«Empieza a vivir ahora mismo» — Séneca", body: "Llevas unos días sin entrar. Una tarjeta. 30 segundos."),
+                NotifQuote(title: "«Nada grande se crea de repente» — Epicteto", body: "Empieza de nuevo hoy. Tu cita del día te espera."),
+                NotifQuote(title: "«Cada día es una pequeña vida» — Séneca", body: "Unos días sin sabiduría. Entra un momento."),
+                NotifQuote(title: "«Las dificultades nos muestran quiénes somos» — Epicteto", body: "Vuelve. Un pensamiento puede cambiar tu tarde."),
+                NotifQuote(title: "«El tiempo perdido no vuelve» — Marco Aurelio", body: "Abre ScrollWisdom. Hay un pensamiento esperándote."),
+            ]
+        case "de":
+            return [
+                NotifQuote(title: "«Fang jetzt an zu leben» — Seneca", body: "Du warst ein paar Tage weg. Eine Karte. 30 Sekunden."),
+                NotifQuote(title: "«Nichts Großes entsteht plötzlich» — Epiktet", body: "Fang heute neu an. Dein täglicher Gedanke wartet."),
+                NotifQuote(title: "«Jeder Tag ist ein kleines Leben» — Seneca", body: "Ein paar Tage ohne Weisheit. Schau kurz rein."),
+                NotifQuote(title: "«Schwierigkeiten zeigen, wer wir sind» — Epiktet", body: "Komm zurück. Ein Gedanke kann deinen Abend verändern."),
+                NotifQuote(title: "«Verlorene Zeit kehrt nicht zurück» — Marc Aurel", body: "Öffne ScrollWisdom. Ein Gedanke wartet auf dich."),
+            ]
+        case "fr":
+            return [
+                NotifQuote(title: "«Commence à vivre maintenant» — Sénèque", body: "Tu n'es pas venu depuis quelques jours. Une carte. 30 sec."),
+                NotifQuote(title: "«Rien de grand ne se crée soudainement» — Épictète", body: "Recommence aujourd'hui. Ta citation t'attend."),
+                NotifQuote(title: "«Chaque jour est une petite vie» — Sénèque", body: "Quelques jours sans sagesse. Reviens une minute."),
+                NotifQuote(title: "«Les épreuves révèlent qui nous sommes» — Épictète", body: "Reviens. Une pensée peut changer ta soirée."),
+                NotifQuote(title: "«Le temps perdu ne revient pas» — Marc Aurèle", body: "Ouvre ScrollWisdom. Une pensée t'attend."),
+            ]
+        case "pt":
+            return [
+                NotifQuote(title: "«Começa a viver agora mesmo» — Sêneca", body: "Faz alguns dias que não entras. Um cartão. 30 segundos."),
+                NotifQuote(title: "«Nada grande é criado de repente» — Epicteto", body: "Começa de novo hoje. Tua citação do dia te espera."),
+                NotifQuote(title: "«Cada dia é uma pequena vida» — Sêneca", body: "Alguns dias sem sabedoria. Entra por um momento."),
+                NotifQuote(title: "«As dificuldades revelam quem somos» — Epicteto", body: "Volta. Um pensamento pode mudar sua tarde."),
+                NotifQuote(title: "«O tempo perdido não volta» — Marco Aurélio", body: "Abre o ScrollWisdom. Há um pensamento esperando por ti."),
+            ]
+        default:
+            return [
+                NotifQuote(title: "\"Begin at once to live\" — Seneca", body: "You haven't visited in a few days. One card. 30 seconds."),
+                NotifQuote(title: "\"No great thing is created suddenly\" — Epictetus", body: "Start again today. Your daily wisdom is waiting."),
+                NotifQuote(title: "\"Every day is a little life\" — Seneca", body: "A few days without wisdom. Come back for a moment."),
+                NotifQuote(title: "\"Difficulties show what men are\" — Epictetus", body: "Come back. One thought can change your evening."),
+                NotifQuote(title: "\"Time lost cannot be regained\" — Marcus Aurelius", body: "Open ScrollWisdom. A thought worth reading is waiting."),
             ]
         }
     }
