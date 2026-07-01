@@ -43,6 +43,7 @@ struct ScrollWisdomApp: App {
             .environment(storeManager)
             .preferredColorScheme(.dark)
             .task {
+                manager.notificationManager = notificationManager
                 Crashlytics.crashlytics().setCustomValue(
                     storeManager.isPremium,
                     forKey: "is_premium"
@@ -54,6 +55,7 @@ struct ScrollWisdomApp: App {
             .onChange(of: scenePhase) { _, phase in
                 if phase == .active {
                     notificationManager.resetReEngagement()
+                    notificationManager.scheduleDailyNotifications()
                 }
             }
         }

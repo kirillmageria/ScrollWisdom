@@ -17,6 +17,8 @@ class ContentManager {
     private let streakKey = "streakCount"
     private let lastOpenKey = "lastOpenDate"
     private let onboardingKey = "hasCompletedOnboarding"
+
+    var notificationManager: NotificationManager?
     private let cardsViewedTodayKey = "cardsViewedToday"
     private let cardsViewedDateKey = "cardsViewedDate"
 
@@ -126,11 +128,13 @@ class ContentManager {
         }
         AnalyticsManager.setTopicsCount(selectedTopics.count)
         saveTopics()
+        notificationManager?.onTopicsChanged()
     }
 
     func resetTopics(to topics: Set<WisdomCard.Topic>) {
         selectedTopics = topics
         saveTopics()
+        notificationManager?.onTopicsChanged()
     }
 
     private func saveTopics() {

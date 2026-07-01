@@ -42,7 +42,7 @@ class NotificationManager {
                 self.isAuthorized = granted
                 if granted {
                     AnalyticsManager.notificationPermissionGranted()
-                    self.scheduleDailyNotifications()
+                    self.rescheduleDailyNotifications()
                     self.scheduleReEngagementNotification()
                 } else {
                     AnalyticsManager.notificationPermissionDenied()
@@ -64,41 +64,86 @@ class NotificationManager {
 
     // MARK: - Daily notifications
 
-    func scheduleDailyNotifications() {
-        // Удаляем только daily_wisdom_*, не трогаем re_engagement
-        let dailyIDs = (0..<7).map { "daily_wisdom_\($0)" }
-        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: dailyIDs)
+    private func scheduleCards(_ cards: [NotifCard], startingFrom date: Date) {
+        let formatter = ISO8601DateFormatter()
+        formatter.formatOptions = [.withFullDate, .withDashSeparatorInDate]
 
-        let quotes = Self.notificationQuotes.shuffled()
-
-        for dayOffset in 0..<7 {
-            let quote = quotes[dayOffset % quotes.count]
+        for (i, card) in cards.enumerated() {
+            guard let fireDate = Calendar.current.date(byAdding: .day, value: i, to: date) else { continue }
+            let dateString = formatter.string(from: fireDate)
 
             let content = UNMutableNotificationContent()
-            content.title = quote.title
-            content.body = quote.body
+            content.title = card.author
+            content.body = card.quote
             content.sound = .default
 
-            var dateComponents = DateComponents()
-            dateComponents.hour = morningHour
-            dateComponents.minute = morningMinute
+            var components = Calendar.current.dateComponents([.year, .month, .day], from: fireDate)
+            components.hour = morningHour
+            components.minute = morningMinute
 
-            if let futureDate = Calendar.current.date(byAdding: .day, value: dayOffset, to: Date()) {
-                let futureDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: futureDate)
-                dateComponents.year = futureDateComponents.year
-                dateComponents.month = futureDateComponents.month
-                dateComponents.day = futureDateComponents.day
-            }
-
-            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+            let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
             let request = UNNotificationRequest(
-                identifier: "daily_wisdom_\(dayOffset)",
+                identifier: "daily_wisdom_\(dateString)",
                 content: content,
                 trigger: trigger
             )
-
             UNUserNotificationCenter.current().add(request)
         }
+    }
+
+    func scheduleDailyNotifications() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { [weak self] requests in
+            guard let self else { return }
+
+            let dailyRequests = requests.filter { $0.identifier.hasPrefix("daily_wisdom_") }
+            let count = dailyRequests.count
+            guard count < 7 else { return }
+
+            // Find latest scheduled date from existing identifiers
+            let formatter = ISO8601DateFormatter()
+            formatter.formatOptions = [.withFullDate, .withDashSeparatorInDate]
+            let latestDate = dailyRequests
+                .compactMap { req -> Date? in
+                    let suffix = String(req.identifier.dropFirst("daily_wisdom_".count))
+                    return formatter.date(from: suffix)
+                }
+                .max() ?? Date()
+
+            let needed = 30 - count
+            let cards = self.loadNotificationCards(count: needed)
+            guard !cards.isEmpty else { return }
+
+            let startDate = Calendar.current.date(byAdding: .day, value: 1, to: latestDate) ?? Date()
+            self.scheduleCards(cards, startingFrom: startDate)
+        }
+    }
+
+    func rescheduleDailyNotifications() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { [weak self] requests in
+            guard let self else { return }
+
+            let dailyIDs = requests
+                .filter { $0.identifier.hasPrefix("daily_wisdom_") }
+                .map { $0.identifier }
+            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: dailyIDs)
+
+            UserDefaults.standard.set(0, forKey: self.cardIndexKey)
+
+            let cards = self.loadNotificationCards(count: 30)
+            guard !cards.isEmpty else { return }
+
+            let tomorrow = Calendar.current.date(byAdding: .day, value: 1, to: Date()) ?? Date()
+            self.scheduleCards(cards, startingFrom: tomorrow)
+        }
+    }
+
+    func onTopicsChanged() {
+        // Rebuild card order for new topic selection before rescheduling
+        let allCards = loadCardsJSON()
+        let newOrder = allCards.map { $0.id }.shuffled()
+        UserDefaults.standard.set(newOrder, forKey: cardOrderKey)
+        UserDefaults.standard.set(0, forKey: cardIndexKey)
+        rescheduleDailyNotifications()
     }
 
     func updateTime(hour: Int, minute: Int) {
@@ -108,7 +153,7 @@ class NotificationManager {
         UserDefaults.standard.set(minute, forKey: minuteKey)
 
         if isAuthorized {
-            scheduleDailyNotifications()
+            rescheduleDailyNotifications()
         }
     }
 
@@ -237,73 +282,6 @@ class NotificationManager {
     struct NotifQuote {
         let title: String
         let body: String
-    }
-
-    static var notificationQuotes: [NotifQuote] {
-        let locale = Locale.current.language.languageCode?.identifier ?? "en"
-
-        switch locale {
-        case "ru":
-            return [
-                NotifQuote(title: "🏛 Утренняя мудрость", body: "«Ты властен над своим разумом — не над внешними событиями.» — Марк Аврелий"),
-                NotifQuote(title: "💰 Мысль на сегодня", body: "«Богатство не в том, чтобы иметь много, а в том, чтобы мало желать.» — Эпиктет"),
-                NotifQuote(title: "⚡ Доза дисциплины", body: "«Мы страдаем чаще в воображении, чем в реальности.» — Сенека"),
-                NotifQuote(title: "👑 Утренний урок", body: "«Препятствие — это путь.» — Марк Аврелий"),
-                NotifQuote(title: "❤️ Время подумать", body: "«Знающий других мудр. Знающий себя — просветлён.» — Лао-цзы"),
-                NotifQuote(title: "🏛 Начни день с мудрости", body: "«Не свободен тот, кто не властен над собой.» — Эпиктет"),
-                NotifQuote(title: "⚡ Пора действовать", body: "«Лучшее время посадить дерево было 20 лет назад. Второе лучшее — сейчас.»"),
-            ]
-        case "es":
-            return [
-                NotifQuote(title: "🏛 Sabiduría matutina", body: "«Tienes poder sobre tu mente, no sobre los eventos externos.» — Marco Aurelio"),
-                NotifQuote(title: "💰 Pensamiento del día", body: "«La riqueza no consiste en tener mucho, sino en desear poco.» — Epicteto"),
-                NotifQuote(title: "⚡ Dosis de disciplina", body: "«Sufrimos más en la imaginación que en la realidad.» — Séneca"),
-                NotifQuote(title: "👑 Lección matutina", body: "«El obstáculo es el camino.» — Marco Aurelio"),
-                NotifQuote(title: "❤️ Momento de reflexión", body: "«Quien conoce a otros es sabio; quien se conoce a sí mismo está iluminado.» — Lao Tzu"),
-                NotifQuote(title: "🏛 Empieza con sabiduría", body: "«No es libre quien no es dueño de sí mismo.» — Epicteto"),
-                NotifQuote(title: "⚡ Hora de actuar", body: "«El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor es ahora.»"),
-            ]
-        case "de":
-            return [
-                NotifQuote(title: "🏛 Morgenweisheit", body: "«Du hast Macht über deinen Geist — nicht über äußere Ereignisse.» — Marc Aurel"),
-                NotifQuote(title: "💰 Gedanke des Tages", body: "«Reichtum besteht nicht darin, viel zu besitzen, sondern wenig zu begehren.» — Epiktet"),
-                NotifQuote(title: "⚡ Dosis Disziplin", body: "«Wir leiden häufiger in der Vorstellung als in der Wirklichkeit.» — Seneca"),
-                NotifQuote(title: "👑 Morgenlektion", body: "«Das Hindernis ist der Weg.» — Marc Aurel"),
-                NotifQuote(title: "❤️ Zeit zum Nachdenken", body: "«Wer andere kennt, ist klug. Wer sich selbst kennt, ist erleuchtet.» — Laotse"),
-                NotifQuote(title: "🏛 Starte mit Weisheit", body: "«Nicht frei ist, wer sich nicht selbst beherrscht.» — Epiktet"),
-                NotifQuote(title: "⚡ Zeit zu handeln", body: "«Die beste Zeit, einen Baum zu pflanzen, war vor 20 Jahren. Die zweitbeste ist jetzt.»"),
-            ]
-        case "fr":
-            return [
-                NotifQuote(title: "🏛 Sagesse du matin", body: "«Tu as pouvoir sur ton esprit — pas sur les événements extérieurs.» — Marc Aurèle"),
-                NotifQuote(title: "💰 Pensée du jour", body: "«La richesse ne consiste pas à avoir beaucoup, mais à désirer peu.» — Épictète"),
-                NotifQuote(title: "⚡ Dose de discipline", body: "«Nous souffrons plus souvent en imagination que dans la réalité.» — Sénèque"),
-                NotifQuote(title: "👑 Leçon du matin", body: "«L'obstacle est le chemin.» — Marc Aurèle"),
-                NotifQuote(title: "❤️ Moment de réflexion", body: "«Celui qui connaît les autres est sage. Celui qui se connaît est éclairé.» — Lao Tseu"),
-                NotifQuote(title: "🏛 Commence avec sagesse", body: "«N'est pas libre celui qui n'est pas maître de lui-même.» — Épictète"),
-                NotifQuote(title: "⚡ C'est l'heure d'agir", body: "«Le meilleur moment pour planter un arbre était il y a 20 ans. Le deuxième meilleur est maintenant.»"),
-            ]
-        case "pt":
-            return [
-                NotifQuote(title: "🏛 Sabedoria matinal", body: "«Você tem poder sobre sua mente — não sobre os eventos externos.» — Marco Aurélio"),
-                NotifQuote(title: "💰 Pensamento do dia", body: "«A riqueza não consiste em ter muito, mas em desejar pouco.» — Epicteto"),
-                NotifQuote(title: "⚡ Dose de disciplina", body: "«Sofremos mais na imaginação do que na realidade.» — Sêneca"),
-                NotifQuote(title: "👑 Lição da manhã", body: "«O obstáculo é o caminho.» — Marco Aurélio"),
-                NotifQuote(title: "❤️ Momento de reflexão", body: "«Quem conhece os outros é sábio. Quem conhece a si mesmo é iluminado.» — Lao Tsé"),
-                NotifQuote(title: "🏛 Comece com sabedoria", body: "«Não é livre quem não é senhor de si mesmo.» — Epicteto"),
-                NotifQuote(title: "⚡ Hora de agir", body: "«O melhor momento para plantar uma árvore foi há 20 anos. O segundo melhor é agora.»"),
-            ]
-        default:
-            return [
-                NotifQuote(title: "🏛 Morning Wisdom", body: "\"You have power over your mind — not outside events.\" — Marcus Aurelius"),
-                NotifQuote(title: "💰 Thought for Today", body: "\"Wealth consists not in having great possessions, but in having few wants.\" — Epictetus"),
-                NotifQuote(title: "⚡ Daily Discipline", body: "\"We suffer more often in imagination than in reality.\" — Seneca"),
-                NotifQuote(title: "👑 Morning Lesson", body: "\"The obstacle is the way.\" — Marcus Aurelius"),
-                NotifQuote(title: "❤️ Time to Reflect", body: "\"He who knows others is wise; he who knows himself is enlightened.\" — Lao Tzu"),
-                NotifQuote(title: "🏛 Start with Wisdom", body: "\"No man is free who is not master of himself.\" — Epictetus"),
-                NotifQuote(title: "⚡ Time to Act", body: "\"The best time to plant a tree was 20 years ago. The second best time is now.\""),
-            ]
-        }
     }
 
     static var reEngagementQuotes: [NotifQuote] {
