@@ -1,6 +1,19 @@
 import Foundation
 import UserNotifications
 
+// Lightweight card types — avoids importing WisdomCard from ContentManager
+struct NotifCardData: Decodable {
+    let id: String
+    let quote: String
+    let author: String
+    let topic: String
+}
+
+struct NotifCard {
+    let author: String
+    let quote: String
+}
+
 @Observable
 class NotificationManager {
     var isAuthorized = false
@@ -10,6 +23,10 @@ class NotificationManager {
     private let hourKey = "notif_morning_hour"
     private let minuteKey = "notif_morning_minute"
     private static let reEngagementID = "re_engagement"
+
+    // New UserDefaults keys
+    private let cardOrderKey = "notif_card_order"
+    private let cardIndexKey = "notif_last_card_index"
 
     init() {
         morningHour = UserDefaults.standard.object(forKey: hourKey) as? Int ?? 8
@@ -126,6 +143,93 @@ class NotificationManager {
             trigger: trigger
         )
         UNUserNotificationCenter.current().add(request)
+    }
+
+    // MARK: - Card loading
+
+    static func truncate(_ quote: String, to maxLength: Int = 150) -> String {
+        guard quote.count > maxLength else { return quote }
+        return String(quote.prefix(maxLength)) + "…"
+    }
+
+    static func selectCards(
+        from allCards: [NotifCardData],
+        order: inout [String],
+        index: inout Int,
+        count: Int
+    ) -> [NotifCard] {
+        guard count > 0, !allCards.isEmpty else { return [] }
+        let cardDict = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id, $0) })
+        var result: [NotifCard] = []
+        while result.count < count {
+            if index >= order.count {
+                order = allCards.map { $0.id }.shuffled()
+                index = 0
+            }
+            let id = order[index]
+            index += 1
+            if let card = cardDict[id] {
+                result.append(NotifCard(
+                    author: card.author,
+                    quote: truncate(card.quote)
+                ))
+            }
+        }
+        return result
+    }
+
+    private func loadCardsJSON() -> [NotifCardData] {
+        let locale = Locale.current.language.languageCode?.identifier ?? "en"
+        let fileNames: [String]
+        switch locale {
+        case "ru": fileNames = ["cards_ru", "cards"]
+        case "es": fileNames = ["cards_es", "cards"]
+        case "de": fileNames = ["cards_de", "cards"]
+        case "fr": fileNames = ["cards_fr", "cards"]
+        case "pt": fileNames = ["cards_pt-BR", "cards"]
+        default:   fileNames = ["cards"]
+        }
+
+        let selectedTopics = Set(
+            (UserDefaults.standard.array(forKey: "selectedTopics") as? [String]) ?? []
+        )
+
+        for name in fileNames {
+            guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
+                  let data = try? Data(contentsOf: url),
+                  let cards = try? JSONDecoder().decode([NotifCardData].self, from: data),
+                  !cards.isEmpty else { continue }
+            if selectedTopics.isEmpty {
+                return cards
+            }
+            return cards.filter { selectedTopics.contains($0.topic) }
+        }
+        return []
+    }
+
+    func loadNotificationCards(count: Int) -> [NotifCard] {
+        guard count > 0 else { return [] }
+        let allCards = loadCardsJSON()
+        guard !allCards.isEmpty else { return [] }
+
+        var order = UserDefaults.standard.stringArray(forKey: cardOrderKey) ?? []
+        var index = UserDefaults.standard.integer(forKey: cardIndexKey)
+
+        if order.isEmpty {
+            order = allCards.map { $0.id }.shuffled()
+            index = 0
+        }
+
+        let result = NotificationManager.selectCards(
+            from: allCards,
+            order: &order,
+            index: &index,
+            count: count
+        )
+
+        UserDefaults.standard.set(order, forKey: cardOrderKey)
+        UserDefaults.standard.set(index, forKey: cardIndexKey)
+        return result
     }
 
     // MARK: - Notification content (localized)
