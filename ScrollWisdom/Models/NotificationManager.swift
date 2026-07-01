@@ -64,7 +64,7 @@ class NotificationManager {
 
     // MARK: - Daily notifications
 
-    private func scheduleCards(_ cards: [NotifCard], startingFrom date: Date) {
+    private func scheduleCards(_ cards: [NotifCard], startingFrom date: Date, hour: Int, minute: Int) {
         let formatter = ISO8601DateFormatter()
         formatter.formatOptions = [.withFullDate, .withDashSeparatorInDate]
 
@@ -78,8 +78,8 @@ class NotificationManager {
             content.sound = .default
 
             var components = Calendar.current.dateComponents([.year, .month, .day], from: fireDate)
-            components.hour = morningHour
-            components.minute = morningMinute
+            components.hour = hour
+            components.minute = minute
 
             let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
             let request = UNNotificationRequest(
@@ -92,12 +92,14 @@ class NotificationManager {
     }
 
     func scheduleDailyNotifications() {
+        let hour = morningHour
+        let minute = morningMinute
         UNUserNotificationCenter.current().getPendingNotificationRequests { [weak self] requests in
             guard let self else { return }
 
             let dailyRequests = requests.filter { $0.identifier.hasPrefix("daily_wisdom_") }
             let count = dailyRequests.count
-            guard count < 7 else { return }
+            guard count < 14 else { return }
 
             // Find latest scheduled date from existing identifiers
             let formatter = ISO8601DateFormatter()
@@ -114,11 +116,13 @@ class NotificationManager {
             guard !cards.isEmpty else { return }
 
             let startDate = Calendar.current.date(byAdding: .day, value: 1, to: latestDate) ?? Date()
-            self.scheduleCards(cards, startingFrom: startDate)
+            self.scheduleCards(cards, startingFrom: startDate, hour: hour, minute: minute)
         }
     }
 
     func rescheduleDailyNotifications() {
+        let hour = morningHour
+        let minute = morningMinute
         UNUserNotificationCenter.current().getPendingNotificationRequests { [weak self] requests in
             guard let self else { return }
 
@@ -133,7 +137,7 @@ class NotificationManager {
             guard !cards.isEmpty else { return }
 
             let tomorrow = Calendar.current.date(byAdding: .day, value: 1, to: Date()) ?? Date()
-            self.scheduleCards(cards, startingFrom: tomorrow)
+            self.scheduleCards(cards, startingFrom: tomorrow, hour: hour, minute: minute)
         }
     }
 
