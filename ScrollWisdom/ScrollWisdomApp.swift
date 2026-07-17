@@ -1,5 +1,6 @@
 import SwiftUI
 import FirebaseCore
+import FirebaseAnalytics
 import FirebaseCrashlytics
 import UserNotifications
 
@@ -25,6 +26,9 @@ struct ScrollWisdomApp: App {
 
     init() {
         FirebaseApp.configure()
+        #if DEBUG
+        Analytics.setAnalyticsCollectionEnabled(false)
+        #endif
     }
 
     @Environment(\.scenePhase) var scenePhase
