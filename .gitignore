@@ -84,3 +84,6 @@ playground.xcworkspace
 # Package.resolved.claude/
 GoogleService-Info.plist
 .planning/phases/*/screenshots/
+
+# Local secrets (YouTube OAuth token, client secret)
+scripts/
