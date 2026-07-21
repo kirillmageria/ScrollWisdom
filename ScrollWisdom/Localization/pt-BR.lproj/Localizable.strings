@@ -108,3 +108,13 @@ duplo";
 Sem spam.";
 "saved.filter.all" = "Tudo";
 "saved.filter.empty" = "Nada encontrado";
+
+// Widget promo
+"settings.widget" = "Widget da Tela de Início";
+"widget.promo.title" = "Sabedoria na sua Tela de Início";
+"widget.promo.subtitle" = "Uma nova citação estoica todo dia — sem nem abrir o app.";
+"widget.promo.sample_quote" = "Você tem poder sobre a sua mente — não sobre os acontecimentos externos.";
+"widget.promo.step1" = "Toque e segure um espaço vazio na Tela de Início";
+"widget.promo.step2" = "Toque no botão + no canto superior";
+"widget.promo.step3" = "Busque ScrollWisdom e toque em Adicionar Widget";
+"widget.promo.done" = "Entendi";

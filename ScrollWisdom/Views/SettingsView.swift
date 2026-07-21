@@ -8,6 +8,7 @@ struct SettingsView: View {
     @State private var notifTime = Date()
     @State private var showTimePicker = false
     @State private var showPaywall = false
+    @State private var showWidgetPromo = false
     @State private var paywallTrigger = "settings"
     @Environment(\.requestReview) private var requestReview
     @Environment(\.openURL) private var openURL
@@ -266,6 +267,13 @@ struct SettingsView: View {
                                  showDivider: true)
 
                         Button {
+                            showWidgetPromo = true
+                        } label: {
+                            AboutRow(icon: "square.grid.2x2", title: String(localized: "settings.widget"), value: nil, showDivider: true)
+                        }
+                        .buttonStyle(.plain)
+
+                        Button {
                             requestReview()
                         } label: {
                             AboutRow(icon: "star", title: String(localized: "settings.rate"), value: nil, showDivider: true)
@@ -314,6 +322,9 @@ struct SettingsView: View {
         }
         .sheet(isPresented: $showPaywall) {
             PaywallView(trigger: paywallTrigger)
+        }
+        .sheet(isPresented: $showWidgetPromo) {
+            WidgetPromoView()
         }
     }
 

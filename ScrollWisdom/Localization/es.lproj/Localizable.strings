@@ -108,3 +108,13 @@ a las 9:00";
 Sin spam.";
 "saved.filter.all" = "Todo";
 "saved.filter.empty" = "Nada encontrado";
+
+// Widget promo
+"settings.widget" = "Widget de pantalla de inicio";
+"widget.promo.title" = "Sabiduría en tu pantalla de inicio";
+"widget.promo.subtitle" = "Una nueva cita estoica cada día, sin abrir la app.";
+"widget.promo.sample_quote" = "Tienes poder sobre tu mente, no sobre los acontecimientos externos.";
+"widget.promo.step1" = "Mantén pulsada una zona vacía de la pantalla de inicio";
+"widget.promo.step2" = "Toca el botón + en la esquina superior";
+"widget.promo.step3" = "Busca ScrollWisdom y toca Añadir widget";
+"widget.promo.done" = "Entendido";

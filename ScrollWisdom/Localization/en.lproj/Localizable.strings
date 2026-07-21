@@ -108,3 +108,13 @@ at 9:00";
 No spam.";
 "saved.filter.all" = "All";
 "saved.filter.empty" = "Nothing found";
+
+// Widget promo
+"settings.widget" = "Home Screen Widget";
+"widget.promo.title" = "Wisdom on your Home Screen";
+"widget.promo.subtitle" = "A new stoic quote every day — without even opening the app.";
+"widget.promo.sample_quote" = "You have power over your mind — not outside events.";
+"widget.promo.step1" = "Touch and hold an empty spot on your Home Screen";
+"widget.promo.step2" = "Tap the + button in the top corner";
+"widget.promo.step3" = "Search for ScrollWisdom and tap Add Widget";
+"widget.promo.done" = "Got it";

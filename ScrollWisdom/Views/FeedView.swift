@@ -8,6 +8,8 @@ struct FeedView: View {
     @State private var feedCards: [WisdomCard] = []
     @State private var currentCardID: String?
     @State private var showPaywall = false
+    @State private var showWidgetPromo = false
+    @AppStorage("widgetPromoWasShown") private var widgetPromoWasShown = false
     @State private var cardAppearTime: Date = Date()
     private let freeSaveLimit = 5
 
@@ -78,6 +80,10 @@ struct FeedView: View {
                         if manager.cardsViewedToday == 10 {
                             requestReview()
                         }
+                        if manager.cardsViewedToday == 5 && !widgetPromoWasShown {
+                            widgetPromoWasShown = true
+                            showWidgetPromo = true
+                        }
                         if let card = feedCards.first(where: { $0.id == newID }),
                            let index = feedCards.firstIndex(where: { $0.id == newID }) {
                             AnalyticsManager.cardViewed(card, index: index)
@@ -116,6 +122,9 @@ struct FeedView: View {
         .sheet(isPresented: $showPaywall) {
             PaywallView(trigger: "save_limit")
                 .environment(store)
+        }
+        .sheet(isPresented: $showWidgetPromo) {
+            WidgetPromoView()
         }
     }
 

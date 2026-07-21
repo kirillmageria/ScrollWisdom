@@ -108,3 +108,13 @@
 Никакого спама.";
 "saved.filter.all" = "Все";
 "saved.filter.empty" = "Ничего не найдено";
+
+// Widget promo
+"settings.widget" = "Виджет на экране «Домой»";
+"widget.promo.title" = "Мудрость на главном экране";
+"widget.promo.subtitle" = "Новая стоическая цитата каждый день — даже без открытия приложения.";
+"widget.promo.sample_quote" = "Ты имеешь власть над своим умом, а не над внешними событиями.";
+"widget.promo.step1" = "Удерживайте палец на пустом месте главного экрана";
+"widget.promo.step2" = "Нажмите «+» в верхнем углу";
+"widget.promo.step3" = "Найдите ScrollWisdom и нажмите «Добавить виджет»";
+"widget.promo.done" = "Понятно";

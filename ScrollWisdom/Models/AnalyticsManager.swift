@@ -120,6 +120,10 @@ enum AnalyticsManager {
         Analytics.logEvent("notification_opened", parameters: nil)
     }
 
+    static func widgetPromoShown() {
+        Analytics.logEvent("widget_promo_shown", parameters: nil)
+    }
+
     // MARK: - User properties
 
     static func setSubscriptionTier(isPremium: Bool, productID: String?) {

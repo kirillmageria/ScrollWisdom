@@ -108,3 +108,13 @@ toucher";
 Pas de spam.";
 "saved.filter.all" = "Tout";
 "saved.filter.empty" = "Rien trouvé";
+
+// Widget promo
+"settings.widget" = "Widget d'écran d'accueil";
+"widget.promo.title" = "La sagesse sur votre écran d'accueil";
+"widget.promo.subtitle" = "Une nouvelle citation stoïcienne chaque jour, sans même ouvrir l'app.";
+"widget.promo.sample_quote" = "Tu as pouvoir sur ton esprit, non sur les événements extérieurs.";
+"widget.promo.step1" = "Maintenez le doigt sur un espace vide de l'écran d'accueil";
+"widget.promo.step2" = "Touchez le bouton + en haut de l'écran";
+"widget.promo.step3" = "Recherchez ScrollWisdom puis touchez Ajouter le widget";
+"widget.promo.done" = "Compris";

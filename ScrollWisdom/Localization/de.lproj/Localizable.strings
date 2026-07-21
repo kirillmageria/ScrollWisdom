@@ -108,3 +108,13 @@ um 9:00";
 Kein Spam.";
 "saved.filter.all" = "Alle";
 "saved.filter.empty" = "Nichts gefunden";
+
+// Widget promo
+"settings.widget" = "Home-Bildschirm-Widget";
+"widget.promo.title" = "Weisheit auf deinem Home-Bildschirm";
+"widget.promo.subtitle" = "Jeden Tag ein neues stoisches Zitat — ganz ohne die App zu öffnen.";
+"widget.promo.sample_quote" = "Du hast Macht über deinen Geist — nicht über äußere Ereignisse.";
+"widget.promo.step1" = "Halte eine freie Stelle auf dem Home-Bildschirm gedrückt";
+"widget.promo.step2" = "Tippe oben auf die Taste +";
+"widget.promo.step3" = "Suche nach ScrollWisdom und tippe auf „Widget hinzufügen“";
+"widget.promo.done" = "Verstanden";
