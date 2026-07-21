@@ -202,8 +202,8 @@
 				2049987F2F7098C700159F11 /* Sources */,
 				204998802F7098C700159F11 /* Frameworks */,
 				204998812F7098C700159F11 /* Resources */,
-				208AA9832F7484D300C15ED2 /* Firebase Crashlytics dSYM Upload */,
 				205D53CE300EC4FB004DE859 /* Embed Foundation Extensions */,
+				208AA9832F7484D300C15ED2 /* Firebase Crashlytics dSYM Upload */,
 			);
 			buildRules = (
 			);
