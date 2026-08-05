@@ -4948,5 +4948,1265 @@
     "story": "Frost escreveu isso a partir de uma experiência pessoal — ele passou anos em luto e depressão que não conseguiu evitar. Cada tentativa de contornar a dor o levava de volta ao mesmo lugar. O que finalmente funcionou foi enfrentar isso diretamente, mergulhando na dor em vez de fugir dela.",
     "action": "Identifique uma experiência, conversa ou emoção difícil que você tem evitado. Comprometa-se a enfrentá-la esta semana — não a contorne, mas atravesse-a.",
     "topic": "psychology"
+  },
+  {
+    "id": "551",
+    "quote": "Temos dois ouvidos e uma só boca, portanto devemos ouvir mais do que falamos.",
+    "author": "Zenão de Cítio",
+    "source": "Diógenes Laércio, Vidas VII",
+    "story": "Zenão chegou a Atenas depois de um naufrágio em que perdeu um carregamento inteiro de púrpura. Começou a ensinar sob um pórtico pintado — a Stoa Poikile — que deu nome ao estoicismo. Seus alunos notavam que ele fazia muito mais perguntas do que respondia.",
+    "action": "Na sua próxima conversa, faça duas perguntas antes de dar uma única opinião. Repare em quanto você aprende do que teria encoberto falando.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "552",
+    "quote": "Você poderia deixar a vida agora mesmo. Que isso determine o que você faz, diz e pensa.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro II",
+    "story": "Marco escreveu isso na fronteira do Danúbio, num acampamento onde homens morriam toda semana de peste e ferimentos. O general romano em triunfo era seguido por um escravo que lhe sussurrava que era mortal. Marco não precisava de escravo: escrevia o lembrete a si mesmo toda manhã.",
+    "action": "Antes da sua próxima decisão hoje, pergunte: 'Se esta fosse minha última semana, eu faria assim?' Mude uma coisa com base na resposta.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "553",
+    "quote": "Enquanto viver, continue aprendendo a viver.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 76",
+    "story": "Sêneca escreveu isso por volta dos sessenta e cinco anos, após décadas no senado, oito anos de exílio na Córsega e anos ao lado de Nero. Tinha visto homens poderosos chegarem ao fim sem jamais terem aprendido a única habilidade que importava. Ele ainda frequentava aulas.",
+    "action": "Escolha algo que você trata como já dominado: paciência, escuta, sono. Dedique quinze minutos hoje a estudá-lo como se fosse um iniciante completo.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "554",
+    "quote": "Qualquer pessoa capaz de irritar você torna-se seu dono.",
+    "author": "Epicteto",
+    "source": "Diatribes, Livro I",
+    "story": "Epicteto nasceu escravo na Frígia e ficou permanentemente coxo por causa de uma lesão provocada por seu proprietário. Sabia exatamente o que era ser propriedade de outro, e por isso escolheu essa palavra de propósito: a raiva entrega a alguém o mesmo poder de um dono sobre um escravo.",
+    "action": "Nomeie a pessoa que mais confiavelmente irrita você. Da próxima vez, fique dez segundos em silêncio antes de responder. Essa pausa é a posse que você retoma.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "555",
+    "quote": "Deixe de esperar e deixará de temer.",
+    "author": "Hecatão de Rodes",
+    "source": "Citado em Sêneca, Cartas 5",
+    "story": "Quase nada do que Hecatão escreveu sobreviveu; esta linha chegou até nós apenas porque Sêneca a copiou numa carta a um amigo. Sua ideia era que esperança e medo são um único movimento da mente, não dois: ambos abandonam o presente por um futuro imaginado que ainda não chegou.",
+    "action": "Escreva algo que você espera e algo que teme. Repare que tratam da mesma incógnita. Nomeie uma ação que possa fazer hoje independentemente do desfecho.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "556",
+    "quote": "Tudo o que ouvimos é uma opinião, não um fato. Tudo o que vemos é uma perspectiva, não a verdade.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro IV",
+    "story": "Como imperador, Marco estava cercado de conselheiros, generais e informantes, e todos apresentavam sua interpretação como fato. Seu diário particular era o único lugar em que podia separar o que de fato havia acontecido daquilo que lhe contaram a respeito.",
+    "action": "Pegue algo que o incomodou nesta semana. Escreva os fatos nus numa frase e sua interpretação em outra. Leia as duas lado a lado.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "557",
+    "quote": "O destino conduz quem consente e arrasta quem resiste.",
+    "author": "Cleantes",
+    "source": "Citado em Sêneca, Cartas 107",
+    "story": "Cleantes foi pugilista e carregava água a noite inteira para pagar as aulas de filosofia durante o dia; depois sucedeu Zenão à frente da Stoa. Sêneca deu seu verso em latim: ducunt volentem fata, nolentem trahunt. Você chega de todo modo — a única escolha é a postura.",
+    "action": "Nomeie algo que não pode mudar e com que ainda discute. Diga em voz alta: 'Isto está acontecendo.' Depois dê o passo que a situação realmente exige.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "558",
+    "quote": "A virtude não é apenas conhecimento teórico; é também prática.",
+    "author": "Musônio Rufo",
+    "source": "Preleções, Sobre o treinamento",
+    "story": "Musônio ensinou Epicteto e foi exilado duas vezes por ensinar, uma delas por Nero para uma ilha pelada no Egeu. Julgava os alunos não pela elegância dos argumentos, mas por terem ou não mudado o modo como comiam, dormiam e tratavam as pessoas. Chamava filosofia de treino.",
+    "action": "Pegue um princípio em que você acredita mas não praticou nesta semana. Faça hoje uma versão pequena dele, antes de ler mais uma palavra a respeito.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "559",
+    "quote": "Ninguém é livre sendo escravo do próprio corpo.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 92",
+    "story": "Sêneca estava entre os homens mais ricos de Roma, com propriedades e uma fortuna contada em centenas de milhões de sestércios. Escreveu isso sabendo perfeitamente como o conforto prende. As exigências do corpo — comida, calor, sono, segurança — eram o dono de que ele advertia.",
+    "action": "Escolha um conforto que você busca automaticamente hoje: o lanche, o scroll a mais, o botão soneca. Pule-o uma vez de propósito e note o quanto a exigência grita.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "560",
+    "quote": "Retire sua opinião e a queixa estará retirada.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro IV",
+    "story": "Marco tomou esse recurso de Epicteto e foi afiando-o em seus cadernos. Relatos de traição, peste e rebelião chegavam toda semana. Percebeu que o relato em si nunca o feria: todo o dano vinha do veredicto que ele mesmo lhe acrescentava.",
+    "action": "Escreva uma queixa que você repetiu mais de duas vezes nesta semana. Risque cada palavra que seja um juízo e não um fato. Veja o que sobra.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "561",
+    "quote": "Só os educados são livres.",
+    "author": "Epicteto",
+    "source": "Diatribes, Livro II",
+    "story": "Por educação Epicteto não entendia escolarização, e sim treino naquilo que de fato depende de você. Liberto após a morte de Nero, abriu uma escola em Nicópolis e a encheu de homens legalmente livres que, a seu ver, pertenciam inteiramente aos próprios medos e apetites.",
+    "action": "Liste três coisas que governaram o seu dia. Marque cada uma como 'minha' ou 'não minha'. Dedique a primeira hora de amanhã apenas às marcadas como 'minha'.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "562",
+    "quote": "Qualquer um segura o leme quando o mar está calmo.",
+    "author": "Publílio Siro",
+    "source": "Sentenças",
+    "story": "Publílio chegou a Roma como escravo sírio, conquistou a liberdade apenas pela agudeza e ficou famoso improvisando máximas de uma linha no palco. Seus versos serviram de livro escolar por séculos justamente por terem sido testados em público e em tempo real, diante de plateias hostis.",
+    "action": "Pense numa habilidade que você tem certeza de possuir. Encontre a versão dela que só aparece sob pressão e pratique essa versão uma vez hoje.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "563",
+    "quote": "É áspera a estrada que leva às alturas da grandeza.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 84",
+    "story": "Sêneca escreveu isso a Lucílio, um governador provincial que se queixava de que a ambição lhe custava a paz. Sêneca havia feito fortuna, perdido tudo, passado oito anos exilado na Córsega e voltado a arranhar seu lugar ao lado do imperador. Jamais chamou esse caminho de suave.",
+    "action": "Nomeie a parte mais dura do que você persegue agora. Escreva-a como fato, não como problema. Depois faça os próximos quinze minutos dela.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "564",
+    "quote": "Ninguém entra duas vezes no mesmo rio: não é o mesmo rio, e ele não é o mesmo homem.",
+    "author": "Heráclito",
+    "source": "Fragmentos",
+    "story": "Heráclito viveu em Éfeso dois séculos antes da Stoa, e os estoicos tomaram sua doutrina do fluxo constante como pedra fundamental. Cedeu a realeza hereditária ao irmão e escreveu deliberadamente em enigmas. Só sobrevivem fragmentos citados por autores posteriores.",
+    "action": "Pense em alguém sobre quem você já formou juízo. Faça-lhe hoje uma pergunta que pressuponha que ele mudou desde a última vez que você olhou.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "565",
+    "quote": "Limite-se ao presente.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro VII",
+    "story": "Marco usou duas palavras em grego onde um escritor menor teria usado um parágrafo. Travava uma guerra que nunca quis, num clima que detestava, num corpo que ia falhando sem pausa. O momento presente era o único território que ele conseguia de fato manter.",
+    "action": "Ponha um cronômetro de vinte e cinco minutos e trabalhe numa única coisa com o celular em outro cômodo. Quando a mente sair, anote para onde foi e traga-a de volta.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "566",
+    "quote": "Nada prova melhor uma mente ordenada do que a capacidade de parar onde você está e passar tempo na própria companhia.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 2",
+    "story": "Sêneca abriu sua correspondência com Lucílio atacando a inquietude: as viagens constantes, as amizades novas e as distrações frescas com que os romanos de sua classe fugiam de si mesmos. O exílio na Córsega o obrigara à própria companhia, e ele a achara suportável.",
+    "action": "Caminhe quinze minutos hoje sem celular, sem música e sem podcast. Deixe o desconforto dos seus próprios pensamentos chegar e permaneça com ele.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "567",
+    "quote": "Aprenda primeiro o significado do que você diz e só depois fale.",
+    "author": "Epicteto",
+    "source": "Diatribes, Livro III",
+    "story": "Epicteto nunca escreveu uma linha; foi seu aluno Arriano quem anotou as aulas. Ele passava sessões inteiras desmontando o vocabulário dos alunos, mostrando que usavam diariamente palavras como 'bom', 'terrível' e 'insuportável' sem jamais terem definido nenhuma delas.",
+    "action": "Pegue uma palavra que você usou hoje sobre sua situação: 'impossível', 'injusto', 'desastre'. Escreva uma definição de uma frase e verifique se a situação se encaixa.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "568",
+    "quote": "Só começo a falar quando tenho certeza de que o que vou dizer não é melhor deixar por dizer.",
+    "author": "Catão, o Jovem",
+    "source": "Plutarco, Vida de Catão, o Jovem",
+    "story": "No Senado romano, Catão era famoso por quase sempre calar e por tornar-se impossível de remover assim que falava. Plutarco registra que ele treinava o silêncio deliberadamente. Seus adversários acabaram achando as pausas dele mais perturbadoras do que os argumentos.",
+    "action": "Numa reunião ou conversa de hoje, segure inteiramente o seu primeiro comentário. Diga apenas o que cinco minutos depois ainda parecer digno de ser dito.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "569",
+    "quote": "O maior obstáculo à vida é a expectativa, que se pendura no amanhã e perde o hoje.",
+    "author": "Sêneca",
+    "source": "Sobre a brevidade da vida",
+    "story": "Sêneca escreveu este ensaio para Paulino, o funcionário encarregado do abastecimento de trigo de Roma — um homem cuja existência inteira se organizava em torno de uma entrega que ainda não chegara. Seu argumento: Paulino não tinha falta de tempo, apenas gastara tudo no amanhã.",
+    "action": "Encontre na sua agenda algo que existe só para preparar algo posterior. Cancele ou reduza pela metade e use esse tempo em algo que conte hoje.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "570",
+    "quote": "Tudo o que acontece é suportável ou não é.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro X",
+    "story": "Marco reduziu toda queixa a uma única bifurcação. Se a coisa pode ser carregada, carregue-a e largue o protesto; se de fato não pode, ela acaba com você, e o protesto acaba junto. Escreveu isso enquanto uma peste imparável atravessava suas legiões na fronteira.",
+    "action": "Pegue aquilo de que mais se queixou nesta semana e diga em voz alta qual das duas coisas é. Se for suportável, pare de narrá-lo por um dia inteiro.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "571",
+    "quote": "Ao amanhecer, quando custar sair da cama, diga a si mesmo: tenho de ir trabalhar — como ser humano.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro V",
+    "story": "Marco escreveu essa passagem como uma discussão consigo mesmo antes do amanhecer, listando de antemão cada desculpa que esperava dar. Tinha mais de cinquenta anos, era doente crônico e também não queria levantar. A anotação existe porque ele perdia essa discussão toda manhã.",
+    "action": "Decida hoje à noite qual será a primeira tarefa de amanhã de manhã. Escreva num papel e deixe onde seus pés vão pousar ao sair da cama.",
+    "topic": "discipline"
+  },
+  {
+    "id": "572",
+    "quote": "Não é porque as coisas são difíceis que não ousamos; é porque não ousamos que elas são difíceis.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 104",
+    "story": "Sêneca escreveu isso a Lucílio, que adiava uma decisão chamando-a de complicada. Sêneca vira a política romana premiar quem se movia primeiro e arruinar quem deliberava. A dificuldade, argumentava, costuma ser efeito da hesitação, e não a sua causa.",
+    "action": "Pegue a tarefa que você já empurrou três vezes para a lista de amanhã. Faça a menor versão possível nos próximos dez minutos — fazer mal também conta.",
+    "topic": "discipline"
+  },
+  {
+    "id": "573",
+    "quote": "Não faça nada que não sirva para nada.",
+    "author": "Miyamoto Musashi",
+    "source": "O Livro dos Cinco Anéis",
+    "story": "Musashi travou mais de sessenta duelos sem perder nenhum e passou seus últimos anos numa caverna, escrevendo o que havia aprendido. Suas regras são despidas de qualquer ornamento. Esta ocupa uma única linha num capítulo que de resto parece um plano de treino.",
+    "action": "Liste tudo o que você fez hoje. Marque os itens que não produziram absolutamente nada. Remova um deles inteiramente do dia de amanhã.",
+    "topic": "discipline"
+  },
+  {
+    "id": "574",
+    "quote": "Pergunte a si mesmo a cada instante: isto é necessário?",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro IV",
+    "story": "Marco usava isso como um filtro aplicado várias vezes ao dia, e anotou que ele cortava não só as ações desnecessárias, mas os pensamentos desnecessários por trás delas. Governava um império e uma guerra de fronteira, e o tempo era o único recurso que ele não podia aumentar.",
+    "action": "Antes das suas próximas três tarefas, pergunte: 'Isto é necessário?' Descarte a primeira que não passar no teste e não a substitua por nada.",
+    "topic": "discipline"
+  },
+  {
+    "id": "575",
+    "quote": "Não perca tempo; esteja sempre ocupado em algo útil; corte todas as ações desnecessárias.",
+    "author": "Benjamin Franklin",
+    "source": "Autobiografia",
+    "story": "Aos vinte anos, Franklin redigiu treze virtudes e carregava um caderninho riscado em grade, marcando um ponto preto sempre que quebrava uma delas. Laboriosidade era a sexta. Admitia abertamente jamais ter dominado a lista, mas carregou o caderno pelo resto da vida.",
+    "action": "Escolha uma virtude para sustentar esta semana. Desenhe uma grade de sete casas e marque com honestidade toda noite. Não conserte as falhas: apenas registre.",
+    "topic": "discipline"
+  },
+  {
+    "id": "576",
+    "quote": "Uma pequena tarefa diária, se for realmente diária, vence os trabalhos de um Hércules espasmódico.",
+    "author": "Anthony Trollope",
+    "source": "Uma autobiografia",
+    "story": "Trollope escreveu quarenta e sete romances enquanto trabalhava em tempo integral nos Correios: levantava às cinco e meia e produzia 250 palavras a cada quinze minutos até o café. Se um romance acabava no meio da sessão, começava o seguinte na mesma página.",
+    "action": "Defina uma cota de palavras, páginas ou repetições que você cumpriria no seu pior dia. Faça exatamente essa hoje, mesmo se sentindo capaz de dez vezes mais.",
+    "topic": "discipline"
+  },
+  {
+    "id": "577",
+    "quote": "Nada cansa tanto quanto a permanência eterna de uma tarefa inacabada.",
+    "author": "William James",
+    "source": "Princípios de psicologia",
+    "story": "James passou anos de indecisão paralisante antes de construir sua psicologia do hábito. Sustentava que tarefas inacabadas permanecem ativas na mente, consumindo energia em silêncio, e que carregar uma costuma custar mais caro do que simplesmente fazê-la.",
+    "action": "Liste todas as tarefas inacabadas que estão roendo você. Encontre a que levaria menos de cinco minutos e termine-a agora mesmo.",
+    "topic": "discipline"
+  },
+  {
+    "id": "578",
+    "quote": "A dor é inevitável. O sofrimento é opcional.",
+    "author": "Haruki Murakami",
+    "source": "Do que eu falo quando eu falo de corrida",
+    "story": "Murakami fechou seu bar de jazz aos trinta e três anos, começou a correr e desde então termina uma maratona quase todo ano. Ele descreve a frase como um mantra de corredores: a queimação nas pernas é um fato, o veredicto de que é insuportável não é.",
+    "action": "No seu próximo esforço duro — treino, ligação difícil, hora entediante — nomeie a sensação como fato uma vez e depois pare completamente de comentá-la.",
+    "topic": "discipline"
+  },
+  {
+    "id": "579",
+    "quote": "O modo como passamos nossos dias é, claro, o modo como passamos nossa vida.",
+    "author": "Annie Dillard",
+    "source": "Uma vida de escrita",
+    "story": "Dillard escreveu este livro numa cabana cuja janela ela pintou de propósito, para que nada competisse com a página. A frase soa como aritmética, não poesia: aquilo que preenche uma terça-feira comum é aquilo de que a vida terá sido feita.",
+    "action": "Anote como você realmente passou ontem, hora a hora. Olhe para os totais e pergunte se essa é a vida que você pretende ter.",
+    "topic": "discipline"
+  },
+  {
+    "id": "580",
+    "quote": "Nada grande se cria de repente, tampouco um cacho de uvas ou um figo.",
+    "author": "Epicteto",
+    "source": "Diatribes, Livro I",
+    "story": "Epicteto recorria a imagens agrícolas sempre que os alunos exigiam resultados imediatos. Apontava que eles aceitavam sem discussão os meses de que um figo precisa para amadurecer, mas esperavam que o próprio caráter mudasse numa única tarde.",
+    "action": "Nomeie uma mudança que você vem tentando fazer. Dê a ela um prazo honesto em meses, não em dias, e escreva qual é a parcela que cabe ao dia de hoje.",
+    "topic": "discipline"
+  },
+  {
+    "id": "581",
+    "quote": "Se você juntar pouco a pouco, e fizer isso com frequência, o pouco logo se tornará muito.",
+    "author": "Hesíodo",
+    "source": "Os trabalhos e os dias",
+    "story": "Hesíodo era um agricultor da Beócia por volta de 700 a.C. e escreveu um longo poema de conselhos práticos para o irmão gastador, Perses. Quase tudo trata de prazos, armazenamento e acúmulo: a aritmética sem brilho que separava uma casa alimentada de uma faminta.",
+    "action": "Escolha um número que queira fazer crescer: poupança, páginas, passos. Acrescente hoje uma quantia deliberadamente pequena e amanhã a mesma, sem aumentá-la.",
+    "topic": "discipline"
+  },
+  {
+    "id": "582",
+    "quote": "Nada é mais forte do que o hábito.",
+    "author": "Ovídio",
+    "source": "A arte de amar",
+    "story": "Ovídio escreveu isso num manual sobre cortejo, mas a linha sobreviveu ao livro por dois mil anos. Mais tarde Augusto o exilou para uma cidade desolada no mar Negro, onde aprendeu na pele com que rapidez um hábito de conforto é substituído por um hábito de resistência.",
+    "action": "Escolha um hábito que queira encerrar. Em vez de resistir, decida com antecedência exatamente o que fará no momento em que ele costuma começar.",
+    "topic": "discipline"
+  },
+  {
+    "id": "583",
+    "quote": "Tornamo-nos justos praticando atos justos, moderados praticando atos moderados, corajosos praticando atos corajosos.",
+    "author": "Aristóteles",
+    "source": "Ética a Nicômaco, Livro II",
+    "story": "Foi exatamente nesse ponto que Aristóteles rompeu com seu mestre Platão. A virtude não era um conhecimento no qual se pudesse convencer alguém; era o resíduo deixado pela ação repetida. Ele a comparava a aprender um instrumento: ninguém vira construtor estudando construção.",
+    "action": "Escolha uma qualidade que queira ter. Identifique o menor ato que a demonstra e execute esse ato uma vez hoje, antes de pensar mais a respeito.",
+    "topic": "discipline"
+  },
+  {
+    "id": "584",
+    "quote": "Os dois guerreiros mais poderosos são a paciência e o tempo.",
+    "author": "Liev Tolstói",
+    "source": "Guerra e paz",
+    "story": "A frase pertence a Kutuzov, o general que Tolstói retrata vencendo justamente por recusar o combate. Diante do avanço de Napoleão, recusou a batalha, recuou e deixou o inverno e a distância destruírem um exército que não conseguiria derrotar de frente.",
+    "action": "Identifique algo que você vem forçando. Hoje não faça nada a respeito, de propósito, e anote o que mudou por conta própria até amanhã.",
+    "topic": "discipline"
+  },
+  {
+    "id": "585",
+    "quote": "Se as pessoas soubessem quanto trabalhei para alcançar minha maestria, ela não pareceria tão maravilhosa.",
+    "author": "Michelangelo",
+    "source": "Atribuído",
+    "story": "Michelangelo passou quatro anos deitado de costas pintando o teto da Capela Sistina e deixou cadernos cheios dos mesmos estudos anatômicos repetidos centenas de vezes. Os contemporâneos falavam em dom divino; ele descrevia aquilo, repetidamente, como trabalho.",
+    "action": "Pense em alguém cuja habilidade você inveja. Descubra quanto tempo essa pessoa realmente praticou antes de ser notada e compare honestamente com o seu prazo.",
+    "topic": "discipline"
+  },
+  {
+    "id": "586",
+    "quote": "Se não há luta, não há progresso.",
+    "author": "Frederick Douglass",
+    "source": "Discurso sobre a emancipação nas Índias Ocidentais, 1857",
+    "story": "Douglass escapou da escravidão aos vinte anos e passou o resto da vida como orador, editor e conselheiro de presidentes. Disse essa frase a abolicionistas que esperavam mudança sem confronto: o poder não concede nada enquanto ninguém exigir.",
+    "action": "Nomeie a parte do seu objetivo que você tenta alcançar sem dificuldade. Aceite a dificuldade como parte do preço e coloque-a na agenda desta semana.",
+    "topic": "discipline"
+  },
+  {
+    "id": "587",
+    "quote": "O acaso favorece apenas a mente preparada.",
+    "author": "Louis Pasteur",
+    "source": "Conferência em Lille, 1854",
+    "story": "Pasteur disse isso numa conferência em Lille, contando como uma observação casual numa cultura estragada levara a uma descoberta. Seu argumento era que o acaso em si era comum; raro era uma mente preparada o bastante para reconhecer o que estava vendo.",
+    "action": "Dedique vinte minutos hoje a preparar-se para uma oportunidade que ainda não enxerga: ler, praticar ou organizar algo dentro da área que importa para você.",
+    "topic": "discipline"
+  },
+  {
+    "id": "588",
+    "quote": "De longe o melhor prêmio que a vida oferece é a chance de trabalhar duro em algo que valha a pena.",
+    "author": "Theodore Roosevelt",
+    "source": "Discurso do Dia do Trabalho, 1903",
+    "story": "Roosevelt foi uma criança asmática e doentia a quem o pai disse sem rodeios que teria de fabricar o próprio corpo. Construiu-se com boxe, vida de rancho e rotina implacável, e proferiu esta frase no Dia do Trabalho de 1903, já como presidente.",
+    "action": "Nomeie a parte do seu trabalho que realmente vale a pena. Dê a ela amanhã a sua primeira e mais fresca hora, em vez das sobras do dia.",
+    "topic": "discipline"
+  },
+  {
+    "id": "589",
+    "quote": "Só escrevo quando a inspiração chega. Felizmente, ela chega toda manhã às nove em ponto.",
+    "author": "W. Somerset Maugham",
+    "source": "Atribuído",
+    "story": "Maugham escreveu com regularidade toda manhã por mais de sessenta anos e publicou mais de setenta livros. A piada esconde um método sério: ele havia removido do processo a pergunta sobre estar ou não com vontade de escrever, deixando apenas o horário.",
+    "action": "Fixe um horário de início para o trabalho que mais importa e cumpra-o amanhã independentemente do humor. Julgue o dia por ter começado, não pelo que saiu.",
+    "topic": "discipline"
+  },
+  {
+    "id": "590",
+    "quote": "A vida não é fácil para nenhum de nós. Mas é preciso perseverança e, acima de tudo, confiança em si mesmo.",
+    "author": "Marie Curie",
+    "source": "Cartas",
+    "story": "Curie processou toneladas de pechblenda à mão num galpão com goteiras para isolar uma fração de grama de rádio, teve a entrada negada na Academia de Ciências francesa e acabou ganhando dois prêmios Nobel. Escreveu isso quando ainda não era reconhecida por ninguém.",
+    "action": "Anote uma coisa difícil que você faz agora sem reconhecimento algum. Registre por que vale a pena continuar e guarde o bilhete onde possa vê-lo na próxima semana.",
+    "topic": "discipline"
+  },
+  {
+    "id": "591",
+    "quote": "Quando falta saúde, a sabedoria não pode se revelar, a força não pode lutar e a riqueza se torna inútil.",
+    "author": "Herófilo",
+    "source": "Atribuído",
+    "story": "Herófilo trabalhou em Alexandria por volta de 300 a.C. e foi um dos primeiros a dissecar o corpo humano de forma sistemática, separando nervos de tendões e transformando o pulso em ferramenta de diagnóstico. Pôs a saúde em primeiro lugar porque viu tudo o mais ruir sem ela.",
+    "action": "Nomeie o hábito de saúde que você mais deixou cair. Restaure hoje a versão menor dele, em vez da versão ideal no mês que vem.",
+    "topic": "health"
+  },
+  {
+    "id": "592",
+    "quote": "O médico do futuro não dará remédios, mas interessará seus pacientes pelo cuidado do corpo, pela dieta e pelas causas da doença.",
+    "author": "Thomas Edison",
+    "source": "Entrevista, 1903",
+    "story": "Edison disse isso a um jornalista em 1903, quando a medicina ainda era quase inteiramente reativa. Ele próprio trabalhava dezoito horas por dia e dormia em surtos, de modo que o conselho era mais aspiração que autobiografia — mas descreveu a virada para a prevenção um século antes.",
+    "action": "Escolha algo que você hoje resolve com um comprimido, um café ou um improviso. Passe dez minutos descobrindo o que de fato está causando aquilo.",
+    "topic": "health"
+  },
+  {
+    "id": "593",
+    "quote": "A doença é um impedimento para o corpo, mas não para a vontade.",
+    "author": "Epicteto",
+    "source": "Encheirídion, 9",
+    "story": "Epicteto foi coxo a vida inteira e ensinava num quarto com um catre de palha e uma lamparina de barro. Traçava uma linha que seus alunos custavam a aceitar: a perna está impedida, a escolha não. Ele falava do próprio corpo, não de um corpo hipotético.",
+    "action": "Nomeie uma coisa que o seu corpo realmente não pode fazer hoje. Depois nomeie uma que ele ainda pode, e faça essa antes que o dia acabe.",
+    "topic": "health"
+  },
+  {
+    "id": "594",
+    "quote": "Só o exercício sustenta o ânimo e mantém a mente vigorosa.",
+    "author": "Cícero",
+    "source": "Sobre a velhice",
+    "story": "Cícero escreveu Sobre a velhice aos sessenta e dois anos, na prática afastado da Roma que um dia liderara. Pôs o argumento na boca de Catão, o Velho, que aos oitenta ainda trabalhava a própria fazenda — retrato construído para sustentar que o declínio é sobretudo questão de hábito.",
+    "action": "Acrescente hoje um esforço físico deliberado que você normalmente evitaria: escada em vez do elevador, uma caminhada em vez de uma mensagem.",
+    "topic": "health"
+  },
+  {
+    "id": "595",
+    "quote": "É uma vergonha envelhecer sem ter visto a beleza e a força de que o próprio corpo é capaz.",
+    "author": "Sócrates",
+    "source": "Xenofonte, Memoráveis",
+    "story": "Xenofonte registrou essas palavras de Sócrates dirigidas a um jovem ateniense que julgava o treino físico indigno de um homem pensante. Sócrates marchara como hoplita de armadura pesada em Potideia e Délion, e era famoso por suportar frios que quebravam soldados bem mais jovens.",
+    "action": "Descubra um número honesto sobre a sua condição atual: pulso em repouso, passos por dia, quanto você caminha sem parar. Anote-o como ponto de partida.",
+    "topic": "health"
+  },
+  {
+    "id": "596",
+    "quote": "Preservar a saúde é um dever. Poucos parecem perceber que existe algo como uma moralidade física.",
+    "author": "Herbert Spencer",
+    "source": "Educação intelectual, moral e física",
+    "story": "Spencer cunhou a expressão 'sobrevivência do mais apto' e passou a própria vida com saúde frágil, muitas vezes incapaz de escrever mais que algumas horas por dia. Sustentava que negligenciar o corpo era um fracasso moral, e não apenas um azar.",
+    "action": "Escolha um dever físico que você cumpriria sem discutir por alguém que ama — sono, comida, movimento. Cumpra-o hoje por si mesmo, no mesmo padrão.",
+    "topic": "health"
+  },
+  {
+    "id": "597",
+    "quote": "A boa forma física é o primeiro requisito da felicidade.",
+    "author": "Joseph Pilates",
+    "source": "Retorno à vida pela contrologia",
+    "story": "Pilates foi uma criança doente, com asma e raquitismo, que reconstruiu o corpo com ginástica e boxe. Internado na Grã-Bretanha durante a Primeira Guerra Mundial, treinava os companheiros e adaptou molas de cama em aparelhos de resistência para os que não conseguiam levantar.",
+    "action": "Faça hoje cinco minutos de movimento sem outro objetivo além de tê-lo feito. Se estiver doente ou exausto, faça deitado — mas faça.",
+    "topic": "health"
+  },
+  {
+    "id": "598",
+    "quote": "A apreensão, a incerteza, a espera e o medo da surpresa causam ao doente mais dano do que qualquer esforço.",
+    "author": "Florence Nightingale",
+    "source": "Notas sobre enfermagem",
+    "story": "Nightingale reduziu as mortes no hospital de barracas de Scutari atacando ventilação, água e alimentação antes das feridas. Notou que os pacientes pioravam mais rápido enquanto esperavam notícias, e sustentou que a incerteza causava dano físico mensurável.",
+    "action": "Identifique um assunto pendente que você fica checando o tempo todo. Marque um único horário hoje para lidar com ele e deixe-o totalmente em paz até lá.",
+    "topic": "health"
+  },
+  {
+    "id": "599",
+    "quote": "Descanse; o campo que descansou dá colheita abundante.",
+    "author": "Ovídio",
+    "source": "Heroides",
+    "story": "Ovídio tirou a imagem diretamente da agricultura romana, em que os campos eram deixados em pousio por rodízio porque a prática rendia colheitas visivelmente melhores. Ele a aplicou às pessoas num momento em que a vida pública romana premiava a visibilidade incessante.",
+    "action": "Agende esta semana uma hora genuinamente vazia: sem planos, sem tela, sem tarefa. Defenda-a com a mesma firmeza com que defenderia uma reunião.",
+    "topic": "health"
+  },
+  {
+    "id": "600",
+    "quote": "A saúde não é valorizada até que a doença chegue.",
+    "author": "Thomas Fuller",
+    "source": "Gnomologia",
+    "story": "Fuller foi um médico e escritor inglês do século XVII que reuniu milhares de provérbios num único volume. Atravessou anos de peste e uma guerra civil, e sua coletânea é incomumente franca sobre a rapidez com que as pessoas esquecem o que tinham até perderem.",
+    "action": "Anote três coisas que o seu corpo fez por você hoje sem que fosse pedido. Repare que nenhuma delas exigiu a sua atenção até este momento.",
+    "topic": "health"
+  },
+  {
+    "id": "601",
+    "quote": "A comida que você ingere pode ser o remédio mais seguro e potente ou a forma mais lenta de veneno.",
+    "author": "Ann Wigmore",
+    "source": "Atribuído",
+    "story": "Wigmore sobreviveu à Segunda Guerra Mundial na Lituânia quando criança e depois fundou um instituto de saúde em Boston, onde passou décadas defendendo que as refeições comuns eram o remédio mais subutilizado que existe. Sua formulação é deliberadamente dura: comida nunca é neutra.",
+    "action": "Olhe para aquilo que você come com mais frequência. Decida com honestidade se está mais perto do remédio ou do veneno, e não mude mais nada nesta semana.",
+    "topic": "health"
+  },
+  {
+    "id": "602",
+    "quote": "Nenhuma doença que possa ser tratada pela dieta deveria ser tratada por outro meio.",
+    "author": "Maimônides",
+    "source": "Mishné Torá",
+    "story": "Maimônides era ao mesmo tempo rabino e médico pessoal do vizir do sultão no Cairo, cavalgando diariamente entre o palácio e uma fila de pacientes à sua porta. Seus escritos médicos insistem repetidamente: dieta, sono e exercício são os primeiros instrumentos, e os fármacos os últimos.",
+    "action": "Pegue uma queixa menor que você tenha: energia, digestão, sono. Mude uma única coisa que come ou bebe por uma semana antes de cogitar algo mais forte.",
+    "topic": "health"
+  },
+  {
+    "id": "603",
+    "quote": "Todas as coisas são veneno e nada existe sem veneno; só a dose faz com que algo não seja veneno.",
+    "author": "Paracelso",
+    "source": "Terceira defesa, 1538",
+    "story": "Paracelso queimou publicamente em Basileia os manuais de Galeno e exigiu que os médicos aprendessem com mineiros, barbeiros e velhas em vez da autoridade antiga. Essa linha fundou a toxicologia: nada é seguro ou nocivo em si mesmo, apenas em quantidade.",
+    "action": "Escolha algo que você consome e já rotulou como saudável ou não saudável. Pare de julgar a substância e simplesmente meça a quantidade por três dias.",
+    "topic": "health"
+  },
+  {
+    "id": "604",
+    "quote": "Um corpo débil enfraquece a mente.",
+    "author": "Jean-Jacques Rousseau",
+    "source": "Emílio, ou Da educação",
+    "story": "Rousseau escreveu Emílio como plano de uma educação inteira e insistiu que o corpo fosse treinado muito antes do intelecto. Vira os salões parisienses se encherem de gente brilhante e exausta, e sustentava que o pensamento se alimenta do vigor físico em vez de substituí-lo.",
+    "action": "Quando o pensamento travar hoje, trate-o primeiro como um problema do corpo: levante, caminhe, beba água e só então volte à questão.",
+    "topic": "health"
+  },
+  {
+    "id": "605",
+    "quote": "O bom médico trata a doença; o grande médico trata o paciente que tem a doença.",
+    "author": "William Osler",
+    "source": "Atribuído",
+    "story": "Osler criou a residência médica moderna e insistiu que os estudantes aprendessem à beira do leito, e não em auditórios. Era conhecido por perguntar aos pacientes sobre trabalho, sono e casa antes dos sintomas, sob o argumento de que a doença era só parte do quadro.",
+    "action": "Da próxima vez que descrever um problema de saúde — seu ou de outra pessoa — descreva também como foi a semana dessa pessoa, ao lado do sintoma.",
+    "topic": "health"
+  },
+  {
+    "id": "606",
+    "quote": "Nunca nos arrependemos de ter comido pouco demais.",
+    "author": "Thomas Jefferson",
+    "source": "Carta a Thomas Jefferson Smith, 1825",
+    "story": "Jefferson escreveu isso numa breve lista de máximas enviada a um afilhado homônimo no último ano de vida. Comia sobretudo vegetais, tratava a carne como tempero e não como prato, e caminhava diariamente passados os oitenta, sobrevivendo a quase todos os contemporâneos.",
+    "action": "Na próxima refeição, pare enquanto ainda comeria mais com conforto. Repare como se sente duas horas depois e anote a diferença.",
+    "topic": "health"
+  },
+  {
+    "id": "607",
+    "quote": "Em toda caminhada pela natureza recebemos muito mais do que buscamos.",
+    "author": "John Muir",
+    "source": "Atribuído",
+    "story": "Muir caminhou mil e seiscentos quilômetros de Indiana até a Flórida, sobreviveu a uma queda numa fenda de geleira e passou noites sozinho nas cristas da Sierra sob um clima que teria matado alguém menos preparado. Sua campanha criou Yosemite. Descrevia as montanhas como tratamento.",
+    "action": "Faça a caminhada de hoje onde haja árvores, água ou céu aberto, em vez do seu trajeto habitual. Deixe os fones em casa.",
+    "topic": "health"
+  },
+  {
+    "id": "608",
+    "quote": "Viver não é apenas estar vivo, é estar bem.",
+    "author": "Marcial",
+    "source": "Epigramas, Livro VI",
+    "story": "Marcial passou trinta e cinco anos em Roma escrevendo epigramas para patronos ricos antes de voltar à Espanha natal, esgotado pelo barulho, pelas obrigações e pelos jantares intermináveis da cidade. Esta linha é seu veredicto sobre a diferença entre sobreviver a Roma e viver.",
+    "action": "Nomeie a parte da sua semana que você apenas sobrevive. Mude amanhã um detalhe concreto dela: o horário, o lugar ou a companhia.",
+    "topic": "health"
+  },
+  {
+    "id": "609",
+    "quote": "Cuide da sua saúde; e se a tiver, valorize-a logo depois de uma boa consciência.",
+    "author": "Izaak Walton",
+    "source": "O pescador completo",
+    "story": "Walton escreveu seu livro durante a guerra civil inglesa, apresentando a pesca como cura para um país que se despedaçava. Viveu até os noventa anos, idade extraordinária no século XVII, e colocou a saúde logo atrás da consciência em sua lista de bens.",
+    "action": "Liste com honestidade suas prioridades atuais no papel. Se a saúde estiver abaixo do quarto lugar, mova um item para baixo dela e aja assim nesta semana.",
+    "topic": "health"
+  },
+  {
+    "id": "610",
+    "quote": "Não se pode pensar bem, amar bem nem dormir bem se não se jantou bem.",
+    "author": "Virginia Woolf",
+    "source": "Um teto todo seu",
+    "story": "Woolf escreveu isso depois de receber uma refeição magra e sem alegria num colégio feminino e outra opulenta num masculino na mesma viagem. Seu argumento era material, não sentimental: o trabalho intelectual tem condições físicas, e negá-las é sabotagem, não disciplina.",
+    "action": "Dê a uma refeição de hoje toda a sua atenção: sem tela, sem trabalho, sem comer de pé na bancada. Repare no que muda na hora seguinte.",
+    "topic": "health"
+  },
+  {
+    "id": "611",
+    "quote": "Para muitos homens, adquirir riqueza não põe fim aos problemas: apenas os transforma.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 17",
+    "story": "A fortuna de Sêneca girava em torno de trezentos milhões de sestércios, e no Senado ele foi acusado de emprestar dinheiro a juros pesados na Britânia. Escrevia sobre riqueza como quem a possuía, e suas cartas voltam sempre à descoberta de que as angústias só mudam de forma.",
+    "action": "Nomeie uma preocupação que você espera que o dinheiro elimine. Escreva com honestidade qual preocupação tomaria o lugar dela e decida se a troca compensa.",
+    "topic": "money"
+  },
+  {
+    "id": "612",
+    "quote": "Compre não o que você quer, mas o de que precisa; o que não é preciso é caro mesmo custando um tostão.",
+    "author": "Catão, o Velho",
+    "source": "Citado em Sêneca, Cartas 94",
+    "story": "Catão foi um censor romano célebre pela parcimônia extrema: vendia bois gastos, viajava sem carruagem e fiscalizava os gastos públicos sem piedade. Sêneca citou essa linha para mostrar que preço e custo não são, de modo algum, a mesma medida.",
+    "action": "Antes da próxima compra dispensável, pergunte se você ainda a quereria caso fosse grátis, mas tivesse de ser guardada, limpa e um dia descartada.",
+    "topic": "money"
+  },
+  {
+    "id": "613",
+    "quote": "Ao pobre falta muito; ao avarento, tudo.",
+    "author": "Publílio Siro",
+    "source": "Sentenças",
+    "story": "Publílio apresentava suas máximas nos palcos romanos e ganhou a liberdade graças à agudeza. Traçava uma distinção que a plateia reconhecia de imediato: a pobreza tem um limite porque a necessidade tem, ao passo que a ganância não possui teto algum.",
+    "action": "Escreva o valor que faria você se sentir seguro. Depois calcule que valor teria escrito cinco anos atrás. Compare os dois números.",
+    "topic": "money"
+  },
+  {
+    "id": "614",
+    "quote": "A avareza humana é insaciável.",
+    "author": "Aristóteles",
+    "source": "Política, Livro II",
+    "story": "Aristóteles escreveu isso ao criticar a proposta de Platão de abolir a propriedade privada. Sua objeção era que o problema não está na posse, e sim no apetite: redistribua tudo e a mesma fome simplesmente reaparece dentro do novo arranjo.",
+    "action": "Escolha uma categoria de gasto que cresceu silenciosamente junto com sua renda. Devolva-a por um mês ao valor que você gastava há dois anos.",
+    "topic": "money"
+  },
+  {
+    "id": "615",
+    "quote": "Não é da benevolência do açougueiro, do cervejeiro ou do padeiro que esperamos nosso jantar, mas do cuidado deles com o próprio interesse.",
+    "author": "Adam Smith",
+    "source": "A riqueza das nações",
+    "story": "Smith era filósofo moral e passou dez anos escrevendo A riqueza das nações, quase sempre na casa da mãe em Kirkcaldy. Seu ponto não era que a ganância seja boa, mas que um mercado funcional permite a desconhecidos servirem uns aos outros sem precisarem ser amigos.",
+    "action": "Olhe suas cinco últimas compras. Em cada uma, identifique o que o vendedor realmente ganhou. Repare se a troca parece justa dos dois lados.",
+    "topic": "money"
+  },
+  {
+    "id": "616",
+    "quote": "O preço real de tudo é o trabalho e o esforço de adquiri-lo.",
+    "author": "Adam Smith",
+    "source": "A riqueza das nações, Livro I",
+    "story": "Smith sustentava que o dinheiro é apenas um substituto de algo mais fundamental: as horas da sua vida que você trocou por ele. Sob essa definição, um objeto barato comprado com horas que você não podia dispensar não é nada barato.",
+    "action": "Pegue sua próxima compra planejada e divida o preço pela sua renda por hora. Decida se o objeto vale esse número de horas da sua vida.",
+    "topic": "money"
+  },
+  {
+    "id": "617",
+    "quote": "Melhor deitar sem jantar do que levantar endividado.",
+    "author": "Benjamin Franklin",
+    "source": "Almanaque do pobre Ricardo",
+    "story": "Franklin publicou o Almanaque do pobre Ricardo por vinte e cinco anos sob pseudônimo, enchendo-o de máximas sobre dívida dirigidas a fazendeiros e artesãos coloniais. Como jovem impressor esteve ele próprio endividado e descrevia esse estado como uma forma de servidão.",
+    "action": "Liste todas as suas dívidas, da menor para a maior. Pague hoje algo na menor delas, ainda que simbólico, e anote o novo saldo.",
+    "topic": "money"
+  },
+  {
+    "id": "618",
+    "quote": "Seja qual for o que você tem, gaste menos.",
+    "author": "Samuel Johnson",
+    "source": "Carta a James Boswell, 1779",
+    "story": "Johnson passou anos na pobreza em Londres, compilando um dicionário quase sozinho enquanto se esquivava dos credores. Ofereceu a Boswell toda a sabedoria financeira comprimida em poucas palavras, tendo testado o princípio primeiro pelo lado errado.",
+    "action": "Pegue sua maior despesa recorrente. Encontre um jeito de cortá-la em dez por cento neste mês e mova a diferença para um lugar de difícil acesso.",
+    "topic": "money"
+  },
+  {
+    "id": "619",
+    "quote": "Dinheiro é como um braço ou uma perna: use-o ou perca-o.",
+    "author": "Henry Ford",
+    "source": "Atribuído",
+    "story": "Ford dobrou em 1914 o salário dos operários para cinco dólares por dia, em parte para que pudessem comprar os carros que montavam. Tratava o dinheiro como circulação, e não como acumulação, e sua empresa cresceu exatamente na medida em que o dinheiro se movia.",
+    "action": "Encontre dinheiro parado: uma assinatura sem uso, uma conta adormecida, dinheiro sem função. Coloque-o para trabalhar ou libere-o antes que o dia acabe.",
+    "topic": "money"
+  },
+  {
+    "id": "620",
+    "quote": "Se você deve cem libras ao banco, o problema é seu. Se deve um milhão, o problema é do banco.",
+    "author": "J. Paul Getty",
+    "source": "Atribuído",
+    "story": "Getty foi por um tempo o cidadão privado mais rico do mundo e ficou famoso por instalar um telefone público para as visitas em sua propriedade inglesa. A frase é uma piada sobre alavancagem, mas descreve com exatidão como o risco se desloca conforme a dívida cresce.",
+    "action": "Olhe sua maior dívida e pergunte quem carrega o risco se você falhar. Se a resposta for só você, faça de reduzi-la a única prioridade financeira do mês.",
+    "topic": "money"
+  },
+  {
+    "id": "621",
+    "quote": "O homem que morre rico morre desonrado.",
+    "author": "Andrew Carnegie",
+    "source": "O evangelho da riqueza, 1889",
+    "story": "Carnegie construiu a maior siderúrgica do mundo, vendeu-a por quatrocentos e oitenta milhões de dólares e passou o resto da vida doando quase tudo, financiando cerca de duas mil e quinhentas bibliotecas. Publicou essa linha como um desafio à própria classe.",
+    "action": "Dê esta semana algo de valor real para você: dinheiro, um objeto ou uma hora da sua especialidade, e não conte a ninguém que fez isso.",
+    "topic": "money"
+  },
+  {
+    "id": "622",
+    "quote": "O mercado pode permanecer irracional por mais tempo do que você pode permanecer solvente.",
+    "author": "John Maynard Keynes",
+    "source": "Atribuído",
+    "story": "Keynes era economista e também operava com o próprio dinheiro: em 1920 chegou perto da falência e depois refez a fortuna. Escrevia sobre mercados como alguém que pessoalmente esteve certo cedo demais e pagou por isso o preço inteiro.",
+    "action": "Escreva uma decisão financeira sobre a qual você tem certeza. Ao lado, escreva quanto tempo aguentaria se estivesse certo mas o momento fosse errado.",
+    "topic": "money"
+  },
+  {
+    "id": "623",
+    "quote": "Quando se trata de dinheiro, todos são da mesma religião.",
+    "author": "Voltaire",
+    "source": "Atribuído",
+    "story": "Voltaire enriqueceu cedo explorando, com um grupo de amigos, uma falha numa loteria estatal francesa, o que lhe garantiu independência financeira vitalícia e liberdade para escrever o que quisesse. Observou a universalidade do dinheiro com o olhar de quem o usou como armadura.",
+    "action": "Encontre nesta semana um ponto em que seus gastos e seus valores declarados divergem. Mude o gasto ou a declaração para que os dois passem a coincidir.",
+    "topic": "money"
+  },
+  {
+    "id": "624",
+    "quote": "A dívida é a pior das pobrezas.",
+    "author": "Thomas Fuller",
+    "source": "Gnomologia",
+    "story": "Fuller reuniu provérbios ao longo de um século de peste e guerra civil inglesas, quando prisões por dívida eram rotina e um único empréstimo podia acabar com uma família. Colocou a dívida abaixo da pobreza porque a pobreza ao menos deixa suas escolhas intactas.",
+    "action": "Antes de tomar qualquer empréstimo neste mês, escreva do que teria de abrir mão se o pagamento se tornasse impossível. Leia esse bilhete antes de assinar.",
+    "topic": "money"
+  },
+  {
+    "id": "625",
+    "quote": "Não tente comprar no fundo e vender no topo. Isso não se faz, exceto por mentirosos.",
+    "author": "Bernard Baruch",
+    "source": "Atribuído",
+    "story": "Baruch fez fortuna em Wall Street antes de aconselhar seis presidentes, e vendeu boa parte das ações antes da quebra de 1929. Era direto sobre os limites da previsão, e essa era sua resposta padrão a quem alegava saber acertar o momento do mercado.",
+    "action": "Decida com antecedência o preço pelo qual compraria ou venderia um ativo que possui. Anote o número e aja por ele, e não pelas notícias.",
+    "topic": "money"
+  },
+  {
+    "id": "626",
+    "quote": "O principal problema do investidor, e até o seu pior inimigo, provavelmente é ele mesmo.",
+    "author": "Benjamin Graham",
+    "source": "O investidor inteligente",
+    "story": "Graham perdeu muito na quebra de 1929 e passou o resto da carreira construindo um método feito para retirar a emoção do investimento. Warren Buffett estudou com ele e descreveu essa frase como a mais importante de todo o livro.",
+    "action": "Anote a última decisão financeira que tomou empolgado ou assustado. Registre quanto custou e crie uma regra que bloqueie o mesmo gatilho na próxima vez.",
+    "topic": "money"
+  },
+  {
+    "id": "627",
+    "quote": "O tempo é seu amigo; o impulso é seu inimigo.",
+    "author": "John Bogle",
+    "source": "Bom senso sobre fundos de investimento",
+    "story": "Bogle fundou a Vanguard e criou o primeiro fundo de índice acessível a investidores comuns, ideia que concorrentes chamaram publicamente de antiamericana. Passou quarenta anos defendendo que a maior parte das perdas do investidor vem da própria atividade dele.",
+    "action": "Veja com que frequência você confere investimentos ou saldos. Reduza essa frequência à metade por um mês e anote se alguma decisão teria mudado.",
+    "topic": "money"
+  },
+  {
+    "id": "628",
+    "quote": "Quem ama o dinheiro jamais tem o bastante.",
+    "author": "Eclesiastes",
+    "source": "Eclesiastes 5:10",
+    "story": "O Eclesiastes é narrado por uma figura que descreve ter acumulado casas, vinhedos, prata e cantores em escala real, para depois achar o conjunto todo vazio. A observação sobre dinheiro vem de alguém que relata um experimento, e não de quem apenas adverte de longe.",
+    "action": "Nomeie um valor que já lhe pareceu suficiente e que você ultrapassou. Pergunte o que de fato mudou ao alcançá-lo e escreva a resposta honesta.",
+    "topic": "money"
+  },
+  {
+    "id": "629",
+    "quote": "Nada basta a quem o bastante parece pouco.",
+    "author": "Epicuro",
+    "source": "Sentenças Vaticanas, 68",
+    "story": "Epicuro vivia com seus alunos num jardim fora de Atenas à base de pão, água e ocasionalmente queijo, ensinando que o prazer nasce de remover a necessidade e não de aumentar o suprimento. Sua escola aceitava escravos e mulheres, o que escandalizou mais que a dieta.",
+    "action": "Escolha um desejo recorrente e satisfaça-o hoje deliberadamente na menor escala possível. Repare quanto do prazer sobreviveu à redução.",
+    "topic": "money"
+  },
+  {
+    "id": "630",
+    "quote": "Uma renda grande é a melhor receita de felicidade de que já ouvi falar.",
+    "author": "Jane Austen",
+    "source": "Mansfield Park",
+    "story": "A frase pertence a Mary Crawford, personagem que Austen escreve com simpatia e desconfiança ao mesmo tempo. A própria Austen vivia de uma mesada modesta e sabia exatamente o quanto as opções de uma mulher dependiam de uma renda que ela não podia ganhar.",
+    "action": "Calcule quantos meses você viveria com o que tem guardado. Se o número for menor que três, faça de aumentá-lo o projeto financeiro deste trimestre.",
+    "topic": "money"
+  },
+  {
+    "id": "631",
+    "quote": "Sem amigos ninguém escolheria viver, ainda que tivesse todos os outros bens.",
+    "author": "Aristóteles",
+    "source": "Ética a Nicômaco, Livro VIII",
+    "story": "Aristóteles dedicou à amizade dois dos dez livros da Ética a Nicômaco, mais do que a qualquer outro assunto. Como macedônio, foi sempre um estrangeiro em Atenas, foi preterido na direção da Academia de Platão e acabou fugindo da cidade sob ameaça de processo.",
+    "action": "Nomeie a amizade que você mais negligenciou neste ano. Envie hoje uma mensagem que não seja pedido de desculpas nem pedido de favor: apenas contato.",
+    "topic": "relationships"
+  },
+  {
+    "id": "632",
+    "quote": "Ao acordar, diga a si mesmo: as pessoas com quem lidarei hoje serão intrometidas, ingratas, arrogantes e desonestas.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro II",
+    "story": "Marco abriu seu segundo livro com a lista de todos que esperava que o decepcionassem naquele dia e explicou logo em seguida por que isso não importava: agem mal por ignorância do bem e do mal, e continuam sendo dos seus. A lista era preparação, não reclamação.",
+    "action": "Antes da sua próxima reunião difícil, escreva como a outra pessoa provavelmente vai se comportar. Decida sua resposta agora, enquanto ainda está calmo.",
+    "topic": "relationships"
+  },
+  {
+    "id": "633",
+    "quote": "Pondere longamente se deve admitir alguém em sua amizade; mas, uma vez decidido, receba-o de todo o coração.",
+    "author": "Sêneca",
+    "source": "Cartas a Lucílio, 3",
+    "story": "Sêneca advertia Lucílio contra o hábito romano de confiar assuntos íntimos a homens conhecidos no fórum uma hora antes. Sua regra parte o processo em dois: todo o julgamento acontece antes, nenhum depois. Ao amigo admitido fala-se com a liberdade de quem fala consigo.",
+    "action": "Pense em alguém em quem você confia pela metade. Decida hoje de que lado dessa linha ele está e comece a agir de forma coerente com essa decisão.",
+    "topic": "relationships"
+  },
+  {
+    "id": "634",
+    "quote": "Nada é mais nobre, nada mais venerável do que a fidelidade.",
+    "author": "Cícero",
+    "source": "Dos deveres",
+    "story": "Cícero escreveu Dos deveres como uma longa carta ao filho Marco, então estudante em Atenas, no último ano da própria vida, enquanto os homens de Antônio o caçavam. Sabia que o manuscrito podia ser sua última palavra, e pôs a lealdade no centro dele.",
+    "action": "Identifique uma promessa que você fez de passagem e não cumpriu. Ou a cumpre nesta semana, ou diz claramente à pessoa que não vai cumprir.",
+    "topic": "relationships"
+  },
+  {
+    "id": "635",
+    "quote": "Não imponha aos outros o que você não deseja para si.",
+    "author": "Confúcio",
+    "source": "Analectos, Livro XV",
+    "story": "Um discípulo pediu a Confúcio uma única palavra que servisse de regra para a vida inteira. Ele respondeu com a reciprocidade e depois com esta frase. É a formulação mais antiga que sobreviveu da regra de ouro, enunciada como limite e não como mandamento.",
+    "action": "Lembre-se de algo que você fez a alguém nesta semana e que o revoltaria se fosse feito a você. Corrija, sem longas explicações sobre si mesmo.",
+    "topic": "relationships"
+  },
+  {
+    "id": "636",
+    "quote": "Se alguém disser que outro fala mal de você, responda: ele claramente não conhecia meus demais defeitos, senão teria mencionado também aqueles.",
+    "author": "Epicteto",
+    "source": "Encheirídion, 33",
+    "story": "Epicteto ensinava em Nicópolis, para onde os alunos chegavam de todo o império carregando fofocas e ofensas recolhidas na estrada. Sua resposta tira o ferrão concedendo mais do que o acusador afirmou, o que não deixa absolutamente nada a defender.",
+    "action": "Da próxima vez que uma crítica chegar por terceiros, anote um defeito real seu que o crítico deixou passar. Depois encerre completamente o assunto.",
+    "topic": "relationships"
+  },
+  {
+    "id": "637",
+    "quote": "O ódio nunca se apazigua pelo ódio; só pelo não ódio o ódio se apazigua.",
+    "author": "Buda",
+    "source": "Dhammapada, 5",
+    "story": "Este é o quinto verso do Dhammapada, formulado como enunciado de uma lei natural e não como conselho moral. Os comentários o ligam a uma longa disputa por uma criança, encerrada apenas quando uma das partes parou de responder à outra na mesma moeda.",
+    "action": "Identifique um rancor que você mantém ativamente. Faça um gesto pequeno e comum de decência em relação a essa pessoa e não conte a ninguém.",
+    "topic": "relationships"
+  },
+  {
+    "id": "638",
+    "quote": "Se insistirem para que eu diga por que o amava, não sei responder senão: porque era ele, porque era eu.",
+    "author": "Michel de Montaigne",
+    "source": "Ensaios, Da amizade",
+    "story": "A amizade de Montaigne com Étienne de La Boétie durou quatro anos e terminou com a morte deste aos trinta e dois. Montaigne passou boa parte do resto da vida escrevendo ensaios em parte para preencher esse silêncio, e nunca achou linguagem à altura da perda.",
+    "action": "Pense em alguém que você valoriza sem saber explicar por quê. Diga a essa pessoa uma coisa concreta que ela fez e que importou, sem generalizar.",
+    "topic": "relationships"
+  },
+  {
+    "id": "639",
+    "quote": "Estamos tão acostumados a nos disfarçar diante dos outros que acabamos disfarçados diante de nós mesmos.",
+    "author": "François de La Rochefoucauld",
+    "source": "Máximas",
+    "story": "La Rochefoucauld era um duque que lutou contra a coroa na Fronda, levou um tiro no rosto e perdeu terras e carreira. Depois passou décadas nos salões de Paris escrevendo máximas que reduziam motivos nobres à vaidade, inclusive a sua própria.",
+    "action": "Repare em algo que você fez hoje principalmente para ser visto fazendo. Faça o mesmo amanhã onde ninguém possa observar e veja se sobrevive.",
+    "topic": "relationships"
+  },
+  {
+    "id": "640",
+    "quote": "Trate as pessoas como se fossem o que deveriam ser e você as ajudará a se tornarem o que são capazes de ser.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Atribuído",
+    "story": "Goethe passou uma década como administrador do pequeno ducado de Weimar, responsável por minas, estradas, impostos e um teatro. Formou essa observação enquanto dirigia pessoas cuja capacidade ninguém, inclusive elas mesmas, havia ainda estimado corretamente.",
+    "action": "Escolha alguém que você descartou em silêncio. Dê a essa pessoa uma responsabilidade real nesta semana e diga em voz alta que espera que ela dê conta.",
+    "topic": "relationships"
+  },
+  {
+    "id": "641",
+    "quote": "Todas as famílias felizes se parecem; cada família infeliz é infeliz à sua maneira.",
+    "author": "Liev Tolstói",
+    "source": "Anna Kariênina",
+    "story": "Tolstói abriu Anna Kariênina com essa frase quando o próprio casamento já rangia sob o peso dos diários que ele insistira para que a esposa Sófia lesse. O romance levou quatro anos, e ele reescreveu essa primeira linha mais vezes do que quase qualquer outra.",
+    "action": "Escreva uma maneira concreta pela qual seu relacionamento mais próximo é infeliz. Aqui a precisão importa mais que a justiça: queixa vaga não se resolve.",
+    "topic": "relationships"
+  },
+  {
+    "id": "642",
+    "quote": "O amor em ação é coisa áspera e terrível se comparado ao amor em sonhos.",
+    "author": "Fiódor Dostoiévski",
+    "source": "Os irmãos Karamázov",
+    "story": "A frase pertence ao stárets Zóssima, que repassa a confissão de um médico: o homem amava a humanidade em abstrato, mas não suportava indivíduo algum por mais de dois dias. Dostoiévski escreveu o romance enquanto sofria a morte do filho de três anos.",
+    "action": "Escolha alguém por quem você sente carinho em geral e a quem não ajudou em concreto. Faça por essa pessoa uma coisa concreta e inconveniente nesta semana.",
+    "topic": "relationships"
+  },
+  {
+    "id": "643",
+    "quote": "Para que vivemos, se não for para tornar a vida menos difícil uns aos outros?",
+    "author": "George Eliot",
+    "source": "Middlemarch",
+    "story": "Eliot publicava sob nome masculino, viveu abertamente com um homem casado por mais de vinte anos e foi renegada pelo próprio irmão por isso. Middlemarch trata sobretudo de gente comum cuja bondade jamais se torna visível para a história.",
+    "action": "Encontre uma coisa que você pode retirar do dia de outra pessoa: uma tarefa, uma decisão, uma espera. Retire sem anunciar que foi você.",
+    "topic": "relationships"
+  },
+  {
+    "id": "644",
+    "quote": "O amor ao próximo em toda a sua plenitude significa simplesmente ser capaz de perguntar: pelo que você está passando?",
+    "author": "Simone Weil",
+    "source": "À espera de Deus",
+    "story": "Weil foi uma filósofa que trabalhou deliberadamente em fábricas e no campo para entender a aflição por dentro, e morreu aos trinta e quatro anos depois de se recusar a comer mais do que a ração da França ocupada. Tratava a atenção como disciplina, não como humor.",
+    "action": "Pergunte hoje a uma pessoa pelo que ela está passando e fique em silêncio tempo suficiente para uma resposta real. Não dê conselho se não for pedido.",
+    "topic": "relationships"
+  },
+  {
+    "id": "645",
+    "quote": "O amor não é primariamente uma relação com uma pessoa específica; é uma atitude, uma orientação do caráter.",
+    "author": "Erich Fromm",
+    "source": "A arte de amar",
+    "story": "Fromm fugiu da Alemanha nazista em 1934 e passou a carreira sustentando que o amor é uma habilidade que as pessoas esperam adquirir sem prática alguma. Comparava a abordagem moderna a esperar pintar obras-primas sem nunca ter aprendido a desenhar.",
+    "action": "Trate o amor hoje como prática: escolha uma pessoa e dê a ela quinze minutos de atenção integral, agendados como qualquer outro compromisso.",
+    "topic": "relationships"
+  },
+  {
+    "id": "646",
+    "quote": "Nascemos para trabalhar juntos, como os pés, as mãos e os olhos.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro II",
+    "story": "Marco repetiu essa imagem por todos os cadernos, tomando-a da física estoica: um único corpo cujas partes não podem lucrar atrapalhando umas às outras. Escreveu isso em anos de guerra civil, peste e traição por parte de um de seus próprios generais.",
+    "action": "Identifique alguém contra quem você está trabalhando em vez de trabalhar junto. Encontre uma coisa que ambos realmente querem e comece a conversa por ali.",
+    "topic": "relationships"
+  },
+  {
+    "id": "647",
+    "quote": "Nunca encontre prazer na desgraça alheia.",
+    "author": "Publílio Siro",
+    "source": "Sentenças",
+    "story": "Publílio escrevia para uma plateia que se reunia justamente para ver rivais humilhados nos tribunais e na arena. A linha era encenada diante de quem mais se sentia tentado por ela, o que provavelmente explica por que sobreviveu como verso e não como sermão.",
+    "action": "Repare na próxima vez em que sentir satisfação silenciosa com o fracasso de outra pessoa. Não diga nada e faça, em vez disso, uma coisa que a ajude.",
+    "topic": "relationships"
+  },
+  {
+    "id": "648",
+    "quote": "Você dá muito pouco quando dá de seus bens. É quando dá de si mesmo que você realmente dá.",
+    "author": "Khalil Gibran",
+    "source": "O profeta",
+    "story": "Gibran emigrou do Líbano para Boston ainda criança e perdeu mãe, irmã e irmão no intervalo de um ano. O profeta, escrito em inglês décadas depois, nunca saiu de catálogo, e esta é a passagem que mais vezes lhe pediram para explicar.",
+    "action": "Dê a alguém nesta semana uma hora da sua atenção ou da sua habilidade em vez de um presente ou dinheiro, sobretudo se o dinheiro fosse mais fácil.",
+    "topic": "relationships"
+  },
+  {
+    "id": "649",
+    "quote": "Não há encanto igual à ternura de coração.",
+    "author": "Jane Austen",
+    "source": "Emma",
+    "story": "A frase descreve o senhor Knightley, o único personagem de Emma que é constantemente gentil sem jamais ser recompensado por isso. Austen escrevia dentro de um gênero obcecado por espirituosidade, e punha a ternura acima dela sempre que as duas se chocavam.",
+    "action": "Escolha hoje o calor humano em vez da esperteza em uma conversa. Deixe de lado a tirada afiada que já compôs e diga a coisa simples e gentil.",
+    "topic": "relationships"
+  },
+  {
+    "id": "650",
+    "quote": "Minha humanidade está ligada à sua, pois só podemos ser humanos juntos.",
+    "author": "Desmond Tutu",
+    "source": "Não há futuro sem perdão",
+    "story": "Tutu presidiu a Comissão da Verdade e Reconciliação da África do Sul, ouvindo nas mesmas salas os depoimentos de vítimas e de autores dos crimes do apartheid. Construiu todo o processo sobre o ubuntu: a ideia de que alguém só se torna pessoa por meio de outras pessoas.",
+    "action": "Nomeie alguém cuja situação você tratou como inteiramente separada da sua. Identifique um modo pelo qual não é, e aja sobre essa ligação nesta semana.",
+    "topic": "relationships"
+  },
+  {
+    "id": "651",
+    "quote": "Trate seus soldados como filhos e eles o seguirão até os vales mais profundos.",
+    "author": "Sun Tzu",
+    "source": "A arte da guerra, Livro X",
+    "story": "A arte da guerra é atribuída a um general a serviço do estado de Wu por volta de 500 a.C. O capítulo sobre o terreno acompanha essa linha de uma advertência: mime os soldados sem disciplina e você terá crianças inúteis, filhos mimados que não se pode comandar.",
+    "action": "Escolha uma pessoa que você lidera ou com quem trabalha. Encontre uma coisa concreta que complica a semana dela e remova antes de pedir qualquer outra coisa.",
+    "topic": "leadership"
+  },
+  {
+    "id": "652",
+    "quote": "O general que avança sem cobiçar a fama e recua sem temer a desonra é a joia do reino.",
+    "author": "Sun Tzu",
+    "source": "A arte da guerra, Livro X",
+    "story": "Exércitos de todas as épocas perderam campanhas por causa de comandantes que não podiam se dar ao luxo de parecer cautelosos. O teste de Sun Tzu é a indiferença à reputação nos dois sentidos: recuar quando recuar é o certo, mesmo que chamem isso de covardia.",
+    "action": "Identifique uma decisão que você evita por causa de como pareceria. Tome-a hoje pelo mérito e aceite a aparência como parte do custo.",
+    "topic": "leadership"
+  },
+  {
+    "id": "653",
+    "quote": "O homem deve manter-se ereto por si mesmo, não ser mantido ereto pelos outros.",
+    "author": "Marco Aurélio",
+    "source": "Meditações, Livro III",
+    "story": "Marco escreveu isso como imperador, cercado de gente cuja função inteira era sustentá-lo. Havia herdado um trono que nunca quis e lembrava a si mesmo repetidamente que ser sustentado pelos outros não é a mesma coisa que ficar de pé.",
+    "action": "Nomeie uma coisa em que hoje você depende de alguém para se manter firme. Faça-a sem ajuda uma vez nesta semana, mesmo que o resultado saia pior.",
+    "topic": "leadership"
+  },
+  {
+    "id": "654",
+    "quote": "O líder deve acreditar que a obediência voluntária sempre supera a obediência forçada.",
+    "author": "Xenofonte",
+    "source": "Ciropédia",
+    "story": "Xenofonte tirou da Pérsia dez mil mercenários gregos depois que seus comandantes foram assassinados: uma marcha de mais de mil e seiscentos quilômetros sem outra autoridade além da que seus homens lhe concediam a cada dia. A Ciropédia é seu relato de como o comando funciona de fato.",
+    "action": "Antes da sua próxima instrução, dê primeiro o motivo e depois a tarefa. Repare se o cumprimento muda quando o motivo vem na frente.",
+    "topic": "leadership"
+  },
+  {
+    "id": "655",
+    "quote": "O segredo da felicidade é a liberdade, e o segredo da liberdade é a coragem.",
+    "author": "Tucídides",
+    "source": "História da Guerra do Peloponeso, Livro II",
+    "story": "A frase vem da oração fúnebre que Tucídides põe na boca de Péricles no primeiro ano da Guerra do Peloponeso, diante de uma cidade que enterrava seus mortos e decidia se continuava. Apresenta a coragem como condição prévia de tudo o mais que Atenas valorizava.",
+    "action": "Nomeie a liberdade que você mais quer no seu trabalho. Identifique o ato concreto de coragem que ela exige e faça hoje a menor versão dele.",
+    "topic": "leadership"
+  },
+  {
+    "id": "656",
+    "quote": "O desejo de segurança se opõe a todo empreendimento grande e nobre.",
+    "author": "Tácito",
+    "source": "Anais",
+    "story": "Tácito escreveu os Anais sob imperadores que haviam transformado a cautela na maior virtude cortesã. Sobreviveu ao reinado de Domiciano calando-se, silêncio que depois descreveu com vergonha declarada. A observação é autobiográfica antes de ser histórica.",
+    "action": "Encontre uma decisão que você tomou apenas para reduzir risco. Pergunte quanto ela custou em ambição e decida se essa troca ainda faz sentido.",
+    "topic": "leadership"
+  },
+  {
+    "id": "657",
+    "quote": "Governe pelo castigo e as pessoas o evitarão sem vergonha; governe pela virtude e elas se corrigirão sozinhas.",
+    "author": "Confúcio",
+    "source": "Analectos, Livro II",
+    "story": "Confúcio passou treze anos viajando entre estados oferecendo esse conselho a governantes, e foi sistematicamente ignorado. Argumentava que o castigo produz esquiva enquanto o exemplo produz consciência, e que a conduta do próprio governante é o verdadeiro mecanismo da ordem.",
+    "action": "Pegue uma regra que você impõe aos outros. Verifique se você mesmo a cumpriu sem exceção nesta semana e conserte primeiro o seu próprio cumprimento.",
+    "topic": "leadership"
+  },
+  {
+    "id": "658",
+    "quote": "É melhor ser temido do que amado, se não for possível ser as duas coisas.",
+    "author": "Nicolau Maquiavel",
+    "source": "O príncipe, Capítulo XVII",
+    "story": "A frase famosa quase sempre é citada sem a condição. Maquiavel diz que o príncipe deve querer as duas coisas e que o temor jamais deve virar ódio, que ele chama de fatal. Escreveu O príncipe no exílio, depois de torturado, na esperança de voltar ao serviço florentino.",
+    "action": "Pergunte se as pessoas que você lidera obedecem por respeito ou por ansiedade. Se for ansiedade, elimine uma consequência arbitrária que está sob seu controle.",
+    "topic": "leadership"
+  },
+  {
+    "id": "659",
+    "quote": "Um líder é um negociante de esperança.",
+    "author": "Napoleão Bonaparte",
+    "source": "Atribuído",
+    "story": "Napoleão publicava antes das batalhas proclamações que descreviam a vitória como já conquistada, e seu exército da Itália, esfarrapado e sem soldo, o seguiu pelos Alpes. Entendia a moral como um suprimento que só o comandante pode fabricar, e o racionava com cálculo.",
+    "action": "No seu próximo informe à equipe ou à família, nomeie uma coisa concreta que está indo bem. Não a enterre embaixo dos problemas.",
+    "topic": "leadership"
+  },
+  {
+    "id": "660",
+    "quote": "Quase todos os homens suportam a adversidade; se quiser testar o caráter de alguém, dê-lhe poder.",
+    "author": "Abraham Lincoln",
+    "source": "Atribuído",
+    "story": "Lincoln suspendeu o habeas corpus, conduziu uma guerra e deteve enormes poderes de emergência, portanto sabia exatamente do que falava. Testava-se continuamente e montou de propósito um gabinete que incluía vários homens que haviam desejado abertamente o cargo dele.",
+    "action": "Identifique um pequeno poder que você tem sobre alguém: um horário, uma aprovação, uma informação. Use-o uma vez nesta semana apenas no interesse dessa pessoa.",
+    "topic": "leadership"
+  },
+  {
+    "id": "661",
+    "quote": "Liderar é conseguir que alguém faça o que você quer porque ele próprio quer fazer.",
+    "author": "Dwight D. Eisenhower",
+    "source": "Atribuído",
+    "story": "Eisenhower comandou o desembarque na Normandia mantendo unidos generais, primeiros-ministros e um presidente, a nenhum dos quais podia simplesmente dar ordens. Carregava no bolso um bilhete assumindo toda a culpa pessoal caso a invasão fracassasse.",
+    "action": "Pegue uma tarefa que você ia delegar. Encontre a parte que realmente serve aos objetivos da outra pessoa e comece o pedido por ela.",
+    "topic": "leadership"
+  },
+  {
+    "id": "662",
+    "quote": "Atribuo meu sucesso a isto: nunca dei nem aceitei uma desculpa.",
+    "author": "Florence Nightingale",
+    "source": "Atribuído",
+    "story": "Nightingale brigou anos com o Ministério da Guerra britânico para reformar os hospitais militares e praticamente inventou a estatística médica moderna para provar sua tese. Não aceitava desculpas das enfermeiras nem de si mesma, e conduziu suas campanhas da cama quando a saúde ruiu.",
+    "action": "Escute a próxima desculpa que você oferecer, mesmo uma perfeitamente razoável. Faça a coisa assim mesmo e anote depois quanto do obstáculo era real.",
+    "topic": "leadership"
+  },
+  {
+    "id": "663",
+    "quote": "Afinal, dificuldades são apenas coisas a serem superadas.",
+    "author": "Ernest Shackleton",
+    "source": "Sul",
+    "story": "O navio de Shackleton foi esmagado pelo gelo antártico em 1915, deixando vinte e oito homens presos por quase dois anos. Ele navegou mil e trezentos quilômetros pelo oceano Antártico num bote aberto para buscar socorro e trouxe todos os seus homens de volta com vida.",
+    "action": "Escreva o obstáculo que você vem tratando como motivo para parar. Reformule-o como tarefa com um próximo passo e dê esse passo hoje.",
+    "topic": "leadership"
+  },
+  {
+    "id": "664",
+    "quote": "Quanto mais alto nos colocam, com mais humildade devemos caminhar.",
+    "author": "Cícero",
+    "source": "Dos deveres",
+    "story": "Cícero subiu de uma família provinciana até o consulado de Roma sem qualquer posição herdada, e viu contemporâneos se destruírem pela arrogância assim que se elevaram. Escreveu Dos deveres para o filho, avisando que a visibilidade multiplica o custo de cada falha.",
+    "action": "Repare num lugar em que sua posição permite pular uma cortesia obrigatória para os outros. Cumpra-a hoje mesmo assim, de propósito e sem comentar.",
+    "topic": "leadership"
+  },
+  {
+    "id": "665",
+    "quote": "Se quer construir um navio, não junte gente para recolher madeira: ensine-lhes a ter saudade do mar infinito.",
+    "author": "Antoine de Saint-Exupéry",
+    "source": "Cidadela",
+    "story": "Saint-Exupéry voou rotas postais sobre o Saara e os Andes, onde as tripulações precisavam querer o voo e não apenas aceitar a ordem, porque a ordem não podia acompanhá-las dentro do temporal. Desapareceu sobre o Mediterrâneo em 1944, aos quarenta e quatro anos.",
+    "action": "Antes da próxima distribuição de trabalho, gaste dois minutos descrevendo por que aquilo importa. Dê o quadro antes de dar as instruções.",
+    "topic": "leadership"
+  },
+  {
+    "id": "666",
+    "quote": "Confie em si mesmo. Crie o tipo de pessoa com quem você ficará feliz de conviver a vida inteira.",
+    "author": "Golda Meir",
+    "source": "Atribuído",
+    "story": "Meir foi professora em Milwaukee antes de se tornar primeira-ministra de Israel, e negociou com adversários que se recusavam a reconhecer que seu estado existia. Era conhecida por decidir sozinha à mesa da cozinha e depois conviver com aquilo sem reclamar.",
+    "action": "Tome hoje uma decisão sem buscar uma segunda opinião de que você não precisa de verdade. Anote por que escolheu assim e releia o bilhete daqui a um mês.",
+    "topic": "leadership"
+  },
+  {
+    "id": "667",
+    "quote": "Não é o crítico que conta; o mérito pertence a quem está de fato na arena.",
+    "author": "Theodore Roosevelt",
+    "source": "Cidadania numa república, 1910",
+    "story": "Roosevelt proferiu isso na Sorbonne em 1910, um ano depois de deixar a presidência e pouco depois de perder uma disputa política desgastante. A passagem completa elogia o homem cujo rosto está marcado de poeira, suor e sangue, e que fracassa enquanto ousa grandemente.",
+    "action": "Identifique algo que você criticou de fora sem nunca ter tentado. Ou tenta uma versão pequena neste mês, ou para de comentar sobre aquilo.",
+    "topic": "leadership"
+  },
+  {
+    "id": "668",
+    "quote": "Esperança não é a convicção de que algo dará certo, mas a certeza de que faz sentido independentemente do desfecho.",
+    "author": "Václav Havel",
+    "source": "Interrogatório à distância",
+    "story": "Havel foi um dramaturgo preso por quase quatro anos pelo regime tchecoslovaco e depois se tornou presidente do país que o havia encarcerado. Escreveu isso quando o desfecho era completamente desconhecido e o sucesso parecia, para quase todos, impossível.",
+    "action": "Pegue um projeto cujo resultado você não controla. Escreva uma frase sobre por que ele faz sentido de qualquer maneira e deixe-a onde você trabalha.",
+    "topic": "leadership"
+  },
+  {
+    "id": "669",
+    "quote": "Sei que tenho o corpo de uma mulher fraca e frágil, mas tenho o coração e as entranhas de um rei.",
+    "author": "Elizabeth I",
+    "source": "Discurso de Tilbury, 1588",
+    "story": "Elizabeth foi a Tilbury em 1588, com a Armada espanhola se aproximando, para falar a tropas que nunca haviam sido comandadas por uma mulher e não tinham certeza de que deveriam ser. O discurso sobreviveu à invasão que respondia por mais de quatro séculos.",
+    "action": "Identifique onde você provavelmente será subestimado nesta semana. Prepare uma frase que diga claramente o que você sabe fazer e diga-a em voz alta na hora.",
+    "topic": "leadership"
+  },
+  {
+    "id": "670",
+    "quote": "O melhor guerreiro nunca se irrita.",
+    "author": "Lao-Tsé",
+    "source": "Tao Te Ching, 68",
+    "story": "O Tao Te Ching dedica vários capítulos ao paradoxo da força eficaz: vence o comandante que nunca entra na emoção do adversário. O capítulo sessenta e oito chama isso de virtude de não competir, e a coloca acima da habilidade.",
+    "action": "Na sua próxima discordância, defina sua posição antes de sentir qualquer coisa a respeito. Se a raiva chegar primeiro, adie a conversa por uma hora.",
+    "topic": "leadership"
+  },
+  {
+    "id": "671",
+    "quote": "Minha experiência é aquilo a que concordo em prestar atenção.",
+    "author": "William James",
+    "source": "Princípios de psicologia",
+    "story": "James teve um colapso aos vinte e poucos anos e passou meses incapaz de agir; depois construiu uma psicologia em que a atenção é o mecanismo da vontade. Aquilo a que você atende, argumentava ele, não é recepção passiva, mas a construção efetiva do mundo em que vive.",
+    "action": "Liste aquilo a que você prestou atenção por mais tempo hoje. Pergunte se escolheu algo daquilo e escolha um item de propósito para amanhã.",
+    "topic": "psychology"
+  },
+  {
+    "id": "672",
+    "quote": "A boa vida é um processo, não um estado. É uma direção, não um destino.",
+    "author": "Carl Rogers",
+    "source": "Tornar-se pessoa",
+    "story": "Rogers criou uma terapia em que o terapeuta não oferece diagnóstico nem conselho, apenas consideração incondicional. Gravou milhares de sessões, algo raríssimo na época, para que suas afirmações pudessem ser testadas em vez de simplesmente acreditadas.",
+    "action": "Substitua uma meta formulada como destino por uma direção. Escreva como seria, na prática, caminhar nessa direção durante esta semana.",
+    "topic": "psychology"
+  },
+  {
+    "id": "673",
+    "quote": "Ser inteiramente honesto consigo mesmo é um bom exercício.",
+    "author": "Sigmund Freud",
+    "source": "Cartas",
+    "story": "Freud analisou os próprios sonhos por anos antes de publicar qualquer coisa e descreveu a autoanálise como o trabalho mais duro que já empreendera, porque o analista e a resistência analisada são a mesma pessoa dentro da mesma sala.",
+    "action": "Escreva uma frase sobre você que não gostaria que fosse repetida. Não faça nada com ela: deixe-a escrita onde possa vê-la amanhã.",
+    "topic": "psychology"
+  },
+  {
+    "id": "674",
+    "quote": "As únicas pessoas normais são aquelas que você não conhece muito bem.",
+    "author": "Alfred Adler",
+    "source": "Atribuído",
+    "story": "Adler rompeu com Freud sobre a primazia da sexualidade e construiu uma psicologia em torno da inferioridade e da compensação. Dirigiu clínicas gratuitas em Viena e passou anos ouvindo pessoas comuns descreverem vidas que, de fora, pareciam inteiramente banais.",
+    "action": "Pense em alguém de quem você tem inveja por ter a vida em ordem. Liste três coisas que você de fato não sabe sobre como foi a semana dela.",
+    "topic": "psychology"
+  },
+  {
+    "id": "675",
+    "quote": "Se a única ferramenta que você tem é um martelo, tende a ver todo problema como um prego.",
+    "author": "Abraham Maslow",
+    "source": "A psicologia da ciência",
+    "story": "Maslow escreveu isso como advertência à própria área, num momento em que os psicólogos aplicavam um único método a qualquer pergunta. Ele é lembrado pela hierarquia de necessidades, que mais tarde criticou justamente por ser usada exatamente desse jeito.",
+    "action": "Nomeie sua solução padrão: trabalhar mais, conversar tudo, comprar algo. Resolva o problema de hoje com qualquer coisa menos com ela.",
+    "topic": "psychology"
+  },
+  {
+    "id": "676",
+    "quote": "Educação é o que sobrevive quando o que foi aprendido já se esqueceu.",
+    "author": "B. F. Skinner",
+    "source": "New Scientist, 1964",
+    "story": "Skinner treinou pombos para guiar mísseis, inventou a máquina de ensinar e sustentou que o comportamento é moldado inteiramente pelas consequências. Sua definição de educação descarta de propósito tudo o que foi decorado apenas para passar numa prova.",
+    "action": "Lembre-se de algo que aprendeu neste ano. Identifique o que resta depois que os detalhes somem e use essa parte hoje em algo concreto.",
+    "topic": "psychology"
+  },
+  {
+    "id": "677",
+    "quote": "Nada na vida é tão importante quanto você acha que é enquanto está pensando naquilo.",
+    "author": "Daniel Kahneman",
+    "source": "Rápido e devagar: duas formas de pensar",
+    "story": "Kahneman e Amos Tversky passaram décadas documentando os erros sistemáticos da intuição. A este ele chamou de ilusão do foco e o demonstrou mostrando o quanto as pessoas superestimam a felicidade que ganhariam ao se mudar para a Califórnia.",
+    "action": "Pegue aquilo que domina seus pensamentos. Preveja por escrito quanto isso importará daqui a um ano e programe um lembrete para conferir o número.",
+    "topic": "psychology"
+  },
+  {
+    "id": "678",
+    "quote": "Sempre procurei força e confiança fora de mim, mas elas vêm de dentro. Estão lá o tempo todo.",
+    "author": "Anna Freud",
+    "source": "Atribuído",
+    "story": "Anna Freud foi a única entre os filhos de Sigmund a segui-lo na psicanálise. Dirigiu em Londres uma creche de guerra para crianças separadas dos pais e fundou, na prática, a psicologia infantil como disciplina própria.",
+    "action": "Identifique uma coisa externa que você espera ter antes de se sentir capaz. Aja hoje uma vez como se já a tivesse, em algo pequeno.",
+    "topic": "psychology"
+  },
+  {
+    "id": "679",
+    "quote": "O oposto da coragem na nossa sociedade não é a covardia, é o conformismo.",
+    "author": "Rollo May",
+    "source": "O homem à procura de si mesmo",
+    "story": "May contraiu tuberculose depois dos trinta e passou dezoito meses num sanatório esperando morrer. Notou que os pacientes que combatiam ativamente a doença tendiam a se recuperar e os passivos não, e reconstruiu toda a sua psicologia em torno da vontade.",
+    "action": "Encontre uma opinião que você guarda em silêncio porque é impopular no seu círculo. Diga-a em voz alta a uma pessoa nesta semana.",
+    "topic": "psychology"
+  },
+  {
+    "id": "680",
+    "quote": "É a relação que cura.",
+    "author": "Irvin Yalom",
+    "source": "O carrasco do amor",
+    "story": "Yalom passou décadas como psiquiatra e concluiu que a técnica importa muito menos do que a relação honesta dentro da sala. Publicou seus próprios fracassos ao lado dos sucessos, coisa rara num campo que preferia relatar apenas o que tinha dado certo.",
+    "action": "Escolha um problema que você vem tentando resolver sozinho. Conte a uma pessoa a versão verdadeira dele, sem pedir que ela resolva nada.",
+    "topic": "psychology"
+  },
+  {
+    "id": "681",
+    "quote": "A esperança é a mais antiga e a mais indispensável virtude inerente ao fato de estar vivo.",
+    "author": "Erik Erikson",
+    "source": "Insight e responsabilidade",
+    "story": "Erikson nunca obteve doutorado, nasceu de uma mãe que jamais lhe disse quem era seu pai e dedicou a carreira a mapear os estágios da identidade. Pôs a esperança em primeiro lugar porque é a conquista mais precoce do bebê e a última coisa que o adulto perde.",
+    "action": "Nomeie algo que você ainda espera e parou de dizer em voz alta. Diga hoje a alguém, sem defender e sem relativizar.",
+    "topic": "psychology"
+  },
+  {
+    "id": "682",
+    "quote": "O objetivo da educação é criar pessoas capazes de fazer coisas novas, não de repetir o que outras gerações fizeram.",
+    "author": "Jean Piaget",
+    "source": "Atribuído",
+    "story": "Piaget passou anos observando de perto os próprios três filhos resolvendo problemas e concluiu que a compreensão é construída por quem aprende, não entregue por quem ensina. Publicou mais de sessenta livros a partir de pouquíssimos sujeitos observados com enorme cuidado.",
+    "action": "Pegue algo que você domina bem e faça hoje uma coisa genuinamente nova com aquilo, em vez de repetir o que já executa com competência.",
+    "topic": "psychology"
+  },
+  {
+    "id": "683",
+    "quote": "Todos os problemas da humanidade vêm da incapacidade do homem de ficar quieto e sozinho num quarto.",
+    "author": "Blaise Pascal",
+    "source": "Pensamentos, 139",
+    "story": "Pascal inventou uma calculadora mecânica aos dezenove anos e ajudou a fundar a teoria da probabilidade, e depois abandonou a matemática pela escrita religiosa após uma única noite de experiência intensa. Os Pensamentos foram achados em fragmentos após sua morte aos trinta e nove.",
+    "action": "Fique sentado sozinho dez minutos hoje sem celular, sem música, sem livro e sem tarefa. Repare em qual impulso de levantar chega primeiro.",
+    "topic": "psychology"
+  },
+  {
+    "id": "684",
+    "quote": "Minha vida foi cheia de desgraças terríveis, a maioria das quais nunca aconteceu.",
+    "author": "Michel de Montaigne",
+    "source": "Atribuído",
+    "story": "Montaigne recolheu-se aos trinta e oito anos a uma torre de sua propriedade para escrever, depois de perder o amigo mais próximo, o pai e vários filhos. Examinou os próprios medos com um detalhe incomum e descobriu que a esmagadora maioria simplesmente nunca chegara.",
+    "action": "Liste tudo o que o preocupa agora. Programe um lembrete para daqui a um mês, volte à lista e marque quais delas de fato aconteceram.",
+    "topic": "psychology"
+  },
+  {
+    "id": "685",
+    "quote": "É preciso ter um caos dentro de si para dar à luz uma estrela dançante.",
+    "author": "Friedrich Nietzsche",
+    "source": "Assim falou Zaratustra",
+    "story": "Nietzsche escreveu Zaratustra em rajadas de dez dias, entre enxaquecas que o cegavam por dias inteiros. Ele argumentava contra a busca do conforto, que a seu ver produzia pessoas incapazes de criar absolutamente qualquer coisa.",
+    "action": "Identifique uma parte bagunçada da sua vida que você não para de tentar arrumar. Deixe-a completamente em paz nesta semana e veja o que ela produz.",
+    "topic": "psychology"
+  },
+  {
+    "id": "686",
+    "quote": "Uma riqueza de informação cria uma pobreza de atenção.",
+    "author": "Herbert Simon",
+    "source": "Palestra, 1971",
+    "story": "Simon ganhou o Nobel de economia e ajudou a fundar o campo da inteligência artificial. Fez essa observação em 1971, décadas antes de existir o feed, argumentando que informação consome atenção, de modo que a abundância de uma cria escassez da outra.",
+    "action": "Conte suas fontes de informação. Remova uma hoje em definitivo e dê a atenção recuperada a algo que você vem adiando.",
+    "topic": "psychology"
+  },
+  {
+    "id": "687",
+    "quote": "O controle da consciência determina a qualidade da vida.",
+    "author": "Mihaly Csikszentmihalyi",
+    "source": "Flow: a psicologia do alto desempenho e da felicidade",
+    "story": "Csikszentmihalyi sobreviveu à Segunda Guerra Mundial na Hungria ainda criança e passou a carreira estudando quando as pessoas relatam se sentir mais vivas. Seu achado foi constante e incômodo: não durante o lazer, e sim num trabalho difícil e totalmente absorvente.",
+    "action": "Escolha hoje uma tarefa um pouco difícil demais para você. Elimine toda interrupção e trabalhe nela por uma hora inteira, sem cortes.",
+    "topic": "psychology"
+  },
+  {
+    "id": "688",
+    "quote": "As pessoas mais belas são as que conheceram o sofrimento, a luta e a perda e encontraram a saída das profundezas.",
+    "author": "Elisabeth Kübler-Ross",
+    "source": "A morte, estágio final da evolução",
+    "story": "Kübler-Ross entrevistou pacientes terminais numa época em que os hospitais tratavam a morte como fracasso e os médicos não a mencionavam. Colegas protestaram com força, então ela levou estudantes para ouvir, e aquelas entrevistas fundaram os cuidados paliativos modernos.",
+    "action": "Pense no ano mais difícil que você já viveu. Nomeie uma capacidade concreta que você tem hoje e não teria sem ele.",
+    "topic": "psychology"
+  },
+  {
+    "id": "689",
+    "quote": "É uma alegria estar escondido, e um desastre não ser encontrado.",
+    "author": "Donald Winnicott",
+    "source": "O ambiente e os processos de maturação",
+    "story": "Winnicott foi pediatra, atendeu cerca de sessenta mil crianças ao longo de quarenta anos e fez palestras de rádio para mães durante a guerra. Um self saudável, sustentava ele, guarda um núcleo privado que nunca comunica — e mesmo assim precisa de alguém que o encontraria.",
+    "action": "Conte a uma pessoa uma coisa verdadeira sobre você que costuma guardar. Escolha algo pequeno e repare no que acontece com aquilo depois de dito.",
+    "topic": "psychology"
+  },
+  {
+    "id": "690",
+    "quote": "Uma emoção deixa de ser sofrimento assim que formamos dela uma ideia clara e precisa.",
+    "author": "Baruch Espinosa",
+    "source": "Ética, Parte V",
+    "story": "Espinosa foi expulso de sua sinagoga em Amsterdã aos vinte e três anos, ganhava a vida polindo lentes ópticas e recusou uma cátedra universitária para preservar a independência. Tratava as emoções como objetos que exigem a mesma precisão da geometria.",
+    "action": "Pegue a emoção que você carrega hoje e descreva-a por escrito até que fique precisa. Note se a força dela muda conforme a descrição se afina.",
+    "topic": "psychology"
   }
 ]

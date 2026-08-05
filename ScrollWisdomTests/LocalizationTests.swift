@@ -123,7 +123,7 @@ final class CardJSONTests: XCTestCase {
         let files = [("en", "cards"), ("ru", "cards_ru")] + nonRussianFiles
         for (lang, file) in files {
             let cards = loadCards(file)
-            XCTAssertEqual(cards.count, 550, "[\(lang)] Expected 550 cards, got \(cards.count)")
+            XCTAssertEqual(cards.count, 690, "[\(lang)] Expected 550 cards, got \(cards.count)")
         }
     }
 
@@ -131,13 +131,13 @@ final class CardJSONTests: XCTestCase {
         let allFiles = [("ru", "cards_ru"), ("en", "cards")] + nonRussianFiles
         // v1.3: +40 stoicism, +35 discipline, +30 health, +25 money/leadership/relationships, +20 psychology
         let expectedCounts: [String: Int] = [
-            "stoicism": 90,
-            "discipline": 85,
-            "health": 80,
-            "money": 75,
-            "leadership": 75,
-            "relationships": 75,
-            "psychology": 70,
+            "stoicism": 110,
+            "discipline": 105,
+            "health": 100,
+            "money": 95,
+            "leadership": 95,
+            "relationships": 95,
+            "psychology": 90,
         ]
         for (lang, file) in allFiles {
             let cards = loadCards(file)

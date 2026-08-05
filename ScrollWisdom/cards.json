@@ -4948,5 +4948,1265 @@
     "story": "Frost wrote this from a place of personal experience — he spent years in grief and depression that he could not circumvent. Every attempt to go around the pain left him returning to the same place. What eventually worked was facing it directly, moving into it rather than away from it.",
     "action": "Identify one difficult experience, conversation, or emotion you have been going around. Commit to moving through it this week — not past it, through it.",
     "topic": "psychology"
+  },
+  {
+    "id": "551",
+    "quote": "We have two ears and one mouth, so we should listen more than we say.",
+    "author": "Zeno of Citium",
+    "source": "Diogenes Laertius, Lives VII",
+    "story": "Zeno arrived in Athens as a shipwrecked merchant who had lost an entire cargo of purple dye. He began teaching under a painted colonnade — the Stoa Poikile — which gave Stoicism its name. His students noticed he asked far more questions than he ever answered.",
+    "action": "In your next conversation, ask two questions before you offer a single opinion. Notice how much you learn that you would otherwise have talked over.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "552",
+    "quote": "You could leave life right now. Let that determine what you do and say and think.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book II",
+    "story": "Marcus wrote this on the Danube frontier, in a camp where men died of plague and wounds every week. Roman generals in triumph were traditionally trailed by a slave whispering that they were mortal. Marcus needed no slave — he wrote the reminder to himself each morning.",
+    "action": "Before your next decision today, ask: 'If this were my last week, would I still do it this way?' Change one thing based on your answer.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "553",
+    "quote": "As long as you live, keep learning how to live.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 76",
+    "story": "Seneca wrote this at around sixty-five, after decades as senator, eight years of exile on Corsica, and years advising Nero. He had watched powerful men reach the end having never learned the one skill that mattered. He was still enrolling in lectures when the letter was written.",
+    "action": "Pick one thing you treat as already mastered — patience, listening, sleep. Spend fifteen minutes today studying it as if you were a complete beginner.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "554",
+    "quote": "Any person capable of angering you becomes your master.",
+    "author": "Epictetus",
+    "source": "Discourses, Book I",
+    "story": "Epictetus was born a slave in Phrygia and left permanently lame by his owner. He knew precisely what it meant to be another person's property, which is why he chose that word on purpose: anger hands someone the exact power a master holds over a slave.",
+    "action": "Name the person who most reliably angers you. The next time they do it, say nothing for ten seconds before you respond. That pause is the ownership you take back.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "555",
+    "quote": "Cease to hope and you will cease to fear.",
+    "author": "Hecato of Rhodes",
+    "source": "Quoted in Seneca, Letters 5",
+    "story": "Almost nothing Hecato wrote survives; this line reached us only because Seneca copied it into a letter to a friend. His point was that hope and fear are one motion of the mind, not two — both abandon the present for an imagined future that has not arrived.",
+    "action": "Write down one thing you are hoping for and one you are dreading. Notice they concern the same unknown. Name one action you can take today whichever way it falls.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "556",
+    "quote": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book IV",
+    "story": "As emperor, Marcus was surrounded by advisers, generals and informants, every one of them presenting an interpretation as a fact. His private journal was the one place he could separate what had actually happened from what he had been told about it.",
+    "action": "Take one thing that upset you this week. Write the bare facts in a single sentence, then your interpretation in another. Read the two side by side.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "557",
+    "quote": "The Fates guide the one who is willing, and drag the one who is not.",
+    "author": "Cleanthes",
+    "source": "Quoted in Seneca, Letters 107",
+    "story": "Cleanthes was a boxer who hauled water through the night to pay for philosophy lessons by day, and eventually succeeded Zeno as head of the Stoa. Seneca gave his line in Latin: ducunt volentem fata, nolentem trahunt. You arrive either way — the only choice is your posture.",
+    "action": "Name one thing you cannot change that you are still arguing with. Say out loud: 'This is happening.' Then take the next step it actually requires of you.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "558",
+    "quote": "Virtue is not simply theoretical knowledge; it is practice as well.",
+    "author": "Musonius Rufus",
+    "source": "Lectures, On Training",
+    "story": "Musonius taught Epictetus and was exiled twice for his teaching, once to a barren Aegean island by Nero. He judged students not by the elegance of their arguments but by whether they had changed how they ate, slept and treated people. He called philosophy training, not learning.",
+    "action": "Take one principle you genuinely believe in but have not practised this week. Do a small version of it today, before you read one more word about it.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "559",
+    "quote": "No one is free who is a slave to his body.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 92",
+    "story": "Seneca was among the wealthiest men in Rome, with estates and a fortune counted in hundreds of millions of sesterces. He wrote this knowing exactly how comfort binds people. The body's demands — food, warmth, sleep, safety — were the master he kept warning Lucilius about.",
+    "action": "Pick one comfort you reach for automatically today: the snack, the extra scroll, the snooze. Skip it once on purpose and notice how loud the demand actually gets.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "560",
+    "quote": "Take away your opinion, and the complaint is taken away.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book IV",
+    "story": "Marcus borrowed this move from Epictetus and kept sharpening it in his notebooks. Reports of betrayal, plague and rebellion arrived weekly. He noticed that the report itself never wounded him — the verdict he attached to it did all the damage.",
+    "action": "Write down a complaint you have repeated more than twice this week. Cross out every word in it that is a judgment rather than a fact. See what is left.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "561",
+    "quote": "Only the educated are free.",
+    "author": "Epictetus",
+    "source": "Discourses, Book II",
+    "story": "By education Epictetus did not mean schooling but training in what is actually up to you. Freed after Nero's death, he opened a school in Nicopolis and filled it with students who were legally free men yet, in his reading, wholly owned by their fears and appetites.",
+    "action": "List three things that ran your day today. Mark each one 'mine' or 'not mine'. Spend tomorrow's first hour only on the ones marked 'mine'.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "562",
+    "quote": "Anyone can hold the helm when the sea is calm.",
+    "author": "Publilius Syrus",
+    "source": "Sentences",
+    "story": "Publilius came to Rome as a Syrian slave, won his freedom through sheer wit, and made his name improvising one-line maxims on stage. His lines were used as a schoolbook for centuries precisely because they had been tested in public, in real time, against hecklers.",
+    "action": "Think of a skill you are confident you have. Find the version of it that only appears under pressure, and practise that version once today.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "563",
+    "quote": "It is a rough road that leads to the heights of greatness.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 84",
+    "story": "Seneca wrote this to Lucilius, a provincial governor complaining that his ambitions were costing him his peace. Seneca had made a fortune, lost it, spent eight years exiled on Corsica, and clawed his way back to the emperor's side. He never once described the route as smooth.",
+    "action": "Name the hardest part of what you are currently pursuing. Write it down as a fact rather than a problem. Then do the next fifteen minutes of it.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "564",
+    "quote": "No man steps in the same river twice — for it is not the same river, and he is not the same man.",
+    "author": "Heraclitus",
+    "source": "Fragments",
+    "story": "Heraclitus lived in Ephesus two centuries before the Stoa, and the Stoics took his doctrine of constant flux as a foundation stone. He handed his hereditary kingship to his brother and wrote in deliberate riddles. Only fragments, quoted by later authors, survive.",
+    "action": "Think of someone you have already made up your mind about. Ask them one question today that assumes they have changed since you last looked.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "565",
+    "quote": "Confine yourself to the present.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book VII",
+    "story": "Marcus used two words in Greek where a lesser writer would have used a paragraph. He was fighting a war he had never wanted, in a climate he disliked, in a body that was steadily failing him. The present moment was the only territory he could actually hold.",
+    "action": "Set a timer for twenty-five minutes and work on one thing with your phone in another room. When your mind leaves, note where it went and bring it back.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "566",
+    "quote": "Nothing proves a well-ordered mind better than the ability to stop where you are and spend time in your own company.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 2",
+    "story": "Seneca opened his correspondence with Lucilius by attacking restlessness: the constant travel, new friendships and fresh distractions Romans of his class used to avoid themselves. Exile on Corsica had forced him into his own company, and he had found it survivable.",
+    "action": "Take a fifteen-minute walk today with no phone, no music and no podcast. Let the discomfort of your own thoughts arrive, and stay with it.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "567",
+    "quote": "First learn the meaning of what you say, and then speak.",
+    "author": "Epictetus",
+    "source": "Discourses, Book III",
+    "story": "Epictetus never wrote a word himself; his student Arrian took down the lectures. He would spend entire sessions dismantling a student's vocabulary, showing that they used words like 'good', 'terrible' and 'unbearable' daily without ever having defined a single one.",
+    "action": "Pick one word you used today about your situation — 'impossible', 'unfair', 'disaster'. Write a one-sentence definition, then check whether your situation actually meets it.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "568",
+    "quote": "I begin to speak only when I am certain what I have to say is not better left unsaid.",
+    "author": "Cato the Younger",
+    "source": "Plutarch, Life of Cato the Younger",
+    "story": "Cato was known in the Roman Senate for saying almost nothing, and for being impossible to dislodge once he did speak. Plutarch records that he trained himself in silence deliberately. His opponents came to find his pauses more unsettling than his arguments.",
+    "action": "In one meeting or conversation today, hold back your first comment entirely. Say only what still seems worth saying five minutes later.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "569",
+    "quote": "The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "story": "Seneca wrote this essay for Paulinus, the official responsible for Rome's grain supply — a man whose entire existence was organised around a delivery that had not yet arrived. Seneca's argument was that Paulinus was not short of time; he had simply spent all of it on tomorrow.",
+    "action": "Find one thing on your calendar that exists only to prepare for something later. Cancel it or halve it, and spend that time on something that counts today.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "570",
+    "quote": "Everything that happens is either endurable or not.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book X",
+    "story": "Marcus reduced every complaint to a single fork. If a thing can be borne, bear it and drop the protest; if it truly cannot, it ends you, and the protest ends with it. He wrote this while an unstoppable plague moved through his legions on the frontier.",
+    "action": "Take the thing you have complained about most this week and say out loud which of the two it is. If it is endurable, stop narrating it for one full day.",
+    "topic": "stoicism"
+  },
+  {
+    "id": "571",
+    "quote": "At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work — as a human being.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book V",
+    "story": "Marcus wrote this passage as an argument with himself before dawn, listing in advance every excuse he expected to make. He was in his fifties, chronically ill, and did not want to get up either. The entry survives because he lost that argument every morning and rose anyway.",
+    "action": "Decide tonight what the single first task of tomorrow morning will be. Write it on paper and leave it where your feet land when you get out of bed.",
+    "topic": "discipline"
+  },
+  {
+    "id": "572",
+    "quote": "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 104",
+    "story": "Seneca wrote this to Lucilius, who kept postponing a decision by calling it complicated. Seneca had watched Roman politics reward men who moved first and ruin men who deliberated. Difficulty, he argued, is usually the effect of hesitation rather than its cause.",
+    "action": "Take the task you have moved to tomorrow's list three times. Do the smallest possible version of it in the next ten minutes — doing it badly counts.",
+    "topic": "discipline"
+  },
+  {
+    "id": "573",
+    "quote": "Do nothing which is of no use.",
+    "author": "Miyamoto Musashi",
+    "source": "The Book of Five Rings",
+    "story": "Musashi fought more than sixty duels and lost none, then spent his final years in a cave writing down what he had learned. His rules are stripped of anything ornamental. This one sits as a single line in a chapter that otherwise reads like a training schedule.",
+    "action": "List everything you did today. Mark the items that produced nothing at all. Remove one of them from tomorrow entirely.",
+    "topic": "discipline"
+  },
+  {
+    "id": "574",
+    "quote": "Ask yourself at every moment: is this necessary?",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book IV",
+    "story": "Marcus used this as a filter he applied several times a day, and he noted that it cut away not only unnecessary actions but the unnecessary thoughts behind them. He was running an empire and a frontier war, and time was the one resource he could not add to.",
+    "action": "Before your next three tasks, ask 'Is this necessary?' Drop the first one that fails the question and do not replace it with anything else.",
+    "topic": "discipline"
+  },
+  {
+    "id": "575",
+    "quote": "Lose no time; be always employed in something useful; cut off all unnecessary actions.",
+    "author": "Benjamin Franklin",
+    "source": "Autobiography",
+    "story": "At twenty, Franklin drew up thirteen virtues and carried a small book ruled into a grid, marking a black dot each time he broke one. Industry was the sixth. He freely admitted he never mastered the list, but he carried the book for the rest of his life.",
+    "action": "Pick one virtue to hold this week. Draw a seven-box grid on paper and mark it honestly every night. Do not fix the misses — just record them.",
+    "topic": "discipline"
+  },
+  {
+    "id": "576",
+    "quote": "A small daily task, if it be really daily, will beat the labours of a spasmodic Hercules.",
+    "author": "Anthony Trollope",
+    "source": "An Autobiography",
+    "story": "Trollope wrote forty-seven novels while working full time for the Post Office, rising at half past five and producing 250 words every quarter hour until breakfast. When he finished a novel mid-session, he began the next one on the same page.",
+    "action": "Set a word, page or rep count small enough that you could hit it on your worst day. Do exactly that today, even if you feel capable of ten times more.",
+    "topic": "discipline"
+  },
+  {
+    "id": "577",
+    "quote": "Nothing is so fatiguing as the eternal hanging on of an uncompleted task.",
+    "author": "William James",
+    "source": "The Principles of Psychology",
+    "story": "James spent years in paralysing indecision before he built his psychology of habit. He argued that unfinished tasks stay active in the mind, quietly consuming energy, and that the cost of carrying one usually exceeds the cost of simply doing it.",
+    "action": "List every unfinished task that is nagging at you. Find the one that would take under five minutes and finish it right now.",
+    "topic": "discipline"
+  },
+  {
+    "id": "578",
+    "quote": "Pain is inevitable. Suffering is optional.",
+    "author": "Haruki Murakami",
+    "source": "What I Talk About When I Talk About Running",
+    "story": "Murakami closed his jazz bar at thirty-three, took up running, and has finished a marathon almost every year since. He describes this as a mantra runners repeat to themselves: the ache in your legs is a fact, the verdict that it is unbearable is not.",
+    "action": "In your next hard effort — a workout, a difficult call, a boring hour — name the sensation as a fact once, then stop commenting on it entirely.",
+    "topic": "discipline"
+  },
+  {
+    "id": "579",
+    "quote": "How we spend our days is, of course, how we spend our lives.",
+    "author": "Annie Dillard",
+    "source": "The Writing Life",
+    "story": "Dillard wrote The Writing Life in a cabin whose window view she deliberately painted over, so that nothing could compete with the page. The sentence lands as arithmetic rather than poetry: whatever fills an ordinary Tuesday is what the life turns out to have been.",
+    "action": "Write down how you actually spent yesterday, hour by hour. Look at the totals and ask whether that is the life you intend to have.",
+    "topic": "discipline"
+  },
+  {
+    "id": "580",
+    "quote": "No great thing is created suddenly, any more than a bunch of grapes or a fig.",
+    "author": "Epictetus",
+    "source": "Discourses, Book I",
+    "story": "Epictetus reached for farming images whenever students demanded immediate results. He pointed out that they accepted without argument the months a fig needs to ripen, yet expected their own character to change over a single afternoon.",
+    "action": "Name a change you have been trying to make. Give it an honest deadline in months rather than days, and write down what today's share of it is.",
+    "topic": "discipline"
+  },
+  {
+    "id": "581",
+    "quote": "If you add a little to a little, and do this often, soon the little will become great.",
+    "author": "Hesiod",
+    "source": "Works and Days",
+    "story": "Hesiod was a farmer in Boeotia around 700 BC who wrote a long poem of practical advice for his spendthrift brother Perses. Most of it concerns timing, storing and adding — the unglamorous arithmetic that separated a fed household from a hungry one.",
+    "action": "Pick one number you want to grow: savings, pages, steps. Add a deliberately small amount today, then add the same amount tomorrow without increasing it.",
+    "topic": "discipline"
+  },
+  {
+    "id": "582",
+    "quote": "Nothing is stronger than habit.",
+    "author": "Ovid",
+    "source": "Ars Amatoria",
+    "story": "Ovid wrote this in a manual on courtship, but the line outlived the book by two thousand years. He was later exiled by Augustus to a bleak town on the Black Sea, where he learned firsthand how fast a habit of comfort can be replaced by a habit of endurance.",
+    "action": "Choose one habit you want to end. Instead of resisting it, decide in advance exactly what you will do at the moment it usually begins.",
+    "topic": "discipline"
+  },
+  {
+    "id": "583",
+    "quote": "We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+    "author": "Aristotle",
+    "source": "Nicomachean Ethics, Book II",
+    "story": "Aristotle broke with his teacher Plato on exactly this point. Virtue was not knowledge you could be argued into; it was the residue left by repeated action. He compared it to learning an instrument — nobody becomes a builder by studying building.",
+    "action": "Pick one quality you want to have. Identify the smallest act that demonstrates it, and perform that act once today before you think about it any further.",
+    "topic": "discipline"
+  },
+  {
+    "id": "584",
+    "quote": "The two most powerful warriors are patience and time.",
+    "author": "Leo Tolstoy",
+    "source": "War and Peace",
+    "story": "The line belongs to Kutuzov, the general Tolstoy portrays as winning precisely by refusing to fight. Facing Napoleon's advance, he declined battle, retreated, and let winter and distance destroy an army he could not have beaten directly.",
+    "action": "Identify one thing you have been forcing. Do nothing about it today on purpose, and note what has changed on its own by tomorrow.",
+    "topic": "discipline"
+  },
+  {
+    "id": "585",
+    "quote": "If people knew how hard I worked to gain my mastery, it would not seem so wonderful at all.",
+    "author": "Michelangelo",
+    "source": "Attributed",
+    "story": "Michelangelo spent four years on his back painting the Sistine ceiling and left notebooks filled with the same anatomical studies drawn hundreds of times over. Contemporaries called the work a divine gift; he described it, repeatedly, as labour.",
+    "action": "Find someone whose ability you envy. Look up how long they actually practised before anyone noticed, and compare it honestly with your own timeline.",
+    "topic": "discipline"
+  },
+  {
+    "id": "586",
+    "quote": "If there is no struggle, there is no progress.",
+    "author": "Frederick Douglass",
+    "source": "Speech on West India Emancipation, 1857",
+    "story": "Douglass escaped slavery at twenty and spent the rest of his life as an orator, publisher and adviser to presidents. He delivered this line to abolitionists who hoped for change without confrontation, telling them that power concedes nothing without a demand.",
+    "action": "Name the part of your goal you have been trying to reach without difficulty. Accept the difficulty as part of the price and put it in this week's schedule.",
+    "topic": "discipline"
+  },
+  {
+    "id": "587",
+    "quote": "Chance favours only the prepared mind.",
+    "author": "Louis Pasteur",
+    "source": "Lecture at Lille, 1854",
+    "story": "Pasteur said this in a lecture at Lille, describing how a chance observation in a spoiled culture had led to a discovery. His point was that the accident itself was ordinary; what was rare was a mind prepared enough to recognise what it was looking at.",
+    "action": "Spend twenty minutes today preparing for an opportunity you cannot yet see — reading, practising or organising within the field you care about.",
+    "topic": "discipline"
+  },
+  {
+    "id": "588",
+    "quote": "Far and away the best prize that life offers is the chance to work hard at work worth doing.",
+    "author": "Theodore Roosevelt",
+    "source": "Labor Day speech, 1903",
+    "story": "Roosevelt was a sickly asthmatic child whose father told him plainly that he would have to make his own body. He built himself through boxing, ranching and relentless routine, and delivered this line on Labor Day in 1903, while serving as president.",
+    "action": "Name the part of your work that is genuinely worth doing. Give it your first and freshest hour tomorrow rather than the leftovers of the day.",
+    "topic": "discipline"
+  },
+  {
+    "id": "589",
+    "quote": "I write only when inspiration strikes. Fortunately it strikes every morning at nine o'clock sharp.",
+    "author": "W. Somerset Maugham",
+    "source": "Attributed",
+    "story": "Maugham wrote steadily every morning for more than sixty years and published over seventy books. The joke conceals a serious method: he had removed the question of whether he felt like writing from the process altogether, leaving only the hour.",
+    "action": "Fix a start time for the work that matters most to you and keep it tomorrow regardless of mood. Judge the day by whether you started, not by what came out.",
+    "topic": "discipline"
+  },
+  {
+    "id": "590",
+    "quote": "Life is not easy for any of us. But we must have perseverance and, above all, confidence in ourselves.",
+    "author": "Marie Curie",
+    "source": "Letters",
+    "story": "Curie processed tonnes of pitchblende by hand in a leaking shed to isolate a fraction of a gram of radium, was refused entry to the French Academy of Sciences, and went on to win two Nobel Prizes. She wrote this while still entirely unrecognised.",
+    "action": "Write down one hard thing you are currently doing without recognition. Note why it is worth continuing, and keep the note where you will see it next week.",
+    "topic": "discipline"
+  },
+  {
+    "id": "591",
+    "quote": "When health is absent, wisdom cannot reveal itself, strength cannot fight, and wealth becomes useless.",
+    "author": "Herophilus",
+    "source": "Attributed",
+    "story": "Herophilus worked in Alexandria around 300 BC and was among the first to dissect the human body systematically, separating nerves from tendons and turning the pulse into a diagnostic tool. He put health first because he had watched every other capacity collapse without it.",
+    "action": "Name the one health habit you have let slide furthest. Restore the smallest version of it today rather than the ideal version next month.",
+    "topic": "health"
+  },
+  {
+    "id": "592",
+    "quote": "The doctor of the future will give no medicine, but will interest his patients in the care of the human frame, in diet, and in the cause and prevention of disease.",
+    "author": "Thomas Edison",
+    "source": "Interview, 1903",
+    "story": "Edison said this to a journalist in 1903, when medicine was still almost entirely reactive. He worked eighteen-hour days and slept in short bursts himself, so the advice was aspirational rather than autobiographical — but it described the shift toward prevention a century early.",
+    "action": "Pick one thing you currently manage with a pill, a coffee or a workaround. Spend ten minutes finding out what is actually causing it.",
+    "topic": "health"
+  },
+  {
+    "id": "593",
+    "quote": "Sickness is an impediment to the body, but not to the will.",
+    "author": "Epictetus",
+    "source": "Enchiridion, 9",
+    "story": "Epictetus was lame for life and taught from a room containing a straw bed and a clay lamp. He drew a line his students found hard to accept: the leg is impeded, the choice is not. He was describing his own body, not a hypothetical one.",
+    "action": "Name one thing your body genuinely cannot do today. Then name one thing it still can, and do that one before the day ends.",
+    "topic": "health"
+  },
+  {
+    "id": "594",
+    "quote": "It is exercise alone that supports the spirits and keeps the mind in vigour.",
+    "author": "Cicero",
+    "source": "On Old Age",
+    "story": "Cicero wrote On Old Age at sixty-two, effectively exiled from the Rome he had once led. He put the argument in the mouth of Cato the Elder, who at eighty still worked his own farm — a portrait built to argue that decline is largely a matter of habit rather than years.",
+    "action": "Add one deliberate physical effort to today that you would normally avoid: the stairs instead of the lift, a walk instead of a message.",
+    "topic": "health"
+  },
+  {
+    "id": "595",
+    "quote": "It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.",
+    "author": "Socrates",
+    "source": "Xenophon, Memorabilia",
+    "story": "Xenophon recorded Socrates saying this to a young Athenian who considered physical training beneath a thinking man. Socrates had marched as a hoplite in heavy armour at Potidaea and Delium, and was famous for enduring cold that broke soldiers half his age.",
+    "action": "Find out one honest number about your current condition — resting pulse, daily steps, how far you can walk without stopping. Write it down as a starting point.",
+    "topic": "health"
+  },
+  {
+    "id": "596",
+    "quote": "The preservation of health is a duty. Few seem conscious that there is such a thing as physical morality.",
+    "author": "Herbert Spencer",
+    "source": "Education: Intellectual, Moral and Physical",
+    "story": "Spencer coined the phrase 'survival of the fittest' and spent his own life in poor health, often unable to write for more than a few hours a day. He argued that neglecting the body was a moral failure rather than merely an unlucky one.",
+    "action": "Choose one physical duty you would fulfil without question for someone you love — sleep, food, movement. Perform it for yourself today at the same standard.",
+    "topic": "health"
+  },
+  {
+    "id": "597",
+    "quote": "Physical fitness is the first requisite of happiness.",
+    "author": "Joseph Pilates",
+    "source": "Return to Life Through Contrology",
+    "story": "Pilates was a sickly child with asthma and rickets who rebuilt his body through gymnastics and boxing. Interned in Britain during the First World War, he trained his fellow internees and rigged bed springs into resistance equipment for those too ill to stand up.",
+    "action": "Do five minutes of movement today with no goal beyond having done it. If you are unwell or exhausted, do it lying down — but do it.",
+    "topic": "health"
+  },
+  {
+    "id": "598",
+    "quote": "Apprehension, uncertainty, waiting and fear of surprise do a patient more harm than any exertion.",
+    "author": "Florence Nightingale",
+    "source": "Notes on Nursing",
+    "story": "Nightingale cut deaths at the Scutari barracks hospital by attacking ventilation, water and diet rather than wounds. She noticed that patients deteriorated fastest while waiting for news, and argued that uncertainty did measurable physical damage of its own.",
+    "action": "Identify one unresolved thing you keep checking on. Set a single time today to deal with it, and leave it completely alone until then.",
+    "topic": "health"
+  },
+  {
+    "id": "599",
+    "quote": "Take rest; a field that has rested gives a bountiful crop.",
+    "author": "Ovid",
+    "source": "Heroides",
+    "story": "Ovid took the image straight from Roman farming, where fields were left fallow in rotation because the practice visibly produced better harvests. He applied it to people at a moment when Roman public life rewarded relentless visibility above everything else.",
+    "action": "Schedule one genuinely empty hour this week — no plans, no screen, no errand. Defend it as firmly as you would defend a meeting.",
+    "topic": "health"
+  },
+  {
+    "id": "600",
+    "quote": "Health is not valued till sickness comes.",
+    "author": "Thomas Fuller",
+    "source": "Gnomologia",
+    "story": "Fuller was a seventeenth-century English physician and writer who collected thousands of proverbs into a single volume. He worked through plague years and a civil war, and his collection is unusually blunt about how quickly people forget what they had until it is gone.",
+    "action": "Write down three things your body did for you today without being asked. Notice that none of them required your attention until this moment.",
+    "topic": "health"
+  },
+  {
+    "id": "601",
+    "quote": "The food you eat can be either the safest and most powerful form of medicine or the slowest form of poison.",
+    "author": "Ann Wigmore",
+    "source": "Attributed",
+    "story": "Wigmore survived the Second World War in Lithuania as a child and later founded a health institute in Boston, where she spent decades arguing that ordinary meals were the most under-used medicine available. Her claim is deliberately stark: food is never neutral.",
+    "action": "Look at the single thing you eat most often. Decide honestly whether it is closer to medicine or to poison, and change nothing else this week.",
+    "topic": "health"
+  },
+  {
+    "id": "602",
+    "quote": "No illness that can be treated by diet should be treated by any other means.",
+    "author": "Maimonides",
+    "source": "Mishneh Torah",
+    "story": "Maimonides was both a rabbi and personal physician to the sultan's vizier in Cairo, riding daily between the palace and a queue of patients at his door. His medical writings insist repeatedly that diet, sleep and exercise are the first instruments and drugs the last.",
+    "action": "Take one minor complaint you have — energy, digestion, sleep. Change one thing you eat or drink for a week before you consider anything stronger.",
+    "topic": "health"
+  },
+  {
+    "id": "603",
+    "quote": "All things are poison and nothing is without poison; the dose alone makes a thing not poison.",
+    "author": "Paracelsus",
+    "source": "Third Defence, 1538",
+    "story": "Paracelsus publicly burned the textbooks of Galen in Basel and insisted physicians learn from miners, barbers and old women rather than from ancient authority. This line founded toxicology: nothing is safe or harmful in itself, only in quantity.",
+    "action": "Pick something you consume that you have labelled healthy or unhealthy. Stop judging the substance and simply measure the quantity for three days.",
+    "topic": "health"
+  },
+  {
+    "id": "604",
+    "quote": "A feeble body weakens the mind.",
+    "author": "Jean-Jacques Rousseau",
+    "source": "Emile, or On Education",
+    "story": "Rousseau wrote Emile as a plan for an entire education and insisted the body be trained long before the intellect. He had watched Parisian salons fill with brilliant, exhausted people, and argued that thought feeds on physical vigour rather than replacing it.",
+    "action": "When your thinking gets stuck today, treat it as a body problem first: stand up, walk, drink water, and only then return to the question.",
+    "topic": "health"
+  },
+  {
+    "id": "605",
+    "quote": "The good physician treats the disease; the great physician treats the patient who has the disease.",
+    "author": "William Osler",
+    "source": "Attributed",
+    "story": "Osler built the modern medical residency and insisted students learn at the bedside rather than in lecture halls. He was known for asking patients about their work, sleep and household before their symptoms, on the grounds that the disease was only part of the picture.",
+    "action": "The next time you describe a health problem — your own or someone else's — describe the person's week alongside the symptom.",
+    "topic": "health"
+  },
+  {
+    "id": "606",
+    "quote": "We never repent of having eaten too little.",
+    "author": "Thomas Jefferson",
+    "source": "Letter to Thomas Jefferson Smith, 1825",
+    "story": "Jefferson wrote this in a short list of maxims sent to a namesake godson in the last year of his life. He ate mostly vegetables, kept meat as a condiment rather than a course, and walked daily into his eighties, outliving nearly all of his contemporaries.",
+    "action": "At your next meal, stop while you could still comfortably eat more. Notice how you feel two hours later, and write down the difference.",
+    "topic": "health"
+  },
+  {
+    "id": "607",
+    "quote": "In every walk with nature one receives far more than he seeks.",
+    "author": "John Muir",
+    "source": "Attributed",
+    "story": "Muir walked a thousand miles from Indiana to Florida, survived a fall into a glacier crevasse, and spent nights alone on Sierra ridges in weather that would have killed a less prepared man. His campaigning created Yosemite. He described mountains as treatment, not scenery.",
+    "action": "Take today's walk somewhere with trees, water or open sky instead of along your usual route. Leave the headphones at home.",
+    "topic": "health"
+  },
+  {
+    "id": "608",
+    "quote": "Life is not merely being alive, but being well.",
+    "author": "Martial",
+    "source": "Epigrams, Book VI",
+    "story": "Martial spent thirty-five years in Rome writing epigrams for wealthy patrons before retreating to his native Spain, worn out by the city's noise, obligations and endless dinners. This line is his verdict on the difference between surviving Rome and actually living.",
+    "action": "Name one part of your week that you are merely surviving. Change one concrete detail of it tomorrow — the hour, the place, or the company.",
+    "topic": "health"
+  },
+  {
+    "id": "609",
+    "quote": "Look to your health; and if you have it, value it next to a good conscience.",
+    "author": "Izaak Walton",
+    "source": "The Compleat Angler",
+    "story": "Walton wrote The Compleat Angler during the English Civil War, presenting fishing as a cure for a country tearing itself apart. He lived to ninety, an extraordinary age for the seventeenth century, and ranked health second only to conscience in his list of goods.",
+    "action": "Rank your current priorities honestly on paper. If health sits below fourth, move one item beneath it and act on that order this week.",
+    "topic": "health"
+  },
+  {
+    "id": "610",
+    "quote": "One cannot think well, love well, sleep well, if one has not dined well.",
+    "author": "Virginia Woolf",
+    "source": "A Room of One's Own",
+    "story": "Woolf wrote this after being served a thin, joyless meal at a women's college and a lavish one at a men's college on the same trip. Her point was material rather than sentimental: intellectual work has physical conditions, and denying them is sabotage, not discipline.",
+    "action": "Give one meal today your full attention — no screen, no work, no eating while standing at the counter. Notice what changes in the hour afterwards.",
+    "topic": "health"
+  },
+  {
+    "id": "611",
+    "quote": "For many men, the acquisition of wealth does not end their troubles, it only changes them.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 17",
+    "story": "Seneca was worth roughly three hundred million sesterces and was attacked in the Senate for lending money at hard interest in Britain. He wrote about wealth as a man who had it, and his letters return again and again to the discovery that anxieties simply change shape.",
+    "action": "Name a worry you expect money to remove. Write down honestly which worry would replace it, then decide whether that trade is worth making.",
+    "topic": "money"
+  },
+  {
+    "id": "612",
+    "quote": "Buy not what you want, but what you need; what you do not need is dear at a farthing.",
+    "author": "Cato the Elder",
+    "source": "Quoted in Seneca, Letters 94",
+    "story": "Cato was a Roman censor famous for extreme thrift: he sold off worn-out oxen, travelled without a carriage, and audited public spending mercilessly. Seneca quoted this line to show that price and cost are not the same measurement at all.",
+    "action": "Before your next non-essential purchase, ask whether you would still want it if it were free but had to be stored, cleaned and eventually thrown away.",
+    "topic": "money"
+  },
+  {
+    "id": "613",
+    "quote": "The poor man wants much; the miser, everything.",
+    "author": "Publilius Syrus",
+    "source": "Sentences",
+    "story": "Publilius performed his maxims on the Roman stage and was rewarded with his freedom for his wit. He drew a distinction his audience recognised instantly: poverty has a limit because need has a limit, while greed has no ceiling at all.",
+    "action": "Write down the number that would make you feel secure. Then work out what you would have written five years ago. Compare the two figures.",
+    "topic": "money"
+  },
+  {
+    "id": "614",
+    "quote": "The avarice of mankind is insatiable.",
+    "author": "Aristotle",
+    "source": "Politics, Book II",
+    "story": "Aristotle wrote this while criticising Plato's proposal to abolish private property. His objection was that the trouble lies not in ownership but in appetite: redistribute everything, and the same hunger simply reappears inside the new arrangement.",
+    "action": "Pick one category where your spending has quietly grown with your income. Set it back to the amount you spent two years ago, for one month.",
+    "topic": "money"
+  },
+  {
+    "id": "615",
+    "quote": "It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.",
+    "author": "Adam Smith",
+    "source": "The Wealth of Nations",
+    "story": "Smith was a moral philosopher who spent ten years writing The Wealth of Nations, mostly at his mother's house in Kirkcaldy. His point was not that greed is good, but that a working market lets strangers serve each other without having to be friends.",
+    "action": "Look at your last five purchases. For each, identify what the seller actually gained. Notice whether the exchange looks fair from both sides.",
+    "topic": "money"
+  },
+  {
+    "id": "616",
+    "quote": "The real price of everything is the toil and trouble of acquiring it.",
+    "author": "Adam Smith",
+    "source": "The Wealth of Nations, Book I",
+    "story": "Smith argued that money is only a stand-in for something more fundamental: the hours of your life you exchanged to get it. Under that definition a cheap object bought with hours you could not spare is not cheap at all.",
+    "action": "Take your next planned purchase and divide its price by your hourly income. Decide whether the object is worth that many hours of your life.",
+    "topic": "money"
+  },
+  {
+    "id": "617",
+    "quote": "Rather go to bed without dinner than rise in debt.",
+    "author": "Benjamin Franklin",
+    "source": "Poor Richard's Almanack",
+    "story": "Franklin published Poor Richard's Almanack for twenty-five years under a pen name, filling it with maxims about debt aimed at colonial farmers and tradesmen. He had been in debt himself as a young printer and described it plainly as a form of servitude.",
+    "action": "List every debt you currently carry, smallest first. Pay something toward the smallest one today, even a token amount, and note the new balance.",
+    "topic": "money"
+  },
+  {
+    "id": "618",
+    "quote": "Whatever you have, spend less.",
+    "author": "Samuel Johnson",
+    "source": "Letter to James Boswell, 1779",
+    "story": "Johnson spent years in poverty in London, compiling a dictionary largely alone while avoiding creditors. He offered Boswell the whole of financial wisdom compressed into three words, having tested the principle from the wrong side of it first.",
+    "action": "Take your largest recurring expense. Find a way to cut it by ten per cent this month, and move the difference somewhere you cannot reach easily.",
+    "topic": "money"
+  },
+  {
+    "id": "619",
+    "quote": "Money is like an arm or a leg — use it or lose it.",
+    "author": "Henry Ford",
+    "source": "Attributed",
+    "story": "Ford doubled his workers' pay to five dollars a day in 1914, partly so they could afford the cars they were building. He treated money as circulation rather than accumulation, and his company grew precisely as the money moved.",
+    "action": "Find money that is sitting idle — an unused subscription, a dormant account, cash doing nothing. Put it to work or release it before the day ends.",
+    "topic": "money"
+  },
+  {
+    "id": "620",
+    "quote": "If you owe the bank a hundred pounds, that is your problem. If you owe the bank a million, that is the bank's problem.",
+    "author": "J. Paul Getty",
+    "source": "Attributed",
+    "story": "Getty was for a time the richest private citizen in the world, and famously installed a payphone for guests at his English estate. The line is a joke about leverage, but it also describes accurately how risk shifts as debt grows in scale.",
+    "action": "Look at your largest debt and ask who actually carries the risk if you fail. If the answer is only you, make reducing it this month's single priority.",
+    "topic": "money"
+  },
+  {
+    "id": "621",
+    "quote": "The man who dies rich dies disgraced.",
+    "author": "Andrew Carnegie",
+    "source": "The Gospel of Wealth, 1889",
+    "story": "Carnegie built the largest steel company in the world, sold it for four hundred and eighty million dollars, then spent the rest of his life giving nearly all of it away, funding some two and a half thousand libraries. He published this line as a challenge to his own class.",
+    "action": "Give something of real value away this week — money, an object, or an hour of your expertise — and tell nobody that you did it.",
+    "topic": "money"
+  },
+  {
+    "id": "622",
+    "quote": "The market can stay irrational longer than you can stay solvent.",
+    "author": "John Maynard Keynes",
+    "source": "Attributed",
+    "story": "Keynes was an economist who also traded his own money, went close to bankruptcy in 1920, and rebuilt his fortune afterwards. He wrote about markets as a man who had personally been right too early and paid the full price for it.",
+    "action": "Write down a financial decision you feel certain about. Beside it, write how long you could survive if you were right but the timing was wrong.",
+    "topic": "money"
+  },
+  {
+    "id": "623",
+    "quote": "When it comes to money, everybody is of the same religion.",
+    "author": "Voltaire",
+    "source": "Attributed",
+    "story": "Voltaire made a fortune early by exploiting a flaw in a French state lottery alongside a syndicate of friends, which left him financially independent for life and free to write whatever he wished. He observed money's universality with the eye of a man who had used it as armour.",
+    "action": "Find one place this week where your spending and your stated values disagree. Change either the spending or the statement so that the two match.",
+    "topic": "money"
+  },
+  {
+    "id": "624",
+    "quote": "Debt is the worst poverty.",
+    "author": "Thomas Fuller",
+    "source": "Gnomologia",
+    "story": "Fuller collected proverbs through a century of English plague and civil war, when debtors' prisons were routine and a single loan could end a family. He ranked debt below poverty because poverty at least leaves your choices intact.",
+    "action": "Before borrowing anything this month, write down what you would have to give up if repayment became impossible. Read that note before you sign.",
+    "topic": "money"
+  },
+  {
+    "id": "625",
+    "quote": "Do not try to buy at the bottom and sell at the top. It cannot be done except by liars.",
+    "author": "Bernard Baruch",
+    "source": "Attributed",
+    "story": "Baruch made his fortune on Wall Street before advising six presidents, and sold much of his stock before the 1929 crash. He was blunt about the limits of prediction, and this was his standing reply to anyone who claimed to time the market reliably.",
+    "action": "Decide in advance the price at which you would buy or sell one asset you hold. Write the number down, and act on the number rather than on the news.",
+    "topic": "money"
+  },
+  {
+    "id": "626",
+    "quote": "The investor's chief problem, and even his worst enemy, is likely to be himself.",
+    "author": "Benjamin Graham",
+    "source": "The Intelligent Investor",
+    "story": "Graham lost heavily in the 1929 crash and spent the rest of his career building a method designed to remove emotion from investing. Warren Buffett studied under him and has described this sentence as the most important one in the book.",
+    "action": "Write down the last financial decision you made while excited or frightened. Note what it cost, and set one rule that blocks the same trigger next time.",
+    "topic": "money"
+  },
+  {
+    "id": "627",
+    "quote": "Time is your friend; impulse is your enemy.",
+    "author": "John Bogle",
+    "source": "Common Sense on Mutual Funds",
+    "story": "Bogle founded Vanguard and created the first index fund available to ordinary investors, an idea competitors publicly called un-American. He spent forty years arguing that most investor losses come from their own activity rather than from markets.",
+    "action": "Look at how often you check your investments or balances. Halve that frequency for a month and note whether any decision would actually have changed.",
+    "topic": "money"
+  },
+  {
+    "id": "628",
+    "quote": "Whoever loves money never has enough of it.",
+    "author": "Ecclesiastes",
+    "source": "Ecclesiastes 5:10",
+    "story": "Ecclesiastes is narrated by a figure who describes acquiring houses, vineyards, silver and singers on a royal scale, and then finding the whole accumulation empty. The observation about money comes from someone reporting an experiment rather than merely warning against one.",
+    "action": "Name an amount you once thought would be enough and have since passed. Ask what actually changed when you reached it, and write the honest answer down.",
+    "topic": "money"
+  },
+  {
+    "id": "629",
+    "quote": "Nothing is enough for the man to whom enough is too little.",
+    "author": "Epicurus",
+    "source": "Vatican Sayings, 68",
+    "story": "Epicurus lived with his students in a garden outside Athens on bread, water and occasionally cheese, teaching that pleasure comes from removing need rather than adding supply. His school admitted slaves and women, which scandalised Athens more than his diet did.",
+    "action": "Choose one recurring want and satisfy it deliberately at its smallest scale today. Notice how much of the pleasure survived the reduction.",
+    "topic": "money"
+  },
+  {
+    "id": "630",
+    "quote": "A large income is the best recipe for happiness I ever heard of.",
+    "author": "Jane Austen",
+    "source": "Mansfield Park",
+    "story": "The line belongs to Mary Crawford, a character Austen writes with sympathy and suspicion at once. Austen herself lived on a small allowance and knew exactly how far a woman's options depended on an income she was not permitted to earn.",
+    "action": "Work out how many months you could live on what you have saved. If the number is under three, make raising it this quarter's financial project.",
+    "topic": "money"
+  },
+  {
+    "id": "631",
+    "quote": "Without friends no one would choose to live, though he had all other goods.",
+    "author": "Aristotle",
+    "source": "Nicomachean Ethics, Book VIII",
+    "story": "Aristotle devoted two of the ten books of the Nicomachean Ethics to friendship, more than to any other single subject. He had been an outsider in Athens as a Macedonian, was passed over to lead Plato's Academy, and eventually fled the city under threat of prosecution.",
+    "action": "Name the friendship you have most neglected this year. Send one message today that is neither an apology nor a request — just contact.",
+    "topic": "relationships"
+  },
+  {
+    "id": "632",
+    "quote": "When you wake, tell yourself: the people I deal with today will be meddling, ungrateful, arrogant and dishonest.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book II",
+    "story": "Marcus opened his second book with a list of everyone he expected to disappoint him that day, then explained why it did not matter: they act badly through ignorance of good and evil, and they remain his kin. The list was a preparation, not a complaint.",
+    "action": "Before your next difficult meeting, write down how the other person is likely to behave. Decide your response now, while you are still calm.",
+    "topic": "relationships"
+  },
+  {
+    "id": "633",
+    "quote": "Ponder a long time whether to admit someone to your friendship; but once you have decided, welcome them with your whole heart.",
+    "author": "Seneca",
+    "source": "Letters to Lucilius, 3",
+    "story": "Seneca warned Lucilius against the Roman habit of confessing intimate business to men met in the forum an hour earlier. His rule splits the process cleanly in two: all judgement happens before, none afterwards. Once admitted, a friend is spoken to as freely as oneself.",
+    "action": "Think of someone you half-trust. Decide today which side of that line they are on, and start behaving consistently with the decision.",
+    "topic": "relationships"
+  },
+  {
+    "id": "634",
+    "quote": "Nothing is more noble, nothing more venerable, than fidelity.",
+    "author": "Cicero",
+    "source": "On Duties",
+    "story": "Cicero wrote On Duties as a long letter to his son Marcus, then studying in Athens, during the final year of his own life, while Antony's men were hunting him. He knew the manuscript might be his last word, and he put loyalty at its centre.",
+    "action": "Identify one promise you made casually and have not kept. Either do it this week, or tell the person plainly that you will not.",
+    "topic": "relationships"
+  },
+  {
+    "id": "635",
+    "quote": "Do not impose on others what you do not desire yourself.",
+    "author": "Confucius",
+    "source": "Analects, Book XV",
+    "story": "A disciple asked Confucius for a single word that could serve as a rule of practice for the whole of life. He answered with reciprocity, and then this sentence. It is the earliest surviving form of the golden rule, phrased as a restraint rather than a command.",
+    "action": "Recall something you did to someone this week that you would resent if it were done to you. Correct it, without explaining yourself at length.",
+    "topic": "relationships"
+  },
+  {
+    "id": "636",
+    "quote": "If someone tells you that a person speaks ill of you, answer: he clearly did not know my other faults, or he would have mentioned those too.",
+    "author": "Epictetus",
+    "source": "Enchiridion, 33",
+    "story": "Epictetus taught in Nicopolis, where students arrived from across the empire carrying gossip and slights collected on the road. His reply removes the sting by conceding more than the accuser claimed, which leaves nothing at all to defend.",
+    "action": "The next time criticism reaches you second-hand, write down one true fault about yourself that the critic missed. Then let the matter drop entirely.",
+    "topic": "relationships"
+  },
+  {
+    "id": "637",
+    "quote": "Hatred is never appeased by hatred; by non-hatred alone is hatred appeased.",
+    "author": "Buddha",
+    "source": "Dhammapada, 5",
+    "story": "This is the fifth verse of the Dhammapada, framed as a statement of natural law rather than moral advice. The commentaries attach it to a long dispute over a child, which ended only when one party stopped answering the other in kind.",
+    "action": "Identify one grudge you are actively maintaining. Do one small, ordinary act of decency toward that person and tell nobody that you did it.",
+    "topic": "relationships"
+  },
+  {
+    "id": "638",
+    "quote": "If you press me to say why I loved him, I can say no more than because he was he, and I was I.",
+    "author": "Michel de Montaigne",
+    "source": "Essays, On Friendship",
+    "story": "Montaigne's friendship with Étienne de La Boétie lasted four years and ended with La Boétie's death at thirty-two. Montaigne spent much of the rest of his life writing essays partly to fill the silence, and never found language adequate to the loss.",
+    "action": "Think of a person you value without being able to explain why. Tell them one specific thing they did that mattered to you, without generalising.",
+    "topic": "relationships"
+  },
+  {
+    "id": "639",
+    "quote": "We are so accustomed to disguising ourselves from others that in the end we become disguised from ourselves.",
+    "author": "François de La Rochefoucauld",
+    "source": "Maxims",
+    "story": "La Rochefoucauld was a duke who fought against the crown in the Fronde, was shot through the face, and lost his estates and his career. He then spent decades in Parisian salons writing maxims that stripped noble motives down to vanity, his own included.",
+    "action": "Notice one thing you did today mainly to be seen doing it. Do the same thing tomorrow where nobody can observe you, and see whether it survives.",
+    "topic": "relationships"
+  },
+  {
+    "id": "640",
+    "quote": "Treat people as if they were what they ought to be, and you help them become what they are capable of being.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Attributed",
+    "story": "Goethe spent a decade as an administrator in the small duchy of Weimar, responsible for mines, roads, taxes and a theatre. He formed this observation while managing people whose capacity nobody, including themselves, had yet estimated correctly.",
+    "action": "Choose one person you have quietly written off. Give them a real responsibility this week and say out loud that you expect them to handle it.",
+    "topic": "relationships"
+  },
+  {
+    "id": "641",
+    "quote": "All happy families are alike; each unhappy family is unhappy in its own way.",
+    "author": "Leo Tolstoy",
+    "source": "Anna Karenina",
+    "story": "Tolstoy opened Anna Karenina with this sentence while his own marriage was already straining under the diaries he had insisted his wife Sophia read. The novel took four years, and he rewrote the first line more often than almost any other.",
+    "action": "Write down one specific way your closest relationship is unhappy. Precision matters more than fairness here — vague complaints cannot be acted on.",
+    "topic": "relationships"
+  },
+  {
+    "id": "642",
+    "quote": "Love in action is a harsh and dreadful thing compared with love in dreams.",
+    "author": "Fyodor Dostoevsky",
+    "source": "The Brothers Karamazov",
+    "story": "The line belongs to Father Zosima, relaying a doctor's confession: the man loved humanity in the abstract but could not tolerate any individual for more than two days. Dostoevsky wrote the novel while grieving the death of his three-year-old son.",
+    "action": "Pick a person you feel warmly about in general and have not actually helped. Do one concrete, inconvenient thing for them this week.",
+    "topic": "relationships"
+  },
+  {
+    "id": "643",
+    "quote": "What do we live for, if it is not to make life less difficult to each other?",
+    "author": "George Eliot",
+    "source": "Middlemarch",
+    "story": "Eliot published under a man's name, lived openly with a married man for over twenty years, and was cut off by her own brother because of it. Middlemarch is largely about ordinary people whose kindness never becomes visible to history at all.",
+    "action": "Find one thing you can remove from someone else's day — an errand, a decision, a wait. Remove it without announcing that you did.",
+    "topic": "relationships"
+  },
+  {
+    "id": "644",
+    "quote": "Love of our neighbour in all its fullness simply means being able to ask: what are you going through?",
+    "author": "Simone Weil",
+    "source": "Waiting for God",
+    "story": "Weil was a philosopher who deliberately worked in factories and fields to understand affliction from the inside, and died at thirty-four having refused to eat more than occupied France was rationed. She treated attention as a discipline rather than a mood.",
+    "action": "Ask one person today what they are going through, then stay silent long enough for a real answer. Offer no advice unless they ask for it.",
+    "topic": "relationships"
+  },
+  {
+    "id": "645",
+    "quote": "Love is not primarily a relationship to a specific person; it is an attitude, an orientation of character.",
+    "author": "Erich Fromm",
+    "source": "The Art of Loving",
+    "story": "Fromm fled Nazi Germany in 1934 and spent his career arguing that love is a skill people expect to acquire without any practice. He compared the modern approach to hoping to paint masterpieces without ever having learned to draw.",
+    "action": "Treat love as a practice today: choose one person and give them fifteen minutes of undivided attention, scheduled like any other commitment.",
+    "topic": "relationships"
+  },
+  {
+    "id": "646",
+    "quote": "We were born to work together, like feet, hands and eyes.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book II",
+    "story": "Marcus repeated this image throughout his notebooks, borrowing it from Stoic physics: a single body whose parts cannot possibly benefit by obstructing one another. He wrote it during years of civil war, plague and betrayal by one of his own generals.",
+    "action": "Identify a person you are currently working against rather than with. Find one thing you both actually want, and start the next conversation there.",
+    "topic": "relationships"
+  },
+  {
+    "id": "647",
+    "quote": "Never find your delight in another's misfortune.",
+    "author": "Publilius Syrus",
+    "source": "Sentences",
+    "story": "Publilius wrote for audiences that gathered specifically to watch rivals humiliated in the courts and the arena. The line was performed to the people most tempted by it, which is probably why it has survived as a line rather than a lecture.",
+    "action": "Notice the next time you feel quiet satisfaction at someone else's failure. Say nothing about it, and do one thing that helps them instead.",
+    "topic": "relationships"
+  },
+  {
+    "id": "648",
+    "quote": "You give but little when you give of your possessions. It is when you give of yourself that you truly give.",
+    "author": "Kahlil Gibran",
+    "source": "The Prophet",
+    "story": "Gibran emigrated from Lebanon to Boston as a child and lost his mother, sister and brother within a single year. The Prophet, written in English decades later, has never gone out of print, and this passage is the one he was most often asked to explain.",
+    "action": "Give someone an hour of your attention or skill this week rather than a gift or money — especially if the money would have been easier.",
+    "topic": "relationships"
+  },
+  {
+    "id": "649",
+    "quote": "There is no charm equal to tenderness of heart.",
+    "author": "Jane Austen",
+    "source": "Emma",
+    "story": "The line describes Mr Knightley, the one character in Emma who is consistently kind without ever being rewarded for it. Austen wrote inside a genre obsessed with wit, and quietly ranked tenderness above it every time the two were in conflict.",
+    "action": "Choose warmth over cleverness in one exchange today. Skip the sharp remark you have already composed and say the plain kind thing instead.",
+    "topic": "relationships"
+  },
+  {
+    "id": "650",
+    "quote": "My humanity is bound up in yours, for we can only be human together.",
+    "author": "Desmond Tutu",
+    "source": "No Future Without Forgiveness",
+    "story": "Tutu chaired South Africa's Truth and Reconciliation Commission, hearing testimony from both victims and perpetrators of apartheid crimes in the same rooms. He built the entire process on ubuntu: the idea that a person becomes a person only through other people.",
+    "action": "Name someone whose situation you have treated as entirely separate from your own. Identify one way it is not, and act on that connection this week.",
+    "topic": "relationships"
+  },
+  {
+    "id": "651",
+    "quote": "Regard your soldiers as your children, and they will follow you into the deepest valleys.",
+    "author": "Sun Tzu",
+    "source": "The Art of War, Book X",
+    "story": "The Art of War is attributed to a general serving the state of Wu around 500 BC. The chapter on terrain pairs this line with a warning: indulge soldiers without discipline and they become useless children, like spoiled sons who cannot be commanded at all.",
+    "action": "Pick one person you lead or work with. Find one concrete thing making their week harder and remove it before you ask anything else of them.",
+    "topic": "leadership"
+  },
+  {
+    "id": "652",
+    "quote": "The general who advances without coveting fame and retreats without fearing disgrace is the jewel of the kingdom.",
+    "author": "Sun Tzu",
+    "source": "The Art of War, Book X",
+    "story": "Armies across history have lost campaigns to commanders who could not afford to look cautious. Sun Tzu's test is indifference to reputation in both directions: a general who will retreat when retreating is correct, even when it will be described as cowardice.",
+    "action": "Identify a decision you are avoiding because of how it would look. Make it on the merits today and accept the appearance as part of the cost.",
+    "topic": "leadership"
+  },
+  {
+    "id": "653",
+    "quote": "A man must stand erect, not be kept erect by others.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations, Book III",
+    "story": "Marcus wrote this while emperor, surrounded by people whose entire function was to hold him up. He had inherited a throne he never sought, and reminded himself repeatedly that being supported by others is not the same thing as standing.",
+    "action": "Name one thing you currently rely on someone else to keep you steady about. Do it unassisted once this week, even if the result is worse.",
+    "topic": "leadership"
+  },
+  {
+    "id": "654",
+    "quote": "The leader must believe that willing obedience always beats forced obedience.",
+    "author": "Xenophon",
+    "source": "Cyropaedia",
+    "story": "Xenophon led ten thousand Greek mercenaries out of Persia after their commanders were murdered, a march of more than a thousand miles with no authority beyond what his men granted him daily. The Cyropaedia is his account of how command actually functions.",
+    "action": "Before your next instruction, give the reason first and the task second. Notice whether compliance changes when the reason arrives first.",
+    "topic": "leadership"
+  },
+  {
+    "id": "655",
+    "quote": "The secret of happiness is freedom, and the secret of freedom is courage.",
+    "author": "Thucydides",
+    "source": "History of the Peloponnesian War, Book II",
+    "story": "The line comes from the funeral oration Thucydides gives Pericles in the first year of the Peloponnesian War, delivered to a city burying its dead and deciding whether to continue. It presents courage as the precondition for everything else Athens valued.",
+    "action": "Name the freedom you most want in your work. Identify the specific act of courage it requires, and take the smallest version of it today.",
+    "topic": "leadership"
+  },
+  {
+    "id": "656",
+    "quote": "The desire for safety stands against every great and noble enterprise.",
+    "author": "Tacitus",
+    "source": "Annals",
+    "story": "Tacitus wrote the Annals under emperors who had made caution the highest virtue at court. He had survived Domitian's reign by staying silent, a silence he later described with open shame. The observation is autobiographical before it is historical.",
+    "action": "Find one decision you made purely to reduce risk. Ask what it cost you in ambition, and decide whether that trade still makes sense.",
+    "topic": "leadership"
+  },
+  {
+    "id": "657",
+    "quote": "Govern by punishment and people will avoid it without shame; govern by virtue and they will correct themselves.",
+    "author": "Confucius",
+    "source": "Analects, Book II",
+    "story": "Confucius spent thirteen years travelling between states offering this advice to rulers, and was consistently ignored. He argued that punishment produces evasion while example produces conscience, and that the ruler's own conduct is the actual mechanism of order.",
+    "action": "Pick one rule you enforce on others. Check whether you followed it yourself without exception this week, and repair your own compliance first.",
+    "topic": "leadership"
+  },
+  {
+    "id": "658",
+    "quote": "It is better to be feared than loved, if one cannot be both.",
+    "author": "Niccolò Machiavelli",
+    "source": "The Prince, Chapter XVII",
+    "story": "The famous line is almost always quoted without its condition. Machiavelli says a prince should want both, and that fear must never tip into hatred, which he calls fatal. He wrote The Prince in exile, after being tortured, hoping to be recalled to Florentine service.",
+    "action": "Ask whether the people you lead comply out of respect or out of anxiety. If it is anxiety, remove one arbitrary consequence that you control.",
+    "topic": "leadership"
+  },
+  {
+    "id": "659",
+    "quote": "A leader is a dealer in hope.",
+    "author": "Napoleon Bonaparte",
+    "source": "Attributed",
+    "story": "Napoleon issued proclamations before battles that described the victory as already achieved, and his ragged, unpaid army in Italy followed him across the Alps. He understood morale as a supply that only the commander can manufacture, and rationed it deliberately.",
+    "action": "In your next update to your team or family, name one concrete thing that is going well. Do not bury it underneath the problems.",
+    "topic": "leadership"
+  },
+  {
+    "id": "660",
+    "quote": "Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
+    "author": "Abraham Lincoln",
+    "source": "Attributed",
+    "story": "Lincoln suspended habeas corpus, ran a war and held enormous emergency powers, so he knew exactly what he was describing. He tested himself constantly, and deliberately built a cabinet that included several men who had openly wanted his job.",
+    "action": "Identify one small power you hold over someone — a schedule, an approval, a piece of information. Use it once this week purely in their interest.",
+    "topic": "leadership"
+  },
+  {
+    "id": "661",
+    "quote": "Leadership is getting someone to do something you want done because he wants to do it.",
+    "author": "Dwight D. Eisenhower",
+    "source": "Attributed",
+    "story": "Eisenhower commanded the Normandy landings by holding together generals, prime ministers and a president, none of whom he could simply order about. He carried a note in his pocket taking full personal blame in case the invasion failed.",
+    "action": "Take a task you were about to assign. Find the part of it that genuinely serves the other person's goals, and lead with that when you ask.",
+    "topic": "leadership"
+  },
+  {
+    "id": "662",
+    "quote": "I attribute my success to this: I never gave or took any excuse.",
+    "author": "Florence Nightingale",
+    "source": "Attributed",
+    "story": "Nightingale fought the British War Office for years to reform military hospitals and effectively invented modern medical statistics to prove her case. She refused excuses from her nurses and from herself, and ran her campaigns from bed once her own health collapsed.",
+    "action": "Listen for the next excuse you offer, including a perfectly reasonable one. Do the thing anyway, and note afterwards how much of the obstacle was real.",
+    "topic": "leadership"
+  },
+  {
+    "id": "663",
+    "quote": "Difficulties are just things to overcome, after all.",
+    "author": "Ernest Shackleton",
+    "source": "South",
+    "story": "Shackleton's ship was crushed by Antarctic ice in 1915, stranding twenty-eight men for nearly two years. He sailed eight hundred miles across the Southern Ocean in an open lifeboat to fetch help, and brought every single one of his men back alive.",
+    "action": "Write down the obstacle you have been treating as a reason to stop. Restate it as a task with a next step, and take that step today.",
+    "topic": "leadership"
+  },
+  {
+    "id": "664",
+    "quote": "The higher we are placed, the more humbly we should walk.",
+    "author": "Cicero",
+    "source": "On Duties",
+    "story": "Cicero rose from a provincial family to consul of Rome without any inherited standing, and watched contemporaries destroy themselves through arrogance once elevated. He wrote On Duties for his son, warning that visibility multiplies the cost of every fault.",
+    "action": "Notice one place where your position lets you skip a courtesy others must observe. Observe it anyway today, deliberately and without comment.",
+    "topic": "leadership"
+  },
+  {
+    "id": "665",
+    "quote": "If you want to build a ship, do not drum up people to gather wood; teach them to long for the endless sea.",
+    "author": "Antoine de Saint-Exupéry",
+    "source": "The Wisdom of the Sands",
+    "story": "Saint-Exupéry flew mail routes over the Sahara and the Andes, where crews had to want the flight rather than merely accept the order, because the orders could not follow them into the weather. He disappeared over the Mediterranean in 1944, aged forty-four.",
+    "action": "Before your next assignment of work, spend two minutes describing why it matters. Give the picture before you give the instructions.",
+    "topic": "leadership"
+  },
+  {
+    "id": "666",
+    "quote": "Trust yourself. Create the kind of self you will be happy to live with all your life.",
+    "author": "Golda Meir",
+    "source": "Attributed",
+    "story": "Meir taught school in Milwaukee before becoming Israel's prime minister, and negotiated with adversaries who refused to acknowledge her state existed. She was known for making decisions alone at a kitchen table and then living with them without complaint.",
+    "action": "Make one decision today without seeking a second opinion you do not actually need. Write down why you chose it, and reread the note in a month.",
+    "topic": "leadership"
+  },
+  {
+    "id": "667",
+    "quote": "It is not the critic who counts; the credit belongs to the man who is actually in the arena.",
+    "author": "Theodore Roosevelt",
+    "source": "Citizenship in a Republic, 1910",
+    "story": "Roosevelt delivered this at the Sorbonne in 1910, a year after leaving the presidency and shortly after losing a bruising political fight. The full passage praises the man whose face is marred by dust and sweat and blood, and who fails while daring greatly.",
+    "action": "Identify one thing you have criticised from outside without ever attempting. Either attempt a small version this month, or stop commenting on it.",
+    "topic": "leadership"
+  },
+  {
+    "id": "668",
+    "quote": "Hope is not the conviction that something will turn out well, but the certainty that it makes sense regardless of how it turns out.",
+    "author": "Václav Havel",
+    "source": "Disturbing the Peace",
+    "story": "Havel was a playwright imprisoned for nearly four years by the Czechoslovak regime, and later became president of the country that had jailed him. He wrote this while the outcome was entirely unknown and success looked, to almost everyone, impossible.",
+    "action": "Take a project whose outcome you cannot control. Write one sentence on why it makes sense regardless of how it ends, and keep it where you work.",
+    "topic": "leadership"
+  },
+  {
+    "id": "669",
+    "quote": "I know I have the body of a weak and feeble woman, but I have the heart and stomach of a king.",
+    "author": "Elizabeth I",
+    "source": "Speech at Tilbury, 1588",
+    "story": "Elizabeth rode to Tilbury in 1588 as the Spanish Armada approached, addressing troops who had never been commanded by a woman and were not certain they should be. The speech outlived the invasion it answered by more than four centuries.",
+    "action": "Identify where you expect to be underestimated this week. Prepare one sentence stating plainly what you can do, and say it out loud when it counts.",
+    "topic": "leadership"
+  },
+  {
+    "id": "670",
+    "quote": "The best fighter is never angry.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching, 68",
+    "story": "The Tao Te Ching devotes several chapters to the paradox of effective force: the commander who wins is the one who never engages with the enemy's emotion. Chapter sixty-eight calls this the virtue of not contending, and ranks it above skill.",
+    "action": "In your next disagreement, decide your position before you feel anything about it. If anger arrives first, postpone the conversation by an hour.",
+    "topic": "leadership"
+  },
+  {
+    "id": "671",
+    "quote": "My experience is what I agree to attend to.",
+    "author": "William James",
+    "source": "The Principles of Psychology",
+    "story": "James suffered a breakdown in his twenties and spent months unable to act, then built a psychology around attention as the mechanism of will. He argued that what you attend to is not passive reception but the actual construction of the world you live in.",
+    "action": "List what you paid attention to longest today. Ask whether you chose any of it, and choose one item deliberately for tomorrow.",
+    "topic": "psychology"
+  },
+  {
+    "id": "672",
+    "quote": "The good life is a process, not a state of being. It is a direction, not a destination.",
+    "author": "Carl Rogers",
+    "source": "On Becoming a Person",
+    "story": "Rogers pioneered a therapy in which the therapist offers no diagnosis and no advice, only unconditional regard. He recorded thousands of sessions, highly unusual at the time, so that his claims could be tested by others rather than simply believed.",
+    "action": "Replace one goal you have stated as a destination with a direction. Write down what moving in that direction would actually look like this week.",
+    "topic": "psychology"
+  },
+  {
+    "id": "673",
+    "quote": "Being entirely honest with oneself is a good exercise.",
+    "author": "Sigmund Freud",
+    "source": "Letters",
+    "story": "Freud analysed his own dreams for years before publishing any of it, and described self-analysis as the hardest work he ever attempted, because the analyst and the resistance being analysed are the same person in the same room.",
+    "action": "Write one sentence about yourself that you would not want repeated. Do not act on it — just leave it written where you will see it tomorrow.",
+    "topic": "psychology"
+  },
+  {
+    "id": "674",
+    "quote": "The only normal people are the ones you do not know very well.",
+    "author": "Alfred Adler",
+    "source": "Attributed",
+    "story": "Adler broke with Freud over the primacy of sexuality and built a psychology around inferiority and compensation. He ran free clinics in Vienna and spent years listening to ordinary people describe lives that looked entirely unremarkable from outside.",
+    "action": "Think of someone you envy for having their life together. List three things you do not actually know about how their week went.",
+    "topic": "psychology"
+  },
+  {
+    "id": "675",
+    "quote": "If the only tool you have is a hammer, you tend to see every problem as a nail.",
+    "author": "Abraham Maslow",
+    "source": "The Psychology of Science",
+    "story": "Maslow wrote this as a warning about his own field, at a moment when psychologists were applying a single method to every question. He is remembered for the hierarchy of needs, which he later criticised for being used in exactly this way.",
+    "action": "Name your default solution to problems — working harder, talking it out, buying something. Solve today's problem using anything except that.",
+    "topic": "psychology"
+  },
+  {
+    "id": "676",
+    "quote": "Education is what survives when what has been learned has been forgotten.",
+    "author": "B. F. Skinner",
+    "source": "New Scientist, 1964",
+    "story": "Skinner trained pigeons to guide missiles, invented the teaching machine, and argued that behaviour is shaped entirely by its consequences. His definition of education deliberately strips away everything that was memorised only in order to pass a test.",
+    "action": "Recall something you learned this year. Identify what remains once the details are gone, and use that part on something today.",
+    "topic": "psychology"
+  },
+  {
+    "id": "677",
+    "quote": "Nothing in life is as important as you think it is while you are thinking about it.",
+    "author": "Daniel Kahneman",
+    "source": "Thinking, Fast and Slow",
+    "story": "Kahneman and Amos Tversky spent decades documenting the systematic errors of intuition. He called this one the focusing illusion, and demonstrated it by showing how massively people overestimate the happiness they would gain by moving to California.",
+    "action": "Take the thing dominating your thoughts. Predict in writing how much it will matter in a year, then set a reminder to check the number.",
+    "topic": "psychology"
+  },
+  {
+    "id": "678",
+    "quote": "I was always looking outside myself for strength and confidence, but it comes from within. It is there all the time.",
+    "author": "Anna Freud",
+    "source": "Attributed",
+    "story": "Anna Freud was the only one of Sigmund's children to follow him into psychoanalysis. She ran a wartime nursery in London for children separated from their parents, and effectively founded child psychology as a discipline in its own right.",
+    "action": "Identify one external thing you are waiting for before you feel capable. Act once today as if you already had it, on something small.",
+    "topic": "psychology"
+  },
+  {
+    "id": "679",
+    "quote": "The opposite of courage in our society is not cowardice, it is conformity.",
+    "author": "Rollo May",
+    "source": "Man's Search for Himself",
+    "story": "May contracted tuberculosis in his thirties and spent eighteen months in a sanatorium expecting to die. He noticed that patients who actively fought the illness tended to recover and passive ones did not, and rebuilt his entire psychology around will.",
+    "action": "Find one opinion you hold quietly because it is unpopular in your circle. State it out loud to one person this week.",
+    "topic": "psychology"
+  },
+  {
+    "id": "680",
+    "quote": "It is the relationship that heals.",
+    "author": "Irvin Yalom",
+    "source": "Love's Executioner",
+    "story": "Yalom spent decades as a psychiatrist and concluded that technique matters far less than the honest relationship in the room. He published his own case failures alongside his successes, which was rare in a field that preferred to report only what worked.",
+    "action": "Pick a problem you have been trying to solve alone. Tell one person the true version of it, without asking them to fix anything.",
+    "topic": "psychology"
+  },
+  {
+    "id": "681",
+    "quote": "Hope is both the earliest and the most indispensable virtue inherent in the state of being alive.",
+    "author": "Erik Erikson",
+    "source": "Insight and Responsibility",
+    "story": "Erikson never earned a doctorate, was born to a mother who never told him who his father was, and spent his career mapping the stages of identity. He placed hope first because it is the infant's earliest achievement and the last thing adults lose.",
+    "action": "Name one thing you still hope for and have stopped saying out loud. Say it to someone today, without defending or qualifying it.",
+    "topic": "psychology"
+  },
+  {
+    "id": "682",
+    "quote": "The goal of education is to create people capable of doing new things, not simply repeating what other generations have done.",
+    "author": "Jean Piaget",
+    "source": "Attributed",
+    "story": "Piaget spent years closely watching his own three children solve problems, and concluded that understanding is built by the learner rather than delivered by the teacher. He published more than sixty books on the basis of very few, very carefully observed subjects.",
+    "action": "Take something you know well and do one genuinely new thing with it today, instead of repeating what you already do competently.",
+    "topic": "psychology"
+  },
+  {
+    "id": "683",
+    "quote": "All of humanity's problems stem from man's inability to sit quietly in a room alone.",
+    "author": "Blaise Pascal",
+    "source": "Pensées, 139",
+    "story": "Pascal invented a mechanical calculator at nineteen and helped found probability theory, then abandoned mathematics for religious writing after a single night of intense experience. The Pensées were found in fragments after his death at thirty-nine.",
+    "action": "Sit alone for ten minutes today with no phone, no music, no book and no task. Notice which impulse to get up arrives first.",
+    "topic": "psychology"
+  },
+  {
+    "id": "684",
+    "quote": "My life has been full of terrible misfortunes, most of which never happened.",
+    "author": "Michel de Montaigne",
+    "source": "Attributed",
+    "story": "Montaigne retired to a tower on his estate at thirty-eight to write, having lost his closest friend, his father and several of his children. He examined his own fears in unusual detail and found that the great majority of them had simply never arrived.",
+    "action": "List everything you are currently worried about. Set a reminder for one month, then check the list and mark which ones actually happened.",
+    "topic": "psychology"
+  },
+  {
+    "id": "685",
+    "quote": "You must have chaos within you to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "source": "Thus Spoke Zarathustra",
+    "story": "Nietzsche wrote Zarathustra in bursts of ten days at a time, between migraines that blinded him for days on end. He was arguing against the pursuit of comfort, which he believed produced people incapable of creating anything at all.",
+    "action": "Identify one part of your life that is messy and that you keep trying to tidy. Leave it entirely alone this week and see what it produces.",
+    "topic": "psychology"
+  },
+  {
+    "id": "686",
+    "quote": "A wealth of information creates a poverty of attention.",
+    "author": "Herbert Simon",
+    "source": "Lecture, 1971",
+    "story": "Simon won the Nobel Prize in economics and helped found the field of artificial intelligence. He made this observation in 1971, decades before the feed existed, arguing that information consumes attention, so an abundance of one necessarily creates scarcity of the other.",
+    "action": "Count your information sources. Remove one permanently today, and give the reclaimed attention to something you have been postponing.",
+    "topic": "psychology"
+  },
+  {
+    "id": "687",
+    "quote": "Control of consciousness determines the quality of life.",
+    "author": "Mihaly Csikszentmihalyi",
+    "source": "Flow",
+    "story": "Csikszentmihalyi survived the Second World War in Hungary as a child and spent his career studying when people report feeling most alive. His finding was consistent and unwelcome: not during leisure, but during difficult, fully absorbing work.",
+    "action": "Choose one task today that is slightly too hard for you. Remove every interruption and work on it for a full uninterrupted hour.",
+    "topic": "psychology"
+  },
+  {
+    "id": "688",
+    "quote": "The most beautiful people are those who have known suffering, known struggle, known loss, and have found their way out of the depths.",
+    "author": "Elisabeth Kübler-Ross",
+    "source": "Death: The Final Stage of Growth",
+    "story": "Kübler-Ross interviewed dying patients at a time when hospitals treated death as a failure and doctors would not discuss it. Colleagues objected strongly, so she brought students in to listen, and those interviews became the foundation of modern palliative care.",
+    "action": "Think of the hardest year you have had. Name one specific capacity you have now that you would not have without it.",
+    "topic": "psychology"
+  },
+  {
+    "id": "689",
+    "quote": "It is a joy to be hidden, and a disaster not to be found.",
+    "author": "Donald Winnicott",
+    "source": "The Maturational Processes and the Facilitating Environment",
+    "story": "Winnicott was a paediatrician who saw some sixty thousand children over forty years and gave wartime radio talks to mothers. He argued that a healthy self keeps a private core it never communicates, and still needs someone who would find it if they looked.",
+    "action": "Tell one person one true thing about yourself that you usually keep private. Choose something small, and notice what happens to it once said.",
+    "topic": "psychology"
+  },
+  {
+    "id": "690",
+    "quote": "An emotion ceases to be suffering as soon as we form a clear and precise picture of it.",
+    "author": "Baruch Spinoza",
+    "source": "Ethics, Part V",
+    "story": "Spinoza was expelled from his Amsterdam synagogue at twenty-three, ground optical lenses for a living, and turned down a university chair to protect his independence. He treated emotions as objects to be understood with the same precision as geometry.",
+    "action": "Take the emotion you are carrying today and describe it in writing until it is precise. Note whether its force changes as the description sharpens.",
+    "topic": "psychology"
   }
 ]
